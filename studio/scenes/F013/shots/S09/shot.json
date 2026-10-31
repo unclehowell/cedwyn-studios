@@ -1,0 +1,30 @@
+{
+ "schema": "cedwyn-studios/shot@1",
+ "scene": "F013",
+ "id": "S09",
+ "n": 9,
+ "type": "still-move",
+ "set": "s01",
+ "speaker": null,
+ "direction": "The enumerator crosses the yard toward the lane with his case under his arm. Beyond the yard hedge are the orchard trees and, further off, the railway embankment. Slow pull-back. Ambience: hens, a distant train whistle. About 10 seconds.",
+ "seconds": null,
+ "start": null,
+ "still": {
+  "prompt": "photoreal 16:9 still, 1881 rural Glamorgan farmyard, a man in a dark frock coat and bowler hat walking away toward a lane carrying a leather case, a hedge and bare-branched apple orchard beyond, a railway embankment in the distance, overcast spring light, inland countryside, invented figure seen from behind, no text, no heraldry",
+  "refs": [],
+  "image": null
+ },
+ "lines": [],
+ "captions": [],
+ "render": {
+  "model": "ffmpeg still-move (free)",
+  "shared": {
+   "status": "todo"
+  }
+ },
+ "qa": {
+  "status": "todo"
+ },
+ "status": "todo",
+ "order": 9
+}

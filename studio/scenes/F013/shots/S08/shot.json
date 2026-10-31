@@ -1,0 +1,45 @@
+{
+ "schema": "cedwyn-studios/shot@1",
+ "scene": "F013",
+ "id": "S08",
+ "n": 8,
+ "type": "still-move",
+ "set": "s02",
+ "speaker": null,
+ "direction": "Insert still: the pen moving across the ruled page of the enumeration book in copperplate, too close and soft to read. Mary's hand rests on the back of John's chair at the edge of frame. Slow push-in. Ambience: pen scratch, fire crackle. About 18 seconds.",
+ "seconds": null,
+ "start": null,
+ "still": {
+  "prompt": "photoreal 16:9 close-up still, 1881, a dip pen writing in faded brown ink on a ruled ledger page with blurred illegible copperplate script, a wooden kitchen table, an inkwell, a woman's hand resting on a chair back at the edge of frame, warm firelight and window light, shallow depth of field, no legible text, no heraldry",
+  "refs": [],
+  "image": null
+ },
+ "lines": [],
+ "captions": [
+  {
+   "text": "Census, 3 April 1881 (RG11/5288 p.2): John Williams, 53, 'Farmer of 170 [or 120] ac.', with his wife Mary and their children, at 'Llandough Home Farm', Llandough.",
+   "cite": [
+    "CH-0030",
+    "EV-0224"
+   ]
+  },
+  {
+   "text": "The page does not name Great House. On our case's reading, the census mixed up the Llandough farm with Great House Farm, so this is Great House Farm under another name.",
+   "cite": [
+    "CH-0030",
+    "EV-0224"
+   ]
+  }
+ ],
+ "render": {
+  "model": "ffmpeg still-move (free)",
+  "shared": {
+   "status": "todo"
+  }
+ },
+ "qa": {
+  "status": "todo"
+ },
+ "status": "todo",
+ "order": 8
+}
