@@ -1,0 +1,37 @@
+{
+ "schema": "cedwyn-studios/shot@1",
+ "scene": "F002",
+ "id": "S09",
+ "n": 9,
+ "type": "i2v",
+ "set": null,
+ "speaker": null,
+ "direction": "Dusk. A skein of geese crosses the sky over the marsh; the elder watches them go, smoke curling from the roundhouse.",
+ "seconds": 5.8,
+ "start": 53.92,
+ "still": {
+  "prompt": "TODO: no still prompt in the script",
+  "refs": [],
+  "image": null
+ },
+ "lines": [],
+ "captions": [],
+ "render": {
+  "model": "kling 2.5 turbo i2v (rendered)",
+  "shared": {
+   "status": "done",
+   "source": "r2:studio/scenes/F002/shots/S09/source/aS10.mp4",
+   "source_seconds": 5.042,
+   "fit": "setpts=PTS*(window/5.042) at 24 fps"
+  }
+ },
+ "qa": {
+  "status": "pass"
+ },
+ "status": "done",
+ "animate_note": "i2v (Kling 2.5 turbo)",
+ "published_window_v6": [
+  53.934,
+  59.734
+ ]
+}

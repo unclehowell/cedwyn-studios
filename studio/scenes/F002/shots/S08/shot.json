@@ -1,0 +1,80 @@
+{
+ "schema": "cedwyn-studios/shot@1",
+ "scene": "F002",
+ "id": "S08",
+ "n": 8,
+ "type": "talking",
+ "set": null,
+ "speaker": "A_MARY",
+ "direction": "Inside, at the upright loom, she keeps weaving as she answers: not this year. The pig is fat, the store is full, and the cloth is nearly ready for the little one's cloak.",
+ "seconds": 8.0,
+ "start": 45.92,
+ "still": {
+  "prompt": "TODO: the still prompt for this image was not kept with the Door 2 plan; the image itself is the reference",
+  "image": "r2:studio/scenes/F002/stills/iL5.jpg",
+  "origin": "cedwyn-movie:assets/F002/stills/iL5.jpg",
+  "refs": []
+ },
+ "lines": [
+  {
+   "who": "A_MARY",
+   "cy": "Nid eleni. Mae'r mochyn yn dew, mae'r stôr yn llawn, ac mae'r brethyn bron yn barod at glogyn y fechan.",
+   "en": "Not this year. The pig's fat, the store's full, and the cloth's nearly done for the little one's cloak.",
+   "es": "Este año no. El chancho está gordo, el granero lleno, y la tela casi lista para la capa de la más chica.",
+   "cite": [
+    "PX-01"
+   ]
+  }
+ ],
+ "captions": [],
+ "render": {
+  "model": "bytedance/omnihuman/v2",
+  "usd_per_s": 0.105,
+  "per_language": {
+   "en": {
+    "status": "prepared",
+    "text": "Not this year. The pig's fat, the store's full, and the cloth's nearly done for the little one's cloak.",
+    "voice": "A_MARY",
+    "speech_s": 6.269,
+    "shot_s": 7.47,
+    "f0_median_hz": 225.0,
+    "transcribe_match": 1.0,
+    "line": "r2:studio/scenes/F002/shots/S08/lines/en.mp3",
+    "audio": "r2:studio/scenes/F002/shots/S08/lines/en.adj.wav",
+    "prompt": "Inside, at the upright loom, she keeps weaving as she answers: not this year. The pig is fat, the store is full, and the cloth is nearly ready for the little one's cloak. She keeps head and eyes turned three-quarters toward her husband off-screen for the whole shot and speaks, calmly, \"Not this year. The pig's fat, the store's full, and the cloth's nearly done for the little one's cloak.\" Natural blinks, small head movements; never faces the camera. Keep the still's light and colours. Natural skin texture, no CGI gloss, no text.",
+    "est_usd": 0.84
+   },
+   "es": {
+    "status": "prepared",
+    "text": "Este año no. El chancho está gordo, el granero lleno, y la tela casi lista para la capa de la más chica.",
+    "voice": "eleven:J_ELENA",
+    "tempo": 1.0,
+    "speech_s": 7.13,
+    "shot_s": 8.0,
+    "f0_median_hz": 234.0,
+    "transcribe_match": 1.0,
+    "line": "r2:studio/scenes/F002/shots/S08/lines/es.mp3",
+    "audio": "r2:studio/scenes/F002/shots/S08/lines/es.adj.wav",
+    "prompt": "Inside, at the upright loom, she keeps weaving as she answers: not this year. The pig is fat, the store is full, and the cloth is nearly ready for the little one's cloak. She keeps head and eyes turned three-quarters toward her husband off-screen for the whole shot and speaks, calmly, \"Este año no. El chancho está gordo, el granero lleno, y la tela casi lista para la capa de la más chica.\" Natural blinks, small head movements; never faces the camera. Keep the still's light and colours. Natural skin texture, no CGI gloss, no text.",
+    "est_usd": 0.84
+   },
+   "cy": {
+    "status": "done",
+    "text": "Nid eleni. Mae'r mochyn yn dew, mae'r stôr yn llawn, ac mae'r brethyn bron yn barod at glogyn y fechan.",
+    "take": "r2:studio/scenes/F002/shots/S08/takes/cy/iL5.mp4",
+    "note": "Welsh OmniHuman render (the native Welsh performance used in the published cut F002.v6); voice per the Door 2 v1.0.2 recast.",
+    "qa": "published in F002.v6 (grandfathered; Quality bar v2 gate not run on the original take)"
+   }
+  }
+ },
+ "qa": {
+  "status": "todo"
+ },
+ "status": "in_progress",
+ "animate_note": "omnihuman",
+ "published_window_v6": [
+  45.934,
+  53.934
+ ],
+ "era": "c. 200 BC"
+}
