@@ -1,0 +1,18 @@
+{
+ "schema": "cedwyn-studios/character@1",
+ "id": "K_FARMER",
+ "role": "the c. AD 200 farmer (Door 2 recast, cast changes with the century)",
+ "plays": "the Romano-British farmer of c. AD 200 (reference sheet made 30 Oct 2026 for the cast-changes-with-the-century rule). TODO: confirm which Door 2 shots use it; the Door 2 shot map lists the cast slot as B_JOHN for shots 13 and 17.",
+ "likeness_rule": "Invented face. Never the likeness of any real person or family member. An age or costume change is an edit of the reference portrait, never a new face; a new century gets new people (descendants or newcomers), never the same faces.",
+ "look": {
+  "reference": "r2:studio/characters/K_FARMER/look/K_FARMER_AD200.jpg",
+  "era_edits": [
+   "r2:studio/characters/K_FARMER/look/K_FARMER_AD200.jpg"
+  ],
+  "prompt": "TODO: the reference portrait prompt was not kept in the bible; describe from the reference image before generating a new era edit"
+ },
+ "voice": {
+  "vendor": "per language, see the shot packages",
+  "note": "Door 2 v1.0.2: en wife = F_GWEN voice, en farmer = C_FRED voice; es by OpenAI gpt-4o-mini-tts (coral / ash) with Rioplatense instructions (studio/scenes/F002/shots/S13, S14, S16, S17)."
+ }
+}

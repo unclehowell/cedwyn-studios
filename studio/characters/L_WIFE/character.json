@@ -1,0 +1,18 @@
+{
+ "schema": "cedwyn-studios/character@1",
+ "id": "L_WIFE",
+ "role": "the c. AD 200 wife (Door 2 recast)",
+ "plays": "the Romano-British wife of c. AD 200 (reference sheet made 30 Oct 2026). TODO: confirm which Door 2 shots use it; the Door 2 shot map lists the cast slot as A_MARY for shots 14 and 16.",
+ "likeness_rule": "Invented face. Never the likeness of any real person or family member. An age or costume change is an edit of the reference portrait, never a new face; a new century gets new people (descendants or newcomers), never the same faces.",
+ "look": {
+  "reference": "r2:studio/characters/L_WIFE/look/L_WIFE_AD200.jpg",
+  "era_edits": [
+   "r2:studio/characters/L_WIFE/look/L_WIFE_AD200.jpg"
+  ],
+  "prompt": "TODO: the reference portrait prompt was not kept in the bible; describe from the reference image before generating a new era edit"
+ },
+ "voice": {
+  "vendor": "per language, see the shot packages",
+  "note": "Door 2 v1.0.2: en wife = F_GWEN voice, en farmer = C_FRED voice; es by OpenAI gpt-4o-mini-tts (coral / ash) with Rioplatense instructions (studio/scenes/F002/shots/S13, S14, S16, S17)."
+ }
+}
