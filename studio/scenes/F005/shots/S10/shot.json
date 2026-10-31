@@ -1,0 +1,37 @@
+{
+ "schema": "cedwyn-studios/shot@1",
+ "scene": "F005",
+ "id": "S10",
+ "n": 10,
+ "type": "still-move",
+ "set": "s09",
+ "speaker": null,
+ "direction": "Dusk wide from the churchyard bank: the cross in silhouette, and below it the folds of the hill, a wooded cwm, and the Ely marshes running to the distant estuary. Slow pull back.",
+ "seconds": null,
+ "start": null,
+ "still": {
+  "prompt": "photoreal 16:9 cinematic wide still, around AD 1000, dusk on an inland hilltop, silhouette of a carved stone cross and a small church, the land falling into a wooded valley and broad river marshes leading to a distant estuary, last light low on the horizon, no people, no text, no heraldry, not on a coast",
+  "refs": [],
+  "image": null
+ },
+ "lines": [],
+ "captions": [
+  {
+   "text": "1392: a family research note cites a reference to Cwm-Cedwyn in Llandough boundary records. The record is not yet held, and its contents are not confirmed.",
+   "cite": [
+    "EV-0001"
+   ]
+  }
+ ],
+ "render": {
+  "model": "ffmpeg still-move (free)",
+  "shared": {
+   "status": "todo"
+  }
+ },
+ "qa": {
+  "status": "todo"
+ },
+ "status": "todo",
+ "order": 10
+}

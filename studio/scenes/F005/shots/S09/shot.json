@@ -1,0 +1,37 @@
+{
+ "schema": "cedwyn-studios/shot@1",
+ "scene": "F005",
+ "id": "S09",
+ "n": 9,
+ "type": "still-move",
+ "set": "s03",
+ "speaker": null,
+ "direction": "Afternoon. The churchyard is empty and the cross stands alone by the door, with sledge tracks drying in the mud. Slow push in on the shaft.",
+ "seconds": null,
+ "start": null,
+ "still": {
+  "prompt": "photoreal 16:9 cinematic still, around AD 1000, a tall carved stone cross standing alone beside the door of a small thatched stone church in an empty hilltop churchyard, sledge tracks and hoofprints in drying mud, pale afternoon light breaking through cloud, no people, no legible lettering, no text, no heraldry",
+  "refs": [],
+  "image": null
+ },
+ "lines": [],
+ "captions": [
+  {
+   "text": "1106: Robert Fitzhamon grants lands including Llandough to Tewkesbury Abbey, and the prior of St Mary's, Cardiff becomes lord of the manor. The source is a 2011 Penarth Times letter; the primary record has not yet been found.",
+   "cite": [
+    "CH-0002"
+   ]
+  }
+ ],
+ "render": {
+  "model": "ffmpeg still-move (free)",
+  "shared": {
+   "status": "todo"
+  }
+ },
+ "qa": {
+  "status": "todo"
+ },
+ "status": "todo",
+ "order": 9
+}
