@@ -1,0 +1,61 @@
+{
+ "schema": "cedwyn-studios/shot@1",
+ "scene": "F013",
+ "id": "S07",
+ "n": 7,
+ "type": "talking",
+ "set": "s02",
+ "speaker": "E_AGENT",
+ "direction": "The enumerator sits at the end of the table, opens his enumeration book beside the schedule, dips his pen and looks up at John. Close-medium on him.",
+ "seconds": null,
+ "start": null,
+ "still": {
+  "prompt": "photoreal 16:9 still, 1881 Welsh farmhouse kitchen, a pale clean-shaven man in his fifties with thin-rimmed spectacles and a dark frock coat, seated at a wooden table with a large open ledger and a folded printed form, holding a dip pen over an inkwell, looking up, leather document case on the table, soft window light, invented face, no legible text, no heraldry",
+  "refs": [],
+  "image": null
+ },
+ "lines": [
+  {
+   "who": "E_AGENT",
+   "spoken": "cy",
+   "accent": "Glamorgan Welsh, formal and courteous (Welsh marked for native review)",
+   "cy": "Diolch, Mr Williams. Fe gopïa i'r cyfan i'r llyfr fel mae e ar y papur, yr erwau a'r cwbwl. A'r tŷ... Llandough Home Farm. 'Na fe.",
+   "en": "Thank you, Mr Williams. I'll copy it all into the book as it stands on the paper, the acres and all. And the house... Llandough Home Farm. There.",
+   "es": "Gracias, señor Williams. Lo paso todo al libro tal como está en la planilla, los acres y todo. Y la casa... Llandough Home Farm. Listo.",
+   "cite": [
+    "CH-0030",
+    "EV-0224"
+   ]
+  }
+ ],
+ "captions": [],
+ "render": {
+  "model": "bytedance/omnihuman/v2",
+  "usd_per_s": 0.105,
+  "per_language": {
+   "cy": {
+    "status": "todo",
+    "text": "Diolch, Mr Williams. Fe gopïa i'r cyfan i'r llyfr fel mae e ar y papur, yr erwau a'r cwbwl. A'r tŷ... Llandough Home Farm. 'Na fe.",
+    "voice": "TODO: pick from studio/characters/<speaker>/character.json (new era = new voice)",
+    "prompt": "TODO: write per Quality bar v2 rule 5 from the still and this line"
+   },
+   "en": {
+    "status": "todo",
+    "text": "Thank you, Mr Williams. I'll copy it all into the book as it stands on the paper, the acres and all. And the house... Llandough Home Farm. There.",
+    "voice": "TODO: pick from studio/characters/<speaker>/character.json (new era = new voice)",
+    "prompt": "TODO: write per Quality bar v2 rule 5 from the still and this line"
+   },
+   "es": {
+    "status": "todo",
+    "text": "Gracias, señor Williams. Lo paso todo al libro tal como está en la planilla, los acres y todo. Y la casa... Llandough Home Farm. Listo.",
+    "voice": "TODO: pick from studio/characters/<speaker>/character.json (new era = new voice)",
+    "prompt": "TODO: write per Quality bar v2 rule 5 from the still and this line"
+   }
+  }
+ },
+ "qa": {
+  "status": "todo"
+ },
+ "status": "todo",
+ "order": 7
+}

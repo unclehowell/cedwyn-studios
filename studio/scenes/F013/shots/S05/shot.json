@@ -1,0 +1,61 @@
+{
+ "schema": "cedwyn-studios/shot@1",
+ "scene": "F013",
+ "id": "S05",
+ "n": 5,
+ "type": "talking",
+ "set": "s02",
+ "speaker": "A_MARY",
+ "direction": "Mary steps back to let him in. The kitchen behind her has an inglenook with a low fire, flagstones and a dresser of plates. Children are soft-focus background extras at the table. Medium close on Mary.",
+ "seconds": null,
+ "start": null,
+ "still": {
+  "prompt": "photoreal 16:9 still, 1881 Welsh farmhouse kitchen, a Welsh woman in her late forties with strong cheekbones, grey-green eyes, a small mole on her left cheek, and dark brown hair with first grey in a bun, wearing a plain wool dress, a shawl and an apron, gesturing someone inside, an inglenook fireplace, flagstone floor and wooden dresser with plates behind her, blurred children at a table, oil lamp, invented faces, no text, no heraldry",
+  "refs": [],
+  "image": null
+ },
+ "lines": [
+  {
+   "who": "A_MARY",
+   "spoken": "cy",
+   "accent": "Glamorgan Welsh, warm (Welsh marked for native review)",
+   "cy": "Dewch miwn, dewch miwn. Mae John wedi'i lenwi fe neithiwr wrth olau'r lamp. Pawb oedd dan y to 'ma neithiwr, fel y gofynnoch chi.",
+   "en": "Come in, come in. John filled it in last night by the lamplight. Everyone who was under this roof last night, as you asked.",
+   "es": "Pase, pase. John la llenó anoche a la luz del farol. Todos los que estaban bajo este techo anoche, como usted pidió.",
+   "cite": [
+    "CH-0030",
+    "EV-0224"
+   ]
+  }
+ ],
+ "captions": [],
+ "render": {
+  "model": "bytedance/omnihuman/v2",
+  "usd_per_s": 0.105,
+  "per_language": {
+   "cy": {
+    "status": "todo",
+    "text": "Dewch miwn, dewch miwn. Mae John wedi'i lenwi fe neithiwr wrth olau'r lamp. Pawb oedd dan y to 'ma neithiwr, fel y gofynnoch chi.",
+    "voice": "TODO: pick from studio/characters/<speaker>/character.json (new era = new voice)",
+    "prompt": "TODO: write per Quality bar v2 rule 5 from the still and this line"
+   },
+   "en": {
+    "status": "todo",
+    "text": "Come in, come in. John filled it in last night by the lamplight. Everyone who was under this roof last night, as you asked.",
+    "voice": "TODO: pick from studio/characters/<speaker>/character.json (new era = new voice)",
+    "prompt": "TODO: write per Quality bar v2 rule 5 from the still and this line"
+   },
+   "es": {
+    "status": "todo",
+    "text": "Pase, pase. John la llenó anoche a la luz del farol. Todos los que estaban bajo este techo anoche, como usted pidió.",
+    "voice": "TODO: pick from studio/characters/<speaker>/character.json (new era = new voice)",
+    "prompt": "TODO: write per Quality bar v2 rule 5 from the still and this line"
+   }
+  }
+ },
+ "qa": {
+  "status": "todo"
+ },
+ "status": "todo",
+ "order": 5
+}
