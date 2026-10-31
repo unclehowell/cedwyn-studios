@@ -1,0 +1,61 @@
+{
+ "schema": "cedwyn-studios/shot@1",
+ "scene": "F006",
+ "id": "S03",
+ "n": 3,
+ "type": "talking",
+ "set": "s09",
+ "speaker": "E_AGENT",
+ "direction": "About 7 s. Medium shot of the surveyor at his plane-table, pencil in hand. He looks down the field and calls to Dai, who is off-frame at the far end of the chain.",
+ "seconds": null,
+ "start": null,
+ "still": {
+  "prompt": "Photoreal 16:9 medium shot, Welsh hillside field c. 1786. A pale, clean-shaven man in his 50s wears thin-rimmed round spectacles, a dark wool frock coat, a waistcoat, breeches and a black round hat. He stands at a wooden plane-table on a tripod with a brass sighting rule and a sheet of paper pinned down, and a leather document case hangs at his side. He is calling across the field. Overcast light, hedgerows behind him. Invented face. No text, no heraldry.",
+  "refs": [],
+  "image": null
+ },
+ "lines": [
+  {
+   "who": "E_AGENT",
+   "spoken": "cy",
+   "accent": "educated Glamorgan Welsh, precise",
+   "cy": "Dai, tyn y gadwyn yn dynn. Cant o ddolenni, dim un yn llai.",
+   "en": "Dai, pull the chain tight. A hundred links, not one fewer.",
+   "es": "Dai, tensá bien la cadena. Cien eslabones, ni uno menos.",
+   "cite": [
+    "CH-0004"
+   ],
+   "review": "cy: native review (mutations: yn dynn, o ddolenni)"
+  }
+ ],
+ "captions": [],
+ "render": {
+  "model": "bytedance/omnihuman/v2",
+  "usd_per_s": 0.105,
+  "per_language": {
+   "cy": {
+    "status": "todo",
+    "text": "Dai, tyn y gadwyn yn dynn. Cant o ddolenni, dim un yn llai.",
+    "voice": "TODO: pick from studio/characters/<speaker>/character.json (new era = new voice)",
+    "prompt": "TODO: write per Quality bar v2 rule 5 from the still and this line"
+   },
+   "en": {
+    "status": "todo",
+    "text": "Dai, pull the chain tight. A hundred links, not one fewer.",
+    "voice": "TODO: pick from studio/characters/<speaker>/character.json (new era = new voice)",
+    "prompt": "TODO: write per Quality bar v2 rule 5 from the still and this line"
+   },
+   "es": {
+    "status": "todo",
+    "text": "Dai, tensá bien la cadena. Cien eslabones, ni uno menos.",
+    "voice": "TODO: pick from studio/characters/<speaker>/character.json (new era = new voice)",
+    "prompt": "TODO: write per Quality bar v2 rule 5 from the still and this line"
+   }
+  }
+ },
+ "qa": {
+  "status": "todo"
+ },
+ "status": "todo",
+ "order": 3
+}

@@ -1,0 +1,37 @@
+{
+ "schema": "cedwyn-studios/shot@1",
+ "scene": "F006",
+ "id": "S01",
+ "n": 1,
+ "type": "still-move",
+ "set": "s09",
+ "speaker": null,
+ "direction": "About 9 s. Date-and-place card over a wide establishing still on an early autumn morning around 1786. The camera stands on the inland crest of Llandough hill and looks down over hedged fields, Leckwith woods, the River Ely winding through the marshes, and the estuary far off in a pale haze. Two small figures and a plane-table stand in the middle distance. A slow push-in. Ambience: wind, rooks, a distant cowbell.",
+ "seconds": null,
+ "start": null,
+ "still": {
+  "prompt": "Photoreal 16:9 landscape, Vale of Glamorgan c. 1786, early autumn morning. The view runs from an inland hilltop down over small hedged fields and earth banks, oak woods to one side, and a winding river through flat green-brown marshland, with a distant estuary in soft haze. The hill is not on the coast. Two tiny figures in 18th-century dress stand in a field beside a wooden plane-table on a tripod, with a thin measuring chain on the grass. Overcast silver light, muted greens and browns. No text, no heraldry, no buildings in the foreground.",
+  "refs": [],
+  "image": null
+ },
+ "lines": [],
+ "captions": [
+  {
+   "text": "c. 1786 · Fields of the Herbert of White Friars estate, Llandough-juxta-Penarth",
+   "cite": [
+    "CH-0004"
+   ]
+  }
+ ],
+ "render": {
+  "model": "ffmpeg still-move (free)",
+  "shared": {
+   "status": "todo"
+  }
+ },
+ "qa": {
+  "status": "todo"
+ },
+ "status": "todo",
+ "order": 1
+}

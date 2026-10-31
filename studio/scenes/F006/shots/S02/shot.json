@@ -1,0 +1,37 @@
+{
+ "schema": "cedwyn-studios/shot@1",
+ "scene": "F006",
+ "id": "S02",
+ "n": 2,
+ "type": "still-move",
+ "set": "s09",
+ "speaker": null,
+ "direction": "About 10 s. A low angle along the grass. A Gunter's chain lies taut between two iron arrows, and its brass tallies catch the light. Dai's boots plant a ranging pole at the hedge-bank. The camera tracks slowly along the chain. Ambience: chain links clinking, wind in the hedge. Caption only, no voice.",
+ "seconds": null,
+ "start": null,
+ "still": {
+  "prompt": "Photoreal 16:9 close low-angle shot in a Welsh field c. 1786. An iron surveyor's Gunter's chain is stretched taut across rough grass between iron marking arrows, with small brass tally tags on the links. A big man's worn leather buckled shoes and woollen stockings stand at the far end beside a red-and-white wooden ranging pole planted at a hawthorn hedge-bank. Overcast light, shallow depth of field. Period-accurate. No text, no heraldry.",
+  "refs": [],
+  "image": null
+ },
+ "lines": [],
+ "captions": [
+  {
+   "text": "Estate plans of lands in Cogan, Llandough, Penarth, St Andrews Major and Sully, 1786–1832, survive in the Percy Randell collection (CH-0004). This survey day is recreated as the most likely moment.",
+   "cite": [
+    "CH-0004"
+   ]
+  }
+ ],
+ "render": {
+  "model": "ffmpeg still-move (free)",
+  "shared": {
+   "status": "todo"
+  }
+ },
+ "qa": {
+  "status": "todo"
+ },
+ "status": "todo",
+ "order": 2
+}
