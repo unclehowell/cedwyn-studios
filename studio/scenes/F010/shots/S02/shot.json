@@ -1,0 +1,38 @@
+{
+ "schema": "cedwyn-studios/shot@1",
+ "scene": "F010",
+ "id": "S02",
+ "n": 2,
+ "type": "still-move",
+ "set": "s03",
+ "speaker": null,
+ "direction": "Still with a slow lateral move. On the churchyard path, John Williams (weathered, broad face, grey-flecked beard, dark wool coat and felt hat of the 1870s, heavy hands) walks towards the vestry door. Gwen (round face, rosy cheeks, silver curls under a bonnet, shawl over a print dress, reading glasses on a chain) follows a few steps behind with a small purse in her hand. Neither speaks. Birdsong and wind are heard.",
+ "seconds": null,
+ "start": null,
+ "still": {
+  "prompt": "photoreal 16:9 still, 1872 rural Wales, a weathered Welsh farmer in his fifties with a broad face, grey-flecked beard, dark wool frock coat, felt hat and heavy work-worn hands walks up a gravel churchyard path towards the side door of a new pale-stone Gothic church, a round-faced rosy-cheeked woman in her sixties with silver curls, bonnet, wool shawl, print dress and reading glasses on a chain follows holding a small purse, overcast spring light, inland hilltop, invented faces, no text, no heraldry",
+  "refs": [],
+  "image": null
+ },
+ "lines": [],
+ "captions": [
+  {
+   "text": "30 Dec 1864: the Cardiff Times and the Cardiff and Merthyr Guardian print the death of Amy, 'relict of the late Mr. John Williams, Great House farm'",
+   "cite": [
+    "CH-0015",
+    "EV-0246"
+   ]
+  }
+ ],
+ "render": {
+  "model": "ffmpeg still-move (free)",
+  "shared": {
+   "status": "todo"
+  }
+ },
+ "qa": {
+  "status": "todo"
+ },
+ "status": "todo",
+ "order": 2
+}

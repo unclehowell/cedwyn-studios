@@ -1,0 +1,37 @@
+{
+ "schema": "cedwyn-studios/shot@1",
+ "scene": "F010",
+ "id": "S03",
+ "n": 3,
+ "type": "still-move",
+ "set": "s03",
+ "speaker": null,
+ "direction": "Still with a slow push in. This is the vestry interior: a small, plain, whitewashed room with new pine panelling and a narrow lancet window. A hanging surplice is on a peg. The assistant overseer (pale, clean-shaven, thin-rimmed spectacles, dark frock coat) sits at a deal table. In front of him are a large open rate book, an inkstand, a steel pen, blotting paper and a leather document case. A wooden bench runs along the wall where parishioners wait their turn. Nothing in the book is readable.",
+ "seconds": null,
+ "start": null,
+ "still": {
+  "prompt": "photoreal 16:9 still, interior of a small Victorian church vestry in 1872, whitewashed walls, new pine panelling, narrow lancet window with grey daylight, a surplice on a wooden peg, a pale clean-shaven official in his fifties with thin-rimmed spectacles and a dark frock coat seated at a plain deal table with a large open ledger, inkstand, steel dip pen, blotting paper and a leather document case, empty wooden bench along the wall, writing not legible, invented face, no text, no memorial tablets, no heraldry, no crests",
+  "refs": [],
+  "image": null
+ },
+ "lines": [],
+ "captions": [
+  {
+   "text": "1866: the present St Dochdwy's Church is consecrated; its c.1820 predecessor is moved and rebuilt at Leckwith",
+   "cite": [
+    "CH-0016"
+   ]
+  }
+ ],
+ "render": {
+  "model": "ffmpeg still-move (free)",
+  "shared": {
+   "status": "todo"
+  }
+ },
+ "qa": {
+  "status": "todo"
+ },
+ "status": "todo",
+ "order": 3
+}

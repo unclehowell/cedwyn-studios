@@ -1,0 +1,38 @@
+{
+ "schema": "cedwyn-studios/shot@1",
+ "scene": "F010",
+ "id": "S01",
+ "n": 1,
+ "type": "still-move",
+ "set": "s03",
+ "speaker": null,
+ "direction": "Date-and-place card over an establishing still. Spring morning, April 1872. The new St Dochdwy's Church stands on the inland hill at Llandough. It is six years old and its dressed stone is still pale and clean. The churchyard grass is short and wet, with older headstones leaning beyond the new walls. In the far distance, below the hill, are the Ely valley, the marshes and the grey line of the estuary. Slow push in towards the vestry door.",
+ "seconds": null,
+ "start": null,
+ "still": {
+  "prompt": "photoreal 16:9 still, April 1872, small newly built Victorian Gothic parish church of pale dressed stone on an inland hilltop in the Vale of Glamorgan, Wales, fresh mortar, slate roof, simple bellcote, churchyard with weathered older headstones, damp spring grass, overcast soft morning light, distant view down to a river valley, marshland and a far grey estuary, no sea at the hill's foot, no people, no text, no inscriptions legible, no heraldry, no crests or coats of arms",
+  "refs": [],
+  "image": null
+ },
+ "lines": [],
+ "captions": [
+  {
+   "text": "9 April 1872. Vestry of St Dochdwy's Church, Llandough",
+   "cite": [
+    "CH-0018",
+    "EV-0212"
+   ]
+  }
+ ],
+ "render": {
+  "model": "ffmpeg still-move (free)",
+  "shared": {
+   "status": "todo"
+  }
+ },
+ "qa": {
+  "status": "todo"
+ },
+ "status": "todo",
+ "order": 1
+}
