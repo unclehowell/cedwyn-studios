@@ -1,0 +1,38 @@
+{
+ "schema": "cedwyn-studios/shot@1",
+ "scene": "F004",
+ "id": "S08",
+ "n": 8,
+ "type": "still-move",
+ "set": "s10",
+ "speaker": null,
+ "direction": "(~16 s) Wide closing still at dusk. The monk and the woman walk toward the small thatched church, where a faint light shows in the doorway. The new mound joins the rows on the hill, and the Ely marshes lie dim and silver below. Slow pull-back. Ambience: psalm chant rising from the church, wind, a last curlew.",
+ "seconds": null,
+ "start": null,
+ "still": {
+  "prompt": "Photoreal 16:9 wide shot at dusk, early medieval Wales c. 650 AD. Two small figures, a tonsured monk in an undyed habit and a cloaked woman, walk across an inland hilltop cemetery of low turf mounds toward a small thatched timber church with a faint warm glow in its doorway. Far below, river marshes and a distant tidal estuary catch the last silver light. No beach, no cliffs, no stone ruins, no text, no heraldry.",
+  "refs": [],
+  "image": null
+ },
+ "lines": [],
+ "captions": [
+  {
+   "text": "St Dochdwy's church, beside the later farm, stands where archaeology places an early monastery (CH-0001)",
+   "cite": [
+    "CH-0001"
+   ]
+  }
+ ],
+ "render": {
+  "model": "ffmpeg still-move (free)",
+  "shared": {
+   "status": "todo",
+   "note": "re-render queued: all-motion, new voices, per-language lip-sync"
+  }
+ },
+ "qa": {
+  "status": "todo"
+ },
+ "status": "todo",
+ "order": 8
+}
