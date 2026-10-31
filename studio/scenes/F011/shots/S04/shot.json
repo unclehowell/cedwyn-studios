@@ -1,0 +1,61 @@
+{
+ "schema": "cedwyn-studios/shot@1",
+ "scene": "F011",
+ "id": "S04",
+ "n": 4,
+ "type": "talking",
+ "set": "s03",
+ "speaker": "E_AGENT",
+ "direction": "Over the clerk's shoulder onto the estate agent. He runs a gloved finger down the column, finds his lordship's entries and reads them back for the clerk to enter. Then he reads the next line.",
+ "seconds": null,
+ "start": null,
+ "still": {
+  "prompt": "Photoreal 16:9 medium shot, 1876, pale clean-shaven estate agent in his 50s with thin-rimmed spectacles and a dark frock coat, leaning over a ledger on an oak table and pointing down a column, oil lamp light, a leather document case under his arm, plain vestry interior, period-accurate, invented face, no legible text, no heraldry",
+  "refs": [],
+  "image": null
+ },
+ "lines": [
+  {
+   "who": "E_AGENT",
+   "spoken": "cy",
+   "accent": "Cardiff Welsh, crisp and slightly anglicised, an office man; cy marked for native review",
+   "cy": "Cywir. Nawr, yr Arglwydd Bute ei hun: coed yn ei law, deuddeg erw ar hugain, tair rwd, a phedwar perc ar bymtheg ar hugain. Yna Daniel Thomas a'i Fab: odyn galch a chwarel.",
+   "en": "Correct. Now Lord Bute himself: woods in hand, thirty-two acres, three roods, and thirty-nine perches. Then Daniel Thomas and Son: a lime kiln and quarry.",
+   "es": "Correcto. Ahora Lord Bute mismo: bosques propios, treinta y dos acres, tres roods y treinta y nueve perchas. Después Daniel Thomas e Hijo: un horno de cal y una cantera.",
+   "cite": [
+    "CH-0023",
+    "EV-0212"
+   ]
+  }
+ ],
+ "captions": [],
+ "render": {
+  "model": "bytedance/omnihuman/v2",
+  "usd_per_s": 0.105,
+  "per_language": {
+   "cy": {
+    "status": "todo",
+    "text": "Cywir. Nawr, yr Arglwydd Bute ei hun: coed yn ei law, deuddeg erw ar hugain, tair rwd, a phedwar perc ar bymtheg ar hugain. Yna Daniel Thomas a'i Fab: odyn galch a chwarel.",
+    "voice": "TODO: pick from studio/characters/<speaker>/character.json (new era = new voice)",
+    "prompt": "TODO: write per Quality bar v2 rule 5 from the still and this line"
+   },
+   "en": {
+    "status": "todo",
+    "text": "Correct. Now Lord Bute himself: woods in hand, thirty-two acres, three roods, and thirty-nine perches. Then Daniel Thomas and Son: a lime kiln and quarry.",
+    "voice": "TODO: pick from studio/characters/<speaker>/character.json (new era = new voice)",
+    "prompt": "TODO: write per Quality bar v2 rule 5 from the still and this line"
+   },
+   "es": {
+    "status": "todo",
+    "text": "Correcto. Ahora Lord Bute mismo: bosques propios, treinta y dos acres, tres roods y treinta y nueve perchas. Después Daniel Thomas e Hijo: un horno de cal y una cantera.",
+    "voice": "TODO: pick from studio/characters/<speaker>/character.json (new era = new voice)",
+    "prompt": "TODO: write per Quality bar v2 rule 5 from the still and this line"
+   }
+  }
+ },
+ "qa": {
+  "status": "todo"
+ },
+ "status": "todo",
+ "order": 4
+}
