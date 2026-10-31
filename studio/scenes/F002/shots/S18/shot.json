@@ -1,0 +1,37 @@
+{
+ "schema": "cedwyn-studios/shot@1",
+ "scene": "F002",
+ "id": "S18",
+ "n": 18,
+ "type": "i2v",
+ "set": null,
+ "speaker": null,
+ "direction": "Rain cloud rolls in as the ox cart, loaded with sheaves, creaks up the earth track and the geese scatter beside it. End card: Cedwyn, Scene 2, The hill before the records. A tab.bot production.",
+ "seconds": 7.04,
+ "start": 126.84,
+ "still": {
+  "prompt": "TODO: no still prompt in the script",
+  "refs": [],
+  "image": null
+ },
+ "lines": [],
+ "captions": [],
+ "render": {
+  "model": "kling 2.5 turbo i2v (rendered)",
+  "shared": {
+   "status": "done",
+   "source": "r2:studio/scenes/F002/shots/S18/source/aST4.mp4",
+   "source_seconds": 5.042,
+   "fit": "setpts=PTS*(window/5.042) at 24 fps"
+  }
+ },
+ "qa": {
+  "status": "pass"
+ },
+ "status": "done",
+ "animate_note": "i2v (Kling 2.5 turbo)",
+ "published_window_v6": [
+  126.134,
+  133.174
+ ]
+}

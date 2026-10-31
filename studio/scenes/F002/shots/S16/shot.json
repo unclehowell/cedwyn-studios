@@ -1,0 +1,80 @@
+{
+ "schema": "cedwyn-studios/shot@1",
+ "scene": "F002",
+ "id": "S16",
+ "n": 16,
+ "type": "talking",
+ "set": null,
+ "speaker": "A_MARY",
+ "direction": "She looks down the hill at grey cloud rising off the marsh and tells him to call the animals in. The geese are fat this year: one for the turn of the year, and one for his mother, or they will never hear the end of it.",
+ "seconds": 11.0,
+ "start": 109.84,
+ "still": {
+  "prompt": "TODO: the still prompt for this image was not kept with the Door 2 plan; the image itself is the reference",
+  "image": "r2:studio/scenes/F002/stills/rL5.jpg",
+  "origin": "cedwyn-movie:assets/F002/stills/rL5.jpg",
+  "refs": []
+ },
+ "lines": [
+  {
+   "who": "A_MARY",
+   "cy": "Galw nhw miwn, 'te. Ma' cwmwl yn dod lan o'r gors. A ma'r gwyddau'n dew eleni: un at droad y flwyddyn, ac un i dy fam, neu chlywn ni byth diwedd y peth.",
+   "en": "Call them in, then. There's cloud coming up off the marsh. And the geese are fat this year: one for the turn of the year, and one for your mother, or we'll never hear the end of it.",
+   "es": "Llamalos, entonces. Viene una nube subiendo del bañado. Y los gansos están gordos este año: uno para el cambio de año, y otro para tu mamá, o no nos lo va a perdonar nunca.",
+   "cite": [
+    "PX-02"
+   ]
+  }
+ ],
+ "captions": [],
+ "render": {
+  "model": "bytedance/omnihuman/v2",
+  "usd_per_s": 0.105,
+  "per_language": {
+   "en": {
+    "status": "prepared",
+    "text": "Call them in, then. There's cloud coming up off the marsh. And the geese are fat this year: one for the turn of the year, and one for your mother, or we'll never hear the end of it.",
+    "voice": "F_GWEN",
+    "speech_s": 10.371,
+    "shot_s": 11.0,
+    "f0_median_hz": 208.0,
+    "transcribe_match": 1.0,
+    "line": "r2:studio/scenes/F002/shots/S16/lines/en.mp3",
+    "audio": "r2:studio/scenes/F002/shots/S16/lines/en.adj.wav",
+    "prompt": "She looks down the hill at grey cloud rising off the marsh and tells him to call the animals in. The geese are fat this year: one for the turn of the year, and one for his mother, or they will never hear the end of it. She keeps head and eyes turned three-quarters toward her husband off-screen for the whole shot and speaks, calmly, \"Call them in, then. There's cloud coming up off the marsh. And the geese are fat this year: one for the turn of the year, and one for your mother, or we'll never hear the end of it.\" Natural blinks, small head movements; never faces the camera. Keep the still's light and colours. Natural skin texture, no CGI gloss, no text.",
+    "est_usd": 1.155
+   },
+   "es": {
+    "status": "prepared",
+    "text": "Llamalos, entonces. Viene una nube subiendo del bañado. Y los gansos están gordos este año: uno para el cambio de año, y otro para tu mamá, o no nos lo va a perdonar nunca.",
+    "voice": "oai:coral",
+    "tempo": 1.12,
+    "speech_s": 12.89,
+    "shot_s": 13.69,
+    "f0_median_hz": 232.0,
+    "transcribe_match": 1.0,
+    "line": "r2:studio/scenes/F002/shots/S16/lines/es.mp3",
+    "audio": "r2:studio/scenes/F002/shots/S16/lines/es.adj.wav",
+    "prompt": "She looks down the hill at grey cloud rising off the marsh and tells him to call the animals in. The geese are fat this year: one for the turn of the year, and one for his mother, or they will never hear the end of it. She keeps head and eyes turned three-quarters toward her husband off-screen for the whole shot and speaks, calmly, \"Llamalos, entonces. Viene una nube subiendo del bañado. Y los gansos están gordos este año: uno para el cambio de año, y otro para tu mamá, o no nos lo va a perdonar nunca.\" Natural blinks, small head movements; never faces the camera. Keep the still's light and colours. Natural skin texture, no CGI gloss, no text.",
+    "est_usd": 1.47
+   },
+   "cy": {
+    "status": "done",
+    "text": "Galw nhw miwn, 'te. Ma' cwmwl yn dod lan o'r gors. A ma'r gwyddau'n dew eleni: un at droad y flwyddyn, ac un i dy fam, neu chlywn ni byth diwedd y peth.",
+    "take": "r2:studio/scenes/F002/shots/S16/takes/cy/s16.mp4",
+    "note": "Welsh OmniHuman render (the native Welsh performance used in the published cut F002.v6); voice per the Door 2 v1.0.2 recast.",
+    "qa": "published in F002.v6 (grandfathered; Quality bar v2 gate not run on the original take)"
+   }
+  }
+ },
+ "qa": {
+  "status": "todo"
+ },
+ "status": "in_progress",
+ "animate_note": "omnihuman",
+ "published_window_v6": [
+  108.774,
+  120.974
+ ],
+ "era": "c. AD 200"
+}
