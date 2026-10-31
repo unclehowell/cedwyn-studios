@@ -1,0 +1,78 @@
+{
+ "schema": "cedwyn-studios/shot@1",
+ "scene": "F010",
+ "id": "S04",
+ "n": 4,
+ "type": "talking",
+ "set": "s03",
+ "speaker": "F_GWEN",
+ "direction": "Gwen sits on the vestry bench beside John, purse in her lap, and speaks low to him while the overseer finishes a page. She glances round the new walls. Medium two-shot that favours Gwen, with John listening and his hat on his knee.",
+ "seconds": null,
+ "start": null,
+ "still": {
+  "prompt": "photoreal 16:9, 1872 church vestry, a round-faced rosy-cheeked Welsh woman in her sixties with silver curls, bonnet, wool shawl and reading glasses on a chain sits on a wooden bench talking quietly to a weathered bearded farmer in his fifties holding his felt hat on his knee, whitewashed walls and new pine panelling, soft window light, invented faces, no text, no heraldry",
+  "refs": [],
+  "image": null
+ },
+ "lines": [
+  {
+   "who": "F_GWEN",
+   "spoken": "cy",
+   "accent": "Vale of Glamorgan Welsh (cy marked for native review)",
+   "cy": "Chwe blynedd ma'r eglwys 'ma'n sefyll, John, a fi'n dal i whilo am yr hen un. Wedi'i chario bant i Lecwydd a'i chodi 'to.",
+   "en": "Six years this church has stood, John, and I still look for the old one. Carted off to Leckwith and put up again.",
+   "es": "Hace seis años que está esta iglesia, John, y yo todavía busco la vieja. Se la llevaron a Leckwith y la levantaron de nuevo.",
+   "cite": [
+    "CH-0016"
+   ]
+  },
+  {
+   "who": "F_GWEN",
+   "spoken": "cy",
+   "accent": "Vale of Glamorgan Welsh (cy marked for native review)",
+   "cy": "A nawr ma' tir y person yn mynd at ysgol. Ddydd Calan nethon nhw'i drosglwyddo, glywes i yn y swyddfa bost.",
+   "en": "And now the parson's land is going for a school. Signed over on New Year's Day, I heard at the post office.",
+   "es": "Y ahora las tierras del párroco van para una escuela. Las cedieron el día de Año Nuevo, me contaron en el correo.",
+   "cite": [
+    "CH-0017"
+   ]
+  }
+ ],
+ "captions": [
+  {
+   "text": "1 Jan 1872: glebe land in Llandough parish is conveyed as a school site (Glamorgan Archives P35CW/9)",
+   "cite": [
+    "CH-0017"
+   ]
+  }
+ ],
+ "render": {
+  "model": "bytedance/omnihuman/v2",
+  "usd_per_s": 0.105,
+  "per_language": {
+   "cy": {
+    "status": "todo",
+    "text": "Chwe blynedd ma'r eglwys 'ma'n sefyll, John, a fi'n dal i whilo am yr hen un. Wedi'i chario bant i Lecwydd a'i chodi 'to. / A nawr ma' tir y person yn mynd at ysgol. Ddydd Calan nethon nhw'i drosglwyddo, glywes i yn y swyddfa bost.",
+    "voice": "TODO: pick from studio/characters/<speaker>/character.json (new era = new voice)",
+    "prompt": "TODO: write per Quality bar v2 rule 5 from the still and this line"
+   },
+   "en": {
+    "status": "todo",
+    "text": "Six years this church has stood, John, and I still look for the old one. Carted off to Leckwith and put up again. / And now the parson's land is going for a school. Signed over on New Year's Day, I heard at the post office.",
+    "voice": "TODO: pick from studio/characters/<speaker>/character.json (new era = new voice)",
+    "prompt": "TODO: write per Quality bar v2 rule 5 from the still and this line"
+   },
+   "es": {
+    "status": "todo",
+    "text": "Hace seis años que está esta iglesia, John, y yo todavía busco la vieja. Se la llevaron a Leckwith y la levantaron de nuevo. / Y ahora las tierras del párroco van para una escuela. Las cedieron el día de Año Nuevo, me contaron en el correo.",
+    "voice": "TODO: pick from studio/characters/<speaker>/character.json (new era = new voice)",
+    "prompt": "TODO: write per Quality bar v2 rule 5 from the still and this line"
+   }
+  }
+ },
+ "qa": {
+  "status": "todo"
+ },
+ "status": "todo",
+ "order": 4
+}

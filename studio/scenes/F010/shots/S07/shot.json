@@ -1,0 +1,61 @@
+{
+ "schema": "cedwyn-studios/shot@1",
+ "scene": "F010",
+ "id": "S07",
+ "n": 7,
+ "type": "talking",
+ "set": "s03",
+ "speaker": "E_AGENT",
+ "direction": "The overseer dips his pen and writes the entry without looking up. He answers evenly, as an officer of the parish. Close shot on him, with the pen moving in the foreground.",
+ "seconds": null,
+ "start": null,
+ "still": {
+  "prompt": "photoreal 16:9, close shot, 1872, a pale bespectacled official in a dark frock coat writing with a steel dip pen in a large ledger at a deal table, inkstand in foreground, calm neutral expression, whitewashed vestry wall, handwriting not legible, invented face, no text, no heraldry",
+  "refs": [],
+  "image": null
+ },
+ "lines": [
+  {
+   "who": "E_AGENT",
+   "spoken": "cy",
+   "accent": "Glamorgan Welsh, formal register (cy marked for native review)",
+   "cy": "Mae'r llyfr yn cofnodi pwy sy'n dal a phwy sy'n berchen, Mr Williams. Dyna'r cwbl mae e'n ei gofnodi.",
+   "en": "The book records who occupies and who owns, Mr Williams. That is all it records.",
+   "es": "El libro anota quién ocupa y quién es dueño, señor Williams. Nada más que eso.",
+   "cite": [
+    "CH-0018",
+    "EV-0212"
+   ]
+  }
+ ],
+ "captions": [],
+ "render": {
+  "model": "bytedance/omnihuman/v2",
+  "usd_per_s": 0.105,
+  "per_language": {
+   "cy": {
+    "status": "todo",
+    "text": "Mae'r llyfr yn cofnodi pwy sy'n dal a phwy sy'n berchen, Mr Williams. Dyna'r cwbl mae e'n ei gofnodi.",
+    "voice": "TODO: pick from studio/characters/<speaker>/character.json (new era = new voice)",
+    "prompt": "TODO: write per Quality bar v2 rule 5 from the still and this line"
+   },
+   "en": {
+    "status": "todo",
+    "text": "The book records who occupies and who owns, Mr Williams. That is all it records.",
+    "voice": "TODO: pick from studio/characters/<speaker>/character.json (new era = new voice)",
+    "prompt": "TODO: write per Quality bar v2 rule 5 from the still and this line"
+   },
+   "es": {
+    "status": "todo",
+    "text": "El libro anota quién ocupa y quién es dueño, señor Williams. Nada más que eso.",
+    "voice": "TODO: pick from studio/characters/<speaker>/character.json (new era = new voice)",
+    "prompt": "TODO: write per Quality bar v2 rule 5 from the still and this line"
+   }
+  }
+ },
+ "qa": {
+  "status": "todo"
+ },
+ "status": "todo",
+ "order": 7
+}
