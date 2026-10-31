@@ -1,0 +1,60 @@
+{
+ "schema": "cedwyn-studios/shot@1",
+ "scene": "F008",
+ "id": "S05",
+ "n": 5,
+ "type": "talking",
+ "set": "s06",
+ "speaker": "C_FRED",
+ "direction": "Over-the-shoulder to medium shot of the draughtsman. He runs the blunt end of his quill along the green-washed wood, then to a corner parcel with a different wash and a small inscription.",
+ "seconds": null,
+ "start": null,
+ "still": {
+  "prompt": "Photoreal 16:9 medium shot, lean sandy-haired man with a moustache in a dark 1820s clerk's coat, pointing with the blunt end of a quill at a corner parcel on a hand-drawn estate plan, green-washed woodland and fields, fine illegible script, brass dividers on the desk, window light, 1824 Welsh estate office, no legible text, no heraldry",
+  "refs": [],
+  "image": null
+ },
+ "lines": [
+  {
+   "who": "C_FRED",
+   "spoken": "cy",
+   "accent": "South Wales (Glamorgan) Welsh; Welsh text marked for native review",
+   "cy": "Dau ddeg erw, dau rood a thri deg pump perch o goed. Y deiliad: John Gedrick, hyd y galla i ddarllen llaw Mr Stewart. Ac edrychwch ar y gornel hon, syr: deg erw, tri rood a thri deg naw perch o dir 'y diweddar Thos. Williams', wedi'u hychwanegu at y Tŷ Mawr.",
+   "en": "Twenty acres, two roods and thirty-five perches of wood. The occupier: John Gedrick, as far as I can read Mr Stewart's hand. And look at this corner, sir: ten acres, three roods and thirty-nine perches of 'late Thos. Williams' land, added to Tŷ Mawr.",
+   "es": "Veinte acres, dos roods y treinta y cinco perchas de monte. El ocupante: John Gedrick, hasta donde puedo leer la letra del señor Stewart. Y mire esta esquina, señor: diez acres, tres roods y treinta y nueve perchas de tierra 'del finado Thos. Williams', agregadas a Tŷ Mawr.",
+   "cite": [
+    "CH-0008"
+   ]
+  }
+ ],
+ "captions": [],
+ "render": {
+  "model": "bytedance/omnihuman/v2",
+  "usd_per_s": 0.105,
+  "per_language": {
+   "cy": {
+    "status": "todo",
+    "text": "Dau ddeg erw, dau rood a thri deg pump perch o goed. Y deiliad: John Gedrick, hyd y galla i ddarllen llaw Mr Stewart. Ac edrychwch ar y gornel hon, syr: deg erw, tri rood a thri deg naw perch o dir 'y diweddar Thos. Williams', wedi'u hychwanegu at y Tŷ Mawr.",
+    "voice": "TODO: pick from studio/characters/<speaker>/character.json (new era = new voice)",
+    "prompt": "TODO: write per Quality bar v2 rule 5 from the still and this line"
+   },
+   "en": {
+    "status": "todo",
+    "text": "Twenty acres, two roods and thirty-five perches of wood. The occupier: John Gedrick, as far as I can read Mr Stewart's hand. And look at this corner, sir: ten acres, three roods and thirty-nine perches of 'late Thos. Williams' land, added to Tŷ Mawr.",
+    "voice": "TODO: pick from studio/characters/<speaker>/character.json (new era = new voice)",
+    "prompt": "TODO: write per Quality bar v2 rule 5 from the still and this line"
+   },
+   "es": {
+    "status": "todo",
+    "text": "Veinte acres, dos roods y treinta y cinco perchas de monte. El ocupante: John Gedrick, hasta donde puedo leer la letra del señor Stewart. Y mire esta esquina, señor: diez acres, tres roods y treinta y nueve perchas de tierra 'del finado Thos. Williams', agregadas a Tŷ Mawr.",
+    "voice": "TODO: pick from studio/characters/<speaker>/character.json (new era = new voice)",
+    "prompt": "TODO: write per Quality bar v2 rule 5 from the still and this line"
+   }
+  }
+ },
+ "qa": {
+  "status": "todo"
+ },
+ "status": "todo",
+ "order": 5
+}

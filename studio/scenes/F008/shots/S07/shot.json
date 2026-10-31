@@ -1,0 +1,37 @@
+{
+ "schema": "cedwyn-studios/shot@1",
+ "scene": "F008",
+ "id": "S07",
+ "n": 7,
+ "type": "still-move",
+ "set": "s06",
+ "speaker": null,
+ "direction": "Insert close-up of the plan's corner parcel, with its separate wash and tiny illegible inscription. The ink catches the window light as it dries. Slow push in. Ambience only.",
+ "seconds": null,
+ "start": null,
+ "still": {
+  "prompt": "Photoreal 16:9 extreme close-up of an 1820s hand-drawn estate plan on laid paper, a corner field parcel tinted a different wash from its neighbours, green-washed woodland edge, fine illegible copperplate script too small to read, wet ink glinting in window light, brass dividers resting nearby, no legible text, no heraldry",
+  "refs": [],
+  "image": null
+ },
+ "lines": [],
+ "captions": [
+  {
+   "text": "Undated: an uploaded image titled '1824 map of Ty Mawr'; its maker and true date are not yet established (EV-0004)",
+   "cite": [
+    "EV-0004"
+   ]
+  }
+ ],
+ "render": {
+  "model": "ffmpeg still-move (free)",
+  "shared": {
+   "status": "todo"
+  }
+ },
+ "qa": {
+  "status": "todo"
+ },
+ "status": "todo",
+ "order": 7
+}

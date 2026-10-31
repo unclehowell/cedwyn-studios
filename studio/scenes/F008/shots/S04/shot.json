@@ -1,0 +1,61 @@
+{
+ "schema": "cedwyn-studios/shot@1",
+ "scene": "F008",
+ "id": "S04",
+ "n": 4,
+ "type": "talking",
+ "set": "s06",
+ "speaker": "E_AGENT",
+ "direction": "Medium close shot of the agent. He bends over the plan, adjusts his spectacles and reads the farm's title aloud, then looks up at the draughtsman.",
+ "seconds": null,
+ "start": null,
+ "still": {
+  "prompt": "Photoreal 16:9 medium close-up, pale clean-shaven man in his fifties with thin-rimmed spectacles, dark 1820s frock coat and white stock, leaning over a hand-drawn estate plan on a sloped desk, leather document case under his arm, soft window light, 1824 Welsh estate office, no text, no heraldry",
+  "refs": [],
+  "image": null
+ },
+ "lines": [
+  {
+   "who": "E_AGENT",
+   "spoken": "cy",
+   "accent": "educated Glamorgan Welsh; Welsh text marked for native review",
+   "cy": "'Cedfin or Ty Mawr Farm.' Dau enw ar yr un fferm, ym mhlwyf Llandochau. Faint o'r tir sy'n goed? A phwy yw'r deiliad?",
+   "en": "'Cedfin or Ty Mawr Farm.' Two names for the one farm, in Llandough parish. How much of the land is wood? And who's the occupier?",
+   "es": "'Cedfin or Ty Mawr Farm.' Dos nombres para la misma chacra, en la parroquia de Llandough. ¿Cuánto de la tierra es monte? ¿Y quién es el ocupante?",
+   "cite": [
+    "CH-0010",
+    "CH-0009"
+   ]
+  }
+ ],
+ "captions": [],
+ "render": {
+  "model": "bytedance/omnihuman/v2",
+  "usd_per_s": 0.105,
+  "per_language": {
+   "cy": {
+    "status": "todo",
+    "text": "'Cedfin or Ty Mawr Farm.' Dau enw ar yr un fferm, ym mhlwyf Llandochau. Faint o'r tir sy'n goed? A phwy yw'r deiliad?",
+    "voice": "TODO: pick from studio/characters/<speaker>/character.json (new era = new voice)",
+    "prompt": "TODO: write per Quality bar v2 rule 5 from the still and this line"
+   },
+   "en": {
+    "status": "todo",
+    "text": "'Cedfin or Ty Mawr Farm.' Two names for the one farm, in Llandough parish. How much of the land is wood? And who's the occupier?",
+    "voice": "TODO: pick from studio/characters/<speaker>/character.json (new era = new voice)",
+    "prompt": "TODO: write per Quality bar v2 rule 5 from the still and this line"
+   },
+   "es": {
+    "status": "todo",
+    "text": "'Cedfin or Ty Mawr Farm.' Dos nombres para la misma chacra, en la parroquia de Llandough. ¿Cuánto de la tierra es monte? ¿Y quién es el ocupante?",
+    "voice": "TODO: pick from studio/characters/<speaker>/character.json (new era = new voice)",
+    "prompt": "TODO: write per Quality bar v2 rule 5 from the still and this line"
+   }
+  }
+ },
+ "qa": {
+  "status": "todo"
+ },
+ "status": "todo",
+ "order": 4
+}
