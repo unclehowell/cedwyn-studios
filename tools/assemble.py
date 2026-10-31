@@ -83,8 +83,14 @@ try:
             filt.append(f"[{k + extra}]volume={amb.get('volume', 0.35)},afade=t=in:d=1,afade=t=out:st={amb.get('fade_out_at', 10)}:d={amb.get('fade_out_s', 3)},adelay={int(starts.get(amb['shot'], 0) * 1000)}:all=1,apad[m{extra}]")
         extra += 1
     if k + extra == 0: sys.exit('no audio at all')
-    filt.append(''.join(f'[d{i}]' for i in range(k)) + ''.join(f'[m{j}]' for j in range(extra)) + f'amix=inputs={k + extra}:normalize=0:duration=longest,atrim=0:{total},loudnorm=I=-16:TP=-1.5:LRA=7[aout]')
-    ff(*inputs, '-filter_complex', ';'.join(filt), '-map', '[aout]', '-ar', '48000', '-ac', '2', str(T / 'audio.wav'))
+    filt.append(''.join(f'[d{i}]' for i in range(k)) + ''.join(f'[m{j}]' for j in range(extra)) + f'amix=inputs={k + extra}:normalize=0:duration=longest,atrim=0:{total}[aout]')
+    ff(*inputs, '-filter_complex', ';'.join(filt), '-map', '[aout]', '-ar', '48000', '-ac', '2', str(T / 'mix.wav'))
+    # two-pass loudnorm (Quality bar v2 rule 4): measure, then apply linearly to I=-16, LRA 7, TP -1.5
+    r = subprocess.run(['ffmpeg', '-hide_banner', '-nostats', '-i', str(T / 'mix.wav'), '-af', 'loudnorm=I=-16:TP=-1.5:LRA=7:print_format=json', '-f', 'null', '-'], capture_output=True, text=True, timeout=600).stderr
+    m = json.loads(r[r.rfind('{'):r.rfind('}') + 1])
+    ln = (f"loudnorm=I=-16:TP=-1.5:LRA=7:measured_I={m['input_i']}:measured_TP={m['input_tp']}:measured_LRA={m['input_lra']}"
+          f":measured_thresh={m['input_thresh']}:offset={m['target_offset']}:linear=true")
+    ff('-i', str(T / 'mix.wav'), '-af', ln + ',aresample=48000', '-ar', '48000', '-ac', '2', str(T / 'audio.wav'))
     def ts(x): return f'{int(x // 3600):02d}:{int(x % 3600 // 60):02d}:{x % 60:06.3f}'
     for lg in S.LANGS:
         with open(T / f'{lg}.vtt', 'w') as f:
