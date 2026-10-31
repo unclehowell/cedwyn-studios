@@ -1,0 +1,53 @@
+{
+ "schema": "cedwyn-studios/shot@1",
+ "scene": "F011",
+ "id": "S08",
+ "n": 8,
+ "type": "still-move",
+ "set": "s03",
+ "speaker": null,
+ "direction": "Insert. The rate book lies open on the table under the lamp, the ink of the new entries still wet. The agent's shadow passes as the door closes. Gwen's directory rests beside the book. A slow push in onto the page, which stays soft and illegible, and the lamp flame steadies. Ambience: the door latch and rain. The captions follow one after another.",
+ "seconds": null,
+ "start": null,
+ "still": {
+  "prompt": "Photoreal 16:9 close-up still, 1876, a large open Victorian ruled ledger on an oak table with freshly inked handwritten entries (soft-focus, illegible), a dip pen in an inkwell, a blotter, and a thick cloth-bound trade directory beside it, warm oil lamp light, shallow depth of field, period-accurate, no legible text, no heraldry",
+  "refs": [],
+  "image": null
+ },
+ "lines": [],
+ "captions": [
+  {
+   "text": "Later directories (Slater's 1880, Owen's 1887 and 1891, the 1901 Cardiff Directory) also list John Williams at Great House, Llandough.",
+   "cite": [
+    "CH-0019",
+    "EV-0225"
+   ]
+  },
+  {
+   "text": "1876–1912: NLW Bute deeds D153/4–8 cover 'land (33 a.), formerly part of Great House Farm, for the Llandough Limeworks'. Plan engrossed on D153/3 (1875) and D153/4 (1876). The deeds, their parties and the parcel are not yet read.",
+   "cite": [
+    "CH-0021",
+    "CH-0022",
+    "EV-0291"
+   ]
+  },
+  {
+   "text": "The same sequence of entries appears in a Llandough rate of 20 August 187? (last figure unread).",
+   "cite": [
+    "CH-0023",
+    "EV-0212"
+   ]
+  }
+ ],
+ "render": {
+  "model": "ffmpeg still-move (free)",
+  "shared": {
+   "status": "todo"
+  }
+ },
+ "qa": {
+  "status": "todo"
+ },
+ "status": "todo",
+ "order": 8
+}
