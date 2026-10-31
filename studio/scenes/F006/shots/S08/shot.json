@@ -1,0 +1,43 @@
+{
+ "schema": "cedwyn-studios/shot@1",
+ "scene": "F006",
+ "id": "S08",
+ "n": 8,
+ "type": "still-move",
+ "set": "s09",
+ "speaker": null,
+ "direction": "About 14 s. A top-down still of the plane-table sheet. A pencil traces the first field boundaries as faint lines, without lettering. A slow drift across the paper. Ambience: pencil scratch, wind. Captions only.",
+ "seconds": null,
+ "start": null,
+ "still": {
+  "prompt": "Photoreal 16:9 top-down close-up, c. 1786. A sheet of laid paper is pinned to a wooden plane-table, with faint graphite lines sketching irregular field boundaries and hedge lines and no writing or letters. A brass sighting rule and a hand holding a pencil in a dark wool cuff rest on it, with a small brass compass at the corner. Soft overcast light. No text, no heraldry, no seals or devices.",
+  "refs": [],
+  "image": null
+ },
+ "lines": [],
+ "captions": [
+  {
+   "text": "1547: a family research note records a 1,000-year lease of 'Cydwin' from Sir George Herbert to Vaughan. The lease itself is not yet found (EV-0002).",
+   "cite": [
+    "EV-0002"
+   ]
+  },
+  {
+   "text": "1552–1824: a family research note gives the holding as 'Cedfin / Cydfin / Ken fin Farm or Ty Mawr Farm' in Bute estate records. The documents are not yet produced (EV-0003).",
+   "cite": [
+    "EV-0003"
+   ]
+  }
+ ],
+ "render": {
+  "model": "ffmpeg still-move (free)",
+  "shared": {
+   "status": "todo"
+  }
+ },
+ "qa": {
+  "status": "todo"
+ },
+ "status": "todo",
+ "order": 8
+}

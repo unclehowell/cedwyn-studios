@@ -1,0 +1,43 @@
+{
+ "schema": "cedwyn-studios/shot@1",
+ "scene": "F006",
+ "id": "S09",
+ "n": 9,
+ "type": "still-move",
+ "set": "s09",
+ "speaker": null,
+ "direction": "About 14 s. A wide closing still. Dai walks the chain forward to the next hedge while the surveyor stays at the table. Beyond them, a farmhouse roof and yard sit among the fields on the hill. A slow pull-back. Captions only.",
+ "seconds": null,
+ "start": null,
+ "still": {
+  "prompt": "Photoreal 16:9 wide shot, inland Llandough hillside c. 1786. A big man in a waistcoat drags a surveyor's chain across a hedged field toward the next hedge-bank. A spectacled man in a dark frock coat stands at a plane-table in the foreground. Further up the hill stand a stone farmhouse with a slate roof and a farmyard among small fields, with oak woods and a distant river marsh below. Overcast late-morning light. No text, no heraldry, no coast.",
+  "refs": [],
+  "image": null
+ },
+ "lines": [],
+ "captions": [
+  {
+   "text": "1667: Williams family occupancy begins, as Mary Buckler later recounted. An earlier written source is awaited (CH-0003).",
+   "cite": [
+    "CH-0003"
+   ]
+  },
+  {
+   "text": "Looking ahead to 1824: David Stewart's survey of the Bute estates, plan 19, names the holding 'Cedfin or Tŷ Mawr', the oldest record found so far that names the house (EV-0211).",
+   "cite": [
+    "EV-0211"
+   ]
+  }
+ ],
+ "render": {
+  "model": "ffmpeg still-move (free)",
+  "shared": {
+   "status": "todo"
+  }
+ },
+ "qa": {
+  "status": "todo"
+ },
+ "status": "todo",
+ "order": 9
+}
