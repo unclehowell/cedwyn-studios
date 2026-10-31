@@ -1,0 +1,95 @@
+{
+ "schema": "cedwyn-studios/scene@1",
+ "id": "F012",
+ "frame_map_n": 11,
+ "title": {
+  "en": "A Notice for Great House",
+  "cy": "Rhybudd i Dŷ Mawr",
+  "es": "Un aviso para Great House"
+ },
+ "date": "1877 (month not recorded)",
+ "place": "Bute estate office, Cardiff",
+ "set": "s06",
+ "present": {
+  "E_AGENT": "the Bute estate agent, Cardiff (an office, not a named person)"
+ },
+ "logline": "In the Bute estate office the agent prepares a notice to quit for Great House Farm, Llandough. This is the 1877 step that Mary (Nancy) Williams's later account reports.",
+ "moment": {
+  "date": "1877 (month not recorded)",
+  "place": "Bute estate office, Cardiff",
+  "present": [
+   "E_AGENT=the Bute estate agent, Cardiff"
+  ],
+  "summary": "In the Bute estate office the agent prepares a notice to quit for Great House Farm, Llandough. This is the 1877 step that Mary (Nancy) Williams's later account reports.",
+  "anchor": "CH-0024",
+  "captions": [
+   "1877: Mary (Nancy) Williams's later account reports a sale of the farmhouse, buildings and about 10 acres to Daniel Thomas, with about 9 acres kept by Bute. The deed and plan are missing (CH-0025)",
+   "1877: A Bute–Daniel Thomas & Son agreement (sale or quarry lease) is known only from a family plan image and family account. The deed is not held (EV-0006)",
+   "1877: The Bute trustees' abstract of receipts and payments (Bute X.6(12)) is not yet obtained. It may show a sale price or only rent (EV-0007)",
+   "6 Nov 1877: Mary (Nancy) Williams's account gives this date for a lease to John Williams. No matching Llandough deed has been found. The Bute lease of this date to John Williams, builder, is for Clyde Street, Roath, not the farm (CH-0026)",
+   "6 Nov 1877: Reported lease to John Williams. The original is not located; parties, land, plan, rent and term are unknown (EV-0008)"
+  ],
+  "basis": "This rests only on Mary (Nancy) Williams's c.1974 statement. No notice, deed or plan is held. The estate-office moment is the most likely way such a notice was made, and no Williams is shown.",
+  "source": [
+   "https://cedwyn.bucklerfamily.estate/wiki/timeline/",
+   "https://cedwyn.bucklerfamily.estate/wiki/evidence/ev-0006-bute-thomas-agreement-1877/",
+   "https://cedwyn.bucklerfamily.estate/wiki/evidence/ev-0007-bute-trustees-receipts-payments-1877/"
+  ],
+  "source_in_sitemap": true
+ },
+ "sources": {
+  "catalogue_ids": [
+   "CH-0024",
+   "CH-0025",
+   "CH-0026",
+   "EV-0006",
+   "EV-0007",
+   "EV-0008",
+   "EV-0213"
+  ],
+  "urls": [
+   "https://cedwyn.bucklerfamily.estate/wiki/timeline/",
+   "https://cedwyn.bucklerfamily.estate/wiki/evidence/ev-0006-bute-thomas-agreement-1877/",
+   "https://cedwyn.bucklerfamily.estate/wiki/evidence/ev-0007-bute-trustees-receipts-payments-1877/"
+  ],
+  "chronology": "r2:studio/chronology/CHRONOLOGY.json (event ids above)"
+ },
+ "languages": [
+  "cy",
+  "en",
+  "es"
+ ],
+ "spoken_language": "cy",
+ "subtitles": "en/es subtitles for Welsh speech; Rioplatense Spanish; cues <=2x42 chars",
+ "accent": "thick Welsh accent for every Welsh character; non-Welsh characters keep their own accents",
+ "continuity": "The folded notice waits in the tray; cut to Llandough, where the census enumerator calls at the farm to collect John Williams's household schedule.",
+ "left_out": [],
+ "translation": {
+  "cy": "machine-written (claude-opus-5-5), for native review",
+  "es": "machine-written, Rioplatense, for review"
+ },
+ "script_version": "v0.4.0",
+ "script_status": "v0.4.0 29 Oct 2026 IN-PERIOD rewrite (owner 16:04 GMT): one moment, no narrator, no fourth wall; not rendered; Welsh and Spanish machine-written, for native review",
+ "target_seconds": 120,
+ "estimated_seconds": 34,
+ "status": "scripted",
+ "status_note": "Script v0.4.0 on file; nothing rendered.",
+ "shots": [
+  "S01",
+  "S02",
+  "S03",
+  "S04",
+  "S05",
+  "S06",
+  "S07",
+  "S08"
+ ],
+ "deliverable": {
+  "per_language_video": true,
+  "quality_bar": "v2",
+  "fps": 24,
+  "codec": "VP9 two-pass",
+  "audio": "Opus 128k, -16 LUFS, LRA <= 7, TP <= -1.5",
+  "max_bytes": 26214400
+ }
+}

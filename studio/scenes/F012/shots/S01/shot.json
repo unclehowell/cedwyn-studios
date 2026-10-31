@@ -1,0 +1,37 @@
+{
+ "schema": "cedwyn-studios/shot@1",
+ "scene": "F012",
+ "id": "S01",
+ "n": 1,
+ "type": "still-move",
+ "set": "s06",
+ "speaker": null,
+ "direction": "About 8 s. Date-and-place card over an establishing still: a Cardiff street front of a sober stone office building in grey morning light, a hand-cart and a gas lamp, wet setts. The camera pushes in very slowly toward a first-floor window. Street ambience: hooves, a distant cart. No view of water.",
+ "seconds": null,
+ "start": null,
+ "still": {
+  "prompt": "photoreal 16:9 still, Cardiff 1877, plain dressed-stone Victorian office building on a cobbled street, gas street lamp, hand-cart, overcast morning light, wet setts, muted greys and browns, period-accurate, no people in close view, no signage, no text, no heraldry, no crests or emblems on the building, no sea or harbour visible",
+  "refs": [],
+  "image": null
+ },
+ "lines": [],
+ "captions": [
+  {
+   "text": "1877 · Bute estate office, Cardiff",
+   "cite": [
+    "CH-0024"
+   ]
+  }
+ ],
+ "render": {
+  "model": "ffmpeg still-move (free)",
+  "shared": {
+   "status": "todo"
+  }
+ },
+ "qa": {
+  "status": "todo"
+ },
+ "status": "todo",
+ "order": 1
+}

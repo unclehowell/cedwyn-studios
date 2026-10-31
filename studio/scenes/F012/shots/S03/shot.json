@@ -1,0 +1,60 @@
+{
+ "schema": "cedwyn-studios/shot@1",
+ "scene": "F012",
+ "id": "S03",
+ "n": 3,
+ "type": "talking",
+ "set": "s06",
+ "speaker": "E_AGENT",
+ "direction": "About 6 s. Medium close on the agent. He looks up and across the room to the copying clerk, who stays off frame, and begins to dictate. His manner is formal and unhurried.",
+ "seconds": null,
+ "start": null,
+ "still": {
+  "prompt": "photoreal 16:9 medium close-up, pale clean-shaven man in his 50s, thin-rimmed spectacles, dark frock coat, white collar, seated at a mahogany desk, looking off-camera to his left as if speaking to someone, soft window light, Victorian office 1877, invented face, period-accurate, no text, no heraldry",
+  "refs": [],
+  "image": null
+ },
+ "lines": [
+  {
+   "who": "E_AGENT",
+   "spoken": "cy",
+   "accent": "South Wales Welsh, formal office register [native review]",
+   "cy": "Ysgrifennwch, os gwelwch yn dda. Rhybudd i ymadael.",
+   "en": "Write, please. A notice to quit.",
+   "es": "Escribí, por favor. Un aviso de desalojo.",
+   "cite": [
+    "CH-0024"
+   ]
+  }
+ ],
+ "captions": [],
+ "render": {
+  "model": "bytedance/omnihuman/v2",
+  "usd_per_s": 0.105,
+  "per_language": {
+   "cy": {
+    "status": "todo",
+    "text": "Ysgrifennwch, os gwelwch yn dda. Rhybudd i ymadael.",
+    "voice": "TODO: pick from studio/characters/<speaker>/character.json (new era = new voice)",
+    "prompt": "TODO: write per Quality bar v2 rule 5 from the still and this line"
+   },
+   "en": {
+    "status": "todo",
+    "text": "Write, please. A notice to quit.",
+    "voice": "TODO: pick from studio/characters/<speaker>/character.json (new era = new voice)",
+    "prompt": "TODO: write per Quality bar v2 rule 5 from the still and this line"
+   },
+   "es": {
+    "status": "todo",
+    "text": "Escribí, por favor. Un aviso de desalojo.",
+    "voice": "TODO: pick from studio/characters/<speaker>/character.json (new era = new voice)",
+    "prompt": "TODO: write per Quality bar v2 rule 5 from the still and this line"
+   }
+  }
+ },
+ "qa": {
+  "status": "todo"
+ },
+ "status": "todo",
+ "order": 3
+}

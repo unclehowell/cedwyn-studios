@@ -1,0 +1,30 @@
+{
+ "schema": "cedwyn-studios/shot@1",
+ "scene": "F012",
+ "id": "S02",
+ "n": 2,
+ "type": "still-move",
+ "set": "s06",
+ "speaker": null,
+ "direction": "About 12 s. Interior of the estate office. A tall window with grey light, a broad mahogany desk, deed boxes and ledgers on shelves, and a coal fire in a plain grate. The agent sits writing, with a leather document case at his elbow. Off frame, a copying clerk's stool creaks and a nib scratches. The camera moves slowly from the shelves to the agent.",
+ "seconds": null,
+ "start": null,
+ "still": {
+  "prompt": "photoreal 16:9 still, Victorian estate office interior 1877, mahogany desk, japanned tin deed boxes and leather-bound ledgers on shelves, plain coal fire, tall window with grey daylight, a pale clean-shaven man in his 50s with thin-rimmed spectacles in a dark frock coat writing with a dip pen, leather document case beside him, invented face, period-accurate, no text, no heraldry, no crests, coats of arms or emblems anywhere",
+  "refs": [],
+  "image": null
+ },
+ "lines": [],
+ "captions": [],
+ "render": {
+  "model": "ffmpeg still-move (free)",
+  "shared": {
+   "status": "todo"
+  }
+ },
+ "qa": {
+  "status": "todo"
+ },
+ "status": "todo",
+ "order": 2
+}
