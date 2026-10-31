@@ -1,0 +1,46 @@
+{
+ "schema": "cedwyn-studios/character@1",
+ "id": "B_JOHN",
+ "role": "the Williams man",
+ "plays": "the John Williamses (1841–1949); Iron-Age elder (`cast/B_JOHN_ironage.jpg`), villa steward, monk in the prologue",
+ "likeness_rule": "Invented face. Never the likeness of any real person or family member. An age or costume change is an edit of the reference portrait, never a new face; a new century gets new people (descendants or newcomers), never the same faces.",
+ "look": {
+  "reference": "r2:studio/characters/B_JOHN/look/B_JOHN.jpg",
+  "era_edits": [
+   "r2:studio/characters/B_JOHN/look/B_JOHN_1890s.jpg",
+   "r2:studio/characters/B_JOHN/look/B_JOHN_ironage.jpg"
+  ],
+  "prompt": "TODO: the reference portrait prompt was not kept in the bible; describe from the reference image before generating a new era edit"
+ },
+ "voice": {
+  "vendor": "ElevenLabs",
+  "voice_id": "ft0WkOZmCF3NFIbyp280",
+  "model_id": "eleven_v4",
+  "settings": {
+   "stability": 0.5,
+   "similarity_boost": 0.8,
+   "style": 0.0,
+   "use_speaker_boost": true
+  },
+  "design_prompt": "A Welsh farmer in his late fifties from the Vale of Glamorgan, deep weathered gravelly voice, slow and plain-spoken, strong South Wales accent, kindly but stubborn.",
+  "gender": "male",
+  "languages": {
+   "en": {
+    "language_code": "en",
+    "transcribe_back_match": 1.0,
+    "sample": "r2:studio/characters/B_JOHN/voice/B_JOHN_en.mp3"
+   },
+   "cy": {
+    "language_code": "cy",
+    "transcribe_back_match": 0.74,
+    "sample": "r2:studio/characters/B_JOHN/voice/B_JOHN_cy.mp3"
+   },
+   "es": {
+    "language_code": "es",
+    "transcribe_back_match": 0.81,
+    "sample": "r2:studio/characters/B_JOHN/voice/B_JOHN_es.mp3"
+   }
+  },
+  "accent_notes": "Welsh characters speak with a thick South Wales (Glamorgan) accent in every language; non-Welsh characters keep their own accents. Welsh fallback for a line that fails transcribe-back: Gemini 3.8 Flash TTS voice Kore (timbre changes)."
+ }
+}

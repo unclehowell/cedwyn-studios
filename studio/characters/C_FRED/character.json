@@ -1,0 +1,43 @@
+{
+ "schema": "cedwyn-studios/character@1",
+ "id": "C_FRED",
+ "role": "the in-law",
+ "plays": "the 20th-century in-law",
+ "likeness_rule": "Invented face. Never the likeness of any real person or family member. An age or costume change is an edit of the reference portrait, never a new face; a new century gets new people (descendants or newcomers), never the same faces.",
+ "look": {
+  "reference": "r2:studio/characters/C_FRED/look/C_FRED.jpg",
+  "era_edits": [],
+  "prompt": "TODO: the reference portrait prompt was not kept in the bible; describe from the reference image before generating a new era edit"
+ },
+ "voice": {
+  "vendor": "ElevenLabs",
+  "voice_id": "XZLLk8LKa4NX4HsuCPiS",
+  "model_id": "eleven_v4",
+  "settings": {
+   "stability": 0.5,
+   "similarity_boost": 0.8,
+   "style": 0.0,
+   "use_speaker_boost": true
+  },
+  "design_prompt": "An English-born man of about forty who has lived long in South Wales, soft gentle tenor voice, shy and polite, light mixed Welsh-English accent, careful speech.",
+  "gender": "male",
+  "languages": {
+   "en": {
+    "language_code": "en",
+    "transcribe_back_match": 0.9,
+    "sample": "r2:studio/characters/C_FRED/voice/C_FRED_en.mp3"
+   },
+   "cy": {
+    "language_code": "cy",
+    "transcribe_back_match": 0.85,
+    "sample": "r2:studio/characters/C_FRED/voice/C_FRED_cy.mp3"
+   },
+   "es": {
+    "language_code": "es",
+    "transcribe_back_match": 0.94,
+    "sample": "r2:studio/characters/C_FRED/voice/C_FRED_es.mp3"
+   }
+  },
+  "accent_notes": "Welsh characters speak with a thick South Wales (Glamorgan) accent in every language; non-Welsh characters keep their own accents. Welsh fallback for a line that fails transcribe-back: Gemini 3.8 Flash TTS voice Kore (timbre changes)."
+ }
+}

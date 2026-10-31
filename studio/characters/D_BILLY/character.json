@@ -1,0 +1,43 @@
+{
+ "schema": "cedwyn-studios/character@1",
+ "id": "D_BILLY",
+ "role": "the son / the Grandson",
+ "plays": "the son, as boy and man; in the 2020s \"the Grandson\" (never named)",
+ "likeness_rule": "Invented face. Never the likeness of any real person or family member. An age or costume change is an edit of the reference portrait, never a new face; a new century gets new people (descendants or newcomers), never the same faces.",
+ "look": {
+  "reference": "r2:studio/characters/D_BILLY/look/D_BILLY.jpg",
+  "era_edits": [],
+  "prompt": "TODO: the reference portrait prompt was not kept in the bible; describe from the reference image before generating a new era edit"
+ },
+ "voice": {
+  "vendor": "ElevenLabs",
+  "voice_id": "bi1ppGIASFluT4PbdRza",
+  "model_id": "eleven_v4",
+  "settings": {
+   "stability": 0.5,
+   "similarity_boost": 0.8,
+   "style": 0.0,
+   "use_speaker_boost": true
+  },
+  "design_prompt": "A Welsh man in his mid-forties from Cardiff, clear warm baritone, thoughtful and determined, modern South Wales accent, conversational.",
+  "gender": "male",
+  "languages": {
+   "en": {
+    "language_code": "en",
+    "transcribe_back_match": 0.9,
+    "sample": "r2:studio/characters/D_BILLY/voice/D_BILLY_en.mp3"
+   },
+   "cy": {
+    "language_code": "cy",
+    "transcribe_back_match": 0.92,
+    "sample": "r2:studio/characters/D_BILLY/voice/D_BILLY_cy.mp3"
+   },
+   "es": {
+    "language_code": "es",
+    "transcribe_back_match": 1.0,
+    "sample": "r2:studio/characters/D_BILLY/voice/D_BILLY_es.mp3"
+   }
+  },
+  "accent_notes": "Welsh characters speak with a thick South Wales (Glamorgan) accent in every language; non-Welsh characters keep their own accents. Welsh fallback for a line that fails transcribe-back: Gemini 3.8 Flash TTS voice Kore (timbre changes)."
+ }
+}

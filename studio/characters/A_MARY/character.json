@@ -1,0 +1,47 @@
+{
+ "schema": "cedwyn-studios/character@1",
+ "id": "A_MARY",
+ "role": "the Williams woman",
+ "plays": "the 20th-century Williams woman and the earlier Williams women (Amy Williams 1860s); the roundhouse mother in the prologue (invented portrait `cast/A_MARY_ironage.jpg`, never a real photograph)",
+ "likeness_rule": "Invented face. Never the likeness of any real person or family member. An age or costume change is an edit of the reference portrait, never a new face; a new century gets new people (descendants or newcomers), never the same faces.",
+ "look": {
+  "reference": "r2:studio/characters/A_MARY/look/A_MARY.jpg",
+  "era_edits": [
+   "r2:studio/characters/A_MARY/look/A_MARY_1974.jpg",
+   "r2:studio/characters/A_MARY/look/A_MARY_1974_gptedit.jpg",
+   "r2:studio/characters/A_MARY/look/A_MARY_ironage.jpg"
+  ],
+  "prompt": "TODO: the reference portrait prompt was not kept in the bible; describe from the reference image before generating a new era edit"
+ },
+ "voice": {
+  "vendor": "ElevenLabs",
+  "voice_id": "uZ2F64pQ4awvfM38w9V9",
+  "model_id": "eleven_v4",
+  "settings": {
+   "stability": 0.5,
+   "similarity_boost": 0.8,
+   "style": 0.0,
+   "use_speaker_boost": true
+  },
+  "design_prompt": "A Welsh woman in her late thirties from the Vale of Glamorgan, warm, low, steady voice with a gentle South Wales lilt, plain-spoken farm woman, natural and unhurried.",
+  "gender": "female",
+  "languages": {
+   "en": {
+    "language_code": "en",
+    "transcribe_back_match": 0.93,
+    "sample": "r2:studio/characters/A_MARY/voice/A_MARY_en.mp3"
+   },
+   "cy": {
+    "language_code": "cy",
+    "transcribe_back_match": 1.0,
+    "sample": "r2:studio/characters/A_MARY/voice/A_MARY_cy.mp3"
+   },
+   "es": {
+    "language_code": "es",
+    "transcribe_back_match": 1.0,
+    "sample": "r2:studio/characters/A_MARY/voice/A_MARY_es.mp3"
+   }
+  },
+  "accent_notes": "Welsh characters speak with a thick South Wales (Glamorgan) accent in every language; non-Welsh characters keep their own accents. Welsh fallback for a line that fails transcribe-back: Gemini 3.8 Flash TTS voice Kore (timbre changes)."
+ }
+}
