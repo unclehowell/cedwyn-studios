@@ -1,0 +1,43 @@
+{
+ "schema": "cedwyn-studios/shot@1",
+ "scene": "F012",
+ "id": "S08",
+ "n": 8,
+ "type": "still-move",
+ "set": "s06",
+ "speaker": null,
+ "direction": "About 20 s. Closing still. A folded paper rests in a wire tray on the corner of the desk. Behind it, through the window, the light fades over Cardiff rooftops. The camera pulls back slowly. Ambience: the fire settles and the clock ticks.",
+ "seconds": null,
+ "start": null,
+ "still": {
+  "prompt": "photoreal 16:9 still, Victorian office desk corner 1877, a folded sheet of paper in a wire letter tray, leather document case beside it, window behind showing slate rooftops and chimneys under a dim late-afternoon sky, warm firelight, period-accurate, no legible text, no heraldry, no wax seals with emblems, no sea or harbour visible",
+  "refs": [],
+  "image": null
+ },
+ "lines": [],
+ "captions": [
+  {
+   "text": "6 Nov 1877: Mary (Nancy) Williams's account gives this date for a lease to John Williams. No matching Llandough deed has been found. The Bute lease of this date to John Williams, builder, is for Clyde Street, Roath, not the farm (CH-0026)",
+   "cite": [
+    "CH-0026"
+   ]
+  },
+  {
+   "text": "6 Nov 1877: Reported lease to John Williams. The original is not located; parties, land, plan, rent and term are unknown (EV-0008)",
+   "cite": [
+    "EV-0008"
+   ]
+  }
+ ],
+ "render": {
+  "model": "ffmpeg still-move (free)",
+  "shared": {
+   "status": "todo"
+  }
+ },
+ "qa": {
+  "status": "todo"
+ },
+ "status": "todo",
+ "order": 8
+}
