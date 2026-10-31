@@ -1,0 +1,30 @@
+{
+ "schema": "cedwyn-studios/shot@1",
+ "scene": "F001",
+ "id": "S01",
+ "n": 1,
+ "type": "still-move",
+ "set": "s08",
+ "speaker": null,
+ "direction": "Title card held over a slow push-in on a closed archive box under a reading lamp; the title 'CEDWYN' and 'A tab.bot production' are added in post.",
+ "seconds": null,
+ "start": null,
+ "still": {
+  "prompt": "Photoreal close-up of a plain grey archive box and a pair of white cotton gloves on a dark wooden reading-room table, single warm lamp, soft dust in the light, deep shadows, modern records office, shallow depth of field, no people, no text, no heraldry",
+  "refs": [],
+  "image": null
+ },
+ "lines": [],
+ "captions": [],
+ "render": {
+  "model": "ffmpeg still-move (free)",
+  "shared": {
+   "status": "todo"
+  }
+ },
+ "qa": {
+  "status": "todo"
+ },
+ "status": "todo",
+ "order": 1
+}

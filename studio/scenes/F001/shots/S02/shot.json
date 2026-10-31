@@ -1,0 +1,60 @@
+{
+ "schema": "cedwyn-studios/shot@1",
+ "scene": "F001",
+ "id": "S02",
+ "n": 2,
+ "type": "talking",
+ "set": "s08",
+ "speaker": "I_NIA",
+ "direction": "HOOK (after the title card, 0-5 s of speech): talking close-up of Nia, gloved, a single note card in her hand.",
+ "seconds": null,
+ "start": null,
+ "still": {
+  "prompt": "TODO: no still prompt in the script",
+  "refs": [],
+  "image": null
+ },
+ "lines": [
+  {
+   "who": "I_NIA",
+   "en": "Before any deed, there was a name. Whose name, and whose hill?",
+   "cy": "Cyn unrhyw weithred, roedd enw. Enw pwy, a bryn pwy?",
+   "es": "Antes de cualquier escritura, había un nombre. ¿El nombre de quién, y la colina de quién?",
+   "cite": [
+    "EV-0195"
+   ],
+   "spoken": "en",
+   "accent": "thick Welsh (Vale of Glamorgan)"
+  }
+ ],
+ "captions": [],
+ "render": {
+  "model": "bytedance/omnihuman/v2",
+  "usd_per_s": 0.105,
+  "per_language": {
+   "cy": {
+    "status": "todo",
+    "text": "Cyn unrhyw weithred, roedd enw. Enw pwy, a bryn pwy?",
+    "voice": "TODO: pick from studio/characters/<speaker>/character.json (new era = new voice)",
+    "prompt": "TODO: write per Quality bar v2 rule 5 from the still and this line"
+   },
+   "en": {
+    "status": "todo",
+    "text": "Before any deed, there was a name. Whose name, and whose hill?",
+    "voice": "TODO: pick from studio/characters/<speaker>/character.json (new era = new voice)",
+    "prompt": "TODO: write per Quality bar v2 rule 5 from the still and this line"
+   },
+   "es": {
+    "status": "todo",
+    "text": "Antes de cualquier escritura, había un nombre. ¿El nombre de quién, y la colina de quién?",
+    "voice": "TODO: pick from studio/characters/<speaker>/character.json (new era = new voice)",
+    "prompt": "TODO: write per Quality bar v2 rule 5 from the still and this line"
+   }
+  }
+ },
+ "qa": {
+  "status": "todo"
+ },
+ "status": "todo",
+ "order": 2
+}

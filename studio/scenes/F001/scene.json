@@ -1,0 +1,77 @@
+{
+ "schema": "cedwyn-studios/scene@1",
+ "id": "F001",
+ "frame_map_n": 1,
+ "title": {
+  "en": "Place-names before the deeds",
+  "cy": "Enwau lleoedd cyn y gweithredoedd",
+  "es": "Topónimos antes de las escrituras"
+ },
+ "date": "undated (placed before the records)",
+ "place": null,
+ "set": "s08",
+ "present": {
+  "I_NIA": "Nia, the archivist",
+  "D_BILLY": "the Grandson (2020s, 40s); invented face (cast/D_BILLY.jpg) - never the likeness of any real family member"
+ },
+ "logline": "Nia and the Grandson lay out place-name notes for Cedwyn, Cwm-Cedwyn and Nant-Cedwyn, tracing a name across the hill before any deed exists.",
+ "moment": null,
+ "sources": {
+  "catalogue_ids": [
+   "EV-0195",
+   "EV-0198",
+   "EV-0200",
+   "EV-0210"
+  ],
+  "urls": [],
+  "chronology": "r2:studio/chronology/CHRONOLOGY.json (event ids above)"
+ },
+ "languages": [
+  "cy",
+  "en",
+  "es"
+ ],
+ "spoken_language": "cy (Welsh) for period scenes before ~1970; en for the 2020s narrators",
+ "subtitles": "en/es subtitles for Welsh speech, cues <=2x42 chars, <=20 cps, 0.83-7 s; [in Welsh]/[en galés] marker on the first Welsh cue",
+ "accent": "Owner steer 27 Oct: thick Welsh accent for every Welsh character and both narrators; non-Welsh characters keep their own accents",
+ "continuity": "Nia's last line hands over to the hill itself: next frame opens on Llandough hill south of the future church, where the Iron-Age elder (B_JOHN) and the roundhouse mother (A_MARY) stand on ground with no record yet.",
+ "left_out": [],
+ "translation": {
+  "cy": "machine translation (claude-sonnet-5), for native review",
+  "es": "machine translation (claude-sonnet-5), for review"
+ },
+ "script_version": "v0.3.0",
+ "script_status": "v0.3.0 27 Oct 2026 script review: owner steer 27 Oct rules applied (on-camera narrators, Welsh before ~1970, thick Welsh accents, hook, subtitle split); for hive review",
+ "target_seconds": 120,
+ "estimated_seconds": 140,
+ "status": "published",
+ "status_note": "Door 1, published (F001.v2, grandfathered). JOB 1: native per-language performances after Door 2; not started.",
+ "shots": [
+  "S01",
+  "S02",
+  "S03",
+  "S04",
+  "S05",
+  "S06",
+  "S07",
+  "S08",
+  "S09",
+  "S10",
+  "S11",
+  "S12",
+  "S13"
+ ],
+ "deliverable": {
+  "per_language_video": true,
+  "quality_bar": "v2",
+  "fps": 24,
+  "codec": "VP9 two-pass",
+  "audio": "Opus 128k, -16 LUFS, LRA <= 7, TP <= -1.5",
+  "max_bytes": 26214400
+ },
+ "door": 1,
+ "published": {
+  "clip": "clips/F001.v2.webm",
+  "repo": "unclehowell/cedwyn-movie"
+ }
+}

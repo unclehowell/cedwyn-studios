@@ -1,0 +1,71 @@
+{
+ "schema": "cedwyn-studios/shot@1",
+ "scene": "F001",
+ "id": "S03",
+ "n": 3,
+ "type": "talking",
+ "set": "s08",
+ "speaker": "I_NIA",
+ "direction": "Wide establishing shot of the archive reading room; Nia pulls on cotton gloves and slides a stack of folders across to the Grandson, who sits down with his laptop. [27 Oct rule: narrators speak ON CAMERA, lip-synced; any document is a HyperFrames cutaway/overlay between talking shots, never a still under the voice.]",
+ "seconds": null,
+ "start": null,
+ "still": {
+  "prompt": "Photoreal modern county records office reading room, long wooden tables, grey archive boxes on steel shelving, tall windows with soft overcast Welsh daylight; a Welsh woman in her 30s with a black bob haircut, round tortoiseshell glasses, mustard cardigan and white cotton gloves lays out folders; opposite her a man in his 40s with dark curly hair, blue eyes, short beard and a waxed jacket opens a laptop beside paper folders; no text, no heraldry",
+  "refs": [],
+  "image": null
+ },
+ "lines": [
+  {
+   "who": "I_NIA",
+   "en": "Bore da. Gloves on before you touch anything. Before a single deed, we've got names. Just names, written in your family's research notes.",
+   "cite": [
+    "EV-0195"
+   ],
+   "cy": "Bore da. Menig ymlaen cyn i chi gyffwrdd dim byd. Cyn unrhyw weithred, mae gyda ni enwau. Dim ond enwau, wedi'u hysgrifennu yn nodiadau ymchwil eich teulu.",
+   "es": "Bore da. Guantes puestos antes de tocar nada. Antes de cualquier escritura, tenemos nombres. Solo nombres, escritos en las notas de investigación de tu familia.",
+   "spoken": "en",
+   "accent": "thick Welsh (Vale of Glamorgan)"
+  },
+  {
+   "who": "D_BILLY",
+   "en": "Cedwyn. That's the word I keep tripping over. Cedwyn, Cwm-Cedwyn, Nant-Cedwyn, Ynys-Cedwyn. Then Cedfin, Cydfin, Cydwin. And Tŷ Mawr, the Great House.",
+   "cite": [
+    "EV-0195"
+   ],
+   "cy": "Cedwyn. Dyna'r gair dwi'n baglu drosto o hyd. Cedwyn, Cwm-Cedwyn, Nant-Cedwyn, Ynys-Cedwyn. Wedyn Cedfin, Cydfin, Cydwin. A Tŷ Mawr, y 'Great House'.",
+   "es": "Cedwyn. Esa es la palabra con la que tropiezo. Cedwyn, Cwm-Cedwyn, Nant-Cedwyn, Ynys-Cedwyn. Luego Cedfin, Cydfin, Cydwin. Y Tŷ Mawr, la Casa Grande.",
+   "spoken": "en",
+   "accent": "thick Welsh (Vale of Glamorgan)"
+  }
+ ],
+ "captions": [],
+ "render": {
+  "model": "bytedance/omnihuman/v2",
+  "usd_per_s": 0.105,
+  "per_language": {
+   "cy": {
+    "status": "todo",
+    "text": "Bore da. Menig ymlaen cyn i chi gyffwrdd dim byd. Cyn unrhyw weithred, mae gyda ni enwau. Dim ond enwau, wedi'u hysgrifennu yn nodiadau ymchwil eich teulu. / Cedwyn. Dyna'r gair dwi'n baglu drosto o hyd. Cedwyn, Cwm-Cedwyn, Nant-Cedwyn, Ynys-Cedwyn. Wedyn Cedfin, Cydfin, Cydwin. A Tŷ Mawr, y 'Great House'.",
+    "voice": "TODO: pick from studio/characters/<speaker>/character.json (new era = new voice)",
+    "prompt": "TODO: write per Quality bar v2 rule 5 from the still and this line"
+   },
+   "en": {
+    "status": "todo",
+    "text": "Bore da. Gloves on before you touch anything. Before a single deed, we've got names. Just names, written in your family's research notes. / Cedwyn. That's the word I keep tripping over. Cedwyn, Cwm-Cedwyn, Nant-Cedwyn, Ynys-Cedwyn. Then Cedfin, Cydfin, Cydwin. And Tŷ Mawr, the Great House.",
+    "voice": "TODO: pick from studio/characters/<speaker>/character.json (new era = new voice)",
+    "prompt": "TODO: write per Quality bar v2 rule 5 from the still and this line"
+   },
+   "es": {
+    "status": "todo",
+    "text": "Bore da. Guantes puestos antes de tocar nada. Antes de cualquier escritura, tenemos nombres. Solo nombres, escritos en las notas de investigación de tu familia. / Cedwyn. Esa es la palabra con la que tropiezo. Cedwyn, Cwm-Cedwyn, Nant-Cedwyn, Ynys-Cedwyn. Luego Cedfin, Cydfin, Cydwin. Y Tŷ Mawr, la Casa Grande.",
+    "voice": "TODO: pick from studio/characters/<speaker>/character.json (new era = new voice)",
+    "prompt": "TODO: write per Quality bar v2 rule 5 from the still and this line"
+   }
+  }
+ },
+ "qa": {
+  "status": "todo"
+ },
+ "status": "todo",
+ "order": 3
+}
