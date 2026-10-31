@@ -1,0 +1,60 @@
+{
+ "schema": "cedwyn-studios/shot@1",
+ "scene": "F009",
+ "id": "S07",
+ "n": 7,
+ "type": "talking",
+ "set": "s02",
+ "speaker": "F_GWEN",
+ "direction": "Gwen at the dresser lifts the candle and puts on her spectacles, practical in grief. She speaks to John. Who sent the death notice is not known. Here it is shown as a neighbour's offer, the most likely kind of moment.",
+ "seconds": null,
+ "start": null,
+ "still": {
+  "prompt": "Photoreal 16:9 medium shot, 1864 Welsh farmhouse kitchen, a round-faced woman in her sixties with silver curls and rosy cheeks, in a dark shawl, putting on small wire spectacles beside an oak dresser while holding a brass candlestick, her expression resolute and tender, firelight behind, no text, no heraldry",
+  "refs": [],
+  "image": null
+ },
+ "lines": [
+  {
+   "who": "F_GWEN",
+   "spoken": "cy",
+   "accent": "South Wales Welsh (Glamorgan); English words of the notice spoken with a Welsh accent; native review needed",
+   "cy": "Fe sgrifenna i at y Cardiff Times. 'Relict of the late Mr. John Williams, Great House farm.' Fel 'na ddyle fe fod yn y papur, John.",
+   "en": "I'll write to the Cardiff Times. 'Relict of the late Mr. John Williams, Great House farm.' That's how it should stand in the paper, John.",
+   "es": "Le voy a escribir al Cardiff Times. «Viuda del finado señor John Williams, granja Great House». Así tiene que salir en el diario, John.",
+   "cite": [
+    "CH-0014"
+   ]
+  }
+ ],
+ "captions": [],
+ "render": {
+  "model": "bytedance/omnihuman/v2",
+  "usd_per_s": 0.105,
+  "per_language": {
+   "cy": {
+    "status": "todo",
+    "text": "Fe sgrifenna i at y Cardiff Times. 'Relict of the late Mr. John Williams, Great House farm.' Fel 'na ddyle fe fod yn y papur, John.",
+    "voice": "TODO: pick from studio/characters/<speaker>/character.json (new era = new voice)",
+    "prompt": "TODO: write per Quality bar v2 rule 5 from the still and this line"
+   },
+   "en": {
+    "status": "todo",
+    "text": "I'll write to the Cardiff Times. 'Relict of the late Mr. John Williams, Great House farm.' That's how it should stand in the paper, John.",
+    "voice": "TODO: pick from studio/characters/<speaker>/character.json (new era = new voice)",
+    "prompt": "TODO: write per Quality bar v2 rule 5 from the still and this line"
+   },
+   "es": {
+    "status": "todo",
+    "text": "Le voy a escribir al Cardiff Times. «Viuda del finado señor John Williams, granja Great House». Así tiene que salir en el diario, John.",
+    "voice": "TODO: pick from studio/characters/<speaker>/character.json (new era = new voice)",
+    "prompt": "TODO: write per Quality bar v2 rule 5 from the still and this line"
+   }
+  }
+ },
+ "qa": {
+  "status": "todo"
+ },
+ "status": "todo",
+ "order": 7
+}

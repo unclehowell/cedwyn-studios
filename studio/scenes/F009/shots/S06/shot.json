@@ -1,0 +1,60 @@
+{
+ "schema": "cedwyn-studios/shot@1",
+ "scene": "F009",
+ "id": "S06",
+ "n": 6,
+ "type": "talking",
+ "set": "s02",
+ "speaker": "B_JOHN",
+ "direction": "Medium close on John as he stands, still holding his mother's hand, and speaks quietly to Gwen.",
+ "seconds": null,
+ "start": null,
+ "still": {
+  "prompt": "Photoreal 16:9 medium close, 1864, a weathered Welsh farmer in his forties with a broad face and grey-flecked beard, wearing a collarless shirt and dark waistcoat, standing beside a box bed in a firelit farmhouse kitchen, eyes wet, holding an old woman's hand, bare head, warm amber light, no text, no heraldry",
+  "refs": [],
+  "image": null
+ },
+ "lines": [
+  {
+   "who": "B_JOHN",
+   "spoken": "cy",
+   "accent": "South Wales Welsh (Glamorgan), quiet and steady; native review needed",
+   "cy": "Ma' hi wedi mynd, Gwen. Chwe deg pump o'dd hi. Hi gadwodd y gegin 'ma, bob gaea'.",
+   "en": "She's gone, Gwen. Sixty-five, she was. She kept this kitchen, every winter.",
+   "es": "Se fue, Gwen. Tenía sesenta y cinco años. Ella sostuvo esta cocina, invierno tras invierno.",
+   "cite": [
+    "CH-0014"
+   ]
+  }
+ ],
+ "captions": [],
+ "render": {
+  "model": "bytedance/omnihuman/v2",
+  "usd_per_s": 0.105,
+  "per_language": {
+   "cy": {
+    "status": "todo",
+    "text": "Ma' hi wedi mynd, Gwen. Chwe deg pump o'dd hi. Hi gadwodd y gegin 'ma, bob gaea'.",
+    "voice": "TODO: pick from studio/characters/<speaker>/character.json (new era = new voice)",
+    "prompt": "TODO: write per Quality bar v2 rule 5 from the still and this line"
+   },
+   "en": {
+    "status": "todo",
+    "text": "She's gone, Gwen. Sixty-five, she was. She kept this kitchen, every winter.",
+    "voice": "TODO: pick from studio/characters/<speaker>/character.json (new era = new voice)",
+    "prompt": "TODO: write per Quality bar v2 rule 5 from the still and this line"
+   },
+   "es": {
+    "status": "todo",
+    "text": "Se fue, Gwen. Tenía sesenta y cinco años. Ella sostuvo esta cocina, invierno tras invierno.",
+    "voice": "TODO: pick from studio/characters/<speaker>/character.json (new era = new voice)",
+    "prompt": "TODO: write per Quality bar v2 rule 5 from the still and this line"
+   }
+  }
+ },
+ "qa": {
+  "status": "todo"
+ },
+ "status": "todo",
+ "order": 6
+}

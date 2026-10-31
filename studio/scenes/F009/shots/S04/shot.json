@@ -1,0 +1,61 @@
+{
+ "schema": "cedwyn-studios/shot@1",
+ "scene": "F009",
+ "id": "S04",
+ "n": 4,
+ "type": "talking",
+ "set": "s02",
+ "speaker": "A_MARY",
+ "direction": "Close shot of Amy on the pillow, grey hair loose from its bun. Her eyes open as John kneels and takes her other hand. She speaks to him faintly, with effort.",
+ "seconds": null,
+ "start": null,
+ "still": {
+  "prompt": "Photoreal 16:9 close shot, 1864, an elderly Welsh woman aged about 65 lying on white linen pillows in a wooden box bed, grey hair partly loosened from a bun, strong cheekbones, grey-green eyes, a small mole on her left cheek, pale and frail, a heavy weathered male hand holding hers in the foreground, warm firelight on one side of her face, no text, no heraldry",
+  "refs": [],
+  "image": null
+ },
+ "lines": [
+  {
+   "who": "A_MARY",
+   "spoken": "cy",
+   "accent": "South Wales Welsh (Glamorgan), elderly and faint; native review needed",
+   "cy": "John bach… paid â gadel i'r tân fynd mas. Ddim dros y Nadolig. Ma'r caeau yn dy ddwylo di nawr, fel o'n nhw yn nwylo dy dad.",
+   "en": "John, bach… don't let the fire go out. Not over Christmas. The fields are in your hands now, as they were in your father's.",
+   "es": "John, querido… no dejés que se apague el fuego. No en Navidad. Los campos están en tus manos ahora, como estuvieron en las de tu padre.",
+   "cite": [
+    "CH-0013",
+    "CH-0014"
+   ]
+  }
+ ],
+ "captions": [],
+ "render": {
+  "model": "bytedance/omnihuman/v2",
+  "usd_per_s": 0.105,
+  "per_language": {
+   "cy": {
+    "status": "todo",
+    "text": "John bach… paid â gadel i'r tân fynd mas. Ddim dros y Nadolig. Ma'r caeau yn dy ddwylo di nawr, fel o'n nhw yn nwylo dy dad.",
+    "voice": "TODO: pick from studio/characters/<speaker>/character.json (new era = new voice)",
+    "prompt": "TODO: write per Quality bar v2 rule 5 from the still and this line"
+   },
+   "en": {
+    "status": "todo",
+    "text": "John, bach… don't let the fire go out. Not over Christmas. The fields are in your hands now, as they were in your father's.",
+    "voice": "TODO: pick from studio/characters/<speaker>/character.json (new era = new voice)",
+    "prompt": "TODO: write per Quality bar v2 rule 5 from the still and this line"
+   },
+   "es": {
+    "status": "todo",
+    "text": "John, querido… no dejés que se apague el fuego. No en Navidad. Los campos están en tus manos ahora, como estuvieron en las de tu padre.",
+    "voice": "TODO: pick from studio/characters/<speaker>/character.json (new era = new voice)",
+    "prompt": "TODO: write per Quality bar v2 rule 5 from the still and this line"
+   }
+  }
+ },
+ "qa": {
+  "status": "todo"
+ },
+ "status": "todo",
+ "order": 4
+}

@@ -1,0 +1,37 @@
+{
+ "schema": "cedwyn-studios/shot@1",
+ "scene": "F009",
+ "id": "S05",
+ "n": 5,
+ "type": "still-move",
+ "set": "s02",
+ "speaker": null,
+ "direction": "Wide, still. Amy's breathing stops. John stays kneeling with his head bowed over her hand. Gwen rises slowly and lays the blanket straight. The clock ticks on and the fire settles. Very slow pull back. Ambience only.",
+ "seconds": null,
+ "start": null,
+ "still": {
+  "prompt": "Photoreal 16:9 still, 1864 Welsh farmhouse kitchen at night, wide view, a broad-faced farmer in his forties with a grey-flecked beard and heavy hands, in a waistcoat and shirtsleeves, kneeling with his head bowed beside a box bed where an elderly woman lies at peace, an older neighbour woman in a shawl standing and smoothing the blanket, the inglenook fire low, a longcase clock in shadow, candle guttering, solemn stillness, no text, no heraldry",
+  "refs": [],
+  "image": null
+ },
+ "lines": [],
+ "captions": [
+  {
+   "text": "23 Dec 1864: Amy Williams, \"relict of the late Mr. John Williams, Great House farm\", dies at Llandough, aged 65 (CH-0014)",
+   "cite": [
+    "CH-0014"
+   ]
+  }
+ ],
+ "render": {
+  "model": "ffmpeg still-move (free)",
+  "shared": {
+   "status": "todo"
+  }
+ },
+ "qa": {
+  "status": "todo"
+ },
+ "status": "todo",
+ "order": 5
+}
