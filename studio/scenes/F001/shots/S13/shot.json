@@ -1,0 +1,71 @@
+{
+ "schema": "cedwyn-studios/shot@1",
+ "scene": "F001",
+ "id": "S13",
+ "n": 13,
+ "type": "talking",
+ "set": "s08",
+ "speaker": "D_BILLY",
+ "direction": "Two-shot: the Grandson closes his laptop, Nia gathers the cards into one pile; the window light shifts toward the hills outside. [27 Oct rule: narrators speak ON CAMERA, lip-synced; any document is a HyperFrames cutaway/overlay between talking shots, never a still under the voice.]",
+ "seconds": null,
+ "start": null,
+ "still": {
+  "prompt": "Photoreal two-shot in a modern archive reading room: a Welsh woman in her 30s with black bob, tortoiseshell glasses, mustard cardigan and cotton gloves stacking index cards; a man in his 40s with dark curly hair, short beard and waxed jacket closing a laptop; tall window behind showing green hills under grey sky, no text, no heraldry",
+  "refs": [],
+  "image": null
+ },
+ "lines": [
+  {
+   "who": "D_BILLY",
+   "en": "So the film starts with a name we can't pin down.",
+   "cite": [
+    "EV-0195"
+   ],
+   "cy": "Felly mae'r ffilm yn dechrau gydag enw dy'n ni ddim yn gallu ei bennu.",
+   "es": "Entonces la película empieza con un nombre que no podemos ubicar.",
+   "spoken": "en",
+   "accent": "thick Welsh (Vale of Glamorgan)"
+  },
+  {
+   "who": "I_NIA",
+   "en": "It starts honest. A name, and a hill that came before it. Let's go and stand on the hill.",
+   "cite": [
+    "EV-0195"
+   ],
+   "cy": "Mae'n dechrau'n onest. Enw, a bryn oedd yno o'i flaen. Dewch i ni fynd i sefyll ar y bryn.",
+   "es": "Empieza con honestidad. Un nombre, y una colina que vino antes. Vamos a pararnos en la colina.",
+   "spoken": "en",
+   "accent": "thick Welsh (Vale of Glamorgan)"
+  }
+ ],
+ "captions": [],
+ "render": {
+  "model": "bytedance/omnihuman/v2",
+  "usd_per_s": 0.105,
+  "per_language": {
+   "cy": {
+    "status": "todo",
+    "text": "Felly mae'r ffilm yn dechrau gydag enw dy'n ni ddim yn gallu ei bennu. / Mae'n dechrau'n onest. Enw, a bryn oedd yno o'i flaen. Dewch i ni fynd i sefyll ar y bryn.",
+    "voice": "TODO: pick from studio/characters/<speaker>/character.json (new era = new voice)",
+    "prompt": "TODO: write per Quality bar v2 rule 5 from the still and this line"
+   },
+   "en": {
+    "status": "todo",
+    "text": "So the film starts with a name we can't pin down. / It starts honest. A name, and a hill that came before it. Let's go and stand on the hill.",
+    "voice": "TODO: pick from studio/characters/<speaker>/character.json (new era = new voice)",
+    "prompt": "TODO: write per Quality bar v2 rule 5 from the still and this line"
+   },
+   "es": {
+    "status": "todo",
+    "text": "Entonces la película empieza con un nombre que no podemos ubicar. / Empieza con honestidad. Un nombre, y una colina que vino antes. Vamos a pararnos en la colina.",
+    "voice": "TODO: pick from studio/characters/<speaker>/character.json (new era = new voice)",
+    "prompt": "TODO: write per Quality bar v2 rule 5 from the still and this line"
+   }
+  }
+ },
+ "qa": {
+  "status": "todo"
+ },
+ "status": "todo",
+ "order": 13
+}

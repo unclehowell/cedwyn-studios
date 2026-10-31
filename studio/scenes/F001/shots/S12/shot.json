@@ -1,0 +1,60 @@
+{
+ "schema": "cedwyn-studios/shot@1",
+ "scene": "F001",
+ "id": "S12",
+ "n": 12,
+ "type": "talking",
+ "set": "s08",
+ "speaker": "I_NIA",
+ "direction": "Close-up on Nia, tapping the card once.",
+ "seconds": null,
+ "start": null,
+ "still": {
+  "prompt": "Photoreal close-up of a Welsh woman in her 30s, black bob haircut, round tortoiseshell glasses, mustard cardigan, cotton-gloved finger resting on an index card, archive reading room, warm lamp light, no text, no heraldry",
+  "refs": [],
+  "image": null
+ },
+ "lines": [
+  {
+   "who": "I_NIA",
+   "en": "Not yet. No primary source, the place and the giant both waiting to be checked, and no link to Tŷ Mawr written down.",
+   "cite": [
+    "EV-0210"
+   ],
+   "cy": "Dim eto. Sdim ffynhonnell wreiddiol, mae'r lle a'r cawr ill dau'n aros i gael eu gwirio, a sdim cyswllt â Thŷ Mawr wedi'i gofnodi.",
+   "es": "Todavía no. No hay fuente primaria, el lugar y el gigante aún esperan ser verificados, y no hay ningún vínculo con Tŷ Mawr registrado por escrito.",
+   "spoken": "en",
+   "accent": "thick Welsh (Vale of Glamorgan)"
+  }
+ ],
+ "captions": [],
+ "render": {
+  "model": "bytedance/omnihuman/v2",
+  "usd_per_s": 0.105,
+  "per_language": {
+   "cy": {
+    "status": "todo",
+    "text": "Dim eto. Sdim ffynhonnell wreiddiol, mae'r lle a'r cawr ill dau'n aros i gael eu gwirio, a sdim cyswllt â Thŷ Mawr wedi'i gofnodi.",
+    "voice": "TODO: pick from studio/characters/<speaker>/character.json (new era = new voice)",
+    "prompt": "TODO: write per Quality bar v2 rule 5 from the still and this line"
+   },
+   "en": {
+    "status": "todo",
+    "text": "Not yet. No primary source, the place and the giant both waiting to be checked, and no link to Tŷ Mawr written down.",
+    "voice": "TODO: pick from studio/characters/<speaker>/character.json (new era = new voice)",
+    "prompt": "TODO: write per Quality bar v2 rule 5 from the still and this line"
+   },
+   "es": {
+    "status": "todo",
+    "text": "Todavía no. No hay fuente primaria, el lugar y el gigante aún esperan ser verificados, y no hay ningún vínculo con Tŷ Mawr registrado por escrito.",
+    "voice": "TODO: pick from studio/characters/<speaker>/character.json (new era = new voice)",
+    "prompt": "TODO: write per Quality bar v2 rule 5 from the still and this line"
+   }
+  }
+ },
+ "qa": {
+  "status": "todo"
+ },
+ "status": "todo",
+ "order": 12
+}
