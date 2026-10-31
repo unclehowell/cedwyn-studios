@@ -1,0 +1,80 @@
+{
+ "schema": "cedwyn-studios/shot@1",
+ "scene": "F002",
+ "id": "S14",
+ "n": 14,
+ "type": "talking",
+ "set": null,
+ "speaker": "A_MARY",
+ "direction": "His wife keeps binding a sheaf beside a basket holding bread and a glossy red bowl. Then thresh it quick, she answers: the quern is hungry and so are the children; fine red pots from far off, and they still eat the same porridge out of them.",
+ "seconds": 11.0,
+ "start": 93.04,
+ "still": {
+  "prompt": "TODO: the still prompt for this image was not kept with the Door 2 plan; the image itself is the reference",
+  "image": "r2:studio/scenes/F002/stills/rL2.jpg",
+  "origin": "cedwyn-movie:assets/F002/stills/rL2.jpg",
+  "refs": []
+ },
+ "lines": [
+  {
+   "who": "A_MARY",
+   "cy": "Dyrna fe'n glou, 'te. Ma'r freuan yn llwgu, a'r plant 'fyd. Potiau coch crand o bell, a ni'n dal i fyta'r un uwd mas ohonyn nhw.",
+   "en": "Then thresh it quick. The quern's hungry, and so are the children. Fine red pots from far off, and we still eat the same porridge out of them.",
+   "es": "Entonces trillalo rápido. La piedra de moler tiene hambre, y los chicos también. Ollas rojas finas de lejos, y seguimos comiendo la misma mazamorra en ellas.",
+   "cite": [
+    "PX-02"
+   ]
+  }
+ ],
+ "captions": [],
+ "render": {
+  "model": "bytedance/omnihuman/v2",
+  "usd_per_s": 0.105,
+  "per_language": {
+   "en": {
+    "status": "prepared",
+    "text": "Then thresh it quick. The quern's hungry, and so are the children. Fine red pots from far off, and we still eat the same porridge out of them.",
+    "voice": "F_GWEN",
+    "speech_s": 9.561,
+    "shot_s": 10.76,
+    "f0_median_hz": 258.0,
+    "transcribe_match": 1.0,
+    "line": "r2:studio/scenes/F002/shots/S14/lines/en.mp3",
+    "audio": "r2:studio/scenes/F002/shots/S14/lines/en.adj.wav",
+    "prompt": "His wife keeps binding a sheaf beside a basket holding bread and a glossy red bowl. Then thresh it quick, she answers: the quern is hungry and so are the children; fine red pots from far off, and they still eat the same porridge out of them. She keeps head and eyes turned three-quarters toward her husband off-screen for the whole shot and speaks, calmly, \"Then thresh it quick. The quern's hungry, and so are the children. Fine red pots from far off, and we still eat the same porridge out of them.\" Natural blinks, small head movements; never faces the camera. Keep the still's light and colours. Natural skin texture, no CGI gloss, no text.",
+    "est_usd": 1.155
+   },
+   "es": {
+    "status": "prepared",
+    "text": "Entonces trillalo rápido. La piedra de moler tiene hambre, y los chicos también. Ollas rojas finas de lejos, y seguimos comiendo la misma mazamorra en ellas.",
+    "voice": "oai:coral",
+    "tempo": 1.118,
+    "speech_s": 10.22,
+    "shot_s": 11.02,
+    "f0_median_hz": 216.0,
+    "transcribe_match": 0.96,
+    "line": "r2:studio/scenes/F002/shots/S14/lines/es.mp3",
+    "audio": "r2:studio/scenes/F002/shots/S14/lines/es.adj.wav",
+    "prompt": "His wife keeps binding a sheaf beside a basket holding bread and a glossy red bowl. Then thresh it quick, she answers: the quern is hungry and so are the children; fine red pots from far off, and they still eat the same porridge out of them. She keeps head and eyes turned three-quarters toward her husband off-screen for the whole shot and speaks, calmly, \"Entonces trillalo rápido. La piedra de moler tiene hambre, y los chicos también. Ollas rojas finas de lejos, y seguimos comiendo la misma mazamorra en ellas.\" Natural blinks, small head movements; never faces the camera. Keep the still's light and colours. Natural skin texture, no CGI gloss, no text.",
+    "est_usd": 1.26
+   },
+   "cy": {
+    "status": "done",
+    "text": "Dyrna fe'n glou, 'te. Ma'r freuan yn llwgu, a'r plant 'fyd. Potiau coch crand o bell, a ni'n dal i fyta'r un uwd mas ohonyn nhw.",
+    "take": "r2:studio/scenes/F002/shots/S14/takes/cy/s14.mp4",
+    "note": "Welsh OmniHuman render (the native Welsh performance used in the published cut F002.v6); voice per the Door 2 v1.0.2 recast.",
+    "qa": "published in F002.v6 (grandfathered; Quality bar v2 gate not run on the original take)"
+   }
+  }
+ },
+ "qa": {
+  "status": "todo"
+ },
+ "status": "in_progress",
+ "animate_note": "omnihuman",
+ "published_window_v6": [
+  92.734,
+  102.974
+ ],
+ "era": "c. AD 200"
+}

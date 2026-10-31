@@ -1,0 +1,41 @@
+{
+ "schema": "cedwyn-studios/shot@1",
+ "scene": "F002",
+ "id": "S12",
+ "n": 12,
+ "type": "i2v",
+ "set": null,
+ "speaker": null,
+ "direction": "Time jump. Caption: c. AD 200, the same hill four hundred years on, a Romano-British farm at harvest. A late-summer field of spelt wheat, half reaped and stooked in rows, the river and marsh below; skylarks and wind.",
+ "seconds": 6.32,
+ "start": 75.72,
+ "still": {
+  "prompt": "TODO: no still prompt in the script",
+  "refs": [],
+  "image": null
+ },
+ "lines": [],
+ "captions": [
+  "c. AD 200 · The same hill, four hundred years on"
+ ],
+ "render": {
+  "model": "kling 2.5 turbo i2v (rendered)",
+  "shared": {
+   "status": "done",
+   "source": "r2:studio/scenes/F002/shots/S12/source/aST1.mp4",
+   "source_seconds": 5.042,
+   "fit": "setpts=PTS*(window/5.042) at 24 fps",
+   "note": "S2v5/i2v/aST1.mp4 (bilingual card baked in v6; keep v6)",
+   "assemble_from": "published window of clips/F002.v6.webm (bilingual card baked in; the one allowed re-cut)"
+  }
+ },
+ "qa": {
+  "status": "pass"
+ },
+ "status": "done",
+ "animate_note": "i2v (Kling 2.5 turbo)",
+ "published_window_v6": [
+  75.734,
+  82.054
+ ]
+}

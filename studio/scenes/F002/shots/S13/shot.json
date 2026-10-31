@@ -1,0 +1,80 @@
+{
+ "schema": "cedwyn-studios/shot@1",
+ "scene": "F002",
+ "id": "S13",
+ "n": 13,
+ "type": "talking",
+ "set": null,
+ "speaker": "B_JOHN",
+ "direction": "The farmer, bareheaded in a wool tunic and cloak with a bronze brooch, rubs an ear of spelt between his palms and talks to his wife: the fires are already lit up at the stone house over the brow, the spelt is good this year and dry enough to thresh before the rain comes up the valley.",
+ "seconds": 11.0,
+ "start": 82.04,
+ "still": {
+  "prompt": "TODO: the still prompt for this image was not kept with the Door 2 plan; the image itself is the reference",
+  "image": "r2:studio/scenes/F002/stills/rL1.jpg",
+  "origin": "cedwyn-movie:assets/F002/stills/rL1.jpg",
+  "refs": []
+ },
+ "lines": [
+  {
+   "who": "B_JOHN",
+   "cy": "Weli di'r mwg dros y grib? Ma' tân 'da nhw lan yn y tŷ cerrig yn barod. Sbelt da eleni. Digon sych i'w ddyrnu cyn i'r glaw ddod lan y cwm.",
+   "en": "See the smoke over the brow? They've the fires lit up at the stone house already. Good spelt this year. Dry enough to thresh before the rain comes up the valley.",
+   "es": "¿Ves el humo sobre la cresta? Ya prendieron los fuegos allá arriba en la casa de piedra. Buen trigo espelta este año. Bastante seco para trillarlo antes de que la lluvia suba por el valle.",
+   "cite": [
+    "PX-02"
+   ]
+  }
+ ],
+ "captions": [],
+ "render": {
+  "model": "bytedance/omnihuman/v2",
+  "usd_per_s": 0.105,
+  "per_language": {
+   "en": {
+    "status": "prepared",
+    "text": "See the smoke over the brow? They've the fires lit up at the stone house already. Good spelt this year. Dry enough to thresh before the rain comes up the valley.",
+    "voice": "C_FRED",
+    "speech_s": 9.247,
+    "shot_s": 10.45,
+    "f0_median_hz": 123.0,
+    "transcribe_match": 1.0,
+    "line": "r2:studio/scenes/F002/shots/S13/lines/en.mp3",
+    "audio": "r2:studio/scenes/F002/shots/S13/lines/en.adj.wav",
+    "prompt": "The farmer, bareheaded in a wool tunic and cloak with a bronze brooch, rubs an ear of spelt between his palms and talks to his wife: the fires are already lit up at the stone house over the brow, the spelt is good this year and dry enough to thresh before the rain comes up the valley. He keeps head and eyes turned three-quarters toward his wife off-screen for the whole shot and speaks, calmly, \"See the smoke over the brow? They've the fires lit up at the stone house already. Good spelt this year. Dry enough to thresh before the rain comes up the valley.\" Natural blinks, small head movements; never faces the camera. Keep the still's light and colours. Natural skin texture, no CGI gloss, no text.",
+    "est_usd": 1.155
+   },
+   "es": {
+    "status": "prepared",
+    "text": "¿Ves el humo sobre la cresta? Ya prendieron los fuegos allá arriba en la casa de piedra. Buen trigo espelta este año. Bastante seco para trillarlo antes de que la lluvia suba por el valle.",
+    "voice": "oai:ash",
+    "tempo": 1.12,
+    "speech_s": 12.77,
+    "shot_s": 13.57,
+    "f0_median_hz": 124.0,
+    "transcribe_match": 1.0,
+    "line": "r2:studio/scenes/F002/shots/S13/lines/es.mp3",
+    "audio": "r2:studio/scenes/F002/shots/S13/lines/es.adj.wav",
+    "prompt": "The farmer, bareheaded in a wool tunic and cloak with a bronze brooch, rubs an ear of spelt between his palms and talks to his wife: the fires are already lit up at the stone house over the brow, the spelt is good this year and dry enough to thresh before the rain comes up the valley. He keeps head and eyes turned three-quarters toward his wife off-screen for the whole shot and speaks, calmly, \"¿Ves el humo sobre la cresta? Ya prendieron los fuegos allá arriba en la casa de piedra. Buen trigo espelta este año. Bastante seco para trillarlo antes de que la lluvia suba por el valle.\" Natural blinks, small head movements; never faces the camera. Keep the still's light and colours. Natural skin texture, no CGI gloss, no text.",
+    "est_usd": 1.47
+   },
+   "cy": {
+    "status": "done",
+    "text": "Weli di'r mwg dros y grib? Ma' tân 'da nhw lan yn y tŷ cerrig yn barod. Sbelt da eleni. Digon sych i'w ddyrnu cyn i'r glaw ddod lan y cwm.",
+    "take": "r2:studio/scenes/F002/shots/S13/takes/cy/s13.mp4",
+    "note": "Welsh OmniHuman render (the native Welsh performance used in the published cut F002.v6); voice per the Door 2 v1.0.2 recast.",
+    "qa": "published in F002.v6 (grandfathered; Quality bar v2 gate not run on the original take)"
+   }
+  }
+ },
+ "qa": {
+  "status": "todo"
+ },
+ "status": "in_progress",
+ "animate_note": "omnihuman",
+ "published_window_v6": [
+  82.054,
+  92.734
+ ],
+ "era": "c. AD 200"
+}
