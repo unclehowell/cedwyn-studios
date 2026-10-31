@@ -1,0 +1,30 @@
+{
+ "schema": "cedwyn-studios/shot@1",
+ "scene": "F011",
+ "id": "S02",
+ "n": 2,
+ "type": "still-move",
+ "set": "s03",
+ "speaker": null,
+ "direction": "Interior of the vestry, lamplit. The parish clerk sits at a plain oak table with a large ruled rate book open, an inkwell and a steel-nibbed pen. The Bute estate agent stands at his shoulder in a dark frock coat with a leather document case under his arm, reading the entries upside-down. Gwen waits by the door in her shawl, with a thick new directory held against her chest. A slow lateral move across the table. Ambience: pen scratching, clock ticking, rain on the window.",
+ "seconds": null,
+ "start": null,
+ "still": {
+  "prompt": "Photoreal 16:9 still, 1876 Welsh church vestry interior, oil lamp light, plain oak table with a large open ledger, inkwell and dip pen. Seated: an austere parish clerk in his 60s with a long face, white hair, dark Victorian coat and high collar, no wig. Standing beside him: a pale clean-shaven estate agent in his 50s with thin-rimmed spectacles, dark frock coat, leather document case. By the door: a woman in her 60s with a round face, rosy cheeks, silver curls, wool shawl over a floral apron, reading glasses on a chain, holding a thick cloth-bound book. Whitewashed walls, hanging surplice, rain-streaked window, period-accurate, invented faces, no legible text, no heraldry",
+  "refs": [],
+  "image": null
+ },
+ "lines": [],
+ "captions": [],
+ "render": {
+  "model": "ffmpeg still-move (free)",
+  "shared": {
+   "status": "todo"
+  }
+ },
+ "qa": {
+  "status": "todo"
+ },
+ "status": "todo",
+ "order": 2
+}

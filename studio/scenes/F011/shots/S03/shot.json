@@ -1,0 +1,61 @@
+{
+ "schema": "cedwyn-studios/shot@1",
+ "scene": "F011",
+ "id": "S03",
+ "n": 3,
+ "type": "talking",
+ "set": "s03",
+ "speaker": "H_CLERK",
+ "direction": "Medium close on the clerk. He reads each entry aloud as he writes it, in the even voice of a man who has done this many times. He checks it against the previous rate book beside him and gives a small nod.",
+ "seconds": null,
+ "start": null,
+ "still": {
+  "prompt": "Photoreal 16:9 medium close-up, 1876, austere parish clerk in his 60s with a long face and white hair, dark Victorian coat, writing in a large ledger with a dip pen by oil lamp light, a second older ledger open beside him, whitewashed vestry wall behind, period-accurate, invented face, no legible text, no heraldry",
+  "refs": [],
+  "image": null
+ },
+ "lines": [
+  {
+   "who": "H_CLERK",
+   "spoken": "cy",
+   "accent": "Glamorgan (Bro Morgannwg) Welsh, formal and measured; cy marked for native review",
+   "cy": "John Williams. Fferm. Perchennog: yr Arglwydd Bute. Tua un erw ar bymtheg a thrigain. Gros: un bunt a deugain, a dim swllt. Yr un fath â'r dreth ddiwethaf.",
+   "en": "John Williams. Farm. Owner: Lord Bute. About seventy-six acres. Gross: forty-one pounds, and nought shillings. The same as the last rate.",
+   "es": "John Williams. Granja. Propietario: Lord Bute. Unos setenta y seis acres. Bruto: cuarenta y una libras, y cero chelines. Igual que en la tasa anterior.",
+   "cite": [
+    "CH-0023",
+    "EV-0212"
+   ]
+  }
+ ],
+ "captions": [],
+ "render": {
+  "model": "bytedance/omnihuman/v2",
+  "usd_per_s": 0.105,
+  "per_language": {
+   "cy": {
+    "status": "todo",
+    "text": "John Williams. Fferm. Perchennog: yr Arglwydd Bute. Tua un erw ar bymtheg a thrigain. Gros: un bunt a deugain, a dim swllt. Yr un fath â'r dreth ddiwethaf.",
+    "voice": "TODO: pick from studio/characters/<speaker>/character.json (new era = new voice)",
+    "prompt": "TODO: write per Quality bar v2 rule 5 from the still and this line"
+   },
+   "en": {
+    "status": "todo",
+    "text": "John Williams. Farm. Owner: Lord Bute. About seventy-six acres. Gross: forty-one pounds, and nought shillings. The same as the last rate.",
+    "voice": "TODO: pick from studio/characters/<speaker>/character.json (new era = new voice)",
+    "prompt": "TODO: write per Quality bar v2 rule 5 from the still and this line"
+   },
+   "es": {
+    "status": "todo",
+    "text": "John Williams. Granja. Propietario: Lord Bute. Unos setenta y seis acres. Bruto: cuarenta y una libras, y cero chelines. Igual que en la tasa anterior.",
+    "voice": "TODO: pick from studio/characters/<speaker>/character.json (new era = new voice)",
+    "prompt": "TODO: write per Quality bar v2 rule 5 from the still and this line"
+   }
+  }
+ },
+ "qa": {
+  "status": "todo"
+ },
+ "status": "todo",
+ "order": 3
+}

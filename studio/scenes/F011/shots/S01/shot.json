@@ -1,0 +1,38 @@
+{
+ "schema": "cedwyn-studios/shot@1",
+ "scene": "F011",
+ "id": "S01",
+ "n": 1,
+ "type": "still-move",
+ "set": "s03",
+ "speaker": null,
+ "direction": "Date-and-place card. Exterior of St Dochdwy's church, Llandough, in late-October afternoon light. The church is the newly rebuilt Victorian building with fresh grey stone and a clean slate roof. Damp churchyard, fallen leaves, wooded hillside beyond and the Ely valley falling away inland. A slow push in toward the vestry door, where lamplight shows at a small window. No dialogue; wind and rooks only.",
+ "seconds": null,
+ "start": null,
+ "still": {
+  "prompt": "Photoreal 16:9 still, October 1876, a newly rebuilt small Victorian Gothic parish church of grey stone with a slate roof on an inland Welsh hillside, damp churchyard with fallen leaves, old yews, warm lamplight in a small vestry window, wooded slopes and a river valley with marshland in soft haze below, overcast late-afternoon light, period-accurate, no people in foreground, no text, no signage, no heraldry, no sea or coastline",
+  "refs": [],
+  "image": null
+ },
+ "lines": [],
+ "captions": [
+  {
+   "text": "October 1876 · Vestry, St Dochdwy's church, Llandough",
+   "cite": [
+    "CH-0023",
+    "EV-0212"
+   ]
+  }
+ ],
+ "render": {
+  "model": "ffmpeg still-move (free)",
+  "shared": {
+   "status": "todo"
+  }
+ },
+ "qa": {
+  "status": "todo"
+ },
+ "status": "todo",
+ "order": 1
+}
