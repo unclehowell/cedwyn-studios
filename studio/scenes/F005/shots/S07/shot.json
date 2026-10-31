@@ -1,0 +1,60 @@
+{
+ "schema": "cedwyn-studios/shot@1",
+ "scene": "F005",
+ "id": "S07",
+ "n": 7,
+ "type": "talking",
+ "set": "s03",
+ "speaker": "B_JOHN",
+ "direction": "The monk traces the carved letters on the shaft with his finger as he answers. The lettering stays soft and illegible to camera. The church door is open behind him.",
+ "seconds": null,
+ "start": null,
+ "still": {
+  "prompt": "photoreal 16:9 close-medium shot, around AD 1000, weathered tonsured Welsh monk with broad face and grey-flecked beard, plain wool habit, tracing carved marks on a standing stone cross with a heavy finger, open wooden church door behind, carving soft and illegible, overcast light, invented face, no text, no heraldry",
+  "refs": [],
+  "image": null
+ },
+ "lines": [
+  {
+   "who": "B_JOHN",
+   "spoken": "cy",
+   "accent": "South Wales Welsh (draft, for native review)",
+   "cy": "Irbic. Mae'r enw wedi'i dorri fan hyn yn y garreg, a fan hyn y bydd e'n aros, wrth ddrws yr eglwys, lle mae'n rhaid i bob enaid sy'n mynd i mewn i weddïo fynd heibio iddi.",
+   "en": "Irbic. The name is cut here in the stone, and here it stays, by the church door, where every soul going in to pray must pass it.",
+   "es": "Irbic. El nombre está tallado acá, en la piedra, y acá se queda, junto a la puerta de la iglesia, por donde tiene que pasar toda alma que entra a rezar.",
+   "cite": [
+    "PX-04"
+   ]
+  }
+ ],
+ "captions": [],
+ "render": {
+  "model": "bytedance/omnihuman/v2",
+  "usd_per_s": 0.105,
+  "per_language": {
+   "cy": {
+    "status": "todo",
+    "text": "Irbic. Mae'r enw wedi'i dorri fan hyn yn y garreg, a fan hyn y bydd e'n aros, wrth ddrws yr eglwys, lle mae'n rhaid i bob enaid sy'n mynd i mewn i weddïo fynd heibio iddi.",
+    "voice": "TODO: pick from studio/characters/<speaker>/character.json (new era = new voice)",
+    "prompt": "TODO: write per Quality bar v2 rule 5 from the still and this line"
+   },
+   "en": {
+    "status": "todo",
+    "text": "Irbic. The name is cut here in the stone, and here it stays, by the church door, where every soul going in to pray must pass it.",
+    "voice": "TODO: pick from studio/characters/<speaker>/character.json (new era = new voice)",
+    "prompt": "TODO: write per Quality bar v2 rule 5 from the still and this line"
+   },
+   "es": {
+    "status": "todo",
+    "text": "Irbic. El nombre está tallado acá, en la piedra, y acá se queda, junto a la puerta de la iglesia, por donde tiene que pasar toda alma que entra a rezar.",
+    "voice": "TODO: pick from studio/characters/<speaker>/character.json (new era = new voice)",
+    "prompt": "TODO: write per Quality bar v2 rule 5 from the still and this line"
+   }
+  }
+ },
+ "qa": {
+  "status": "todo"
+ },
+ "status": "todo",
+ "order": 7
+}

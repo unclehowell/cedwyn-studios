@@ -1,0 +1,37 @@
+{
+ "schema": "cedwyn-studios/shot@1",
+ "scene": "F005",
+ "id": "S05",
+ "n": 5,
+ "type": "still-move",
+ "set": "s03",
+ "speaker": null,
+ "direction": "The raising. Ropes thrown over a timber sheerleg, the carter and two lay brothers haul, and the oxen take the strain while the cross rises upright and drops into its socket beside the church door. Packing stones are rammed in. Slow tilt up the shaft as it settles.",
+ "seconds": null,
+ "start": null,
+ "still": {
+  "prompt": "photoreal 16:9 cinematic still, around AD 1000, men in coarse wool tunics hauling on ropes over a simple timber A-frame to raise a tall carved stone cross upright into a socket beside the door of a small thatched stone church, oxen straining on a rope, packing stones and mud at the base, monk with tonsure guiding the shaft, overcast light, period-accurate, no legible lettering, invented faces, no text, no heraldry",
+  "refs": [],
+  "image": null
+ },
+ "lines": [],
+ "captions": [
+  {
+   "text": "The Irbic cross was carved and set up at Llandough in the 10th–11th century. The day of its raising is a recreation.",
+   "cite": [
+    "PX-04"
+   ]
+  }
+ ],
+ "render": {
+  "model": "ffmpeg still-move (free)",
+  "shared": {
+   "status": "todo"
+  }
+ },
+ "qa": {
+  "status": "todo"
+ },
+ "status": "todo",
+ "order": 5
+}

@@ -1,0 +1,60 @@
+{
+ "schema": "cedwyn-studios/shot@1",
+ "scene": "F005",
+ "id": "S06",
+ "n": 6,
+ "type": "talking",
+ "set": "s03",
+ "speaker": "G_DAI",
+ "direction": "The cross stands. The carter wipes his scalp with his sleeve, looks up at the carving and asks the monk.",
+ "seconds": null,
+ "start": null,
+ "still": {
+  "prompt": "photoreal 16:9 medium shot, around AD 1000, big bald carter with ginger-grey mutton-chop whiskers in wool tunic and leather jerkin, wiping his head with his sleeve, looking up at a newly raised carved stone cross beside a church door, mud on his hands, overcast light, invented face, no text, no heraldry",
+  "refs": [],
+  "image": null
+ },
+ "lines": [
+  {
+   "who": "G_DAI",
+   "spoken": "cy",
+   "accent": "South Wales Welsh (draft, for native review)",
+   "cy": "A'r enw sy wedi'i dorri arni? Alla i ddim darllen llythyren, Frawd.",
+   "en": "And the name cut on it? I can't read a letter, Brother.",
+   "es": "¿Y el nombre que tiene tallado? Yo no sé leer ni una letra, hermano. ¿Vos me lo leés?",
+   "cite": [
+    "PX-04"
+   ]
+  }
+ ],
+ "captions": [],
+ "render": {
+  "model": "bytedance/omnihuman/v2",
+  "usd_per_s": 0.105,
+  "per_language": {
+   "cy": {
+    "status": "todo",
+    "text": "A'r enw sy wedi'i dorri arni? Alla i ddim darllen llythyren, Frawd.",
+    "voice": "TODO: pick from studio/characters/<speaker>/character.json (new era = new voice)",
+    "prompt": "TODO: write per Quality bar v2 rule 5 from the still and this line"
+   },
+   "en": {
+    "status": "todo",
+    "text": "And the name cut on it? I can't read a letter, Brother.",
+    "voice": "TODO: pick from studio/characters/<speaker>/character.json (new era = new voice)",
+    "prompt": "TODO: write per Quality bar v2 rule 5 from the still and this line"
+   },
+   "es": {
+    "status": "todo",
+    "text": "¿Y el nombre que tiene tallado? Yo no sé leer ni una letra, hermano. ¿Vos me lo leés?",
+    "voice": "TODO: pick from studio/characters/<speaker>/character.json (new era = new voice)",
+    "prompt": "TODO: write per Quality bar v2 rule 5 from the still and this line"
+   }
+  }
+ },
+ "qa": {
+  "status": "todo"
+ },
+ "status": "todo",
+ "order": 6
+}
