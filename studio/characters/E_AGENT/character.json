@@ -1,0 +1,43 @@
+{
+ "schema": "cedwyn-studios/character@1",
+ "id": "E_AGENT",
+ "role": "the Man from the Estate",
+ "plays": "offices only: Bute estate agent, company agents, solicitors, overseers, Land Registry and council officers",
+ "likeness_rule": "Invented face. Never the likeness of any real person or family member. An age or costume change is an edit of the reference portrait, never a new face; a new century gets new people (descendants or newcomers), never the same faces.",
+ "look": {
+  "reference": "r2:studio/characters/E_AGENT/look/E_AGENT.jpg",
+  "era_edits": [],
+  "prompt": "TODO: the reference portrait prompt was not kept in the bible; describe from the reference image before generating a new era edit"
+ },
+ "voice": {
+  "vendor": "ElevenLabs",
+  "voice_id": "2Jm4mkkEDFemeO085c56",
+  "model_id": "eleven_v4",
+  "settings": {
+   "stability": 0.5,
+   "similarity_boost": 0.8,
+   "style": 0.0,
+   "use_speaker_boost": true
+  },
+  "design_prompt": "A formal English estate official in his fifties, precise dry clipped voice, received pronunciation, measured and unreadable, a lawyer's calm.",
+  "gender": "male",
+  "languages": {
+   "en": {
+    "language_code": "en",
+    "transcribe_back_match": 1.0,
+    "sample": "r2:studio/characters/E_AGENT/voice/E_AGENT_en.mp3"
+   },
+   "cy": {
+    "language_code": "cy",
+    "transcribe_back_match": 0.92,
+    "sample": "r2:studio/characters/E_AGENT/voice/E_AGENT_cy.mp3"
+   },
+   "es": {
+    "language_code": "es",
+    "transcribe_back_match": 0.94,
+    "sample": "r2:studio/characters/E_AGENT/voice/E_AGENT_es.mp3"
+   }
+  },
+  "accent_notes": "Welsh characters speak with a thick South Wales (Glamorgan) accent in every language; non-Welsh characters keep their own accents. Welsh fallback for a line that fails transcribe-back: Gemini 3.8 Flash TTS voice Kore (timbre changes)."
+ }
+}

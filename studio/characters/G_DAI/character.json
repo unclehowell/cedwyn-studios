@@ -1,0 +1,43 @@
+{
+ "schema": "cedwyn-studios/character@1",
+ "id": "G_DAI",
+ "role": "the landlord (fictional)",
+ "plays": "Dai, innkeeper/carter, Gwen's sparring partner",
+ "likeness_rule": "Invented face. Never the likeness of any real person or family member. An age or costume change is an edit of the reference portrait, never a new face; a new century gets new people (descendants or newcomers), never the same faces.",
+ "look": {
+  "reference": "r2:studio/characters/G_DAI/look/G_DAI.jpg",
+  "era_edits": [],
+  "prompt": "TODO: the reference portrait prompt was not kept in the bible; describe from the reference image before generating a new era edit"
+ },
+ "voice": {
+  "vendor": "ElevenLabs",
+  "voice_id": "bjneJtpl97NGdlhAINbN",
+  "model_id": "eleven_v4",
+  "settings": {
+   "stability": 0.5,
+   "similarity_boost": 0.8,
+   "style": 0.0,
+   "use_speaker_boost": true
+  },
+  "design_prompt": "A big Welsh innkeeper in his sixties, booming hearty bass voice, broad South Wales accent, jovial and teasing, a pub landlord.",
+  "gender": "male",
+  "languages": {
+   "en": {
+    "language_code": "en",
+    "transcribe_back_match": 0.83,
+    "sample": "r2:studio/characters/G_DAI/voice/G_DAI_en.mp3"
+   },
+   "cy": {
+    "language_code": "cy",
+    "transcribe_back_match": 0.85,
+    "sample": "r2:studio/characters/G_DAI/voice/G_DAI_cy.mp3"
+   },
+   "es": {
+    "language_code": "es",
+    "transcribe_back_match": 0.88,
+    "sample": "r2:studio/characters/G_DAI/voice/G_DAI_es.mp3"
+   }
+  },
+  "accent_notes": "Welsh characters speak with a thick South Wales (Glamorgan) accent in every language; non-Welsh characters keep their own accents. Welsh fallback for a line that fails transcribe-back: Gemini 3.8 Flash TTS voice Kore (timbre changes)."
+ }
+}

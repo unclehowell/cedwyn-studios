@@ -1,0 +1,43 @@
+{
+ "schema": "cedwyn-studios/character@1",
+ "id": "H_CLERK",
+ "role": "the Court",
+ "plays": "clerks, magistrates and judges; lines quote judgments verbatim",
+ "likeness_rule": "Invented face. Never the likeness of any real person or family member. An age or costume change is an edit of the reference portrait, never a new face; a new century gets new people (descendants or newcomers), never the same faces.",
+ "look": {
+  "reference": "r2:studio/characters/H_CLERK/look/H_CLERK.jpg",
+  "era_edits": [],
+  "prompt": "TODO: the reference portrait prompt was not kept in the bible; describe from the reference image before generating a new era edit"
+ },
+ "voice": {
+  "vendor": "ElevenLabs",
+  "voice_id": "nzPzKJE9RrymxViKMFhm",
+  "model_id": "eleven_v4",
+  "settings": {
+   "stability": 0.5,
+   "similarity_boost": 0.8,
+   "style": 0.0,
+   "use_speaker_boost": true
+  },
+  "design_prompt": "An austere elderly British judge in his sixties, deep slow grave voice, crisp received pronunciation with faint Welsh vowels, authoritative and solemn.",
+  "gender": "male",
+  "languages": {
+   "en": {
+    "language_code": "en",
+    "transcribe_back_match": 0.83,
+    "sample": "r2:studio/characters/H_CLERK/voice/H_CLERK_en.mp3"
+   },
+   "cy": {
+    "language_code": "cy",
+    "transcribe_back_match": 0.92,
+    "sample": "r2:studio/characters/H_CLERK/voice/H_CLERK_cy.mp3"
+   },
+   "es": {
+    "language_code": "es",
+    "transcribe_back_match": 0.94,
+    "sample": "r2:studio/characters/H_CLERK/voice/H_CLERK_es.mp3"
+   }
+  },
+  "accent_notes": "Welsh characters speak with a thick South Wales (Glamorgan) accent in every language; non-Welsh characters keep their own accents. Welsh fallback for a line that fails transcribe-back: Gemini 3.8 Flash TTS voice Kore (timbre changes)."
+ }
+}
