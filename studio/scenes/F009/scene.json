@@ -1,0 +1,96 @@
+{
+ "schema": "cedwyn-studios/scene@1",
+ "id": "F009",
+ "frame_map_n": 8,
+ "title": {
+  "en": "Amy Williams dies",
+  "cy": "Marw Amy Williams",
+  "es": "Muere Amy Williams"
+ },
+ "date": "23 December 1864",
+ "place": "Kitchen of Great House Farm (Tŷ Mawr), Llandough",
+ "set": "s02",
+ "present": {
+  "A_MARY": "Amy Williams, widow of John Williams of Great House farm, aged 65",
+  "B_JOHN": "John Williams, who has farmed Great House since 1855 (most likely her son; inferred)",
+  "F_GWEN": "Gwen, a neighbour (fictional)"
+ },
+ "logline": "Two days before Christmas, Amy Williams, widow of John Williams of Great House farm, dies aged 65, with John Williams, who now farms Great House, and her neighbour Gwen beside her.",
+ "moment": {
+  "date": "23 December 1864",
+  "place": "Kitchen of Great House Farm (Tŷ Mawr), Llandough",
+  "present": [
+   "A_MARY=Amy Williams, widow of John Williams, aged 65",
+   "B_JOHN=John Williams, who has farmed Great House since 1855",
+   "F_GWEN=Gwen, a neighbour (fictional)"
+  ],
+  "summary": "Two days before Christmas, Amy Williams, widow of John Williams of Great House farm, dies aged 65, with John Williams, who now farms Great House, and her neighbour Gwen beside her.",
+  "anchor": "CH-0014",
+  "captions": [
+   "c. 1841: the tithe apportionment shows John Williams occupying 36 parcels, 119a 2r 30p, almost all Bute land (EV-0215)",
+   "1842: tithe plan and apportionment for Llandough-juxta-Penarth (Glamorgan Archives P35) (CH-0012)",
+   "1855: John Williams succeeds his father in the occupancy of the farm, as reported in the Cardiff Times, 16 Jul 1904 (CH-0013)"
+  ],
+  "basis": "The death notice (EV-0246) gives the date, her age and the words 'relict of the late Mr. John Williams, Great House farm'. Several details are inferred: that she died at the farmhouse, who was present, and that the 1855 successor (CH-0013) was her son.",
+  "source": [
+   "https://cedwyn.bucklerfamily.estate/wiki/evidence/ev-0215-tithe-apportionment-john-williams-c1841/",
+   "https://cedwyn.bucklerfamily.estate/wiki/evidence/ev-0246-cardiff-times-1864-death-of-amy-williams-great-house-farm/"
+  ],
+  "source_in_sitemap": true
+ },
+ "sources": {
+  "catalogue_ids": [
+   "CH-0012",
+   "CH-0013",
+   "CH-0014",
+   "EV-0215",
+   "EV-0224",
+   "EV-0246"
+  ],
+  "urls": [
+   "https://cedwyn.bucklerfamily.estate/wiki/evidence/ev-0215-tithe-apportionment-john-williams-c1841/",
+   "https://cedwyn.bucklerfamily.estate/wiki/evidence/ev-0246-cardiff-times-1864-death-of-amy-williams-great-house-farm/"
+  ],
+  "chronology": "r2:studio/chronology/CHRONOLOGY.json (event ids above)"
+ },
+ "languages": [
+  "cy",
+  "en",
+  "es"
+ ],
+ "spoken_language": "cy",
+ "subtitles": "en/es subtitles for Welsh speech; Rioplatense Spanish; cues <=2x42 chars",
+ "accent": "thick Welsh accent for every Welsh character; non-Welsh characters keep their own accents",
+ "continuity": "From the curtained kitchen at Great House, cut to the vestry of the new church, where John Williams, now the farm's sole occupier, waits his turn as the assistant overseer enters him in the poor rate for the glebe land.",
+ "left_out": [],
+ "translation": {
+  "cy": "machine-written (claude-opus-5-5), for native review",
+  "es": "machine-written, Rioplatense, for review"
+ },
+ "script_version": "v0.4.0",
+ "script_status": "v0.4.0 29 Oct 2026 IN-PERIOD rewrite (owner 16:04 GMT): one moment, no narrator, no fourth wall; not rendered; Welsh and Spanish machine-written, for native review",
+ "target_seconds": 120,
+ "estimated_seconds": 54,
+ "status": "scripted",
+ "status_note": "Script v0.4.0 on file; nothing rendered.",
+ "shots": [
+  "S01",
+  "S02",
+  "S03",
+  "S04",
+  "S05",
+  "S06",
+  "S07",
+  "S08",
+  "S09",
+  "S10"
+ ],
+ "deliverable": {
+  "per_language_video": true,
+  "quality_bar": "v2",
+  "fps": 24,
+  "codec": "VP9 two-pass",
+  "audio": "Opus 128k, -16 LUFS, LRA <= 7, TP <= -1.5",
+  "max_bytes": 26214400
+ }
+}

@@ -1,0 +1,60 @@
+{
+ "schema": "cedwyn-studios/shot@1",
+ "scene": "F009",
+ "id": "S03",
+ "n": 3,
+ "type": "talking",
+ "set": "s02",
+ "speaker": "F_GWEN",
+ "direction": "Medium two-shot at the bedside. Gwen sits on a stool in a dark wool shawl, holding Amy's hand. Her spectacles hang on a ribbon at her chest. She looks up at John, who stands by the fire, and speaks low so as not to wake Amy.",
+ "seconds": null,
+ "start": null,
+ "still": {
+  "prompt": "Photoreal 16:9 still, 1864 Welsh farmhouse kitchen by firelight, a woman in her sixties with a round face, rosy cheeks and silver curls under a white cap, wearing a dark wool shawl over a floral print dress, with spectacles on a ribbon around her neck, seated on a wooden stool beside a box bed holding the hand of an elderly woman under blankets, looking up with quiet concern toward a bearded farmer standing by the hearth, candlelight, no text, no heraldry",
+  "refs": [],
+  "image": null
+ },
+ "lines": [
+  {
+   "who": "F_GWEN",
+   "spoken": "cy",
+   "accent": "South Wales Welsh (Glamorgan), soft and low; native review needed",
+   "cy": "Ma' hi'n gwanhau, John. Ma' 'i dwylo hi'n o'r, er gwaetha'r tân.",
+   "en": "She's weakening, John. Her hands are cold, for all the fire.",
+   "es": "Se está apagando, John. Tiene las manos frías, a pesar del fuego.",
+   "cite": [
+    "CH-0014"
+   ]
+  }
+ ],
+ "captions": [],
+ "render": {
+  "model": "bytedance/omnihuman/v2",
+  "usd_per_s": 0.105,
+  "per_language": {
+   "cy": {
+    "status": "todo",
+    "text": "Ma' hi'n gwanhau, John. Ma' 'i dwylo hi'n o'r, er gwaetha'r tân.",
+    "voice": "TODO: pick from studio/characters/<speaker>/character.json (new era = new voice)",
+    "prompt": "TODO: write per Quality bar v2 rule 5 from the still and this line"
+   },
+   "en": {
+    "status": "todo",
+    "text": "She's weakening, John. Her hands are cold, for all the fire.",
+    "voice": "TODO: pick from studio/characters/<speaker>/character.json (new era = new voice)",
+    "prompt": "TODO: write per Quality bar v2 rule 5 from the still and this line"
+   },
+   "es": {
+    "status": "todo",
+    "text": "Se está apagando, John. Tiene las manos frías, a pesar del fuego.",
+    "voice": "TODO: pick from studio/characters/<speaker>/character.json (new era = new voice)",
+    "prompt": "TODO: write per Quality bar v2 rule 5 from the still and this line"
+   }
+  }
+ },
+ "qa": {
+  "status": "todo"
+ },
+ "status": "todo",
+ "order": 3
+}

@@ -1,0 +1,37 @@
+{
+ "schema": "cedwyn-studios/shot@1",
+ "scene": "F009",
+ "id": "S01",
+ "n": 1,
+ "type": "still-move",
+ "set": "s01",
+ "speaker": null,
+ "direction": "Date-and-place card. Winter dusk, 23 December 1864. The whitewashed farmhouse and yard of Great House sit on the inland hill at Llandough. Frost lies on the yard and one window glows with firelight. Beyond and below, the Ely winds through grey marshes toward a distant estuary haze. There is no coastline at the farm. Slow push in toward the lit window.",
+ "seconds": null,
+ "start": null,
+ "still": {
+  "prompt": "Photoreal 16:9 still, December dusk 1864, a long low whitewashed Welsh farmhouse with a slate roof and stone chimneys on an inland hillside, frost on a cobbled farmyard, a wooden cart and stacked turf by the wall, one small-paned window glowing orange with firelight, bare hedgerows and frosted fields falling away to a winding river through flat grey marshland, faint estuary haze on the far horizon, the farm clearly inland and not by the sea, cold blue-violet sky, smoke rising from the chimney, no people, no text, no heraldry",
+  "refs": [],
+  "image": null
+ },
+ "lines": [],
+ "captions": [
+  {
+   "text": "23 December 1864 · Great House Farm (Tŷ Mawr), Llandough",
+   "cite": [
+    "CH-0014"
+   ]
+  }
+ ],
+ "render": {
+  "model": "ffmpeg still-move (free)",
+  "shared": {
+   "status": "todo"
+  }
+ },
+ "qa": {
+  "status": "todo"
+ },
+ "status": "todo",
+ "order": 1
+}

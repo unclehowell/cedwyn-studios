@@ -1,0 +1,43 @@
+{
+ "schema": "cedwyn-studios/shot@1",
+ "scene": "F009",
+ "id": "S02",
+ "n": 2,
+ "type": "still-move",
+ "set": "s02",
+ "speaker": null,
+ "direction": "Inside the kitchen by candle and firelight. Flagstones, an oak dresser with plates, and a low peat-and-coal fire in the inglenook. A box bed stands by the hearth, where a dying person would most likely be brought for warmth. Amy lies propped on pillows. On the dresser, beside the candlestick, a folded farm schedule and an account book hint at the fields she has known. Slow lateral drift past the dresser toward the bed. Ambience only: fire, wind at the window, a clock ticking.",
+ "seconds": null,
+ "start": null,
+ "still": {
+  "prompt": "Photoreal 16:9 still, interior of a Welsh farmhouse kitchen in 1864 at night, stone flagstone floor, large inglenook fireplace with a low glowing fire and an iron kettle on a chain, oak dresser with blue-and-white plates, tallow candles, a wooden box bed beside the hearth with an elderly woman lying propped on white pillows under a wool blanket, folded old paper documents and a worn ledger on the dresser, warm amber light against deep shadow, painterly naturalism, no readable text, no heraldry",
+  "refs": [],
+  "image": null
+ },
+ "lines": [],
+ "captions": [
+  {
+   "text": "c. 1841: the tithe apportionment shows John Williams occupying 36 parcels, 119a 2r 30p, almost all Bute land: 33 Bute parcels (119a 0r 6p) and 3 glebe parcels (2r 24p) (EV-0215)",
+   "cite": [
+    "EV-0215"
+   ]
+  },
+  {
+   "text": "1842: tithe plan and apportionment for Llandough-juxta-Penarth (Glamorgan Archives P35) (CH-0012)",
+   "cite": [
+    "CH-0012"
+   ]
+  }
+ ],
+ "render": {
+  "model": "ffmpeg still-move (free)",
+  "shared": {
+   "status": "todo"
+  }
+ },
+ "qa": {
+  "status": "todo"
+ },
+ "status": "todo",
+ "order": 2
+}
