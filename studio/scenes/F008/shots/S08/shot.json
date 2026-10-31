@@ -1,0 +1,43 @@
+{
+ "schema": "cedwyn-studios/shot@1",
+ "scene": "F008",
+ "id": "S08",
+ "n": 8,
+ "type": "still-move",
+ "set": "s06",
+ "speaker": null,
+ "direction": "Later the same day. The draughtsman ties the rolled plan with tape and slides it into a pigeon-hole rack among other rolled survey sheets. The afternoon light fades. Slow pull back. Ambience only.",
+ "seconds": null,
+ "start": null,
+ "still": {
+  "prompt": "Photoreal 16:9 still, 1820s estate office in late afternoon light, a lean sandy-haired man in a dark clerk's coat sliding a rolled, tape-tied estate plan into a wooden pigeon-hole rack filled with rolled survey sheets, candle being lit on a desk, plain panelled walls, Cardiff 1824, no text, no heraldry, no crests",
+  "refs": [],
+  "image": null
+ },
+ "lines": [],
+ "captions": [
+  {
+   "text": "1841: tithe apportionment for Llandough, Cogan and Leckwith, parish copy (Glamorgan Archives P35/10) (CH-0011)",
+   "cite": [
+    "CH-0011"
+   ]
+  },
+  {
+   "text": "Undated: a map image labelled '1841-map'; its title, date and source are not yet established (EV-0005)",
+   "cite": [
+    "EV-0005"
+   ]
+  }
+ ],
+ "render": {
+  "model": "ffmpeg still-move (free)",
+  "shared": {
+   "status": "todo"
+  }
+ },
+ "qa": {
+  "status": "todo"
+ },
+ "status": "todo",
+ "order": 8
+}
