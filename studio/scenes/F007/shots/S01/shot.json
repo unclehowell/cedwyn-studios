@@ -1,0 +1,37 @@
+{
+ "schema": "cedwyn-studios/shot@1",
+ "scene": "F007",
+ "id": "S01",
+ "n": 1,
+ "type": "still-move",
+ "set": "s01",
+ "speaker": null,
+ "direction": "About 7 seconds. Date-and-place card over an establishing still. Early morning, late 18th century. Tŷ Mawr's long stone farmhouse and outbuildings stand round a muddy yard on Llandough hill, which is inland. Beyond the hedges the ground falls away to the Ely valley and grey marshland under low cloud. A slow push-in from the gateway. Ambience: rooks, a distant cow, wind in the hedges.",
+ "seconds": null,
+ "start": null,
+ "still": {
+  "prompt": "Photoreal 16:9 establishing still, Glamorgan, Wales, c. 1790, early morning. A long whitewashed rubble-stone farmhouse with a slate and thatch roofline and low stone outbuildings around a muddy farmyard with puddles and straw. A wooden field gate in the foreground and hawthorn hedges. The land slopes down inland to a river valley and flat grey marshes under low cloud, with no sea and no coastline. Soft overcast light, muted greens and browns, period-accurate, no people, no text, no heraldry.",
+  "refs": [],
+  "image": null
+ },
+ "lines": [],
+ "captions": [
+  {
+   "text": "c. 1790: Tŷ Mawr, Llandough",
+   "cite": [
+    "CH-0005"
+   ]
+  }
+ ],
+ "render": {
+  "model": "ffmpeg still-move (free)",
+  "shared": {
+   "status": "todo"
+  }
+ },
+ "qa": {
+  "status": "todo"
+ },
+ "status": "todo",
+ "order": 1
+}

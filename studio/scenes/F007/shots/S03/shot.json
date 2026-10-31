@@ -1,0 +1,58 @@
+{
+ "schema": "cedwyn-studios/shot@1",
+ "scene": "F007",
+ "id": "S03",
+ "n": 3,
+ "type": "talking",
+ "set": "s01",
+ "speaker": "C_FRED",
+ "direction": "About 9 seconds. Medium shot of the drover, who pulls up beside the plane table as the cattle mill behind him. He is half amused and half wary, and he speaks to the surveyor.",
+ "seconds": null,
+ "start": null,
+ "still": {
+  "prompt": "Photoreal 16:9 medium shot, Welsh farmyard, c. 1790. A lean man in his 30s with sandy hair, a moustache and a shy half-smile wears a long coarse brown wool coat and a battered felt hat, and leans on a hazel drover's stick. Black cattle stand behind him in the mud. Soft overcast light, period-accurate. Invented face, no text, no heraldry.",
+  "refs": [],
+  "image": null
+ },
+ "lines": [
+  {
+   "who": "C_FRED",
+   "spoken": "cy",
+   "accent": "South Wales (Glamorgan) Welsh, rural; NATIVE REVIEW NEEDED",
+   "cy": "Bore da, syr. Gofalwch am y bwrdd 'na, ma'r da 'ma'n moyn yr hewl i gyd. Beth y'ch chi'n neud 'ma, 'te?",
+   "en": "Morning, sir. Mind that board, these cattle want the whole road. What are you doing here, then?",
+   "es": "Buen día, señor. Cuidado con ese tablero, que estas vacas quieren todo el camino. ¿Y qué anda haciendo acá?",
+   "cite": []
+  }
+ ],
+ "captions": [],
+ "render": {
+  "model": "bytedance/omnihuman/v2",
+  "usd_per_s": 0.105,
+  "per_language": {
+   "cy": {
+    "status": "todo",
+    "text": "Bore da, syr. Gofalwch am y bwrdd 'na, ma'r da 'ma'n moyn yr hewl i gyd. Beth y'ch chi'n neud 'ma, 'te?",
+    "voice": "TODO: pick from studio/characters/<speaker>/character.json (new era = new voice)",
+    "prompt": "TODO: write per Quality bar v2 rule 5 from the still and this line"
+   },
+   "en": {
+    "status": "todo",
+    "text": "Morning, sir. Mind that board, these cattle want the whole road. What are you doing here, then?",
+    "voice": "TODO: pick from studio/characters/<speaker>/character.json (new era = new voice)",
+    "prompt": "TODO: write per Quality bar v2 rule 5 from the still and this line"
+   },
+   "es": {
+    "status": "todo",
+    "text": "Buen día, señor. Cuidado con ese tablero, que estas vacas quieren todo el camino. ¿Y qué anda haciendo acá?",
+    "voice": "TODO: pick from studio/characters/<speaker>/character.json (new era = new voice)",
+    "prompt": "TODO: write per Quality bar v2 rule 5 from the still and this line"
+   }
+  }
+ },
+ "qa": {
+  "status": "todo"
+ },
+ "status": "todo",
+ "order": 3
+}

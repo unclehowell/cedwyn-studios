@@ -1,0 +1,30 @@
+{
+ "schema": "cedwyn-studios/shot@1",
+ "scene": "F007",
+ "id": "S02",
+ "n": 2,
+ "type": "still-move",
+ "set": "s01",
+ "speaker": null,
+ "direction": "About 8 seconds. Wide still with a slow lateral drift. The surveyor stands in the yard beside a plane table on a wooden tripod. Paper is pinned to the board, and a brass sighting rule and a coiled measuring chain lie beside it. Through the gate behind him a drover drives a few black cattle into the yard with a hazel stick. Ambience: hooves in mud, the chain clinking, a dog barking once.",
+ "seconds": null,
+ "start": null,
+ "still": {
+  "prompt": "Photoreal 16:9 still, Welsh farmyard, c. 1790. A pale clean-shaven man in his 50s wears thin-rimmed spectacles, a dark wool frock coat, a waistcoat, breeches, boots and a dark round hat. He stands at a wooden plane table on a tripod with paper pinned to it, a brass alidade on top, and a leather document case and a coiled iron surveyor's chain at his feet. In the background a lean man in his 30s with sandy hair and a moustache, wearing a long coarse wool coat, a battered felt hat and gaiters, drives four black Welsh cattle through a wooden gate with a hazel stick. The ground is muddy, the light overcast, the style period-accurate. Invented faces, no text, no heraldry.",
+  "refs": [],
+  "image": null
+ },
+ "lines": [],
+ "captions": [],
+ "render": {
+  "model": "ffmpeg still-move (free)",
+  "shared": {
+   "status": "todo"
+  }
+ },
+ "qa": {
+  "status": "todo"
+ },
+ "status": "todo",
+ "order": 2
+}
