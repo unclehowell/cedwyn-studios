@@ -1,0 +1,38 @@
+{
+ "schema": "cedwyn-studios/shot@1",
+ "scene": "F004",
+ "id": "S01",
+ "n": 1,
+ "type": "still-move",
+ "set": "s10",
+ "speaker": null,
+ "direction": "(~10 s) Date-and-place card over an establishing still. Late autumn afternoon on the crown of Llandough hill. Low grey cloud and wet grass. Below and far off, the River Ely winds through broad reed marshes toward a hazy tidal estuary. The view is inland from a hilltop, with no shoreline at the foot of the hill. A slow push-in. Ambience: wind in the grass, distant curlews over the marsh.",
+ "seconds": null,
+ "start": null,
+ "still": {
+  "prompt": "Photoreal 16:9 landscape, early medieval Wales c. 650 AD. View from the grassy crown of an inland hill looking down over a winding river through wide brown reed marshes toward a distant hazy tidal estuary. Late autumn, overcast soft light, damp grass, scattered hawthorn, a few curlews in flight. No buildings in the foreground, no beach, no cliffs, no modern structures, no text, no heraldry.",
+  "refs": [],
+  "image": null
+ },
+ "lines": [],
+ "captions": [
+  {
+   "text": "c. 650 · Llandough hill, above the Ely",
+   "cite": [
+    "CH-0001"
+   ]
+  }
+ ],
+ "render": {
+  "model": "ffmpeg still-move (free)",
+  "shared": {
+   "status": "todo",
+   "note": "re-render queued: all-motion, new voices, per-language lip-sync"
+  }
+ },
+ "qa": {
+  "status": "todo"
+ },
+ "status": "todo",
+ "order": 1
+}

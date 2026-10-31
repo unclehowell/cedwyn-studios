@@ -1,0 +1,134 @@
+{
+ "schema": "cedwyn-studios/scene@1",
+ "id": "F004",
+ "frame_map_n": 3,
+ "title": {
+  "en": "Graves above the Ely",
+  "cy": "Beddau uwchben Elái",
+  "es": "Tumbas sobre el Ely"
+ },
+ "date": "c. 650",
+ "place": "Monastic burial ground on Llandough hill, above the Ely",
+ "set": "s10",
+ "present": {
+  "B_JOHN": "Brother of Llandough c. 650 (new face for this scene: lean, long narrow face, white stubble, Insular tonsure; voice G_DAI)",
+  "A_MARY": "a woman of the district at the graveside c. 650 (new face: auburn plait, freckles, linen head-cloth; voice F_GWEN)"
+ },
+ "logline": "A monk of Llandough leads a burial in the monastic cemetery on the hill, with the marshes of the Ely below.",
+ "moment": {
+  "date": "c. 650",
+  "place": "Monastic burial ground on Llandough hill, above the Ely",
+  "present": [
+   "B_JOHN=a monk of Llandough",
+   "A_MARY=a woman of the district at the graveside (prologue, invented)"
+  ],
+  "summary": "A monk of Llandough leads a burial in the monastic cemetery on the hill, with the marshes of the Ely below.",
+  "anchor": "CH-0001",
+  "captions": [
+   "5th–11th century: an early-medieval monastic cemetery grows beside the site of the old Roman site, 'From Roman site to Monastery' (PX-03)"
+  ],
+  "basis": "Archaeology points to an early monastery at St Dochdwy's and a cemetery beside the Roman site site. The burial, the mourner and the date c. 650 are inferred as the most likely single moment.",
+  "source": [
+   "https://cedwyn.bucklerfamily.estate/wiki/archaeology/"
+  ],
+  "source_in_sitemap": true
+ },
+ "sources": {
+  "catalogue_ids": [
+   "CH-0001",
+   "PX-03"
+  ],
+  "urls": [
+   "https://cedwyn.bucklerfamily.estate/wiki/archaeology/"
+  ],
+  "chronology": "r2:studio/chronology/CHRONOLOGY.json (event ids above)"
+ },
+ "languages": [
+  "cy",
+  "en",
+  "es"
+ ],
+ "spoken_language": "cy",
+ "subtitles": "en/es subtitles for Welsh speech; Rioplatense Spanish; cues <=2x42 chars",
+ "accent": "thick Welsh accent for every Welsh character; non-Welsh characters keep their own accents",
+ "continuity": "Dusk settles on the hilltop graves and the little church of the brothers. The same monk, habit and churchyard carry forward to the hauling and raising of the carved Irbic cross.",
+ "left_out": [],
+ "translation": {
+  "cy": "machine-written (claude-opus-5-5), for native review",
+  "es": "machine-written, Rioplatense, for review"
+ },
+ "script_version": "v0.4.1",
+ "script_status": "v0.4.1 RENDERED 30 Oct 2026 (door 3): new period cast; captions reworded; inserts added (body lowered; spade on stone). Welsh and Spanish machine-written, for native review.",
+ "target_seconds": 120,
+ "estimated_seconds": 51,
+ "status": "held",
+ "status_note": "Rendered 30 Oct 2026 but held back: it still has still shots and its voices clash with Scene 2's new AD 200 voices. Re-render queued (all-motion, new voices, per-language lip-sync).",
+ "shots": [
+  "S01",
+  "S02",
+  "S03",
+  "S04",
+  "S05",
+  "S06",
+  "S07",
+  "S08"
+ ],
+ "deliverable": {
+  "per_language_video": true,
+  "quality_bar": "v2",
+  "fps": 24,
+  "codec": "VP9 two-pass",
+  "audio": "Opus 128k, -16 LUFS, LRA <= 7, TP <= -1.5",
+  "max_bytes": 26214400
+ },
+ "assets": [
+  "r2:studio/scenes/F004/assets/audio/L3_cy.mp3",
+  "r2:studio/scenes/F004/assets/audio/L3_en.mp3",
+  "r2:studio/scenes/F004/assets/audio/L3_es.mp3",
+  "r2:studio/scenes/F004/assets/audio/L4_cy.mp3",
+  "r2:studio/scenes/F004/assets/audio/L4_en.mp3",
+  "r2:studio/scenes/F004/assets/audio/L4_es.mp3",
+  "r2:studio/scenes/F004/assets/audio/L5_cy.mp3",
+  "r2:studio/scenes/F004/assets/audio/L5_en.mp3",
+  "r2:studio/scenes/F004/assets/audio/L5_es.mp3",
+  "r2:studio/scenes/F004/assets/audio/L6_cy.mp3",
+  "r2:studio/scenes/F004/assets/audio/L6_en.mp3",
+  "r2:studio/scenes/F004/assets/audio/L6_es.mp3",
+  "r2:studio/scenes/F004/assets/audio/L7_cy.mp3",
+  "r2:studio/scenes/F004/assets/audio/L7_en.mp3",
+  "r2:studio/scenes/F004/assets/audio/L7_es.mp3",
+  "r2:studio/scenes/F004/assets/audio/amb_dusk.mp3",
+  "r2:studio/scenes/F004/assets/audio/amb_hill.mp3",
+  "r2:studio/scenes/F004/assets/audio/amb_proc.mp3",
+  "r2:studio/scenes/F004/assets/audio/amb_spade.mp3",
+  "r2:studio/scenes/F004/assets/gfx/cap_ch0001.png",
+  "r2:studio/scenes/F004/assets/gfx/cap_px03.png",
+  "r2:studio/scenes/F004/assets/gfx/card.png",
+  "r2:studio/scenes/F004/assets/gfx/end.png",
+  "r2:studio/scenes/F004/assets/oh/L3.mp4",
+  "r2:studio/scenes/F004/assets/oh/L4.mp4",
+  "r2:studio/scenes/F004/assets/oh/L5.mp4",
+  "r2:studio/scenes/F004/assets/oh/L6.mp4",
+  "r2:studio/scenes/F004/assets/oh/L7.mp4",
+  "r2:studio/scenes/F004/assets/stills/oh3.jpg",
+  "r2:studio/scenes/F004/assets/stills/oh4.jpg",
+  "r2:studio/scenes/F004/assets/stills/oh5.jpg",
+  "r2:studio/scenes/F004/assets/stills/oh6.jpg",
+  "r2:studio/scenes/F004/assets/stills/oh7.jpg",
+  "r2:studio/scenes/F004/assets/stills/p_monk.jpg",
+  "r2:studio/scenes/F004/assets/stills/p_woman.jpg",
+  "r2:studio/scenes/F004/assets/stills/st1.jpg",
+  "r2:studio/scenes/F004/assets/stills/st1b.jpg",
+  "r2:studio/scenes/F004/assets/stills/st2.jpg",
+  "r2:studio/scenes/F004/assets/stills/st3b.jpg",
+  "r2:studio/scenes/F004/assets/stills/st6b.jpg",
+  "r2:studio/scenes/F004/assets/stills/st8.jpg",
+  "r2:studio/scenes/F004/assets/voices/K_BROTHER_0.mp3",
+  "r2:studio/scenes/F004/assets/voices/K_BROTHER_1.mp3",
+  "r2:studio/scenes/F004/assets/voices/K_BROTHER_2.mp3",
+  "r2:studio/scenes/F004/assets/voices/L_ELIN_0.mp3",
+  "r2:studio/scenes/F004/assets/voices/L_ELIN_1.mp3",
+  "r2:studio/scenes/F004/assets/voices/L_ELIN_2.mp3"
+ ],
+ "previous_takes": "r2:studio/scenes/F004/assets/oh/ (L3-L7, 30 Oct render, held back)"
+}

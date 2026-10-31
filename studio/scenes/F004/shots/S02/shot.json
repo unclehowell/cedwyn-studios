@@ -1,0 +1,38 @@
+{
+ "schema": "cedwyn-studios/shot@1",
+ "scene": "F004",
+ "id": "S02",
+ "n": 2,
+ "type": "still-move",
+ "set": "s10",
+ "speaker": null,
+ "direction": "(~14 s) A small funeral procession crosses the hilltop burial ground. Low turf mounds and fresh-cut graves run in rough rows, aligned west to east. Two lay brothers carry a body wrapped in a plain undyed linen shroud on a wooden bier. The monk walks ahead, and the woman follows with her cloak drawn close. In the background stands a small timber church with a thatched roof, with smoke rising from a hut beyond. Slow lateral drift. Ambience: footsteps, low Latin psalm chant under the wind.",
+ "seconds": null,
+ "start": null,
+ "still": {
+  "prompt": "Photoreal 16:9, early medieval Wales c. 650 AD. A small funeral procession on an inland grassy hilltop cemetery. Rows of low turf grave mounds and freshly dug graves are aligned west to east. Two men in undyed wool tunics carry a linen-shrouded body on a simple wooden bier. Ahead walks a monk in his 40s-70s with a broad weathered face, grey-flecked beard, Insular frontal tonsure, rough undyed wool habit and heavy hands. Behind follows a Welsh woman in her 20s-30s with dark brown hair under a wool head-cloth, strong cheekbones, grey-green eyes, a small mole on her left cheek and a dark wool cloak. A small timber church with a thatched roof stands in the background, with marshland and river far below. Overcast light. No stone ruins shown, no text, no heraldry, invented faces.",
+  "refs": [],
+  "image": null
+ },
+ "lines": [],
+ "captions": [
+  {
+   "text": "5th–11th century: an early-medieval monastic cemetery grows on the hill, beside the site of an older Roman building (PX-03)",
+   "cite": [
+    "PX-03"
+   ]
+  }
+ ],
+ "render": {
+  "model": "ffmpeg still-move (free)",
+  "shared": {
+   "status": "todo",
+   "note": "re-render queued: all-motion, new voices, per-language lip-sync"
+  }
+ },
+ "qa": {
+  "status": "todo"
+ },
+ "status": "todo",
+ "order": 2
+}
