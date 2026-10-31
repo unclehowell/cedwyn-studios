@@ -1,0 +1,60 @@
+{
+ "schema": "cedwyn-studios/shot@1",
+ "scene": "F007",
+ "id": "S04",
+ "n": 4,
+ "type": "talking",
+ "set": "s01",
+ "speaker": "E_AGENT",
+ "direction": "About 8 seconds. Medium close-up of the surveyor. He does not look up at first. He sights along the brass rule toward the farmhouse corner, makes a pencil mark, and only then answers.",
+ "seconds": null,
+ "start": null,
+ "still": {
+  "prompt": "Photoreal 16:9 medium close-up, c. 1790. A pale clean-shaven man in his 50s with thin-rimmed spectacles, a dark wool frock coat and a dark round hat bends over a plane table and sights along a brass alidade, holding a pencil over pinned paper with faint pencil lines. A whitewashed farmhouse wall is blurred behind him. Overcast light, period-accurate. Invented face, no legible text, no heraldry.",
+  "refs": [],
+  "image": null
+ },
+ "lines": [
+  {
+   "who": "E_AGENT",
+   "spoken": "cy",
+   "accent": "South Wales Welsh, educated and measured; NATIVE REVIEW NEEDED",
+   "cy": "Tynnu cynllun o fferm y Tŷ Mawr. Y fferm i gyd, fel y mae hi heddi, i'r gadwyn.",
+   "en": "Drawing a plan of Tŷ Mawr farm. The whole farm, as it lies today, to the chain.",
+   "es": "Dibujo un plano de la chacra de Tŷ Mawr. Toda entera, tal como está hoy, medida con la cadena.",
+   "cite": [
+    "CH-0005"
+   ]
+  }
+ ],
+ "captions": [],
+ "render": {
+  "model": "bytedance/omnihuman/v2",
+  "usd_per_s": 0.105,
+  "per_language": {
+   "cy": {
+    "status": "todo",
+    "text": "Tynnu cynllun o fferm y Tŷ Mawr. Y fferm i gyd, fel y mae hi heddi, i'r gadwyn.",
+    "voice": "TODO: pick from studio/characters/<speaker>/character.json (new era = new voice)",
+    "prompt": "TODO: write per Quality bar v2 rule 5 from the still and this line"
+   },
+   "en": {
+    "status": "todo",
+    "text": "Drawing a plan of Tŷ Mawr farm. The whole farm, as it lies today, to the chain.",
+    "voice": "TODO: pick from studio/characters/<speaker>/character.json (new era = new voice)",
+    "prompt": "TODO: write per Quality bar v2 rule 5 from the still and this line"
+   },
+   "es": {
+    "status": "todo",
+    "text": "Dibujo un plano de la chacra de Tŷ Mawr. Toda entera, tal como está hoy, medida con la cadena.",
+    "voice": "TODO: pick from studio/characters/<speaker>/character.json (new era = new voice)",
+    "prompt": "TODO: write per Quality bar v2 rule 5 from the still and this line"
+   }
+  }
+ },
+ "qa": {
+  "status": "todo"
+ },
+ "status": "todo",
+ "order": 4
+}

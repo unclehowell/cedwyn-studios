@@ -1,0 +1,58 @@
+{
+ "schema": "cedwyn-studios/shot@1",
+ "scene": "F007",
+ "id": "S07",
+ "n": 7,
+ "type": "talking",
+ "set": "s01",
+ "speaker": "C_FRED",
+ "direction": "About 7 seconds. The drover glances over his shoulder at the sky over the valley, then back at the surveyor with a grin, and moves his stick to set the cattle going.",
+ "seconds": null,
+ "start": null,
+ "still": {
+  "prompt": "Photoreal 16:9 medium shot, c. 1790. A lean sandy-haired drover in his 30s with a moustache, a long wool coat and a felt hat grins over his shoulder and raises a hazel stick. Dark rain clouds gather over an inland river valley and flat marshes behind him, and black cattle stand in a muddy farmyard. Period-accurate. Invented face, no text, no heraldry.",
+  "refs": [],
+  "image": null
+ },
+ "lines": [
+  {
+   "who": "C_FRED",
+   "spoken": "cy",
+   "accent": "South Wales (Glamorgan) Welsh, rural; NATIVE REVIEW NEEDED",
+   "cy": "Wel, cyfrwch yn glou, syr. Ma'r glaw'n dod lan o'r morfa.",
+   "en": "Well, count quickly, sir. The rain's coming up off the marsh.",
+   "es": "Bueno, cuente rápido, señor. La lluvia ya viene subiendo la loma desde los bañados.",
+   "cite": []
+  }
+ ],
+ "captions": [],
+ "render": {
+  "model": "bytedance/omnihuman/v2",
+  "usd_per_s": 0.105,
+  "per_language": {
+   "cy": {
+    "status": "todo",
+    "text": "Wel, cyfrwch yn glou, syr. Ma'r glaw'n dod lan o'r morfa.",
+    "voice": "TODO: pick from studio/characters/<speaker>/character.json (new era = new voice)",
+    "prompt": "TODO: write per Quality bar v2 rule 5 from the still and this line"
+   },
+   "en": {
+    "status": "todo",
+    "text": "Well, count quickly, sir. The rain's coming up off the marsh.",
+    "voice": "TODO: pick from studio/characters/<speaker>/character.json (new era = new voice)",
+    "prompt": "TODO: write per Quality bar v2 rule 5 from the still and this line"
+   },
+   "es": {
+    "status": "todo",
+    "text": "Bueno, cuente rápido, señor. La lluvia ya viene subiendo la loma desde los bañados.",
+    "voice": "TODO: pick from studio/characters/<speaker>/character.json (new era = new voice)",
+    "prompt": "TODO: write per Quality bar v2 rule 5 from the still and this line"
+   }
+  }
+ },
+ "qa": {
+  "status": "todo"
+ },
+ "status": "todo",
+ "order": 7
+}

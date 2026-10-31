@@ -1,0 +1,60 @@
+{
+ "schema": "cedwyn-studios/shot@1",
+ "scene": "F007",
+ "id": "S06",
+ "n": 6,
+ "type": "talking",
+ "set": "s01",
+ "speaker": "E_AGENT",
+ "direction": "About 12 seconds. The surveyor straightens and taps the head of the sheet with his pencil, where the title will be inked. He is dry and businesslike. The writing on the paper is not legible to camera.",
+ "seconds": null,
+ "start": null,
+ "still": {
+  "prompt": "Photoreal 16:9 medium close-up, c. 1790. A pale clean-shaven surveyor in his 50s with thin-rimmed spectacles and a dark frock coat straightens at his plane table and taps the top margin of a pinned paper sheet with a pencil. His expression is dry and businesslike. A farmyard and stone outbuildings are soft behind him, under overcast light. Period-accurate. Invented face, no legible text, no heraldry.",
+  "refs": [],
+  "image": null
+ },
+ "lines": [
+  {
+   "who": "E_AGENT",
+   "spoken": "cy",
+   "accent": "South Wales Welsh, educated and measured; the phrase 'Gedrych property' is spoken in English as it is written on the plan; NATIVE REVIEW NEEDED",
+   "cy": "Eiddo Gedrych yw e. 'Gedrych property', dyna fydd ar ben y papur. Pwy sy'n ei ffermo, nid 'y musnes i yw hynny. Caeau dw i'n eu cyfri, nid pobol.",
+   "en": "It's Gedrych property. 'Gedrych property', that's what goes at the head of the sheet. Who farms it is no business of mine. I count fields, not people.",
+   "es": "Es propiedad Gedrych. 'Gedrych property', eso va arriba del papel. Quién la trabaja no es asunto mío. Yo cuento campos, no gente.",
+   "cite": [
+    "CH-0005"
+   ]
+  }
+ ],
+ "captions": [],
+ "render": {
+  "model": "bytedance/omnihuman/v2",
+  "usd_per_s": 0.105,
+  "per_language": {
+   "cy": {
+    "status": "todo",
+    "text": "Eiddo Gedrych yw e. 'Gedrych property', dyna fydd ar ben y papur. Pwy sy'n ei ffermo, nid 'y musnes i yw hynny. Caeau dw i'n eu cyfri, nid pobol.",
+    "voice": "TODO: pick from studio/characters/<speaker>/character.json (new era = new voice)",
+    "prompt": "TODO: write per Quality bar v2 rule 5 from the still and this line"
+   },
+   "en": {
+    "status": "todo",
+    "text": "It's Gedrych property. 'Gedrych property', that's what goes at the head of the sheet. Who farms it is no business of mine. I count fields, not people.",
+    "voice": "TODO: pick from studio/characters/<speaker>/character.json (new era = new voice)",
+    "prompt": "TODO: write per Quality bar v2 rule 5 from the still and this line"
+   },
+   "es": {
+    "status": "todo",
+    "text": "Es propiedad Gedrych. 'Gedrych property', eso va arriba del papel. Quién la trabaja no es asunto mío. Yo cuento campos, no gente.",
+    "voice": "TODO: pick from studio/characters/<speaker>/character.json (new era = new voice)",
+    "prompt": "TODO: write per Quality bar v2 rule 5 from the still and this line"
+   }
+  }
+ },
+ "qa": {
+  "status": "todo"
+ },
+ "status": "todo",
+ "order": 6
+}

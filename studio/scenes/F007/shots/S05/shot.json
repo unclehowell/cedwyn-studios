@@ -1,0 +1,58 @@
+{
+ "schema": "cedwyn-studios/shot@1",
+ "scene": "F007",
+ "id": "S05",
+ "n": 5,
+ "type": "talking",
+ "set": "s01",
+ "speaker": "C_FRED",
+ "direction": "About 5 seconds. Back on the drover, who pushes his hat back, curious.",
+ "seconds": null,
+ "start": null,
+ "still": {
+  "prompt": "Photoreal 16:9 medium shot, c. 1790. A lean sandy-haired man in his 30s with a moustache, a long wool coat and a felt hat pushed back on his head looks across with curiosity. A black cow's head is in the foreground out of focus, and a muddy farmyard lies behind him. Overcast, period-accurate. Invented face, no text, no heraldry.",
+  "refs": [],
+  "image": null
+ },
+ "lines": [
+  {
+   "who": "C_FRED",
+   "spoken": "cy",
+   "accent": "South Wales (Glamorgan) Welsh, rural; NATIVE REVIEW NEEDED",
+   "cy": "I bwy, 'te? Pwy sy'n talu am waith fel 'na?",
+   "en": "For whom, then? Who pays for work like that?",
+   "es": "¿Para quién, entonces? ¿Quién paga un trabajo así?",
+   "cite": []
+  }
+ ],
+ "captions": [],
+ "render": {
+  "model": "bytedance/omnihuman/v2",
+  "usd_per_s": 0.105,
+  "per_language": {
+   "cy": {
+    "status": "todo",
+    "text": "I bwy, 'te? Pwy sy'n talu am waith fel 'na?",
+    "voice": "TODO: pick from studio/characters/<speaker>/character.json (new era = new voice)",
+    "prompt": "TODO: write per Quality bar v2 rule 5 from the still and this line"
+   },
+   "en": {
+    "status": "todo",
+    "text": "For whom, then? Who pays for work like that?",
+    "voice": "TODO: pick from studio/characters/<speaker>/character.json (new era = new voice)",
+    "prompt": "TODO: write per Quality bar v2 rule 5 from the still and this line"
+   },
+   "es": {
+    "status": "todo",
+    "text": "¿Para quién, entonces? ¿Quién paga un trabajo así?",
+    "voice": "TODO: pick from studio/characters/<speaker>/character.json (new era = new voice)",
+    "prompt": "TODO: write per Quality bar v2 rule 5 from the still and this line"
+   }
+  }
+ },
+ "qa": {
+  "status": "todo"
+ },
+ "status": "todo",
+ "order": 5
+}
