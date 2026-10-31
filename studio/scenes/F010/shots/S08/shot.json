@@ -1,0 +1,60 @@
+{
+ "schema": "cedwyn-studios/shot@1",
+ "scene": "F010",
+ "id": "S08",
+ "n": 8,
+ "type": "talking",
+ "set": "s03",
+ "speaker": "F_GWEN",
+ "direction": "Gwen rises from the bench with her purse ready as John steps aside. She speaks to the overseer with a little tartness. Medium shot on Gwen, with John at the edge of frame putting his hat on.",
+ "seconds": null,
+ "start": null,
+ "still": {
+  "prompt": "photoreal 16:9, 1872 church vestry, a round-faced rosy-cheeked Welsh woman in her sixties with silver curls, bonnet, shawl and glasses on a chain rises from a wooden bench holding out a small purse with a brisk expression, a bearded farmer at frame edge putting on his felt hat, whitewashed walls, soft window light, invented faces, no text, no heraldry",
+  "refs": [],
+  "image": null
+ },
+ "lines": [
+  {
+   "who": "F_GWEN",
+   "spoken": "cy",
+   "accent": "Vale of Glamorgan Welsh (cy marked for native review)",
+   "cy": "A phan chi wedi bennu 'da fe, Mr Goruchwyliwr, ma' 'da fi'n un fach i'n hunan i dalu.",
+   "en": "And when you've finished with him, Mr Overseer, I've my own small one to pay.",
+   "es": "Y cuando termine con él, señor inspector, yo tengo la mía, chiquita, para pagar.",
+   "cite": [
+    "CH-0018"
+   ]
+  }
+ ],
+ "captions": [],
+ "render": {
+  "model": "bytedance/omnihuman/v2",
+  "usd_per_s": 0.105,
+  "per_language": {
+   "cy": {
+    "status": "todo",
+    "text": "A phan chi wedi bennu 'da fe, Mr Goruchwyliwr, ma' 'da fi'n un fach i'n hunan i dalu.",
+    "voice": "TODO: pick from studio/characters/<speaker>/character.json (new era = new voice)",
+    "prompt": "TODO: write per Quality bar v2 rule 5 from the still and this line"
+   },
+   "en": {
+    "status": "todo",
+    "text": "And when you've finished with him, Mr Overseer, I've my own small one to pay.",
+    "voice": "TODO: pick from studio/characters/<speaker>/character.json (new era = new voice)",
+    "prompt": "TODO: write per Quality bar v2 rule 5 from the still and this line"
+   },
+   "es": {
+    "status": "todo",
+    "text": "Y cuando termine con él, señor inspector, yo tengo la mía, chiquita, para pagar.",
+    "voice": "TODO: pick from studio/characters/<speaker>/character.json (new era = new voice)",
+    "prompt": "TODO: write per Quality bar v2 rule 5 from the still and this line"
+   }
+  }
+ },
+ "qa": {
+  "status": "todo"
+ },
+ "status": "todo",
+ "order": 8
+}

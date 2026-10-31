@@ -1,0 +1,38 @@
+{
+ "schema": "cedwyn-studios/shot@1",
+ "scene": "F010",
+ "id": "S09",
+ "n": 9,
+ "type": "still-move",
+ "set": "s03",
+ "speaker": null,
+ "direction": "Closing still with a slow push in on the open rate book. The ink of the new entry is still wet and catches the window light. The coins lie beside it and the pen rests in the inkstand. The handwriting cannot be read. Only the vestry ambience is heard: a door latch and footsteps on the stone floor.",
+ "seconds": null,
+ "start": null,
+ "still": {
+  "prompt": "photoreal 16:9 still, close detail, 1872, a large open parish ledger on a deal table with freshly written wet ink catching grey window light, a few Victorian coins beside it, steel dip pen resting in a glass inkstand, blotting paper, whitewashed wall softly out of focus, handwriting blurred and not legible, no text, no heraldry",
+  "refs": [],
+  "image": null
+ },
+ "lines": [],
+ "captions": [
+  {
+   "text": "9 Apr 1872: Llandough poor rate, John Williams rated for glebe land, owner Rev. H.H. Rickards (rate book, reference pending)",
+   "cite": [
+    "CH-0018",
+    "EV-0212"
+   ]
+  }
+ ],
+ "render": {
+  "model": "ffmpeg still-move (free)",
+  "shared": {
+   "status": "todo"
+  }
+ },
+ "qa": {
+  "status": "todo"
+ },
+ "status": "todo",
+ "order": 9
+}
