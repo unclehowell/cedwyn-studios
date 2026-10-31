@@ -1,0 +1,63 @@
+{
+ "schema": "cedwyn-studios/shot@1",
+ "scene": "F004",
+ "id": "S03",
+ "n": 3,
+ "type": "talking",
+ "set": "s10",
+ "speaker": "B_JOHN",
+ "direction": "(~10 s) Medium close on the monk at the graveside as the shrouded body is lowered, head to the west. He scatters a handful of earth and speaks gently to the dead woman.",
+ "seconds": null,
+ "start": null,
+ "still": {
+  "prompt": "Photoreal 16:9 medium close-up, early medieval Wales c. 650 AD. A monk with a broad weathered face, grey-flecked beard, Insular frontal tonsure and undyed wool habit stands at the edge of an open earth grave on a grassy hilltop, letting soil fall from one heavy hand. A linen-shrouded body is visible below the grave edge. Overcast soft light, blurred river marshes far behind. No text, no heraldry, invented face.",
+  "refs": [],
+  "image": null
+ },
+ "lines": [
+  {
+   "who": "B_JOHN",
+   "spoken": "cy",
+   "accent": "South Wales Welsh, low and steady (mark for native review)",
+   "cy": "Pridd i bridd. Gorwedd di yma gyda'r lleill, a'th wyneb tua'r dwyrain, tua'r wawr.",
+   "en": "Earth to earth. Lie here with the others, your face to the east, toward the dawn.",
+   "es": "Tierra a la tierra. Descansá acá con los demás, con la cara hacia el este, hacia el alba.",
+   "cite": [
+    "PX-03"
+   ]
+  }
+ ],
+ "captions": [],
+ "render": {
+  "model": "bytedance/omnihuman/v2",
+  "usd_per_s": 0.105,
+  "per_language": {
+   "cy": {
+    "status": "todo",
+    "text": "Pridd i bridd. Gorwedd di yma gyda'r lleill, a'th wyneb tua'r dwyrain, tua'r wawr.",
+    "voice": "TODO: pick from studio/characters/<speaker>/character.json (new era = new voice)",
+    "prompt": "TODO: write per Quality bar v2 rule 5 from the still and this line",
+    "note": "re-render queued: all-motion, new voices, per-language lip-sync"
+   },
+   "en": {
+    "status": "todo",
+    "text": "Earth to earth. Lie here with the others, your face to the east, toward the dawn.",
+    "voice": "TODO: pick from studio/characters/<speaker>/character.json (new era = new voice)",
+    "prompt": "TODO: write per Quality bar v2 rule 5 from the still and this line",
+    "note": "re-render queued: all-motion, new voices, per-language lip-sync"
+   },
+   "es": {
+    "status": "todo",
+    "text": "Tierra a la tierra. Descansá acá con los demás, con la cara hacia el este, hacia el alba.",
+    "voice": "TODO: pick from studio/characters/<speaker>/character.json (new era = new voice)",
+    "prompt": "TODO: write per Quality bar v2 rule 5 from the still and this line",
+    "note": "re-render queued: all-motion, new voices, per-language lip-sync"
+   }
+  }
+ },
+ "qa": {
+  "status": "todo"
+ },
+ "status": "todo",
+ "order": 3
+}

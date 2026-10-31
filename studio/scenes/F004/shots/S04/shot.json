@@ -1,0 +1,63 @@
+{
+ "schema": "cedwyn-studios/shot@1",
+ "scene": "F004",
+ "id": "S04",
+ "n": 4,
+ "type": "talking",
+ "set": "s10",
+ "speaker": "A_MARY",
+ "direction": "(~11 s) Close on the woman across the grave. She looks along the rows of mounds stretching away, then back to the monk.",
+ "seconds": null,
+ "start": null,
+ "still": {
+  "prompt": "Photoreal 16:9 close-up, early medieval Wales c. 650 AD. A Welsh woman with dark brown hair under a wool head-cloth, strong cheekbones, grey-green eyes, a small mole on her left cheek and a dark wool cloak stands at a graveside, grief held in check. Behind her, rows of low turf grave mounds recede across an inland hilltop. Overcast light. No text, no heraldry, invented face.",
+  "refs": [],
+  "image": null
+ },
+ "lines": [
+  {
+   "who": "A_MARY",
+   "spoken": "cy",
+   "accent": "South Wales Welsh, quiet (mark for native review)",
+   "cy": "Mae cymaint ohonyn nhw, frawd. Rhes ar ôl rhes. Bob gaeaf, mwy. Fydd hi'n unig yma?",
+   "en": "There are so many of them, brother. Row after row. Every winter, more. Will she be lonely here?",
+   "es": "Son tantos, hermano. Fila tras fila. Cada invierno, más. ¿Va a estar sola acá?",
+   "cite": [
+    "PX-03"
+   ]
+  }
+ ],
+ "captions": [],
+ "render": {
+  "model": "bytedance/omnihuman/v2",
+  "usd_per_s": 0.105,
+  "per_language": {
+   "cy": {
+    "status": "todo",
+    "text": "Mae cymaint ohonyn nhw, frawd. Rhes ar ôl rhes. Bob gaeaf, mwy. Fydd hi'n unig yma?",
+    "voice": "TODO: pick from studio/characters/<speaker>/character.json (new era = new voice)",
+    "prompt": "TODO: write per Quality bar v2 rule 5 from the still and this line",
+    "note": "re-render queued: all-motion, new voices, per-language lip-sync"
+   },
+   "en": {
+    "status": "todo",
+    "text": "There are so many of them, brother. Row after row. Every winter, more. Will she be lonely here?",
+    "voice": "TODO: pick from studio/characters/<speaker>/character.json (new era = new voice)",
+    "prompt": "TODO: write per Quality bar v2 rule 5 from the still and this line",
+    "note": "re-render queued: all-motion, new voices, per-language lip-sync"
+   },
+   "es": {
+    "status": "todo",
+    "text": "Son tantos, hermano. Fila tras fila. Cada invierno, más. ¿Va a estar sola acá?",
+    "voice": "TODO: pick from studio/characters/<speaker>/character.json (new era = new voice)",
+    "prompt": "TODO: write per Quality bar v2 rule 5 from the still and this line",
+    "note": "re-render queued: all-motion, new voices, per-language lip-sync"
+   }
+  }
+ },
+ "qa": {
+  "status": "todo"
+ },
+ "status": "todo",
+ "order": 4
+}

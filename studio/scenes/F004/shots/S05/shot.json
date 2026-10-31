@@ -1,0 +1,63 @@
+{
+ "schema": "cedwyn-studios/shot@1",
+ "scene": "F004",
+ "id": "S05",
+ "n": 5,
+ "type": "talking",
+ "set": "s10",
+ "speaker": "B_JOHN",
+ "direction": "(~15 s) The monk turns slightly and nods toward the little thatched timber church behind them as he answers her.",
+ "seconds": null,
+ "start": null,
+ "still": {
+  "prompt": "Photoreal 16:9 medium shot, early medieval Wales c. 650 AD. A monk with a grey-flecked beard, Insular frontal tonsure and undyed wool habit turns toward a small thatched timber church on a grassy hilltop and gestures gently with one hand. Grave mounds lie around him under a soft overcast sky. No stone ruins, no text, no heraldry, invented face.",
+  "refs": [],
+  "image": null
+ },
+ "lines": [
+  {
+   "who": "B_JOHN",
+   "spoken": "cy",
+   "accent": "South Wales Welsh, warm (mark for native review)",
+   "cy": "Unig? Byth. Mae'r brodyr yn canu'r salmau yma bob cyfnos, uwchben yr Elái. Roedd yr eglwys fach hon yn hen pan ddes i, a bydd hi yma ar ôl i ni fynd.",
+   "en": "Lonely? Never. The brothers sing the psalms here every dusk, above the Ely. This little church was old when I came, and it will be here after we are gone.",
+   "es": "¿Sola? Nunca. Los hermanos cantan los salmos acá todos los atardeceres, sobre el Ely. Esta iglesita ya era vieja cuando llegué, y va a seguir acá cuando nos hayamos ido.",
+   "cite": [
+    "CH-0001"
+   ]
+  }
+ ],
+ "captions": [],
+ "render": {
+  "model": "bytedance/omnihuman/v2",
+  "usd_per_s": 0.105,
+  "per_language": {
+   "cy": {
+    "status": "todo",
+    "text": "Unig? Byth. Mae'r brodyr yn canu'r salmau yma bob cyfnos, uwchben yr Elái. Roedd yr eglwys fach hon yn hen pan ddes i, a bydd hi yma ar ôl i ni fynd.",
+    "voice": "TODO: pick from studio/characters/<speaker>/character.json (new era = new voice)",
+    "prompt": "TODO: write per Quality bar v2 rule 5 from the still and this line",
+    "note": "re-render queued: all-motion, new voices, per-language lip-sync"
+   },
+   "en": {
+    "status": "todo",
+    "text": "Lonely? Never. The brothers sing the psalms here every dusk, above the Ely. This little church was old when I came, and it will be here after we are gone.",
+    "voice": "TODO: pick from studio/characters/<speaker>/character.json (new era = new voice)",
+    "prompt": "TODO: write per Quality bar v2 rule 5 from the still and this line",
+    "note": "re-render queued: all-motion, new voices, per-language lip-sync"
+   },
+   "es": {
+    "status": "todo",
+    "text": "¿Sola? Nunca. Los hermanos cantan los salmos acá todos los atardeceres, sobre el Ely. Esta iglesita ya era vieja cuando llegué, y va a seguir acá cuando nos hayamos ido.",
+    "voice": "TODO: pick from studio/characters/<speaker>/character.json (new era = new voice)",
+    "prompt": "TODO: write per Quality bar v2 rule 5 from the still and this line",
+    "note": "re-render queued: all-motion, new voices, per-language lip-sync"
+   }
+  }
+ },
+ "qa": {
+  "status": "todo"
+ },
+ "status": "todo",
+ "order": 5
+}
