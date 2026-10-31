@@ -1,0 +1,43 @@
+{
+ "schema": "cedwyn-studios/shot@1",
+ "scene": "F013",
+ "id": "S02",
+ "n": 2,
+ "type": "still-move",
+ "set": "s09",
+ "speaker": null,
+ "direction": "Wide still from the hill. Llandough fields and hedges run down to the Ely, with the marshes and the estuary far off under a grey sky. The view is inland, looking down. Slow lateral drift across the field pattern the surveyors had recently mapped. Ambience: skylark, wind. About 14 seconds.",
+ "seconds": null,
+ "start": null,
+ "still": {
+  "prompt": "photoreal 16:9 landscape still, 1880s Glamorgan, view from an inland hill over a patchwork of hedged fields and woods sloping down to a winding river valley, wet marshes and a distant estuary haze, small stone farm buildings, overcast spring sky, Victorian-era rural Wales, no people, no text, no heraldry, no modern structures",
+  "refs": [],
+  "image": null
+ },
+ "lines": [],
+ "captions": [
+  {
+   "text": "1878–79: the Ordnance Survey surveys Glamorgan six-inch sheet XLVII (Cardiff and Penarth area). Published 1885.",
+   "cite": [
+    "CH-0027"
+   ]
+  },
+  {
+   "text": "c.1878: OS large-scale sheets XLVII/2–15 cover Llandough-juxta-Penarth. Council copies: Glamorgan Archives DCVG/PL/1.",
+   "cite": [
+    "CH-0028"
+   ]
+  }
+ ],
+ "render": {
+  "model": "ffmpeg still-move (free)",
+  "shared": {
+   "status": "todo"
+  }
+ },
+ "qa": {
+  "status": "todo"
+ },
+ "status": "todo",
+ "order": 2
+}

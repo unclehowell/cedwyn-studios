@@ -1,0 +1,38 @@
+{
+ "schema": "cedwyn-studios/shot@1",
+ "scene": "F013",
+ "id": "S01",
+ "n": 1,
+ "type": "still-move",
+ "set": "s01",
+ "speaker": null,
+ "direction": "Date-and-place card. Early-morning establishing still of the farmhouse and yard, April 1881: stone house, limewashed walls, yard muck and puddles, a cart against the barn, smoke from the kitchen chimney. Slow push-in toward the kitchen door. Ambience only: hens, a distant dog, wind in bare hedges. About 8 seconds.",
+ "seconds": null,
+ "start": null,
+ "still": {
+  "prompt": "photoreal 16:9 still, early morning April 1881, an old stone farmhouse in rural Glamorgan, Wales, with limewashed walls and a slate roof, a muddy farmyard with hens, a wooden cart against a stone barn, chimney smoke, bare hedgerows coming into first green, soft overcast light, inland hillside setting, no people, no text, no signage, no heraldry",
+  "refs": [],
+  "image": null
+ },
+ "lines": [],
+ "captions": [
+  {
+   "text": "4 April 1881 · Great House Farm, Llandough, Glamorgan",
+   "cite": [
+    "CH-0030",
+    "EV-0224"
+   ]
+  }
+ ],
+ "render": {
+  "model": "ffmpeg still-move (free)",
+  "shared": {
+   "status": "todo"
+  }
+ },
+ "qa": {
+  "status": "todo"
+ },
+ "status": "todo",
+ "order": 1
+}

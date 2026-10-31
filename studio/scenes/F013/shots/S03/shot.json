@@ -1,0 +1,37 @@
+{
+ "schema": "cedwyn-studios/shot@1",
+ "scene": "F013",
+ "id": "S03",
+ "n": 3,
+ "type": "still-move",
+ "set": "s01",
+ "speaker": null,
+ "direction": "Still of the rear wing of the farmhouse seen from the yard: older rubble masonry, a low doorway, a glimpse of a flagstone floor inside. No one is shown finding anything and no object is shown. Slow push toward the doorway. Ambience: dripping gutter. About 12 seconds.",
+ "seconds": null,
+ "start": null,
+ "still": {
+  "prompt": "photoreal 16:9 still, rear wing of an old Welsh stone farmhouse c.1880, rough rubble masonry, a low timber doorway standing ajar, worn flagstone floor visible inside in half-light, damp yard cobbles, overcast, no people, no objects, no text, no heraldry",
+  "refs": [],
+  "image": null
+ },
+ "lines": [],
+ "captions": [
+  {
+   "text": "c.1880: 'Armour' is reported found under the floor of the rear wing of Great House. It is thought to be the medieval ironwork from Llandough now at the National Museum.",
+   "cite": [
+    "CH-0029"
+   ]
+  }
+ ],
+ "render": {
+  "model": "ffmpeg still-move (free)",
+  "shared": {
+   "status": "todo"
+  }
+ },
+ "qa": {
+  "status": "todo"
+ },
+ "status": "todo",
+ "order": 3
+}
