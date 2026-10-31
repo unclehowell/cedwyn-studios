@@ -41,7 +41,7 @@ def _token():
     return t or None
 def have_token(): return bool(_token())
 def _req(method, url, body=None, data=None, headers=None, timeout=120):
-    h = {'Authorization': 'Bearer ' + (_token() or ''), 'Accept': 'application/vnd.github+json', 'X-GitHub-Api-Version': '2022-11-28', **(headers or {})}
+    h = {'Authorization': 'Bearer ' + (_token() or ''), 'User-Agent': 'cedwyn-studios-media/1.0', 'Accept': 'application/vnd.github+json', 'X-GitHub-Api-Version': '2022-11-28', **(headers or {})}
     if body is not None: data = json.dumps(body).encode(); h['Content-Type'] = 'application/json'
     for attempt in range(5):
         try:
@@ -105,7 +105,7 @@ def copy(only='', out='media-index.json'):
             n_skip += 1; total += o['bytes']; continue
         fd, tmp = tempfile.mkstemp(prefix='media_'); os.close(fd)
         try:
-            rq = urllib.request.Request(f'{store}/o/' + urllib.parse.quote(key), headers={'x-studio-key': k})
+            rq = urllib.request.Request(f'{store}/o/' + urllib.parse.quote(key), headers={'x-studio-key': k, 'User-Agent': 'cedwyn-studios-media/1.0'})
             with urllib.request.urlopen(rq, timeout=900) as r, open(tmp, 'wb') as f:
                 for c in iter(lambda: r.read(1 << 20), b''): f.write(c)
             sha = sha256_file(tmp)
