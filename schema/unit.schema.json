@@ -1,0 +1,19 @@
+{
+ "$id": "cedwyn-studios/unit@1",
+ "type": "object",
+ "required": [
+  "status"
+ ],
+ "properties": {
+  "status": {
+   "enum": [
+    "todo",
+    "prepared",
+    "rendered",
+    "done",
+    "superseded",
+    "blocked"
+   ]
+  }
+ }
+}
