@@ -1,0 +1,61 @@
+{
+ "schema": "cedwyn-studios/shot@1",
+ "scene": "F014",
+ "id": "S08",
+ "n": 8,
+ "type": "talking",
+ "set": "s07",
+ "speaker": "F_GWEN",
+ "direction": "Back in the public seats after John has stepped down. Gwen speaks low to John, who has just sat beside her off camera to her right. Medium close on Gwen only. The court business continues behind her, out of focus and unheard. No outcome is shown. About 10 seconds.",
+ "seconds": null,
+ "start": null,
+ "still": {
+  "prompt": "photoreal 16:9 still, 1889 Victorian police court public seats, a Welsh village woman in her forties with a round weathered face, brown eyes, faint freckles and dark hair under a plain black straw bonnet, a grey wool shawl, giving a small approving nod and whispering to someone just out of frame, wooden bench, blurred court interior behind, soft window light, invented face, no text, no heraldry",
+  "refs": [],
+  "image": null
+ },
+ "lines": [
+  {
+   "who": "F_GWEN",
+   "spoken": "cy",
+   "accent": "thick Glamorgan Welsh, whispered (Welsh marked for native review)",
+   "cy": "Da iawn, bach. Wedest ti beth oedd 'da ti i weud, a dim mwy.",
+   "en": "Well done, love. You said what you had to say, and no more.",
+   "es": "Muy bien, querido. Dijiste lo que tenías que decir, y nada más.",
+   "cite": [
+    "CH-0034",
+    "EV-0279"
+   ]
+  }
+ ],
+ "captions": [],
+ "render": {
+  "model": "bytedance/omnihuman/v2",
+  "usd_per_s": 0.105,
+  "per_language": {
+   "cy": {
+    "status": "todo",
+    "text": "Da iawn, bach. Wedest ti beth oedd 'da ti i weud, a dim mwy.",
+    "voice": "TODO: pick from studio/characters/<speaker>/character.json (new era = new voice)",
+    "prompt": "TODO: write per Quality bar v2 rule 5 from the still and this line"
+   },
+   "en": {
+    "status": "todo",
+    "text": "Well done, love. You said what you had to say, and no more.",
+    "voice": "TODO: pick from studio/characters/<speaker>/character.json (new era = new voice)",
+    "prompt": "TODO: write per Quality bar v2 rule 5 from the still and this line"
+   },
+   "es": {
+    "status": "todo",
+    "text": "Muy bien, querido. Dijiste lo que tenías que decir, y nada más.",
+    "voice": "TODO: pick from studio/characters/<speaker>/character.json (new era = new voice)",
+    "prompt": "TODO: write per Quality bar v2 rule 5 from the still and this line"
+   }
+  }
+ },
+ "qa": {
+  "status": "todo"
+ },
+ "status": "todo",
+ "order": 8
+}

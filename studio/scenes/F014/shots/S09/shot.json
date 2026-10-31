@@ -1,0 +1,30 @@
+{
+ "schema": "cedwyn-studios/shot@1",
+ "scene": "F014",
+ "id": "S09",
+ "n": 9,
+ "type": "still-move",
+ "set": "s07",
+ "speaker": null,
+ "direction": "Closing still. The panelled court door stands ajar onto a bright street, and the usher's hand rests on the handle. Nothing of the case's result is shown. Slow pull-back. Ambience: murmuring, a cart passing outside. About 12 seconds.",
+ "seconds": null,
+ "start": null,
+ "still": {
+  "prompt": "photoreal 16:9 still, 1889 Victorian police court interior, a panelled wooden door standing ajar onto a bright sunlit street, a court usher's hand in a dark uniform sleeve resting on the brass handle, wooden benches in the foreground, unlit gas lamp on a bracket, dust in the light, invented figure, no faces, no text, no signage, no heraldry",
+  "refs": [],
+  "image": null
+ },
+ "lines": [],
+ "captions": [],
+ "render": {
+  "model": "ffmpeg still-move (free)",
+  "shared": {
+   "status": "todo"
+  }
+ },
+ "qa": {
+  "status": "todo"
+ },
+ "status": "todo",
+ "order": 9
+}
