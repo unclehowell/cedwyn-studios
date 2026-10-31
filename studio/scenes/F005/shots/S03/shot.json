@@ -1,0 +1,60 @@
+{
+ "schema": "cedwyn-studios/shot@1",
+ "scene": "F005",
+ "id": "S03",
+ "n": 3,
+ "type": "talking",
+ "set": "s03",
+ "speaker": "G_DAI",
+ "direction": "Medium shot. The carter hauls back on the lead ox and talks to the monk, who has come out to meet the sledge.",
+ "seconds": null,
+ "start": null,
+ "still": {
+  "prompt": "photoreal 16:9 medium shot, around AD 1000, big bald Welsh carter with ginger-grey mutton-chop whiskers, coarse brown wool tunic and leather jerkin, holding an ox by the horn rope in a muddy churchyard, sledge with wrapped stone behind him, small thatched stone church in background, overcast light, invented face, no text, no heraldry",
+  "refs": [],
+  "image": null
+ },
+ "lines": [
+  {
+   "who": "G_DAI",
+   "spoken": "cy",
+   "accent": "South Wales Welsh (draft, for native review)",
+   "cy": "Gan bwyll, gan bwyll nawr! Wo 'na. Yr holl ffordd lan y rhiw gyda'r garreg 'ma, Frawd, ac mae'r ychen wedi ennill eu gwair.",
+   "en": "Steady, steady now! Whoa there. All the way up the hill with this stone, Brother, and the oxen have earned their hay.",
+   "es": "¡Despacio, despacio ahora! So, so. Todo el camino loma arriba con esta piedra, hermano, y los bueyes se ganaron el pasto.",
+   "cite": [
+    "PX-04"
+   ]
+  }
+ ],
+ "captions": [],
+ "render": {
+  "model": "bytedance/omnihuman/v2",
+  "usd_per_s": 0.105,
+  "per_language": {
+   "cy": {
+    "status": "todo",
+    "text": "Gan bwyll, gan bwyll nawr! Wo 'na. Yr holl ffordd lan y rhiw gyda'r garreg 'ma, Frawd, ac mae'r ychen wedi ennill eu gwair.",
+    "voice": "TODO: pick from studio/characters/<speaker>/character.json (new era = new voice)",
+    "prompt": "TODO: write per Quality bar v2 rule 5 from the still and this line"
+   },
+   "en": {
+    "status": "todo",
+    "text": "Steady, steady now! Whoa there. All the way up the hill with this stone, Brother, and the oxen have earned their hay.",
+    "voice": "TODO: pick from studio/characters/<speaker>/character.json (new era = new voice)",
+    "prompt": "TODO: write per Quality bar v2 rule 5 from the still and this line"
+   },
+   "es": {
+    "status": "todo",
+    "text": "¡Despacio, despacio ahora! So, so. Todo el camino loma arriba con esta piedra, hermano, y los bueyes se ganaron el pasto.",
+    "voice": "TODO: pick from studio/characters/<speaker>/character.json (new era = new voice)",
+    "prompt": "TODO: write per Quality bar v2 rule 5 from the still and this line"
+   }
+  }
+ },
+ "qa": {
+  "status": "todo"
+ },
+ "status": "todo",
+ "order": 3
+}

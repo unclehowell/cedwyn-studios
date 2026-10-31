@@ -1,0 +1,30 @@
+{
+ "schema": "cedwyn-studios/shot@1",
+ "scene": "F005",
+ "id": "S02",
+ "n": 2,
+ "type": "still-move",
+ "set": "s03",
+ "speaker": null,
+ "direction": "A pair of oxen drags a timber sledge up the last of the track to the churchyard gap. Lashed to the sledge, a tall carved stone cross-shaft lies wrapped in sacking and rope. The carter walks at the oxen's heads with a goad. Mud, breath steaming. Slow lateral move.",
+ "seconds": null,
+ "start": null,
+ "still": {
+  "prompt": "photoreal 16:9 cinematic still, around AD 1000, two oxen pulling a wooden sledge up a muddy hill track into a churchyard, a tall carved stone cross-shaft lashed to the sledge with rope and sacking, a big bald man with ginger-grey mutton-chop whiskers in a coarse wool tunic and leather jerkin walking at the oxen's heads with a goad, breath steaming in cool air, overcast light, period-accurate, invented face, no text, no heraldry",
+  "refs": [],
+  "image": null
+ },
+ "lines": [],
+ "captions": [],
+ "render": {
+  "model": "ffmpeg still-move (free)",
+  "shared": {
+   "status": "todo"
+  }
+ },
+ "qa": {
+  "status": "todo"
+ },
+ "status": "todo",
+ "order": 2
+}

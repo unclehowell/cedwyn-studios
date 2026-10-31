@@ -1,0 +1,37 @@
+{
+ "schema": "cedwyn-studios/shot@1",
+ "scene": "F005",
+ "id": "S01",
+ "n": 1,
+ "type": "still-move",
+ "set": "s03",
+ "speaker": null,
+ "direction": "Date-and-place card over an establishing wide shot. Grey spring morning on the inland hilltop at Llandough. A small early-medieval church of rough stone with a thatched roof stands inside a low earth-and-stone churchyard bank, with a few simple grave markers in the grass. Beyond the bank the land falls away to the Ely, its marshes, and the estuary as a pale far-off sheen. A freshly dug socket pit waits beside the church door. Slow push in.",
+ "seconds": null,
+ "start": null,
+ "still": {
+  "prompt": "photoreal 16:9 cinematic still, around AD 1000, small early medieval Welsh stone church with thatched roof inside a low earth-and-stone churchyard bank on an inland hilltop, simple grave markers in rough grass, a freshly dug pit beside the church door, view down over a river valley with reed marshes and a distant estuary under an overcast spring sky, soft diffuse light, muted greens and greys, no people, no text, no heraldry, no Roman site, not on a coast",
+  "refs": [],
+  "image": null
+ },
+ "lines": [],
+ "captions": [
+  {
+   "text": "c. AD 1000 · Churchyard of the monastery, Llandough",
+   "cite": [
+    "PX-04"
+   ]
+  }
+ ],
+ "render": {
+  "model": "ffmpeg still-move (free)",
+  "shared": {
+   "status": "todo"
+  }
+ },
+ "qa": {
+  "status": "todo"
+ },
+ "status": "todo",
+ "order": 1
+}
