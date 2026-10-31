@@ -1,0 +1,86 @@
+{
+ "schema": "cedwyn-studios/sets@1",
+ "sets": [
+  {
+   "id": "s01",
+   "set": "Great House Farm / Tŷ Mawr farmhouse exterior and yard (c.1850–1974)",
+   "reference": "r2:studio/sets/s01.jpg",
+   "frame_map_note": "Great House Farm / Tŷ Mawr farmhouse exterior and yard (c.1850–1974)"
+  },
+  {
+   "id": "s02",
+   "set": "the farmhouse kitchen (inglenook, flagstones, dresser)",
+   "reference": "r2:studio/sets/s02.jpg",
+   "frame_map_note": "the farmhouse kitchen (inglenook, flagstones, dresser)"
+  },
+  {
+   "id": "s03",
+   "set": "St Dochdwy's church and churchyard, Llandough",
+   "reference": "r2:studio/sets/s03.jpg",
+   "frame_map_note": "St Dochdwy's church and churchyard, Llandough"
+  },
+  {
+   "id": "s04",
+   "set": "Llandough village street and green",
+   "reference": "r2:studio/sets/s04.jpg",
+   "frame_map_note": "Llandough village street and green"
+  },
+  {
+   "id": "s05",
+   "set": "the village inn (taproom)",
+   "reference": "r2:studio/sets/s05.jpg",
+   "frame_map_note": "the village inn (taproom)"
+  },
+  {
+   "id": "s06",
+   "set": "a Cardiff office (Bute estate office / solicitors / company office, by era)",
+   "reference": "r2:studio/sets/s06.jpg",
+   "frame_map_note": "a Cardiff office (Bute estate office / solicitors / company office, by era)"
+  },
+  {
+   "id": "s07",
+   "set": "a courtroom (magistrates, county court, High Court, Court of Appeal, by era)",
+   "reference": "r2:studio/sets/s07.jpg",
+   "frame_map_note": "a courtroom (magistrates, county court, High Court, Court of Appeal, by era)"
+  },
+  {
+   "id": "s08",
+   "set": "the archive reading room (modern records office) and the Grandson's desk",
+   "reference": "r2:studio/sets/s08.jpg",
+   "frame_map_note": "the archive reading room (modern records office) and the Grandson's desk"
+  },
+  {
+   "id": "s09",
+   "set": "Llandough hill landscape over the Ely, Leckwith woods and Cardiff Bay",
+   "reference": "r2:studio/sets/s09.jpg",
+   "frame_map_note": "Llandough hill landscape over the Ely, Leckwith woods and Cardiff Bay"
+  },
+  {
+   "id": "s10",
+   "set": "prologue: the hill in prehistory/Roman/early-medieval times (roundhouse, villa, monastery)",
+   "reference": "r2:studio/sets/s10.jpg",
+   "frame_map_note": "prologue: the hill in prehistory and the early-medieval period (roundhouse, Romano-British fields, monastic cemetery); no villa shown (owner rule 27 Oct)",
+   "era_edits": [
+    "r2:studio/sets/s10_ironage.jpg"
+   ]
+  },
+  {
+   "id": "s11",
+   "set": "the farmhouse 1974–88: aged, threatened, development around",
+   "reference": "r2:studio/sets/s11.jpg",
+   "frame_map_note": "the farmhouse 1974–88: aged, threatened, development around"
+  },
+  {
+   "id": "s12",
+   "set": "the site after demolition (1988–2026): housing estate, verge, green",
+   "reference": "r2:studio/sets/s12.jpg",
+   "frame_map_note": "the site after demolition (1988–2026): housing estate, verge, green"
+  },
+  {
+   "id": "s13",
+   "set": "Chubut arid steppe, Patagonia (Argentina): dry tussock grass, gravel, low scrub, ochre and dun; no flowers, no lush green (27 Oct rule)",
+   "reference": "r2:studio/sets/s13.jpg",
+   "frame_map_note": "Patagonia (Argentina): arid steppe - dry tussock grass, gravel, low scrub, ochre and dun palette, wide sky; no flowers, gardens or lush green (owner rule 27 Oct 10:10); Welsh-Patagonian settlement setting kept separate from Wales"
+  }
+ ]
+}

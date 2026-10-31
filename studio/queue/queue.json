@@ -1,0 +1,29 @@
+{
+ "schema": "cedwyn-studios/queue@1",
+ "updated": "2026-10-31",
+ "order": [
+  "F002",
+  "F001",
+  "F004",
+  "F005",
+  "F006",
+  "F007",
+  "F008",
+  "F009",
+  "F010",
+  "F011",
+  "F012",
+  "F013",
+  "F014"
+ ],
+ "notes": {
+  "F002": "JOB 1: Door 2 native per-language performances (en, then es); first.",
+  "F001": "JOB 1: Door 1 after Door 2.",
+  "F004": "Held: re-render all-motion with new voices, per language.",
+  "F005+": "In frame order; each needs stills, lines and takes. Keep scripts 10 frames ahead of the next unrendered scene."
+ },
+ "skip_status": [
+  "superseded",
+  "published_locked"
+ ]
+}
