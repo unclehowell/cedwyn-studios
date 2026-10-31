@@ -28,9 +28,12 @@ jobs:
       - uses: actions/checkout@v4
       - name: Kubo (CID cross-check only)
         continue-on-error: true
+        timeout-minutes: 4
         run: |
-          curl -fsSL https://dist.ipfs.tech/kubo/v0.29.0/kubo_v0.29.0_linux-amd64.tar.gz | tar xz
-          ./kubo/ipfs init --profile test > /dev/null
+          curl -fsSL --max-time 120 -o kubo.tgz https://github.com/ipfs/kubo/releases/download/v0.29.0/kubo_v0.29.0_linux-amd64.tar.gz
+          tar xzf kubo.tgz && rm kubo.tgz
+          timeout 60 ./kubo/ipfs init --profile test --empty-repo > /dev/null
+          echo hello | ./kubo/ipfs add -Q --only-hash --cid-version=1
       - name: Previous index
         run: curl -fsSL -o media-index.json "https://github.com/${{ github.repository }}/releases/download/media-index/media-index.json" || echo "{}" > media-index.json
       - name: Copy mirror objects to Releases
