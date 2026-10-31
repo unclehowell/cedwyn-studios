@@ -1,0 +1,30 @@
+{
+ "schema": "cedwyn-studios/shot@1",
+ "scene": "F003",
+ "id": "S08",
+ "n": 8,
+ "type": "still-move",
+ "set": "s10",
+ "speaker": null,
+ "direction": "About 12 s. Wide closing still with a slow pull-back. The ox cart, loaded with sheaves, creaks up the track towards the brow with the couple walking beside it. The smoke from beyond the crest drifts in the wind; the stone house stays out of frame. Cloud rolls up over the marshes and the river below. Ambience: cart wheels, oxen, geese, the first drops of rain.",
+ "seconds": null,
+ "start": null,
+ "still": {
+  "prompt": "Photoreal 16:9 cinematic wide still, Roman-period Britain c. AD 200. A wooden ox cart piled with golden spelt sheaves is pulled up an earth track towards the crest of an inland hill by two oxen. A man and a woman in wool clothing walk beside it, seen small from behind. A thin line of smoke rises beyond the crest with no building visible. Below, a winding river and marshland under rolling grey cloud, distant estuary haze. No sea, no coastline. Moody late-afternoon light. No text, no heraldry.",
+  "refs": [],
+  "image": null
+ },
+ "lines": [],
+ "captions": [],
+ "render": {
+  "model": "ffmpeg still-move (free)",
+  "shared": {
+   "status": "superseded"
+  }
+ },
+ "qa": {
+  "status": "todo"
+ },
+ "status": "superseded",
+ "order": 9
+}

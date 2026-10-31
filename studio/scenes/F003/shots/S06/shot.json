@@ -1,0 +1,58 @@
+{
+ "schema": "cedwyn-studios/shot@1",
+ "scene": "F003",
+ "id": "S06",
+ "n": 6,
+ "type": "talking",
+ "set": "s10",
+ "speaker": "A_MARY",
+ "direction": "About 18 s. Medium close-up on the wife. She looks down the slope, where grey cloud is rising off the marshes of the Ely. A gaggle of fat geese waddles along the stubble behind her, and she half-smiles at them.",
+ "seconds": null,
+ "start": null,
+ "still": {
+  "prompt": "Photoreal 16:9 cinematic medium close-up, Roman-period Britain c. AD 200. A woman in her thirties with dark brown hair in a bun, strong cheekbones, grey-green eyes and a small mole on her left cheek, in a wool dress and shawl, looks down a hillside towards grey cloud rising over a river marsh far below. Plump white and grey geese walk across the stubble behind her. Inland landscape, no sea. Changing light, the first shadows of cloud. Invented face, no text, no heraldry.",
+  "refs": [],
+  "image": null
+ },
+ "lines": [
+  {
+   "who": "A_MARY",
+   "spoken": "cy",
+   "accent": "South Wales (Glamorgan) Welsh, rural; native review",
+   "cy": "Galw nhw miwn, 'te. Ma' cwmwl yn dod lan o'r gors. A ma'r gwyddau'n dew eleni: un at droad y flwyddyn, ac un i dy fam, neu chlywn ni byth diwedd y peth.",
+   "en": "Call them in, then. There's cloud coming up off the marsh. And the geese are fat this year: one for the turn of the year, and one for your mother, or we'll never hear the end of it.",
+   "es": "Llamalos, entonces. Viene una nube subiendo del bañado. Y los gansos están gordos este año: uno para el cambio de año, y otro para tu mamá, o no nos lo va a perdonar nunca.",
+   "cite": []
+  }
+ ],
+ "captions": [],
+ "render": {
+  "model": "bytedance/omnihuman/v2",
+  "usd_per_s": 0.105,
+  "per_language": {
+   "cy": {
+    "status": "superseded",
+    "text": "Galw nhw miwn, 'te. Ma' cwmwl yn dod lan o'r gors. A ma'r gwyddau'n dew eleni: un at droad y flwyddyn, ac un i dy fam, neu chlywn ni byth diwedd y peth.",
+    "voice": "TODO: pick from studio/characters/<speaker>/character.json (new era = new voice)",
+    "prompt": "TODO: write per Quality bar v2 rule 5 from the still and this line"
+   },
+   "en": {
+    "status": "superseded",
+    "text": "Call them in, then. There's cloud coming up off the marsh. And the geese are fat this year: one for the turn of the year, and one for your mother, or we'll never hear the end of it.",
+    "voice": "TODO: pick from studio/characters/<speaker>/character.json (new era = new voice)",
+    "prompt": "TODO: write per Quality bar v2 rule 5 from the still and this line"
+   },
+   "es": {
+    "status": "superseded",
+    "text": "Llamalos, entonces. Viene una nube subiendo del bañado. Y los gansos están gordos este año: uno para el cambio de año, y otro para tu mamá, o no nos lo va a perdonar nunca.",
+    "voice": "TODO: pick from studio/characters/<speaker>/character.json (new era = new voice)",
+    "prompt": "TODO: write per Quality bar v2 rule 5 from the still and this line"
+   }
+  }
+ },
+ "qa": {
+  "status": "todo"
+ },
+ "status": "superseded",
+ "order": 7
+}

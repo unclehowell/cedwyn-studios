@@ -1,0 +1,58 @@
+{
+ "schema": "cedwyn-studios/shot@1",
+ "scene": "F003",
+ "id": "S07",
+ "n": 7,
+ "type": "talking",
+ "set": "s10",
+ "speaker": "B_JOHN",
+ "direction": "About 8 s. Close shot of the farmer laughing. He waves the geese off the sheaves with a wave of his hand rather than chasing them.",
+ "seconds": null,
+ "start": null,
+ "still": {
+  "prompt": "Photoreal 16:9 cinematic close shot, Roman-period Britain c. AD 200. A weathered farmer in his fifties with a broad face, grey-flecked beard and heavy hands laughs warmly and waves a hand at geese wandering past stooked spelt sheaves. Coarse wool tunic and cloak, bareheaded. Hillside field, soft overcast light arriving. Invented face, no text, no heraldry.",
+  "refs": [],
+  "image": null
+ },
+ "lines": [
+  {
+   "who": "B_JOHN",
+   "spoken": "cy",
+   "accent": "South Wales (Glamorgan) Welsh, rural; native review",
+   "cy": "Gad iddyn nhw redeg. Ma'r bryn yn ddigon mawr i bob un ohonon ni.",
+   "en": "Let them run. The hill's big enough for all of us.",
+   "es": "Dejalos correr. La loma es bastante grande para todos nosotros.",
+   "cite": []
+  }
+ ],
+ "captions": [],
+ "render": {
+  "model": "bytedance/omnihuman/v2",
+  "usd_per_s": 0.105,
+  "per_language": {
+   "cy": {
+    "status": "superseded",
+    "text": "Gad iddyn nhw redeg. Ma'r bryn yn ddigon mawr i bob un ohonon ni.",
+    "voice": "TODO: pick from studio/characters/<speaker>/character.json (new era = new voice)",
+    "prompt": "TODO: write per Quality bar v2 rule 5 from the still and this line"
+   },
+   "en": {
+    "status": "superseded",
+    "text": "Let them run. The hill's big enough for all of us.",
+    "voice": "TODO: pick from studio/characters/<speaker>/character.json (new era = new voice)",
+    "prompt": "TODO: write per Quality bar v2 rule 5 from the still and this line"
+   },
+   "es": {
+    "status": "superseded",
+    "text": "Dejalos correr. La loma es bastante grande para todos nosotros.",
+    "voice": "TODO: pick from studio/characters/<speaker>/character.json (new era = new voice)",
+    "prompt": "TODO: write per Quality bar v2 rule 5 from the still and this line"
+   }
+  }
+ },
+ "qa": {
+  "status": "todo"
+ },
+ "status": "superseded",
+ "order": 8
+}
