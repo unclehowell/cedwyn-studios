@@ -1,0 +1,80 @@
+{
+ "schema": "cedwyn-studios/shot@1",
+ "scene": "F002",
+ "id": "S03",
+ "n": 3,
+ "type": "talking",
+ "set": null,
+ "speaker": "B_JOHN",
+ "direction": "The elder, grey-bearded in a brown wool cloak, stands in the field with a handful of cut ears and an iron sickle. He tells her to cut only the heads, high on the stalk, and leave the straw standing for the cattle to graze.",
+ "seconds": 7.0,
+ "start": 15.32,
+ "still": {
+  "prompt": "TODO: the still prompt for this image was not kept with the Door 2 plan; the image itself is the reference",
+  "image": "r2:studio/scenes/F002/stills/iL2.jpg",
+  "origin": "cedwyn-movie:assets/F002/stills/iL2.jpg",
+  "refs": []
+ },
+ "lines": [
+  {
+   "who": "B_JOHN",
+   "cy": "Y pennau'n unig, cofia. Torra nhw'n uchel. Gad y gwellt yn sefyll i'r gwartheg.",
+   "en": "Heads only, mind. Cut them high. Leave the straw standing for the cattle.",
+   "es": "Solo las espigas, ojo. Cortalas arriba. Dejá la paja en pie para el ganado.",
+   "cite": [
+    "PX-01"
+   ]
+  }
+ ],
+ "captions": [],
+ "render": {
+  "model": "bytedance/omnihuman/v2",
+  "usd_per_s": 0.105,
+  "per_language": {
+   "en": {
+    "status": "prepared",
+    "text": "Heads only, mind. Cut them high. Leave the straw standing for the cattle.",
+    "voice": "B_JOHN",
+    "speech_s": 5.068,
+    "shot_s": 6.27,
+    "f0_median_hz": 158.0,
+    "transcribe_match": 1.0,
+    "line": "r2:studio/scenes/F002/shots/S03/lines/en.mp3",
+    "audio": "r2:studio/scenes/F002/shots/S03/lines/en.adj.wav",
+    "prompt": "The elder, grey-bearded in a brown wool cloak, stands in the field with a handful of cut ears and an iron sickle. He tells her to cut only the heads, high on the stalk, and leave the straw standing for the cattle to graze. He keeps head and eyes turned three-quarters toward his wife off-screen for the whole shot and speaks, calmly, \"Heads only, mind. Cut them high. Leave the straw standing for the cattle.\" Natural blinks, small head movements; never faces the camera. Keep the still's light and colours. Natural skin texture, no CGI gloss, no text.",
+    "est_usd": 0.735
+   },
+   "es": {
+    "status": "prepared",
+    "text": "Solo las espigas, ojo. Cortalas arriba. Dejá la paja en pie para el ganado.",
+    "voice": "oai:onyx",
+    "tempo": 1.084,
+    "speech_s": 6.19,
+    "shot_s": 7.0,
+    "f0_median_hz": 99.0,
+    "transcribe_match": 0.9,
+    "line": "r2:studio/scenes/F002/shots/S03/lines/es.mp3",
+    "audio": "r2:studio/scenes/F002/shots/S03/lines/es.adj.wav",
+    "prompt": "The elder, grey-bearded in a brown wool cloak, stands in the field with a handful of cut ears and an iron sickle. He tells her to cut only the heads, high on the stalk, and leave the straw standing for the cattle to graze. He keeps head and eyes turned three-quarters toward his wife off-screen for the whole shot and speaks, calmly, \"Solo las espigas, ojo. Cortalas arriba. Dejá la paja en pie para el ganado.\" Natural blinks, small head movements; never faces the camera. Keep the still's light and colours. Natural skin texture, no CGI gloss, no text.",
+    "est_usd": 0.735
+   },
+   "cy": {
+    "status": "done",
+    "text": "Y pennau'n unig, cofia. Torra nhw'n uchel. Gad y gwellt yn sefyll i'r gwartheg.",
+    "take": "r2:studio/scenes/F002/shots/S03/takes/cy/iL2.mp4",
+    "note": "Welsh OmniHuman render (the native Welsh performance used in the published cut F002.v6); voice per the Door 2 v1.0.2 recast.",
+    "qa": "published in F002.v6 (grandfathered; Quality bar v2 gate not run on the original take)"
+   }
+  }
+ },
+ "qa": {
+  "status": "todo"
+ },
+ "status": "in_progress",
+ "animate_note": "omnihuman",
+ "published_window_v6": [
+  15.334,
+  22.334
+ ],
+ "era": "c. 200 BC"
+}

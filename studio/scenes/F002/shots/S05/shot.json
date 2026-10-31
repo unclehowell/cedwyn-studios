@@ -1,0 +1,37 @@
+{
+ "schema": "cedwyn-studios/shot@1",
+ "scene": "F002",
+ "id": "S05",
+ "n": 5,
+ "type": "i2v",
+ "set": null,
+ "speaker": null,
+ "direction": "Below them a boy drives the cattle up from the marsh with a hazel switch, the reeds swaying behind.",
+ "seconds": 5.8,
+ "start": 28.12,
+ "still": {
+  "prompt": "TODO: no still prompt in the script",
+  "refs": [],
+  "image": null
+ },
+ "lines": [],
+ "captions": [],
+ "render": {
+  "model": "kling 2.5 turbo i2v (rendered)",
+  "shared": {
+   "status": "done",
+   "source": "r2:studio/scenes/F002/shots/S05/source/aS06.mp4",
+   "source_seconds": 5.042,
+   "fit": "setpts=PTS*(window/5.042) at 24 fps"
+  }
+ },
+ "qa": {
+  "status": "pass"
+ },
+ "status": "done",
+ "animate_note": "i2v (Kling 2.5 turbo)",
+ "published_window_v6": [
+  28.134,
+  33.934
+ ]
+}
