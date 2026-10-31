@@ -1,0 +1,43 @@
+{
+ "schema": "cedwyn-studios/shot@1",
+ "scene": "F014",
+ "id": "S04",
+ "n": 4,
+ "type": "still-move",
+ "set": "s07",
+ "speaker": null,
+ "direction": "Wide still of the court in session. The usher stands by the door in a dark uniform coat. A man sits in the dock, seen only from behind in a corduroy jacket. His face is never shown. John walks forward from the public seats, a small figure in mid-frame. Slow lateral drift along the benches. Ambience: an usher's call, muffled and unintelligible, boots on boards. About 18 seconds.",
+ "seconds": null,
+ "start": null,
+ "still": {
+  "prompt": "photoreal 16:9 wide still, small Victorian police court in Glamorgan in 1889, wooden benches with seated villagers seen mostly from behind, a court usher in a dark uniform coat standing by a panelled door, a man in a man's corduroy jacket seated in a wooden dock seen from behind with his face not visible, a young man in a dark coat walking forward holding a cap, unlit gas lamps on brass brackets, dusty summer window light, invented figures, no faces featured, no legible text, no heraldry, no coat of arms",
+  "refs": [],
+  "image": null
+ },
+ "lines": [],
+ "captions": [
+  {
+   "text": "1883: An abstract of title is compiled for land in St Andrews Major and Llandough-juxta-Penarth, 1837–1877. The catalogue does not state which Llandough land it covers.",
+   "cite": [
+    "CH-0031"
+   ]
+  },
+  {
+   "text": "1887: Owen's Cardiff Directory lists a Williams at Great House farm, Llandough.",
+   "cite": [
+    "CH-0032"
+   ]
+  }
+ ],
+ "render": {
+  "model": "ffmpeg still-move (free)",
+  "shared": {
+   "status": "todo"
+  }
+ },
+ "qa": {
+  "status": "todo"
+ },
+ "status": "todo",
+ "order": 4
+}

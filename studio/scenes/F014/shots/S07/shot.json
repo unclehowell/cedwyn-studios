@@ -1,0 +1,45 @@
+{
+ "schema": "cedwyn-studios/shot@1",
+ "scene": "F014",
+ "id": "S07",
+ "n": 7,
+ "type": "still-move",
+ "set": "s09",
+ "speaker": null,
+ "direction": "Still of the place John describes. A hawthorn hedge tops the railway embankment below the hill at Llandough. Apple trees heavy with August fruit lean over it, and the iron rails run below toward Penarth. A thin drift of lime-kiln smoke rises from the far hillside. No people and no train. Slow push along the hedge line. Ambience: wasps, wind in leaves, a distant train whistle. About 20 seconds.",
+ "seconds": null,
+ "start": null,
+ "still": {
+  "prompt": "photoreal 16:9 landscape still, rural Glamorgan, August 1889, a hawthorn hedge along the top of a grassy railway embankment, old apple trees heavy with ripening red and green apples leaning over the hedge, a Victorian double-track railway with iron rails and wooden sleepers below, an inland wooded hillside behind with a faint plume of smoke from a distant lime kiln, warm hazy summer light, no people, no train, no text, no signage, no heraldry, no modern structures",
+  "refs": [],
+  "image": null
+ },
+ "lines": [],
+ "captions": [
+  {
+   "text": "15 Dec 1887: Daniel Thomas of Penylan dies. He was a contractor under Lord Bute, with lime kilns at Llandough.",
+   "cite": [
+    "CH-0033",
+    "EV-0280"
+   ]
+  },
+  {
+   "text": "24 Apr 1888: A man is described as a labourer at Llandough Quarry.",
+   "cite": [
+    "CH-0033",
+    "EV-0280"
+   ]
+  }
+ ],
+ "render": {
+  "model": "ffmpeg still-move (free)",
+  "shared": {
+   "status": "todo"
+  }
+ },
+ "qa": {
+  "status": "todo"
+ },
+ "status": "todo",
+ "order": 7
+}

@@ -1,0 +1,61 @@
+{
+ "schema": "cedwyn-studios/shot@1",
+ "scene": "F014",
+ "id": "S06",
+ "n": 6,
+ "type": "talking",
+ "set": "s07",
+ "speaker": "B_JOHN",
+ "direction": "John in the witness box, both hands on the wooden rail, looking up at the magistrate just off camera above him. He speaks carefully in English with a thick Glamorgan accent. Medium close on John only. About 15 seconds.",
+ "seconds": null,
+ "start": null,
+ "still": {
+  "prompt": "photoreal 16:9 still, 1889 Victorian police court witness box, a Welsh farmer's son in his twenties with a lean sunburnt face, light brown short hair, a thin moustache and pale blue eyes, in a dark wool Sunday coat and waistcoat, both hands gripping a varnished wooden rail, looking upward at someone out of frame, panelled wall behind, soft window light, invented face, no text, no heraldry",
+  "refs": [],
+  "image": null
+ },
+ "lines": [
+  {
+   "who": "B_JOHN",
+   "spoken": "en",
+   "accent": "thick Glamorgan Welsh accent, speaking English carefully",
+   "cy": "Perllan Fferm y Tŷ Mawr yw hi, syr, lan yn Llandochau. Eiddo John Williams, 'y nhad i, 'na fe. Ma'r clawdd yn rhedeg ar hyd y rheilffordd, chweld, a'r afale wedi'u cyrraedd dros y clawdd o'r lein.",
+   "en": "It's the orchard of Great House Farm, sir, up at Llandough. The property of John Williams, my father, that is. The hedge do run along the railway, see, and the apples was reached over from the line.",
+   "es": "Es el huerto de Great House Farm, señor, allá arriba en Llandough. Propiedad de John Williams, mi padre, digamos. El seto corre a lo largo del ferrocarril, ¿vio?, y las manzanas las alcanzaron por encima desde la vía.",
+   "cite": [
+    "CH-0034",
+    "EV-0279"
+   ]
+  }
+ ],
+ "captions": [],
+ "render": {
+  "model": "bytedance/omnihuman/v2",
+  "usd_per_s": 0.105,
+  "per_language": {
+   "cy": {
+    "status": "todo",
+    "text": "Perllan Fferm y Tŷ Mawr yw hi, syr, lan yn Llandochau. Eiddo John Williams, 'y nhad i, 'na fe. Ma'r clawdd yn rhedeg ar hyd y rheilffordd, chweld, a'r afale wedi'u cyrraedd dros y clawdd o'r lein.",
+    "voice": "TODO: pick from studio/characters/<speaker>/character.json (new era = new voice)",
+    "prompt": "TODO: write per Quality bar v2 rule 5 from the still and this line"
+   },
+   "en": {
+    "status": "todo",
+    "text": "It's the orchard of Great House Farm, sir, up at Llandough. The property of John Williams, my father, that is. The hedge do run along the railway, see, and the apples was reached over from the line.",
+    "voice": "TODO: pick from studio/characters/<speaker>/character.json (new era = new voice)",
+    "prompt": "TODO: write per Quality bar v2 rule 5 from the still and this line"
+   },
+   "es": {
+    "status": "todo",
+    "text": "Es el huerto de Great House Farm, señor, allá arriba en Llandough. Propiedad de John Williams, mi padre, digamos. El seto corre a lo largo del ferrocarril, ¿vio?, y las manzanas las alcanzaron por encima desde la vía.",
+    "voice": "TODO: pick from studio/characters/<speaker>/character.json (new era = new voice)",
+    "prompt": "TODO: write per Quality bar v2 rule 5 from the still and this line"
+   }
+  }
+ },
+ "qa": {
+  "status": "todo"
+ },
+ "status": "todo",
+ "order": 6
+}

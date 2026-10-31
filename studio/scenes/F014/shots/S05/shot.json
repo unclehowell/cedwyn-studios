@@ -1,0 +1,61 @@
+{
+ "schema": "cedwyn-studios/shot@1",
+ "scene": "F014",
+ "id": "S05",
+ "n": 5,
+ "type": "talking",
+ "set": "s07",
+ "speaker": "H_CLERK",
+ "direction": "The magistrate on the raised bench, pen in hand and a ledger open before him, looks down at John, who stands just off camera below him. Medium close on the magistrate only. About 10 seconds.",
+ "seconds": null,
+ "start": null,
+ "still": {
+  "prompt": "photoreal 16:9 still, 1889 Victorian police court, an English gentleman magistrate in his sixties with a long narrow face, grey mutton-chop whiskers, a high forehead and steel-rimmed half spectacles, wearing a black frock coat, a wing collar and a dark cravat, seated at a raised panelled bench with an open ledger and a dip pen, looking down toward someone out of frame, unlit gas lamp behind him, soft daylight, invented face, no legible text, no heraldry, no coat of arms",
+  "refs": [],
+  "image": null
+ },
+ "lines": [
+  {
+   "who": "H_CLERK",
+   "spoken": "en",
+   "accent": "educated English, measured and dry",
+   "cy": "John Williams yr ieuengaf. Dywedwch wrth y fainc: perllan pwy yw hi, a ble mae'r clawdd 'ma'n sefyll?",
+   "en": "John Williams junior. Tell the bench: whose orchard is it, and where does this hedge stand?",
+   "es": "John Williams hijo. Dígale al tribunal: ¿de quién es el huerto, y dónde está ese seto?",
+   "cite": [
+    "CH-0034",
+    "EV-0279"
+   ]
+  }
+ ],
+ "captions": [],
+ "render": {
+  "model": "bytedance/omnihuman/v2",
+  "usd_per_s": 0.105,
+  "per_language": {
+   "cy": {
+    "status": "todo",
+    "text": "John Williams yr ieuengaf. Dywedwch wrth y fainc: perllan pwy yw hi, a ble mae'r clawdd 'ma'n sefyll?",
+    "voice": "TODO: pick from studio/characters/<speaker>/character.json (new era = new voice)",
+    "prompt": "TODO: write per Quality bar v2 rule 5 from the still and this line"
+   },
+   "en": {
+    "status": "todo",
+    "text": "John Williams junior. Tell the bench: whose orchard is it, and where does this hedge stand?",
+    "voice": "TODO: pick from studio/characters/<speaker>/character.json (new era = new voice)",
+    "prompt": "TODO: write per Quality bar v2 rule 5 from the still and this line"
+   },
+   "es": {
+    "status": "todo",
+    "text": "John Williams hijo. Dígale al tribunal: ¿de quién es el huerto, y dónde está ese seto?",
+    "voice": "TODO: pick from studio/characters/<speaker>/character.json (new era = new voice)",
+    "prompt": "TODO: write per Quality bar v2 rule 5 from the still and this line"
+   }
+  }
+ },
+ "qa": {
+  "status": "todo"
+ },
+ "status": "todo",
+ "order": 5
+}
