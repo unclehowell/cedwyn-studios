@@ -1,0 +1,60 @@
+{
+ "schema": "cedwyn-studios/shot@1",
+ "scene": "F003",
+ "id": "S03",
+ "n": 3,
+ "type": "talking",
+ "set": "s10",
+ "speaker": "B_JOHN",
+ "direction": "About 14 s. Medium close-up on the farmer. He straightens, rubs a spelt ear between his palms and blows off the chaff. He glances up at the smoke over the brow, then speaks to his wife.",
+ "seconds": null,
+ "start": null,
+ "still": {
+  "prompt": "Photoreal 16:9 cinematic medium close-up, Roman-period Britain c. AD 200. A weathered farmer in his fifties with a broad face, grey-flecked beard and heavy work-worn hands rubs an ear of spelt wheat between his palms. He wears a coarse wool tunic and a brown wool cloak pinned with a plain bronze brooch, bareheaded. Golden field behind him, soft late-afternoon light. Invented face, no text, no heraldry.",
+  "refs": [],
+  "image": null
+ },
+ "lines": [
+  {
+   "who": "B_JOHN",
+   "spoken": "cy",
+   "accent": "South Wales (Glamorgan) Welsh, rural; native review",
+   "cy": "Weli di'r mwg dros y grib? Ma' tân 'da nhw lan yn y tŷ cerrig yn barod. Sbelt da eleni. Digon sych i'w ddyrnu cyn i'r glaw ddod lan y cwm.",
+   "en": "See the smoke over the brow? They've the fires lit up at the stone house already. Good spelt this year. Dry enough to thresh before the rain comes up the valley.",
+   "es": "¿Ves el humo sobre la cresta? Ya prendieron los fuegos allá arriba en la casa de piedra. Buen trigo espelta este año. Bastante seco para trillarlo antes de que la lluvia suba por el valle.",
+   "cite": [
+    "PX-02"
+   ]
+  }
+ ],
+ "captions": [],
+ "render": {
+  "model": "bytedance/omnihuman/v2",
+  "usd_per_s": 0.105,
+  "per_language": {
+   "cy": {
+    "status": "superseded",
+    "text": "Weli di'r mwg dros y grib? Ma' tân 'da nhw lan yn y tŷ cerrig yn barod. Sbelt da eleni. Digon sych i'w ddyrnu cyn i'r glaw ddod lan y cwm.",
+    "voice": "TODO: pick from studio/characters/<speaker>/character.json (new era = new voice)",
+    "prompt": "TODO: write per Quality bar v2 rule 5 from the still and this line"
+   },
+   "en": {
+    "status": "superseded",
+    "text": "See the smoke over the brow? They've the fires lit up at the stone house already. Good spelt this year. Dry enough to thresh before the rain comes up the valley.",
+    "voice": "TODO: pick from studio/characters/<speaker>/character.json (new era = new voice)",
+    "prompt": "TODO: write per Quality bar v2 rule 5 from the still and this line"
+   },
+   "es": {
+    "status": "superseded",
+    "text": "¿Ves el humo sobre la cresta? Ya prendieron los fuegos allá arriba en la casa de piedra. Buen trigo espelta este año. Bastante seco para trillarlo antes de que la lluvia suba por el valle.",
+    "voice": "TODO: pick from studio/characters/<speaker>/character.json (new era = new voice)",
+    "prompt": "TODO: write per Quality bar v2 rule 5 from the still and this line"
+   }
+  }
+ },
+ "qa": {
+  "status": "todo"
+ },
+ "status": "superseded",
+ "order": 2
+}

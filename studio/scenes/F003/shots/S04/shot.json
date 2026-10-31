@@ -1,0 +1,58 @@
+{
+ "schema": "cedwyn-studios/shot@1",
+ "scene": "F003",
+ "id": "S04",
+ "n": 4,
+ "type": "talking",
+ "set": "s10",
+ "speaker": "A_MARY",
+ "direction": "About 14 s. Medium close-up on the wife, who keeps binding the sheaf as she answers. She tilts her head towards a basket where a red glossy bowl sits among bread and cheese.",
+ "seconds": null,
+ "start": null,
+ "still": {
+  "prompt": "Photoreal 16:9 cinematic medium close-up, Roman-period Britain c. AD 200. A woman in her thirties with dark brown hair in a bun, strong cheekbones, grey-green eyes and a small mole on her left cheek, in a plain wool dress and wool shawl, ties a sheaf of spelt with straw. Beside her a wicker basket holds a glossy red pottery bowl, bread and a cloth. Hillside harvest field, warm late-summer light. Invented face, no text, no heraldry.",
+  "refs": [],
+  "image": null
+ },
+ "lines": [
+  {
+   "who": "A_MARY",
+   "spoken": "cy",
+   "accent": "South Wales (Glamorgan) Welsh, rural; native review",
+   "cy": "Dyrna fe'n glou, 'te. Ma'r freuan yn llwgu, a'r plant 'fyd. Potiau coch crand o bell, a ni'n dal i fyta'r un uwd mas ohonyn nhw.",
+   "en": "Then thresh it quick. The quern's hungry, and so are the children. Fine red pots from far off, and we still eat the same porridge out of them.",
+   "es": "Entonces trillalo rápido. La piedra de moler tiene hambre, y los chicos también. Ollas rojas finas de lejos, y seguimos comiendo la misma mazamorra en ellas.",
+   "cite": []
+  }
+ ],
+ "captions": [],
+ "render": {
+  "model": "bytedance/omnihuman/v2",
+  "usd_per_s": 0.105,
+  "per_language": {
+   "cy": {
+    "status": "superseded",
+    "text": "Dyrna fe'n glou, 'te. Ma'r freuan yn llwgu, a'r plant 'fyd. Potiau coch crand o bell, a ni'n dal i fyta'r un uwd mas ohonyn nhw.",
+    "voice": "TODO: pick from studio/characters/<speaker>/character.json (new era = new voice)",
+    "prompt": "TODO: write per Quality bar v2 rule 5 from the still and this line"
+   },
+   "en": {
+    "status": "superseded",
+    "text": "Then thresh it quick. The quern's hungry, and so are the children. Fine red pots from far off, and we still eat the same porridge out of them.",
+    "voice": "TODO: pick from studio/characters/<speaker>/character.json (new era = new voice)",
+    "prompt": "TODO: write per Quality bar v2 rule 5 from the still and this line"
+   },
+   "es": {
+    "status": "superseded",
+    "text": "Entonces trillalo rápido. La piedra de moler tiene hambre, y los chicos también. Ollas rojas finas de lejos, y seguimos comiendo la misma mazamorra en ellas.",
+    "voice": "TODO: pick from studio/characters/<speaker>/character.json (new era = new voice)",
+    "prompt": "TODO: write per Quality bar v2 rule 5 from the still and this line"
+   }
+  }
+ },
+ "qa": {
+  "status": "todo"
+ },
+ "status": "superseded",
+ "order": 3
+}

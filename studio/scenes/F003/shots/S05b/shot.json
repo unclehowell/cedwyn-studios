@@ -1,0 +1,30 @@
+{
+ "schema": "cedwyn-studios/shot@1",
+ "scene": "F003",
+ "id": "S05b",
+ "n": "5b",
+ "type": "still-move",
+ "set": "s10",
+ "speaker": null,
+ "direction": "About 9 s. Ambient still, slow push-in: geese walk between the stooks; the barn, the yoked oxen and the cart behind; grey cloud rising off the marshes below. Ambience: geese, a lowing ox, wind.",
+ "seconds": null,
+ "start": null,
+ "still": {
+  "prompt": "Same hill and viewpoint, about AD 200, late afternoon: closer view of the reaped stubble near the field edge, plump white and grey geese walking between stooked spelt sheaves, a small wattle-and-thatch barn with two yoked oxen and a wooden cart behind them. Remove all roundhouses. Grey cloud starting to rise off the marshes far below. No people.",
+  "refs": [],
+  "image": null
+ },
+ "lines": [],
+ "captions": [],
+ "render": {
+  "model": "ffmpeg still-move (free)",
+  "shared": {
+   "status": "superseded"
+  }
+ },
+ "qa": {
+  "status": "todo"
+ },
+ "status": "superseded",
+ "order": 6
+}

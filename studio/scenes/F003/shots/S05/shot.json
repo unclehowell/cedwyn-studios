@@ -1,0 +1,58 @@
+{
+ "schema": "cedwyn-studios/shot@1",
+ "scene": "F003",
+ "id": "S05",
+ "n": 5,
+ "type": "talking",
+ "set": "s10",
+ "speaker": "B_JOHN",
+ "direction": "About 12 s. Medium shot of the farmer leaning on the sickle. He looks across to the wattle barn and the yoked oxen beside it, where the old roundhouse of the previous scene once stood.",
+ "seconds": null,
+ "start": null,
+ "still": {
+  "prompt": "Photoreal 16:9 cinematic medium shot, Roman-period Britain c. AD 200. A weathered farmer in his fifties with a broad face, grey-flecked beard and heavy hands leans on an iron sickle, looking towards a small wattle-and-thatch barn where two yoked oxen stand beside a wooden cart. Inland hillside, marshland and river far below. Golden afternoon light. Invented face, no text, no heraldry.",
+  "refs": [],
+  "image": null
+ },
+ "lines": [
+  {
+   "who": "B_JOHN",
+   "spoken": "cy",
+   "accent": "South Wales (Glamorgan) Welsh, rural; native review",
+   "cy": "Ro'dd Mam-gu'n arfer gweud bod ei phobol hi'n cadw tŷ crwn fan hyn. Nawr, y sgubor a'r ychen sy 'ma.",
+   "en": "Gran used to tell us her people kept a round house right here. Now it's the barn and the oxen.",
+   "es": "La abuela contaba que su gente tenía una casa redonda justo acá. Ahora es el granero y los bueyes.",
+   "cite": []
+  }
+ ],
+ "captions": [],
+ "render": {
+  "model": "bytedance/omnihuman/v2",
+  "usd_per_s": 0.105,
+  "per_language": {
+   "cy": {
+    "status": "superseded",
+    "text": "Ro'dd Mam-gu'n arfer gweud bod ei phobol hi'n cadw tŷ crwn fan hyn. Nawr, y sgubor a'r ychen sy 'ma.",
+    "voice": "TODO: pick from studio/characters/<speaker>/character.json (new era = new voice)",
+    "prompt": "TODO: write per Quality bar v2 rule 5 from the still and this line"
+   },
+   "en": {
+    "status": "superseded",
+    "text": "Gran used to tell us her people kept a round house right here. Now it's the barn and the oxen.",
+    "voice": "TODO: pick from studio/characters/<speaker>/character.json (new era = new voice)",
+    "prompt": "TODO: write per Quality bar v2 rule 5 from the still and this line"
+   },
+   "es": {
+    "status": "superseded",
+    "text": "La abuela contaba que su gente tenía una casa redonda justo acá. Ahora es el granero y los bueyes.",
+    "voice": "TODO: pick from studio/characters/<speaker>/character.json (new era = new voice)",
+    "prompt": "TODO: write per Quality bar v2 rule 5 from the still and this line"
+   }
+  }
+ },
+ "qa": {
+  "status": "todo"
+ },
+ "status": "superseded",
+ "order": 5
+}
