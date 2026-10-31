@@ -1,0 +1,37 @@
+{
+ "schema": "cedwyn-studios/shot@1",
+ "scene": "F008",
+ "id": "S01",
+ "n": 1,
+ "type": "still-move",
+ "set": "s06",
+ "speaker": null,
+ "direction": "Date-and-place card over an establishing still. Early morning in small-town Cardiff, 1824. A plain Georgian-fronted office on a muddy street, with the old castle curtain wall rising beyond the rooftops. A carter's cart stands outside. Slow push in toward the lit ground-floor window. This office check is inferred as the most likely moment the plan was examined.",
+ "seconds": null,
+ "start": null,
+ "still": {
+  "prompt": "Photoreal 16:9 still, Cardiff 1824 at early morning, a modest two-storey Georgian brick office building on an unpaved muddy street, medieval castle curtain wall visible beyond slate rooftops, a horse and cart at the kerb, soft grey Welsh light, candlelight glowing in a ground-floor window, period-accurate clothing on two distant passers-by, no signage, no text, no heraldry, no crests",
+  "refs": [],
+  "image": null
+ },
+ "lines": [],
+ "captions": [
+  {
+   "text": "1824 · Bute estate office, Cardiff",
+   "cite": [
+    "CH-0010"
+   ]
+  }
+ ],
+ "render": {
+  "model": "ffmpeg still-move (free)",
+  "shared": {
+   "status": "todo"
+  }
+ },
+ "qa": {
+  "status": "todo"
+ },
+ "status": "todo",
+ "order": 1
+}

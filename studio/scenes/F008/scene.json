@@ -1,0 +1,97 @@
+{
+ "schema": "cedwyn-studios/scene@1",
+ "id": "F008",
+ "frame_map_n": 7,
+ "title": {
+  "en": "Plan 19: Cedfin or Tŷ Mawr",
+  "cy": "Cynllun 19: Cedfin neu'r Tŷ Mawr",
+  "es": "Plano 19: Cedfin o Tŷ Mawr"
+ },
+ "date": "1824",
+ "place": "Bute estate office, Cardiff",
+ "set": "s06",
+ "present": {
+  "E_AGENT": "the Bute estate agent",
+  "C_FRED": "a draughtsman in the estate office (fictional)"
+ },
+ "logline": "In the Bute estate office the agent checks plan 19 of Stewart's survey: 'Cedfin or Ty Mawr Farm', 139a 3r 8p including 20a 2r 35p of wood, with 10a 3r 39p of 'late Thos. Williams' land added.",
+ "moment": {
+  "date": "1824",
+  "place": "Bute estate office, Cardiff",
+  "present": [
+   "E_AGENT=the Bute estate agent",
+   "C_FRED=a draughtsman in the estate office (fictional)"
+  ],
+  "summary": "In the Bute estate office the agent checks plan 19 of Stewart's survey: 'Cedfin or Ty Mawr Farm', 139a 3r 8p including 20a 2r 35p of wood, with 10a 3r 39p of 'late Thos. Williams' land added.",
+  "anchor": "CH-0008",
+  "captions": [
+   "1824: survey of the Bute estates, plan 19 'Cedfin or Ty Mawr Farm', 139a 3r 8p (CH-0009)",
+   "1824: David Stewart's Bute estate survey maps 'Cedfin alias Ty Mawr farm; in Llandough' (Glamorgan Archives DB/E/1-2) (CH-0010)",
+   "Undated: an uploaded image titled '1824 map of Ty Mawr'; its maker and true date are not yet established (EV-0004)",
+   "1841: tithe apportionment for Llandough, Cogan and Leckwith, parish copy (Glamorgan Archives P35/10) (CH-0011)",
+   "Undated: a map image labelled '1841-map'; its title, date and source are not yet established (EV-0005)"
+  ],
+  "basis": "Glamorgan Archives DB/E/1 plan 19 gives the farm name, the acreages, the occupier (read as John Gedrick) and the added 'late Thos. Williams' land (CH-0008, EV-0211). The office check is inferred as the most likely moment.",
+  "source": [
+   "https://cedwyn.bucklerfamily.estate/wiki/evidence/ev-0211-db-e-1-plan-19-cedfin-ty-mawr-1824/",
+   "https://cedwyn.bucklerfamily.estate/wiki/",
+   "https://cedwyn.bucklerfamily.estate/wiki/evidence/ev-0004-ty-mawr-map-1824/"
+  ],
+  "source_in_sitemap": true
+ },
+ "sources": {
+  "catalogue_ids": [
+   "CH-0008",
+   "CH-0009",
+   "CH-0010",
+   "CH-0011",
+   "EV-0004",
+   "EV-0005",
+   "EV-0211"
+  ],
+  "urls": [
+   "https://cedwyn.bucklerfamily.estate/wiki/evidence/ev-0211-db-e-1-plan-19-cedfin-ty-mawr-1824/",
+   "https://cedwyn.bucklerfamily.estate/wiki/",
+   "https://cedwyn.bucklerfamily.estate/wiki/evidence/ev-0004-ty-mawr-map-1824/"
+  ],
+  "chronology": "r2:studio/chronology/CHRONOLOGY.json (event ids above)"
+ },
+ "languages": [
+  "cy",
+  "en",
+  "es"
+ ],
+ "spoken_language": "cy",
+ "subtitles": "en/es subtitles for Welsh speech; Rioplatense Spanish; cues <=2x42 chars",
+ "accent": "thick Welsh accent for every Welsh character; non-Welsh characters keep their own accents",
+ "continuity": "Plan 19 goes into the rack with the 'late Thos. Williams' corner marked; the film moves on to the Williams family at Great House farm, where Amy Williams lies dying two days before Christmas.",
+ "left_out": [],
+ "translation": {
+  "cy": "machine-written (claude-opus-5-5), for native review",
+  "es": "machine-written, Rioplatense, for review"
+ },
+ "script_version": "v0.4.0",
+ "script_status": "v0.4.0 29 Oct 2026 IN-PERIOD rewrite (owner 16:04 GMT): one moment, no narrator, no fourth wall; not rendered; Welsh and Spanish machine-written, for native review",
+ "target_seconds": 120,
+ "estimated_seconds": 68,
+ "status": "scripted",
+ "status_note": "Script v0.4.0 on file; nothing rendered.",
+ "shots": [
+  "S01",
+  "S02",
+  "S03",
+  "S04",
+  "S05",
+  "S06",
+  "S07",
+  "S08"
+ ],
+ "deliverable": {
+  "per_language_video": true,
+  "quality_bar": "v2",
+  "fps": 24,
+  "codec": "VP9 two-pass",
+  "audio": "Opus 128k, -16 LUFS, LRA <= 7, TP <= -1.5",
+  "max_bytes": 26214400
+ }
+}

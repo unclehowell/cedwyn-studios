@@ -1,0 +1,68 @@
+{
+ "schema": "cedwyn-studios/shot@1",
+ "scene": "F008",
+ "id": "S03",
+ "n": 3,
+ "type": "talking",
+ "set": "s06",
+ "speaker": "C_FRED",
+ "direction": "Medium shot of the draughtsman. He looks up from the desk at the agent and keeps his hand above the wet ink.",
+ "seconds": null,
+ "start": null,
+ "still": {
+  "prompt": "Photoreal 16:9 medium shot, lean sandy-haired man with a moustache and a shy smile, in a dark 1820s clerk's coat and white stock, standing at a sloped drawing desk with a hand-drawn estate plan, quill in hand, window light, Welsh estate office 1824, no text, no heraldry",
+  "refs": [],
+  "image": null
+ },
+ "lines": [
+  {
+   "who": "C_FRED",
+   "spoken": "cy",
+   "accent": "South Wales (Glamorgan) Welsh; Welsh text marked for native review",
+   "cy": "Bore da, syr. Gofalwch am yr inc, mae e'n dal yn wlyb. Dyma gynllun pedwar ar bymtheg o arolwg Mr Stewart, wedi'i gopïo'n lân o'i lyfr maes. Y fferm i gyd: cant tri deg naw erw, tri rood ac wyth perch.",
+   "en": "Good morning, sir. Mind the ink, it's still wet. Here's plan nineteen of Mr Stewart's survey, fair-copied from his field book. The farm in all: one hundred and thirty-nine acres, three roods, eight perches.",
+   "es": "Buen día, señor. Cuidado con la tinta, que todavía está fresca. Acá está el plano diecinueve del relevamiento del señor Stewart, pasado en limpio de su libreta de campo. La chacra entera: ciento treinta y nueve acres, tres roods y ocho perchas.",
+   "cite": [
+    "CH-0009",
+    "CH-0008"
+   ]
+  }
+ ],
+ "captions": [
+  {
+   "text": "1824: survey of the Bute estates, plan 19 'Cedfin or Ty Mawr Farm', 139a 3r 8p (CH-0009)",
+   "cite": [
+    "CH-0009"
+   ]
+  }
+ ],
+ "render": {
+  "model": "bytedance/omnihuman/v2",
+  "usd_per_s": 0.105,
+  "per_language": {
+   "cy": {
+    "status": "todo",
+    "text": "Bore da, syr. Gofalwch am yr inc, mae e'n dal yn wlyb. Dyma gynllun pedwar ar bymtheg o arolwg Mr Stewart, wedi'i gopïo'n lân o'i lyfr maes. Y fferm i gyd: cant tri deg naw erw, tri rood ac wyth perch.",
+    "voice": "TODO: pick from studio/characters/<speaker>/character.json (new era = new voice)",
+    "prompt": "TODO: write per Quality bar v2 rule 5 from the still and this line"
+   },
+   "en": {
+    "status": "todo",
+    "text": "Good morning, sir. Mind the ink, it's still wet. Here's plan nineteen of Mr Stewart's survey, fair-copied from his field book. The farm in all: one hundred and thirty-nine acres, three roods, eight perches.",
+    "voice": "TODO: pick from studio/characters/<speaker>/character.json (new era = new voice)",
+    "prompt": "TODO: write per Quality bar v2 rule 5 from the still and this line"
+   },
+   "es": {
+    "status": "todo",
+    "text": "Buen día, señor. Cuidado con la tinta, que todavía está fresca. Acá está el plano diecinueve del relevamiento del señor Stewart, pasado en limpio de su libreta de campo. La chacra entera: ciento treinta y nueve acres, tres roods y ocho perchas.",
+    "voice": "TODO: pick from studio/characters/<speaker>/character.json (new era = new voice)",
+    "prompt": "TODO: write per Quality bar v2 rule 5 from the still and this line"
+   }
+  }
+ },
+ "qa": {
+  "status": "todo"
+ },
+ "status": "todo",
+ "order": 3
+}

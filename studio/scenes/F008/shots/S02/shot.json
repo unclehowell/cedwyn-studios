@@ -1,0 +1,37 @@
+{
+ "schema": "cedwyn-studios/shot@1",
+ "scene": "F008",
+ "id": "S02",
+ "n": 2,
+ "type": "still-move",
+ "set": "s06",
+ "speaker": null,
+ "direction": "Interior of the estate office. The draughtsman (C_FRED) stands at a sloped drawing desk by the window, laying a last wash on a fair-copy plan of field parcels, with woods tinted green. He has quills, an ink pot, brass dividers and a boxwood scale rule beside him. The agent (E_AGENT) comes in with his leather document case. Slow lateral move across the desk. Ambience only: a quill scratching, a clock ticking, cartwheels outside.",
+ "seconds": null,
+ "start": null,
+ "still": {
+  "prompt": "Photoreal 16:9 still, interior of an 1820s Welsh estate office, a lean man with sandy hair and a moustache wearing a dark 1820s clerk's coat and white stock, bent over a sloped drawing desk inking a hand-drawn estate plan with green-washed woodland and field boundaries, quill pens, ink pot, brass dividers, boxwood scale rule, morning window light, behind him a pale clean-shaven man in thin-rimmed spectacles and a dark frock coat entering with a leather document case, plain panelled walls, no crests, no heraldry, no legible text",
+  "refs": [],
+  "image": null
+ },
+ "lines": [],
+ "captions": [
+  {
+   "text": "1824: David Stewart's Bute estate survey maps 'Cedfin alias Ty Mawr farm; in Llandough' (Glamorgan Archives DB/E/1-2) (CH-0010)",
+   "cite": [
+    "CH-0010"
+   ]
+  }
+ ],
+ "render": {
+  "model": "ffmpeg still-move (free)",
+  "shared": {
+   "status": "todo"
+  }
+ },
+ "qa": {
+  "status": "todo"
+ },
+ "status": "todo",
+ "order": 2
+}
