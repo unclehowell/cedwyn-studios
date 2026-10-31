@@ -1,0 +1,106 @@
+{
+ "schema": "cedwyn-studios/scene@1",
+ "id": "F003",
+ "frame_map_n": null,
+ "title": {
+  "en": "Same hill, new neighbours",
+  "cy": null,
+  "es": null
+ },
+ "date": "c. AD 200",
+ "place": "Fields on Llandough hill, above the River Ely",
+ "set": "s10",
+ "present": {
+  "B_JOHN": "a Romano-British farmer (prologue, invented)",
+  "A_MARY": "a Romano-British farm woman, his wife (prologue, invented)"
+ },
+ "logline": null,
+ "moment": null,
+ "sources": {
+  "catalogue_ids": [
+   "PX-02"
+  ],
+  "urls": [],
+  "chronology": "r2:studio/chronology/CHRONOLOGY.json (event ids above)"
+ },
+ "languages": [
+  "cy",
+  "en",
+  "es"
+ ],
+ "spoken_language": "cy",
+ "subtitles": "en/es subtitles for Welsh speech; Rioplatense Spanish; cues <=2x42 chars",
+ "accent": "thick Welsh accent for every Welsh character; non-Welsh characters keep their own accents",
+ "continuity": "The rain comes up the valley over the cart track; on the same slope, centuries later, the next scene finds a monk of Llandough leading a burial in the monastic cemetery above the marshes of the Ely.",
+ "left_out": [],
+ "translation": {
+  "cy": "machine-written (claude-opus-5-5), for native review",
+  "es": "machine-written, Rioplatense, for review"
+ },
+ "script_version": "v0.4.1",
+ "script_status": "v0.4.1 29 Oct 2026: rendered as scene 3 (in-period, no narrator). Changes from v0.4.0: line 1 reordered to open on the question ('See the smoke over the brow?') for the on-camera hook in the first 5 s; the harvest still with the PX-02 caption moved after the first exchange (no catalogue ID before 0:30); one wordless geese-and-barn still added; 'cap of straw' dropped. Welsh/Spanish machine-written, for native review.",
+ "target_seconds": 120,
+ "estimated_seconds": 63,
+ "status": "superseded",
+ "status_note": "Rendered 29 Oct as scene 3 (v0.4.1) and then merged into Door 2 (scripts/F002 v1.0.2 merged_from F003 v0.4.1). Not in the frame map v2.1.4. Kept for history; never render.",
+ "shots": [
+  "S01",
+  "S03",
+  "S04",
+  "S02",
+  "S05",
+  "S05b",
+  "S06",
+  "S07",
+  "S08"
+ ],
+ "deliverable": {
+  "per_language_video": true,
+  "quality_bar": "v2",
+  "fps": 24,
+  "codec": "VP9 two-pass",
+  "audio": "Opus 128k, -16 LUFS, LRA <= 7, TP <= -1.5",
+  "max_bytes": 26214400
+ },
+ "merged_into": "F002",
+ "assets": [
+  "r2:studio/scenes/F003/assets/audio/L1_cy.mp3",
+  "r2:studio/scenes/F003/assets/audio/L1_en.mp3",
+  "r2:studio/scenes/F003/assets/audio/L1_es.mp3",
+  "r2:studio/scenes/F003/assets/audio/L2_cy.mp3",
+  "r2:studio/scenes/F003/assets/audio/L2_en.mp3",
+  "r2:studio/scenes/F003/assets/audio/L2_es.mp3",
+  "r2:studio/scenes/F003/assets/audio/L3_cy.mp3",
+  "r2:studio/scenes/F003/assets/audio/L3_en.mp3",
+  "r2:studio/scenes/F003/assets/audio/L3_es.mp3",
+  "r2:studio/scenes/F003/assets/audio/L4_cy.mp3",
+  "r2:studio/scenes/F003/assets/audio/L4_en.mp3",
+  "r2:studio/scenes/F003/assets/audio/L4_es.mp3",
+  "r2:studio/scenes/F003/assets/audio/L5_cy.mp3",
+  "r2:studio/scenes/F003/assets/audio/L5_en.mp3",
+  "r2:studio/scenes/F003/assets/audio/L5_es.mp3",
+  "r2:studio/scenes/F003/assets/audio/amb_cart.mp3",
+  "r2:studio/scenes/F003/assets/audio/amb_field.mp3",
+  "r2:studio/scenes/F003/assets/audio/amb_geese.mp3",
+  "r2:studio/scenes/F003/assets/gfx/cap_px02.png",
+  "r2:studio/scenes/F003/assets/gfx/card.png",
+  "r2:studio/scenes/F003/assets/gfx/end.png",
+  "r2:studio/scenes/F003/assets/mix/F003.cy.vtt",
+  "r2:studio/scenes/F003/assets/mix/F003.en.vtt",
+  "r2:studio/scenes/F003/assets/mix/F003.es.vtt",
+  "r2:studio/scenes/F003/assets/out/F003.cy.webm",
+  "r2:studio/scenes/F003/assets/out/F003.en.webm",
+  "r2:studio/scenes/F003/assets/out/F003.es.webm",
+  "r2:studio/scenes/F003/assets/out/F003.jpg",
+  "r2:studio/scenes/F003/assets/out/F003.webm",
+  "r2:studio/scenes/F003/assets/stills/oh1.jpg",
+  "r2:studio/scenes/F003/assets/stills/oh2.jpg",
+  "r2:studio/scenes/F003/assets/stills/oh3.jpg",
+  "r2:studio/scenes/F003/assets/stills/oh4.jpg",
+  "r2:studio/scenes/F003/assets/stills/oh5.jpg",
+  "r2:studio/scenes/F003/assets/stills/st1.jpg",
+  "r2:studio/scenes/F003/assets/stills/st2.jpg",
+  "r2:studio/scenes/F003/assets/stills/st3.jpg",
+  "r2:studio/scenes/F003/assets/stills/st4.jpg"
+ ]
+}

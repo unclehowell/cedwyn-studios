@@ -1,0 +1,35 @@
+{
+ "schema": "cedwyn-studios/shot@1",
+ "scene": "F003",
+ "id": "S01",
+ "n": 1,
+ "type": "still-move",
+ "set": "s10",
+ "speaker": null,
+ "direction": "About 4 s. Date-and-place card over a wide establishing still (same hill and viewpoint as scene 2, roundhouses gone). Late summer; half the field reaped spelt stubble, half standing grain; a small wattle-and-thatch barn; thin smoke beyond the crest. Slow push-in. Ambience: wind in the grain, skylarks, distant geese.",
+ "seconds": null,
+ "start": null,
+ "still": {
+  "prompt": "Photoreal 16:9 cinematic still, Roman-period Britain c. AD 200, late summer afternoon. Inland hillside field on a gentle slope, half reaped stubble and half standing golden spelt wheat, sheaves stooked in rows. Below, a winding river through flat green marshland, a faint estuary haze far on the horizon, wooded valley sides. Small wattle-and-daub barn with thatched roof at the field edge. No people in close view, no stone buildings visible, no sea, no coastline, no beach. Soft natural light, muted earthy palette. No text, no heraldry.",
+  "refs": [],
+  "image": null
+ },
+ "lines": [],
+ "captions": [
+  {
+   "text": "c. AD 200 · Fields on Llandough hill, above the River Ely · Spoken in modern Welsh, the nearest living language to theirs",
+   "cite": []
+  }
+ ],
+ "render": {
+  "model": "ffmpeg still-move (free)",
+  "shared": {
+   "status": "superseded"
+  }
+ },
+ "qa": {
+  "status": "todo"
+ },
+ "status": "superseded",
+ "order": 1
+}

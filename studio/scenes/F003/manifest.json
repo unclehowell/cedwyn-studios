@@ -1,0 +1,274 @@
+{
+ "schema": "cedwyn-studios/manifest@1",
+ "scene": "F003",
+ "store": "r2:cedwyn-studios",
+ "objects": {
+  "studio/scenes/F003/assets/audio/L1_cy.mp3": {
+   "sha256": "c301a1852633cb8ec716730409cd4510218d2d3b7ed672171c2fb9e93b8b50df",
+   "bytes": 167644,
+   "content_type": "audio/mpeg",
+   "origin": "cedwyn-movie-box:F003v1/audio/L1_cy.mp3",
+   "at": "2026-10-31T13:23:59Z"
+  },
+  "studio/scenes/F003/assets/audio/L1_en.mp3": {
+   "sha256": "4aa39689d0a8ea562d4bfc1abaf8dd2fc952fd34d6399154e7b61a3bbb940548",
+   "bytes": 162211,
+   "content_type": "audio/mpeg",
+   "origin": "cedwyn-movie-box:F003v1/audio/L1_en.mp3",
+   "at": "2026-10-31T13:23:59Z"
+  },
+  "studio/scenes/F003/assets/audio/L1_es.mp3": {
+   "sha256": "47375e5825bc162eb302a6b8cd72b4053aac01b690b3c60b34eb45814b3ba582",
+   "bytes": 201917,
+   "content_type": "audio/mpeg",
+   "origin": "cedwyn-movie-box:F003v1/audio/L1_es.mp3",
+   "at": "2026-10-31T13:24:00Z"
+  },
+  "studio/scenes/F003/assets/audio/L2_cy.mp3": {
+   "sha256": "3171d36afa9e6d9fe9b692839bfcd34aae7e89c9905e65e7bc4bb9a0687283a7",
+   "bytes": 162211,
+   "content_type": "audio/mpeg",
+   "origin": "cedwyn-movie-box:F003v1/audio/L2_cy.mp3",
+   "at": "2026-10-31T13:24:01Z"
+  },
+  "studio/scenes/F003/assets/audio/L2_en.mp3": {
+   "sha256": "c53486d3968427d29792745fd746dcc0b01c1364d146de5b28d9d42ae4062317",
+   "bytes": 152180,
+   "content_type": "audio/mpeg",
+   "origin": "cedwyn-movie-box:F003v1/audio/L2_en.mp3",
+   "at": "2026-10-31T13:24:02Z"
+  },
+  "studio/scenes/F003/assets/audio/L2_es.mp3": {
+   "sha256": "c1a828e4dc37d89bb8abb84a16f80753e7a77dd4ecf6ad820479c4058f42be4e",
+   "bytes": 166390,
+   "content_type": "audio/mpeg",
+   "origin": "cedwyn-movie-box:F003v1/audio/L2_es.mp3",
+   "at": "2026-10-31T13:24:02Z"
+  },
+  "studio/scenes/F003/assets/audio/L3_cy.mp3": {
+   "sha256": "fcc94872eb0ce47be83f246dea456bd833d5fe9363ef6da91f9b598043486607",
+   "bytes": 118743,
+   "content_type": "audio/mpeg",
+   "origin": "cedwyn-movie-box:F003v1/audio/L3_cy.mp3",
+   "at": "2026-10-31T13:24:03Z"
+  },
+  "studio/scenes/F003/assets/audio/L3_en.mp3": {
+   "sha256": "0c855b5ffe76050b2932903061040bfac7ccba9c1b795c88dfdc27c4ecc1ec25",
+   "bytes": 109966,
+   "content_type": "audio/mpeg",
+   "origin": "cedwyn-movie-box:F003v1/audio/L3_en.mp3",
+   "at": "2026-10-31T13:24:04Z"
+  },
+  "studio/scenes/F003/assets/audio/L3_es.mp3": {
+   "sha256": "5ead8b5bdb09b1534cfc7fdcd9da51a492d85f3de6a7241fa526a500c12c8099",
+   "bytes": 117489,
+   "content_type": "audio/mpeg",
+   "origin": "cedwyn-movie-box:F003v1/audio/L3_es.mp3",
+   "at": "2026-10-31T13:24:05Z"
+  },
+  "studio/scenes/F003/assets/audio/L4_cy.mp3": {
+   "sha256": "7959bdc4464575ca74a6cc06e23632d445198ca351e085b97323cd6c06136781",
+   "bytes": 176421,
+   "content_type": "audio/mpeg",
+   "origin": "cedwyn-movie-box:F003v1/audio/L4_cy.mp3",
+   "at": "2026-10-31T13:24:05Z"
+  },
+  "studio/scenes/F003/assets/audio/L4_en.mp3": {
+   "sha256": "219491ce0174c84427f13d11dbc78d9e02664d9a29af8bd271cbaed958583bef",
+   "bytes": 167644,
+   "content_type": "audio/mpeg",
+   "origin": "cedwyn-movie-box:F003v1/audio/L4_en.mp3",
+   "at": "2026-10-31T13:24:06Z"
+  },
+  "studio/scenes/F003/assets/audio/L4_es.mp3": {
+   "sha256": "39beb5ecc81c568c2af0431f6c57ebe5a3b9a1b9ebee59096a63937a0914230a",
+   "bytes": 180183,
+   "content_type": "audio/mpeg",
+   "origin": "cedwyn-movie-box:F003v1/audio/L4_es.mp3",
+   "at": "2026-10-31T13:24:07Z"
+  },
+  "studio/scenes/F003/assets/audio/L5_cy.mp3": {
+   "sha256": "6519165c1d850fd763bc1a0a691cfd7844b80a73b88fa4cb8982183f840194b4",
+   "bytes": 81545,
+   "content_type": "audio/mpeg",
+   "origin": "cedwyn-movie-box:F003v1/audio/L5_cy.mp3",
+   "at": "2026-10-31T13:24:07Z"
+  },
+  "studio/scenes/F003/assets/audio/L5_en.mp3": {
+   "sha256": "b507df25892a3ef737d37926213a279ee358bb72bf2756fc1d14a069c2b39bcb",
+   "bytes": 53541,
+   "content_type": "audio/mpeg",
+   "origin": "cedwyn-movie-box:F003v1/audio/L5_en.mp3",
+   "at": "2026-10-31T13:24:08Z"
+  },
+  "studio/scenes/F003/assets/audio/L5_es.mp3": {
+   "sha256": "0a73f0ed7c579900edceb3b13431f35a11214a2eceae217977e161b1a1b6e23b",
+   "bytes": 82798,
+   "content_type": "audio/mpeg",
+   "origin": "cedwyn-movie-box:F003v1/audio/L5_es.mp3",
+   "at": "2026-10-31T13:24:09Z"
+  },
+  "studio/scenes/F003/assets/audio/amb_cart.mp3": {
+   "sha256": "0dc5bbf66400872e5920e1a5a2f192b05fc6b3fdc2c52b0a9536e548d87a8d04",
+   "bytes": 289270,
+   "content_type": "audio/mpeg",
+   "origin": "cedwyn-movie-box:F003v1/audio/amb_cart.mp3",
+   "at": "2026-10-31T13:24:10Z"
+  },
+  "studio/scenes/F003/assets/audio/amb_field.mp3": {
+   "sha256": "672867cb58aa83dc989b3e8d3defb3acdea3e3f1f87d0def815f599df0304d68",
+   "bytes": 353218,
+   "content_type": "audio/mpeg",
+   "origin": "cedwyn-movie-box:F003v1/audio/amb_field.mp3",
+   "at": "2026-10-31T13:24:11Z"
+  },
+  "studio/scenes/F003/assets/audio/amb_geese.mp3": {
+   "sha256": "88de8b1de6f2401d7d601b4e5d54f5348520fce8788e2d3a1fbd57e01b4446df",
+   "bytes": 257087,
+   "content_type": "audio/mpeg",
+   "origin": "cedwyn-movie-box:F003v1/audio/amb_geese.mp3",
+   "at": "2026-10-31T13:24:12Z"
+  },
+  "studio/scenes/F003/assets/gfx/cap_px02.png": {
+   "sha256": "6d6fd9ee612ba9c376544066b8028fdec1907b4361c21e2d1c6777958d1c6a86",
+   "bytes": 18088,
+   "content_type": "image/png",
+   "origin": "cedwyn-movie-box:F003v1/gfx/cap_px02.png",
+   "at": "2026-10-31T13:24:12Z"
+  },
+  "studio/scenes/F003/assets/gfx/card.png": {
+   "sha256": "b63c39589aca9c28a2f868830dcad980973da0b2bf75e88794badda55446144a",
+   "bytes": 30414,
+   "content_type": "image/png",
+   "origin": "cedwyn-movie-box:F003v1/gfx/card.png",
+   "at": "2026-10-31T13:24:13Z"
+  },
+  "studio/scenes/F003/assets/gfx/end.png": {
+   "sha256": "cd88dfa3df20aaed839f0b4ab81c764a13173b72fe69473a344bb04e0a436109",
+   "bytes": 22656,
+   "content_type": "image/png",
+   "origin": "cedwyn-movie-box:F003v1/gfx/end.png",
+   "at": "2026-10-31T13:24:13Z"
+  },
+  "studio/scenes/F003/assets/mix/F003.cy.vtt": {
+   "sha256": "c332961dbef33c159123be26c55f922b62989c3060eca85d7dfed0f5ec632042",
+   "bytes": 1022,
+   "content_type": "text/vtt",
+   "origin": "cedwyn-movie-box:F003v1/mix/F003.cy.vtt",
+   "at": "2026-10-31T13:24:14Z"
+  },
+  "studio/scenes/F003/assets/mix/F003.en.vtt": {
+   "sha256": "d655f5e4b68f4786d8058eb32ec4d06eb394c4dbcb25ebef43fca1e21cc7897a",
+   "bytes": 1124,
+   "content_type": "text/vtt",
+   "origin": "cedwyn-movie-box:F003v1/mix/F003.en.vtt",
+   "at": "2026-10-31T13:24:15Z"
+  },
+  "studio/scenes/F003/assets/mix/F003.es.vtt": {
+   "sha256": "81a4e067b3eb54390df210ad6b94e418f0c6e35e7c8d57ae96d7a9efa1e801f5",
+   "bytes": 1112,
+   "content_type": "text/vtt",
+   "origin": "cedwyn-movie-box:F003v1/mix/F003.es.vtt",
+   "at": "2026-10-31T13:24:15Z"
+  },
+  "studio/scenes/F003/assets/out/F003.cy.webm": {
+   "sha256": "ce9257aeac1c08ee7e5ba9717fe45506d3dc354b17c6b4d7024ee275815d7e71",
+   "bytes": 740995,
+   "content_type": "video/webm",
+   "origin": "cedwyn-movie-box:F003v1/out/F003.cy.webm",
+   "at": "2026-10-31T13:24:16Z"
+  },
+  "studio/scenes/F003/assets/out/F003.en.webm": {
+   "sha256": "f459ca9023cf6433561c78b3124d78edb27c21d6b1e29959c67011874141e296",
+   "bytes": 734682,
+   "content_type": "video/webm",
+   "origin": "cedwyn-movie-box:F003v1/out/F003.en.webm",
+   "at": "2026-10-31T13:24:17Z"
+  },
+  "studio/scenes/F003/assets/out/F003.es.webm": {
+   "sha256": "7e887ea3676f7107d85cb34fe01108c4d33a7904100bcfe0f029d324d5e3156e",
+   "bytes": 744098,
+   "content_type": "video/webm",
+   "origin": "cedwyn-movie-box:F003v1/out/F003.es.webm",
+   "at": "2026-10-31T13:24:18Z"
+  },
+  "studio/scenes/F003/assets/out/F003.jpg": {
+   "sha256": "f8b845be13286fb584c11dc2c2cdcbb7c1e1e5d4ee4a435b1f4f6bfc67020c94",
+   "bytes": 167515,
+   "content_type": "image/jpeg",
+   "origin": "cedwyn-movie-box:F003v1/out/F003.jpg",
+   "at": "2026-10-31T13:24:18Z"
+  },
+  "studio/scenes/F003/assets/out/F003.webm": {
+   "sha256": "1475574713d7d80de271643394e79c3e27d85934cc486095ad83d6d0021e0b11",
+   "bytes": 17717341,
+   "content_type": "video/webm",
+   "origin": "cedwyn-movie-box:F003v1/out/F003.webm",
+   "at": "2026-10-31T13:24:34Z"
+  },
+  "studio/scenes/F003/assets/stills/oh1.jpg": {
+   "sha256": "3b15de7b88ec4b7e71e6bb1085b4b726c6eb841b1266d3af6f323af1ffa3c492",
+   "bytes": 304437,
+   "content_type": "image/jpeg",
+   "origin": "cedwyn-movie-box:F003v1/stills/oh1.jpg",
+   "at": "2026-10-31T13:23:52Z"
+  },
+  "studio/scenes/F003/assets/stills/oh2.jpg": {
+   "sha256": "8c78bc7a2077755052b6f030c82673504c9545706f5e071f12245e8c13b17c4a",
+   "bytes": 360647,
+   "content_type": "image/jpeg",
+   "origin": "cedwyn-movie-box:F003v1/stills/oh2.jpg",
+   "at": "2026-10-31T13:23:53Z"
+  },
+  "studio/scenes/F003/assets/stills/oh3.jpg": {
+   "sha256": "5c77deeb094a2027f987ede526105567b603f7e16e8ce37210a79fac6e009bbb",
+   "bytes": 307936,
+   "content_type": "image/jpeg",
+   "origin": "cedwyn-movie-box:F003v1/stills/oh3.jpg",
+   "at": "2026-10-31T13:23:54Z"
+  },
+  "studio/scenes/F003/assets/stills/oh4.jpg": {
+   "sha256": "e50b04b8e871515a08eb4317762488578ee0a7cae3c05607c1d45ad5dc8112fb",
+   "bytes": 244650,
+   "content_type": "image/jpeg",
+   "origin": "cedwyn-movie-box:F003v1/stills/oh4.jpg",
+   "at": "2026-10-31T13:23:54Z"
+  },
+  "studio/scenes/F003/assets/stills/oh5.jpg": {
+   "sha256": "e44be0564f5758f3e66c8e0af7852b373527f578f657deeb9c7bf89b59d25238",
+   "bytes": 291856,
+   "content_type": "image/jpeg",
+   "origin": "cedwyn-movie-box:F003v1/stills/oh5.jpg",
+   "at": "2026-10-31T13:23:55Z"
+  },
+  "studio/scenes/F003/assets/stills/st1.jpg": {
+   "sha256": "eadf543ef6eef6096eb2081a7ac4517e6baa269dfb169fd2cbf67fee517ea2a4",
+   "bytes": 412470,
+   "content_type": "image/jpeg",
+   "origin": "cedwyn-movie-box:F003v1/stills/st1.jpg",
+   "at": "2026-10-31T13:23:56Z"
+  },
+  "studio/scenes/F003/assets/stills/st2.jpg": {
+   "sha256": "eb3d305717c8225d40c668332edcfdd0b6178b7dd4b24cbbdfb82cabad494a83",
+   "bytes": 376118,
+   "content_type": "image/jpeg",
+   "origin": "cedwyn-movie-box:F003v1/stills/st2.jpg",
+   "at": "2026-10-31T13:23:57Z"
+  },
+  "studio/scenes/F003/assets/stills/st3.jpg": {
+   "sha256": "0ecb3a138638fce5dc8a406ab63490bf72f5b9f5cb86e0dbdaddff5ea9c34203",
+   "bytes": 393573,
+   "content_type": "image/jpeg",
+   "origin": "cedwyn-movie-box:F003v1/stills/st3.jpg",
+   "at": "2026-10-31T13:23:57Z"
+  },
+  "studio/scenes/F003/assets/stills/st4.jpg": {
+   "sha256": "cb0fd2fd107b765f4271e45f21fad96c221f616c0b4a3f449e1dc9b80c13b524",
+   "bytes": 373561,
+   "content_type": "image/jpeg",
+   "origin": "cedwyn-movie-box:F003v1/stills/st4.jpg",
+   "at": "2026-10-31T13:23:58Z"
+  }
+ },
+ "renders": []
+}

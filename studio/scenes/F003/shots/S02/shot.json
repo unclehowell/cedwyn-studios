@@ -1,0 +1,37 @@
+{
+ "schema": "cedwyn-studios/shot@1",
+ "scene": "F003",
+ "id": "S02",
+ "n": 2,
+ "type": "still-move",
+ "set": "s10",
+ "speaker": null,
+ "direction": "About 10 s. Medium still with a slow lateral move. The farmer cuts spelt with an iron sickle. Behind him his wife binds a sheaf with a twist of straw. Hands, straw and dust are lit by the sun. Over the brow of the hill, out of frame, a thin thread of chimney smoke rises from the stone house; the house itself is never shown. Ambience only. Placed after the first exchange so its PX-02 caption appears after 0:30.",
+ "seconds": null,
+ "start": null,
+ "still": {
+  "prompt": "Photoreal 16:9 cinematic still, Roman-period Britain c. AD 200. A weathered man in his fifties with a broad face, grey-flecked beard and heavy hands, wearing a coarse undyed wool tunic and leather belt, cuts golden spelt wheat with an iron sickle. Behind him a woman in her thirties with dark brown hair in a bun, strong cheekbones, grey-green eyes and a small mole on her left cheek, wearing a plain wool dress and shawl, binds a sheaf with straw. Inland hillside field, a thin line of smoke rising beyond the crest of the hill with no building visible. Golden late-summer light, dust in the air. Invented faces, no text, no heraldry.",
+  "refs": [],
+  "image": null
+ },
+ "lines": [],
+ "captions": [
+  {
+   "text": "Roman-period remains on this same hill were in use from the 2nd to the 4th century AD (PX-02).",
+   "cite": [
+    "PX-02"
+   ]
+  }
+ ],
+ "render": {
+  "model": "ffmpeg still-move (free)",
+  "shared": {
+   "status": "superseded"
+  }
+ },
+ "qa": {
+  "status": "todo"
+ },
+ "status": "superseded",
+ "order": 4
+}
