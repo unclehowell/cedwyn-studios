@@ -1,0 +1,43 @@
+{
+ "schema": "cedwyn-studios/shot@1",
+ "scene": "F012",
+ "id": "S04",
+ "n": 4,
+ "type": "still-move",
+ "set": "s06",
+ "speaker": null,
+ "direction": "About 16 s. Insert at the clerk's desk. Only the clerk's hands are seen: a steel nib dips into an inkwell, a blank sheet waits, and a blotter and sand-shaker sit to one side. No legible writing. The camera holds, then drifts slowly. Ambience: the fire and the nib.",
+ "seconds": null,
+ "start": null,
+ "still": {
+  "prompt": "photoreal 16:9 close-up, Victorian copying clerk's hands only, dip pen over a blank sheet of laid paper, glass inkwell, blotter, pounce pot, worn wooden desk, warm firelight and grey window light, 1877, period-accurate, no legible writing, no text, no heraldry, no seals with emblems",
+  "refs": [],
+  "image": null
+ },
+ "lines": [],
+ "captions": [
+  {
+   "text": "1877: Mary (Nancy) Williams's later account reports a sale of the farmhouse, buildings and about 10 acres to Daniel Thomas, with about 9 acres kept by Bute. The deed and plan are missing (CH-0025)",
+   "cite": [
+    "CH-0025"
+   ]
+  },
+  {
+   "text": "1877: A Bute–Daniel Thomas & Son agreement (sale or quarry lease) is known only from a family plan image and family account. The deed is not held (EV-0006)",
+   "cite": [
+    "EV-0006"
+   ]
+  }
+ ],
+ "render": {
+  "model": "ffmpeg still-move (free)",
+  "shared": {
+   "status": "todo"
+  }
+ },
+ "qa": {
+  "status": "todo"
+ },
+ "status": "todo",
+ "order": 4
+}

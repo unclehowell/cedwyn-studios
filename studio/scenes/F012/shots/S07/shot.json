@@ -1,0 +1,60 @@
+{
+ "schema": "cedwyn-studios/shot@1",
+ "scene": "F012",
+ "id": "S07",
+ "n": 7,
+ "type": "talking",
+ "set": "s06",
+ "speaker": "E_AGENT",
+ "direction": "About 8 s. Close on the agent as he finishes dictating and lays down his own pen. He gives the instruction to the off-frame clerk.",
+ "seconds": null,
+ "start": null,
+ "still": {
+  "prompt": "photoreal 16:9 close-up, pale clean-shaven man in his 50s, thin-rimmed spectacles, dark frock coat, setting down a dip pen on a mahogany desk and speaking to someone off-camera, soft grey light, Victorian office 1877, invented face, period-accurate, no text, no heraldry",
+  "refs": [],
+  "image": null
+ },
+ "lines": [
+  {
+   "who": "E_AGENT",
+   "spoken": "cy",
+   "accent": "South Wales Welsh, formal office register [native review]",
+   "cy": "I denant y fferm. Gwnewch gopi glân, i'w lofnodi a'i anfon.",
+   "en": "To the tenant of the farm. Make a fair copy, to be signed and sent.",
+   "es": "Al arrendatario de la granja. Hacé una copia en limpio, para firmar y mandar.",
+   "cite": [
+    "CH-0024"
+   ]
+  }
+ ],
+ "captions": [],
+ "render": {
+  "model": "bytedance/omnihuman/v2",
+  "usd_per_s": 0.105,
+  "per_language": {
+   "cy": {
+    "status": "todo",
+    "text": "I denant y fferm. Gwnewch gopi glân, i'w lofnodi a'i anfon.",
+    "voice": "TODO: pick from studio/characters/<speaker>/character.json (new era = new voice)",
+    "prompt": "TODO: write per Quality bar v2 rule 5 from the still and this line"
+   },
+   "en": {
+    "status": "todo",
+    "text": "To the tenant of the farm. Make a fair copy, to be signed and sent.",
+    "voice": "TODO: pick from studio/characters/<speaker>/character.json (new era = new voice)",
+    "prompt": "TODO: write per Quality bar v2 rule 5 from the still and this line"
+   },
+   "es": {
+    "status": "todo",
+    "text": "Al arrendatario de la granja. Hacé una copia en limpio, para firmar y mandar.",
+    "voice": "TODO: pick from studio/characters/<speaker>/character.json (new era = new voice)",
+    "prompt": "TODO: write per Quality bar v2 rule 5 from the still and this line"
+   }
+  }
+ },
+ "qa": {
+  "status": "todo"
+ },
+ "status": "todo",
+ "order": 7
+}
