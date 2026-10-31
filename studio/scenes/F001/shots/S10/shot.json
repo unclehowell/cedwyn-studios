@@ -1,0 +1,71 @@
+{
+ "schema": "cedwyn-studios/shot@1",
+ "scene": "F001",
+ "id": "S10",
+ "n": 10,
+ "type": "talking",
+ "set": "s08",
+ "speaker": "D_BILLY",
+ "direction": "Insert: a third note card set apart from the others, at the edge of the table. [27 Oct rule: narrators speak ON CAMERA, lip-synced; any document is a HyperFrames cutaway/overlay between talking shots, never a still under the voice.]",
+ "seconds": null,
+ "start": null,
+ "still": {
+  "prompt": "Photoreal close-up of a single typed index card set apart at the edge of a wooden archive table, the other cards out of focus, illegible lettering, lamp light, no heraldry",
+  "refs": [],
+  "image": null
+ },
+ "lines": [
+  {
+   "who": "D_BILLY",
+   "en": "Ynys-Cedwyn's the odd one out.",
+   "cite": [
+    "EV-0210"
+   ],
+   "cy": "Ynys-Cedwyn yw'r un od.",
+   "es": "La rara del grupo es Ynys-Cedwyn.",
+   "spoken": "en",
+   "accent": "thick Welsh (Vale of Glamorgan)"
+  },
+  {
+   "who": "I_NIA",
+   "en": "Ynys-Cedwyn sits up where the Twrch meets the Tawe, a long way from here. The note ties it to Cedwyn Gawr, Cedwyn the Giant.",
+   "cite": [
+    "EV-0210"
+   ],
+   "cy": "Mae Ynys-Cedwyn i fyny lle mae'r Twrch yn cwrdd â'r Tawe, ymhell o fan hyn. Mae'r nodyn yn ei gysylltu â Cedwyn Gawr, Cedwyn y Cawr.",
+   "es": "Ynys-Cedwyn está donde el Twrch se une al Tawe, bien lejos de aquí. La nota lo liga a Cedwyn Gawr, Cedwyn el Gigante.",
+   "spoken": "en",
+   "accent": "thick Welsh (Vale of Glamorgan)"
+  }
+ ],
+ "captions": [],
+ "render": {
+  "model": "bytedance/omnihuman/v2",
+  "usd_per_s": 0.105,
+  "per_language": {
+   "cy": {
+    "status": "todo",
+    "text": "Ynys-Cedwyn yw'r un od. / Mae Ynys-Cedwyn i fyny lle mae'r Twrch yn cwrdd â'r Tawe, ymhell o fan hyn. Mae'r nodyn yn ei gysylltu â Cedwyn Gawr, Cedwyn y Cawr.",
+    "voice": "TODO: pick from studio/characters/<speaker>/character.json (new era = new voice)",
+    "prompt": "TODO: write per Quality bar v2 rule 5 from the still and this line"
+   },
+   "en": {
+    "status": "todo",
+    "text": "Ynys-Cedwyn's the odd one out. / Ynys-Cedwyn sits up where the Twrch meets the Tawe, a long way from here. The note ties it to Cedwyn Gawr, Cedwyn the Giant.",
+    "voice": "TODO: pick from studio/characters/<speaker>/character.json (new era = new voice)",
+    "prompt": "TODO: write per Quality bar v2 rule 5 from the still and this line"
+   },
+   "es": {
+    "status": "todo",
+    "text": "La rara del grupo es Ynys-Cedwyn. / Ynys-Cedwyn está donde el Twrch se une al Tawe, bien lejos de aquí. La nota lo liga a Cedwyn Gawr, Cedwyn el Gigante.",
+    "voice": "TODO: pick from studio/characters/<speaker>/character.json (new era = new voice)",
+    "prompt": "TODO: write per Quality bar v2 rule 5 from the still and this line"
+   }
+  }
+ },
+ "qa": {
+  "status": "todo"
+ },
+ "status": "todo",
+ "order": 10
+}

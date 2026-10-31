@@ -1,0 +1,30 @@
+{
+ "schema": "cedwyn-studios/shot@1",
+ "scene": "F001",
+ "id": "S08",
+ "n": 8,
+ "type": "i2v",
+ "set": "s09",
+ "speaker": null,
+ "direction": "Slow drift through Leckwith woods down to the River Ely in morning mist, birdsong, no people.",
+ "seconds": null,
+ "start": null,
+ "still": {
+  "prompt": "Photoreal wooded valley with steep oak and ash slopes falling to the River Ely below Llandough hill, early morning mist, autumn light, wet leaves, distant hint of Cardiff Bay haze, no people, no buildings in focus, no text, no heraldry",
+  "refs": [],
+  "image": null
+ },
+ "lines": [],
+ "captions": [],
+ "render": {
+  "model": "kling 2.5 turbo i2v (paid)",
+  "shared": {
+   "status": "todo"
+  }
+ },
+ "qa": {
+  "status": "todo"
+ },
+ "status": "todo",
+ "order": 8
+}

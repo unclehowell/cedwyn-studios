@@ -1,0 +1,60 @@
+{
+ "schema": "cedwyn-studios/shot@1",
+ "scene": "F001",
+ "id": "S11",
+ "n": 11,
+ "type": "talking",
+ "set": "s08",
+ "speaker": "D_BILLY",
+ "direction": "Close-up on the Grandson, amused, half a laugh.",
+ "seconds": null,
+ "start": null,
+ "still": {
+  "prompt": "Photoreal close-up of a Welsh man in his 40s, dark curly hair, blue eyes, short beard, waxed jacket, wry smile, archive reading room behind him softly blurred, warm lamp light, no text, no heraldry",
+  "refs": [],
+  "image": null
+ },
+ "lines": [
+  {
+   "who": "D_BILLY",
+   "en": "A giant. Lovely. Is there anything linking him to Llandough?",
+   "cite": [
+    "EV-0210"
+   ],
+   "cy": "Cawr. Hyfryd. Oes unrhyw beth yn ei gysylltu e â Llandochau?",
+   "es": "Un gigante. Qué lindo. ¿Hay algo que lo conecte con Llandough?",
+   "spoken": "en",
+   "accent": "thick Welsh (Vale of Glamorgan)"
+  }
+ ],
+ "captions": [],
+ "render": {
+  "model": "bytedance/omnihuman/v2",
+  "usd_per_s": 0.105,
+  "per_language": {
+   "cy": {
+    "status": "todo",
+    "text": "Cawr. Hyfryd. Oes unrhyw beth yn ei gysylltu e â Llandochau?",
+    "voice": "TODO: pick from studio/characters/<speaker>/character.json (new era = new voice)",
+    "prompt": "TODO: write per Quality bar v2 rule 5 from the still and this line"
+   },
+   "en": {
+    "status": "todo",
+    "text": "A giant. Lovely. Is there anything linking him to Llandough?",
+    "voice": "TODO: pick from studio/characters/<speaker>/character.json (new era = new voice)",
+    "prompt": "TODO: write per Quality bar v2 rule 5 from the still and this line"
+   },
+   "es": {
+    "status": "todo",
+    "text": "Un gigante. Qué lindo. ¿Hay algo que lo conecte con Llandough?",
+    "voice": "TODO: pick from studio/characters/<speaker>/character.json (new era = new voice)",
+    "prompt": "TODO: write per Quality bar v2 rule 5 from the still and this line"
+   }
+  }
+ },
+ "qa": {
+  "status": "todo"
+ },
+ "status": "todo",
+ "order": 11
+}

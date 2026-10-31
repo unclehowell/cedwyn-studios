@@ -1,0 +1,71 @@
+{
+ "schema": "cedwyn-studios/shot@1",
+ "scene": "F001",
+ "id": "S09",
+ "n": 9,
+ "type": "talking",
+ "set": "s08",
+ "speaker": "D_BILLY",
+ "direction": "Insert: an empty labelled folder sleeve, nothing inside, held up to the lamp. [27 Oct rule: narrators speak ON CAMERA, lip-synced; any document is a HyperFrames cutaway/overlay between talking shots, never a still under the voice.]",
+ "seconds": null,
+ "start": null,
+ "still": {
+  "prompt": "Photoreal close-up of an empty clear archive folder sleeve held up in a cotton-gloved hand against warm lamp light, a placeholder slip inside with illegible typing, archive shelves blurred behind, no heraldry",
+  "refs": [],
+  "image": null
+ },
+ "lines": [
+  {
+   "who": "D_BILLY",
+   "en": "And Nant-Cedwyn. A brook running into the Ely near Leckwith.",
+   "cite": [
+    "EV-0198"
+   ],
+   "cy": "A Nant-Cedwyn. Nant sy'n llifo i'r Elái ger Lecwydd.",
+   "es": "Y Nant-Cedwyn. Un arroyo que desemboca en el Ely cerca de Leckwith.",
+   "spoken": "en",
+   "accent": "thick Welsh (Vale of Glamorgan)"
+  },
+  {
+   "who": "I_NIA",
+   "en": "That one points to a primary document, and we haven't got it yet. So for now it shows us one thing: the family noted the name. Name, place, date, link to Tŷ Mawr: all still to be checked.",
+   "cite": [
+    "EV-0198"
+   ],
+   "cy": "Mae hwnna'n pwyntio at ddogfen wreiddiol, a sdim gyda ni eto. Felly am nawr mae'n dangos un peth i ni: bod y teulu wedi nodi'r enw. Enw, lle, dyddiad, cyswllt â Thŷ Mawr: mae pob un yn dal i fod angen ei wirio.",
+   "es": "Ese dato señala un documento primario, y todavía no lo tenemos. Así que por ahora nos muestra una sola cosa: la familia anotó el nombre. Nombre, lugar, fecha, vínculo con Tŷ Mawr: todo sigue pendiente de verificación.",
+   "spoken": "en",
+   "accent": "thick Welsh (Vale of Glamorgan)"
+  }
+ ],
+ "captions": [],
+ "render": {
+  "model": "bytedance/omnihuman/v2",
+  "usd_per_s": 0.105,
+  "per_language": {
+   "cy": {
+    "status": "todo",
+    "text": "A Nant-Cedwyn. Nant sy'n llifo i'r Elái ger Lecwydd. / Mae hwnna'n pwyntio at ddogfen wreiddiol, a sdim gyda ni eto. Felly am nawr mae'n dangos un peth i ni: bod y teulu wedi nodi'r enw. Enw, lle, dyddiad, cyswllt â Thŷ Mawr: mae pob un yn dal i fod angen ei wirio.",
+    "voice": "TODO: pick from studio/characters/<speaker>/character.json (new era = new voice)",
+    "prompt": "TODO: write per Quality bar v2 rule 5 from the still and this line"
+   },
+   "en": {
+    "status": "todo",
+    "text": "And Nant-Cedwyn. A brook running into the Ely near Leckwith. / That one points to a primary document, and we haven't got it yet. So for now it shows us one thing: the family noted the name. Name, place, date, link to Tŷ Mawr: all still to be checked.",
+    "voice": "TODO: pick from studio/characters/<speaker>/character.json (new era = new voice)",
+    "prompt": "TODO: write per Quality bar v2 rule 5 from the still and this line"
+   },
+   "es": {
+    "status": "todo",
+    "text": "Y Nant-Cedwyn. Un arroyo que desemboca en el Ely cerca de Leckwith. / Ese dato señala un documento primario, y todavía no lo tenemos. Así que por ahora nos muestra una sola cosa: la familia anotó el nombre. Nombre, lugar, fecha, vínculo con Tŷ Mawr: todo sigue pendiente de verificación.",
+    "voice": "TODO: pick from studio/characters/<speaker>/character.json (new era = new voice)",
+    "prompt": "TODO: write per Quality bar v2 rule 5 from the still and this line"
+   }
+  }
+ },
+ "qa": {
+  "status": "todo"
+ },
+ "status": "todo",
+ "order": 9
+}
