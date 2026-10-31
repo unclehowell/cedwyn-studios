@@ -1,0 +1,64 @@
+{
+ "$id": "cedwyn-studios/scene@1",
+ "type": "object",
+ "required": [
+  "schema",
+  "id",
+  "title",
+  "date",
+  "place",
+  "languages",
+  "status",
+  "shots"
+ ],
+ "properties": {
+  "schema": {
+   "enum": [
+    "cedwyn-studios/scene@1"
+   ]
+  },
+  "id": {
+   "type": "string",
+   "pattern": "^F\\d{3}$"
+  },
+  "title": {
+   "type": "object",
+   "required": [
+    "en"
+   ]
+  },
+  "languages": {
+   "type": "array",
+   "items": {
+    "enum": [
+     "cy",
+     "en",
+     "es"
+    ]
+   }
+  },
+  "status": {
+   "enum": [
+    "scripted",
+    "in_progress",
+    "held",
+    "published",
+    "superseded",
+    "planned"
+   ]
+  },
+  "shots": {
+   "type": "array",
+   "items": {
+    "type": "string",
+    "pattern": "^S\\d{2}[a-z]?$"
+   }
+  },
+  "sources": {
+   "type": "object",
+   "required": [
+    "catalogue_ids"
+   ]
+  }
+ }
+}

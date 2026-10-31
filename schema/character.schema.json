@@ -1,0 +1,32 @@
+{
+ "$id": "cedwyn-studios/character@1",
+ "type": "object",
+ "required": [
+  "schema",
+  "id",
+  "role",
+  "likeness_rule",
+  "look",
+  "voice"
+ ],
+ "properties": {
+  "schema": {
+   "enum": [
+    "cedwyn-studios/character@1"
+   ]
+  },
+  "id": {
+   "type": "string",
+   "pattern": "^[A-Z]_[A-Z0-9]+$"
+  },
+  "look": {
+   "type": "object",
+   "required": [
+    "reference"
+   ]
+  },
+  "voice": {
+   "type": "object"
+  }
+ }
+}

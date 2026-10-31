@@ -1,0 +1,64 @@
+{
+ "$id": "cedwyn-studios/shot@1",
+ "type": "object",
+ "required": [
+  "schema",
+  "scene",
+  "id",
+  "type",
+  "still",
+  "lines",
+  "render",
+  "status"
+ ],
+ "properties": {
+  "schema": {
+   "enum": [
+    "cedwyn-studios/shot@1"
+   ]
+  },
+  "scene": {
+   "type": "string",
+   "pattern": "^F\\d{3}$"
+  },
+  "id": {
+   "type": "string",
+   "pattern": "^S\\d{2}[a-z]?$"
+  },
+  "type": {
+   "enum": [
+    "talking",
+    "still-move",
+    "i2v",
+    "card"
+   ]
+  },
+  "still": {
+   "type": "object",
+   "required": [
+    "prompt"
+   ]
+  },
+  "lines": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "required": [
+     "who"
+    ]
+   }
+  },
+  "render": {
+   "type": "object"
+  },
+  "status": {
+   "enum": [
+    "todo",
+    "in_progress",
+    "done",
+    "superseded",
+    "blocked"
+   ]
+  }
+ }
+}
