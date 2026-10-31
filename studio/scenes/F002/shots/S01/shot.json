@@ -1,0 +1,45 @@
+{
+ "schema": "cedwyn-studios/shot@1",
+ "scene": "F002",
+ "id": "S01",
+ "n": 1,
+ "type": "i2v",
+ "set": null,
+ "speaker": null,
+ "direction": "Dawn, about 200 BC. A small homestead on the top of Llandough hill: thatched roundhouses with wattle-and-daub walls inside an earth bank, a raised granary on posts and a hurdle fold with a few small dark cattle. Smoke seeps up through the thatch and mist lifts off the reed marsh of the Ely far below. Caption: c. 200 BC, Llandough hill above the River Ely; spoken in modern Welsh, the nearest living language to theirs.",
+ "seconds": 6.32,
+ "start": 0,
+ "still": {
+  "prompt": "TODO: no still prompt in the script",
+  "refs": [],
+  "image": null
+ },
+ "lines": [],
+ "captions": [
+  "c. 200 BC · Llandough hill, above the River Ely"
+ ],
+ "render": {
+  "model": "kling 2.5 turbo i2v (rendered)",
+  "shared": {
+   "status": "done",
+   "source": "r2:studio/scenes/F002/shots/S01/source/aS02.mp4",
+   "source_seconds": 5.042,
+   "fit": "setpts=PTS*(window/5.042) at 24 fps",
+   "note": "S2v5/i2v/aS02.mp4 (caption redrawn)",
+   "per_language_caption": {
+    "cy": "keep the v6 caption (names Welsh as the spoken language)",
+    "en": "Spoken in English; they spoke Brittonic, the ancestor of Welsh",
+    "es": "Hablado en español; ellos hablaban britónico, el antepasado del galés"
+   }
+  }
+ },
+ "qa": {
+  "status": "pass"
+ },
+ "status": "done",
+ "animate_note": "i2v (Kling 2.5 turbo)",
+ "published_window_v6": [
+  0,
+  6.334
+ ]
+}

@@ -1,0 +1,148 @@
+{
+ "schema": "cedwyn-studios/scene@1",
+ "id": "F002",
+ "frame_map_n": 2,
+ "title": {
+  "en": "The hill before the records",
+  "cy": "Y bryn cyn y cofnodion",
+  "es": "La loma antes de los registros"
+ },
+ "date": "c. 200 BC, then c. AD 200",
+ "place": "Llandough hill, above the River Ely",
+ "set": "s10",
+ "present": {
+  "B_JOHN": "the Iron Age elder (c. 200 BC); a Romano-British farmer (c. AD 200); invented faces",
+  "A_MARY": "the roundhouse mother; the farmer's wife; invented faces"
+ },
+ "logline": "One hill, two moments four hundred years apart: an Iron Age family at their roundhouse bring in the corn and ready for winter; then a Romano-British farmer and his wife harvest spelt on the same slope.",
+ "moment": null,
+ "sources": {
+  "catalogue_ids": [
+   "CH-0143",
+   "CH-0173",
+   "CH-0174",
+   "CH-0175",
+   "PX-01",
+   "PX-02"
+  ],
+  "urls": [],
+  "chronology": "r2:studio/chronology/CHRONOLOGY.json (event ids above)"
+ },
+ "languages": [
+  "cy",
+  "en",
+  "es"
+ ],
+ "spoken_language": "cy",
+ "subtitles": "en/es (cy for English speech)",
+ "accent": "thick South Wales Welsh for every character; no narrator; no fourth wall",
+ "continuity": null,
+ "left_out": [],
+ "translation": null,
+ "script_version": "v1.0.2",
+ "script_status": "rendered",
+ "target_seconds": 120,
+ "estimated_seconds": null,
+ "status": "in_progress",
+ "status_note": "Door 2. Published as #v0.0.1-0.0.5 (F002.v6 + en/es dubs, older versions). JOB 1: native per-language performances: cy takes exist; en S02 done, 10 en shots prepared; 11 es shots prepared. Next: render the en shots, assemble en, QA gate, then es.",
+ "shots": [
+  "S01",
+  "S02",
+  "S03",
+  "S04",
+  "S05",
+  "S06",
+  "S07",
+  "S08",
+  "S09",
+  "S10",
+  "S11",
+  "S12",
+  "S13",
+  "S14",
+  "S15",
+  "S16",
+  "S17",
+  "S18",
+  "S19"
+ ],
+ "deliverable": {
+  "per_language_video": true,
+  "quality_bar": "v2",
+  "fps": 24,
+  "codec": "VP9 two-pass",
+  "audio": "Opus 128k, -16 LUFS, LRA <= 7, TP <= -1.5",
+  "max_bytes": 26214400
+ },
+ "door": 2,
+ "merged_from": [
+  "F003 v0.4.1"
+ ],
+ "removed": [
+  "F003 shot 5 (Gran's round house / the barn and the oxen): a character reaching across time to buildings of another age",
+  "old F002 script lines looking ahead (\"somebody will build on that one day\") and the Nia/Grandson archive bookend"
+ ],
+ "voices": {
+  "c. 200 BC": {
+   "elder (B_JOHN)": "Cedwyn voice \"John\" (deep Welsh baritone)",
+   "woman (A_MARY)": "Cedwyn voice \"Mary\""
+  },
+  "c. AD 200": {
+   "farmer (B_JOHN)": "Cedwyn voice \"Clerk\" (low, grave)",
+   "wife (A_MARY)": "Cedwyn voice \"Gwen\" (bright, sing-song)"
+  },
+  "note": "a new era means new faces AND new voices (owner, 30 Oct 2026)"
+ },
+ "voice_plan": {
+  "en": {
+   "c. 200 BC": {
+    "mother": "ElevenLabs A_MARY (en)",
+    "elder": "ElevenLabs B_JOHN (en)"
+   },
+   "c. AD 200": {
+    "wife": "ElevenLabs F_GWEN (en)",
+    "farmer": "ElevenLabs C_FRED (en) — H_CLERK is received pronunciation (wrong accent) and G_DAI measured 200–275 Hz median (gender risk), so C_FRED (male, ~123 Hz, lived in South Wales)"
+   }
+  },
+  "es": {
+   "c. 200 BC": {
+    "mother": "ElevenLabs J_ELENA (Argentine, Patagonian of Welsh descent)",
+    "elder": "OpenAI gpt-4o-mini-tts onyx, Rioplatense instructions"
+   },
+   "c. AD 200": {
+    "wife": "OpenAI gpt-4o-mini-tts coral, Rioplatense instructions",
+    "farmer": "OpenAI gpt-4o-mini-tts ash, Rioplatense instructions"
+   },
+   "why": "the shared ElevenLabs voice account is full (2200/2200), J_ELENA is its only native Rioplatense voice; Gemini TTS on Vertex answered 403 (API disabled) and the AI Studio free tier allows 10 TTS calls a day; accents not checked by ear"
+  }
+ },
+ "est_usd": {
+  "en": 9.02,
+  "es": 9.93
+ },
+ "ambience": [
+  {
+   "key": "r2:studio/scenes/F003/assets/audio/amb_field.mp3",
+   "mode": "bed",
+   "loudnorm_i": -29
+  },
+  {
+   "key": "r2:studio/scenes/F003/assets/audio/amb_geese.mp3",
+   "mode": "at_shot",
+   "shot": "S09",
+   "volume": 0.35,
+   "fade_out_at": 10,
+   "fade_out_s": 3
+  }
+ ],
+ "published": {
+  "clip": "clips/F002.v6.webm",
+  "repo": "unclehowell/cedwyn-movie",
+  "note": "older (dubbed) versions; paid cuts per the site manifest"
+ },
+ "language_order": [
+  "en",
+  "es",
+  "cy"
+ ]
+}

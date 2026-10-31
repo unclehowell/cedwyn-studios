@@ -1,0 +1,86 @@
+{
+ "schema": "cedwyn-studios/shot@1",
+ "scene": "F002",
+ "id": "S02",
+ "n": 2,
+ "type": "talking",
+ "set": null,
+ "speaker": "A_MARY",
+ "direction": "The roundhouse mother stands in the low doorway, the hearth glowing behind her. She looks up at the smoke and speaks to her husband: the weather should hold, so they can bring the corn in today.",
+ "seconds": 9.0,
+ "start": 6.32,
+ "still": {
+  "prompt": "TODO: the still prompt for this image was not kept with the Door 2 plan; the image itself is the reference",
+  "image": "r2:studio/scenes/F002/stills/iL1.jpg",
+  "origin": "cedwyn-movie:assets/F002/stills/iL1.jpg",
+  "refs": [],
+  "todo": "Before the es render: re-edit still iL1 (the row of candle-like lights behind the mother reads as string lights) - RERENDER-QUEUE 31 Oct."
+ },
+ "lines": [
+  {
+   "who": "A_MARY",
+   "cy": "Wnaiff y tywydd ddal heddiw? Mae'r mwg yn codi'n syth. Dim gwynt, dim glaw. Fe gawn ni'r ŷd i mewn.",
+   "en": "Will the weather hold today? Smoke's going straight up. No wind, no rain. We'll get the corn in.",
+   "es": "¿Aguantará el tiempo hoy? El humo sube derecho. Ni viento ni lluvia. Vamos a entrar el grano.",
+   "cite": [
+    "PX-01"
+   ]
+  }
+ ],
+ "captions": [],
+ "render": {
+  "model": "bytedance/omnihuman/v2",
+  "usd_per_s": 0.105,
+  "per_language": {
+   "en": {
+    "status": "done",
+    "text": "Will the weather hold today? Smoke's going straight up. No wind, no rain. We'll get the corn in.",
+    "voice": "A_MARY",
+    "speech_s": 6.687,
+    "shot_s": 7.89,
+    "f0_median_hz": 246.0,
+    "transcribe_match": 1.0,
+    "line": "r2:studio/scenes/F002/shots/S02/lines/en.mp3",
+    "audio": "r2:studio/scenes/F002/shots/S02/lines/en.adj.wav",
+    "prompt": "Medium close-up at the doorway of an Iron Age roundhouse at dawn, lit by the low sun from the right and the hearth glow behind her. The woman keeps her head and eyes turned three-quarters to the right, toward her husband standing off-screen right, for the whole shot, and speaks, calmly, \"Will the weather hold today? Smoke's going straight up. No wind, no rain. We'll get the corn in.\" She glances up at the smoke once, then back to him. Natural blinks, small head movements; she never faces the camera. Keep the still's light and colours. Natural skin texture, no CGI gloss, no text.",
+    "take": "r2:studio/scenes/F002/shots/S02/takes/en/take2-qbv2.mp4",
+    "qa": "PASS 2026-10-31T12:23Z (Quality bar v2 A/B retake; take 1 eyes drifted to the lens)",
+    "request_id": "01a191e5-0fc0-7f82-9245-21d594f7771f",
+    "est_usd": 0.84,
+    "prompt_as_sent_sha256": "3d8c2332ec39718b285f24acb00e420ea8d7f06be6ae4b0a3ec43ed5750e6117"
+   },
+   "es": {
+    "status": "blocked",
+    "text": "¿Aguantará el tiempo hoy? El humo sube derecho. Ni viento ni lluvia. Vamos a entrar el grano.",
+    "voice": "eleven:J_ELENA",
+    "tempo": 1.0,
+    "speech_s": 6.3,
+    "shot_s": 7.5,
+    "f0_median_hz": 219.0,
+    "transcribe_match": 1.0,
+    "line": "r2:studio/scenes/F002/shots/S02/lines/es.mp3",
+    "audio": "r2:studio/scenes/F002/shots/S02/lines/es.adj.wav",
+    "prompt": "The roundhouse mother stands in the low doorway, the hearth glowing behind her. She looks up at the smoke and speaks to her husband: the weather should hold, so they can bring the corn in today. She keeps head and eyes turned three-quarters toward her husband off-screen for the whole shot and speaks, calmly, \"¿Aguantará el tiempo hoy? El humo sube derecho. Ni viento ni lluvia. Vamos a entrar el grano.\" Natural blinks, small head movements; never faces the camera. Keep the still's light and colours. Natural skin texture, no CGI gloss, no text.",
+    "est_usd": 0.84,
+    "blocked_by": "Re-edit still iL1 first (the row of candle-like lights behind the mother reads as string lights), then set status back to prepared."
+   },
+   "cy": {
+    "status": "done",
+    "text": "Wnaiff y tywydd ddal heddiw? Mae'r mwg yn codi'n syth. Dim gwynt, dim glaw. Fe gawn ni'r ŷd i mewn.",
+    "take": "r2:studio/scenes/F002/shots/S02/takes/cy/iL1.mp4",
+    "note": "Welsh OmniHuman render (the native Welsh performance used in the published cut F002.v6); voice per the Door 2 v1.0.2 recast.",
+    "qa": "published in F002.v6 (grandfathered; Quality bar v2 gate not run on the original take)"
+   }
+  }
+ },
+ "qa": {
+  "status": "todo"
+ },
+ "status": "in_progress",
+ "animate_note": "omnihuman",
+ "published_window_v6": [
+  6.334,
+  15.334
+ ],
+ "era": "c. 200 BC"
+}
