@@ -1,0 +1,37 @@
+{
+ "schema": "cedwyn-studios/shot@1",
+ "scene": "F007",
+ "id": "S10",
+ "n": 10,
+ "type": "still-move",
+ "set": "s09",
+ "speaker": null,
+ "direction": "About 10 seconds. Closing landscape still from the same moment. A slow tilt from the farm's top field up the open hillside of Llandough, with the Ely and the marshes below and Leckwith woods across the valley under rain. No school is shown; the caption carries the later event. Ambience: rain, wind, rooks.",
+ "seconds": null,
+ "start": null,
+ "still": {
+  "prompt": "Photoreal 16:9 landscape still, c. 1790, inland Glamorgan in rain. An open green hillside with hedged fields and a few scattered stone cottages slopes down to a winding river and flat grey marshes, with dark woods on the far side of the valley. Low rain clouds, no sea and no coastline, no modern buildings, period-accurate. No people, no text, no heraldry.",
+  "refs": [],
+  "image": null
+ },
+ "lines": [],
+ "captions": [
+  {
+   "text": "1821: the National School on Penlan Road / Lewis Road, Llandough, is built (Coflein NPRN 31824) (CH-0007)",
+   "cite": [
+    "CH-0007"
+   ]
+  }
+ ],
+ "render": {
+  "model": "ffmpeg still-move (free)",
+  "shared": {
+   "status": "todo"
+  }
+ },
+ "qa": {
+  "status": "todo"
+ },
+ "status": "todo",
+ "order": 10
+}

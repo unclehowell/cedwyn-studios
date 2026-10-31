@@ -1,0 +1,37 @@
+{
+ "schema": "cedwyn-studios/shot@1",
+ "scene": "F007",
+ "id": "S08",
+ "n": 8,
+ "type": "still-move",
+ "set": "s01",
+ "speaker": null,
+ "direction": "About 10 seconds. Slow overhead push onto the plane table. The surveyor's hand inks a fine boundary line around field shapes in pencil, with the house drawn as a small block. No writing is legible. Ambience: the pen scratching and the first drops of rain on paper.",
+ "seconds": null,
+ "start": null,
+ "still": {
+  "prompt": "Photoreal 16:9 overhead close-up, c. 1790. A hand in a dark wool cuff holds a quill and inks fine boundary lines over pencil field outlines on cream laid paper pinned to a wooden plane table. A small rectangle marks a farmhouse, and a brass alidade, an inkwell and a few raindrops sit on the paper. Period-accurate surveying, no legible text, no heraldry, no crest or cartouche emblem.",
+  "refs": [],
+  "image": null
+ },
+ "lines": [],
+ "captions": [
+  {
+   "text": "c. 1790: plan of Ty Mawr farm, Llandough, then 'Gedrych property' (Glamorgan Archives DMAT/279) (CH-0005)",
+   "cite": [
+    "CH-0005"
+   ]
+  }
+ ],
+ "render": {
+  "model": "ffmpeg still-move (free)",
+  "shared": {
+   "status": "todo"
+  }
+ },
+ "qa": {
+  "status": "todo"
+ },
+ "status": "todo",
+ "order": 8
+}

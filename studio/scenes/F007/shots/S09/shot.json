@@ -1,0 +1,37 @@
+{
+ "schema": "cedwyn-studios/shot@1",
+ "scene": "F007",
+ "id": "S09",
+ "n": 9,
+ "type": "still-move",
+ "set": "s01",
+ "speaker": null,
+ "direction": "About 9 seconds. Wide still with a slow pull-back. The drover drives the cattle out through the far gate as the rain thickens. The surveyor, alone in the yard, shelters his board under his coat-tail. Ambience: rain, hooves fading.",
+ "seconds": null,
+ "start": null,
+ "still": {
+  "prompt": "Photoreal 16:9 wide still, Welsh farmyard, c. 1790, in light rain. A drover in a long wool coat drives black cattle out through a far wooden gate. In the foreground a surveyor in a dark frock coat and round hat shields a plane table with the skirt of his coat. A whitewashed stone farmhouse and outbuildings stand around him, with wet mud, grey light and inland hills. Period-accurate. Invented faces, no text, no heraldry.",
+  "refs": [],
+  "image": null
+ },
+ "lines": [],
+ "captions": [
+  {
+   "text": "c. 1800: a second plan of Ty Mawr farm, Llandough, is drawn (Glamorgan Archives DXJF/61/12) (CH-0006)",
+   "cite": [
+    "CH-0006"
+   ]
+  }
+ ],
+ "render": {
+  "model": "ffmpeg still-move (free)",
+  "shared": {
+   "status": "todo"
+  }
+ },
+ "qa": {
+  "status": "todo"
+ },
+ "status": "todo",
+ "order": 9
+}
