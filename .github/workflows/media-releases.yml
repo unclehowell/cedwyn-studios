@@ -1,0 +1,49 @@
+name: media-releases
+# Copies studio media into GitHub Releases (the primary media store), one file at a time, checking sha256 and computing
+# each file's IPFS CID (cross-checked with Kubo's --only-hash; nothing is added to IPFS). Runs by hand, and on every push
+# that changes a manifest, so a render staged through the R2 mirror from a computer without a GitHub token lands here too.
+# Skips anything already there with the same bytes. Publishes the index as media-index/media-index.json.
+on:
+  workflow_dispatch:
+    inputs:
+      only:
+        description: "only keys starting with this prefix (optional)"
+        required: false
+        default: ""
+  push:
+    branches: [main]
+    paths:
+      - "studio/manifest-shared.json"
+      - "studio/scenes/*/manifest.json"
+permissions:
+  contents: write
+concurrency:
+  group: media-releases
+  cancel-in-progress: false
+jobs:
+  copy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+      - name: Kubo (CID cross-check only)
+        continue-on-error: true
+        run: |
+          curl -fsSL https://dist.ipfs.tech/kubo/v0.29.0/kubo_v0.29.0_linux-amd64.tar.gz | tar xz
+          ./kubo/ipfs init --profile test > /dev/null
+      - name: Previous index
+        run: curl -fsSL -o media-index.json "https://github.com/${{ github.repository }}/releases/download/media-index/media-index.json" || echo "{}" > media-index.json
+      - name: Copy mirror objects to Releases
+        env:
+          GH_TOKEN: ${{ github.token }}
+          CEDWYN_STUDIO_KEY: ${{ secrets.CEDWYN_STUDIO_KEY }}
+          IPFS_BIN: ${{ github.workspace }}/kubo/ipfs
+          ONLY: ${{ inputs.only }}
+        run: python3 tools/media_releases.py copy --only "$ONLY" --out media-index.json
+      - name: Publish the index
+        if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release view media-index -R "${{ github.repository }}" > /dev/null 2>&1 || gh release create media-index -R "${{ github.repository }}" --title "Studio media index" --notes "Every media object: key, release, asset URL, sha256, bytes, IPFS CID." --latest=false
+          gh release upload media-index media-index.json --clobber -R "${{ github.repository }}"
