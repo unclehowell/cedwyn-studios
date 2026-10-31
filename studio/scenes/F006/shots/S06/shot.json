@@ -1,0 +1,61 @@
+{
+ "schema": "cedwyn-studios/shot@1",
+ "scene": "F006",
+ "id": "S06",
+ "n": 6,
+ "type": "talking",
+ "set": "s09",
+ "speaker": "G_DAI",
+ "direction": "About 7 s. Dai turns and looks downhill toward the river and marshes. Over his shoulder, the Ely glints far below. He nods toward it and speaks.",
+ "seconds": null,
+ "start": null,
+ "still": {
+  "prompt": "Photoreal 16:9 over-the-shoulder shot, c. 1786. A big bald man with ginger-grey mutton-chops and a brown waistcoat looks down from an inland hillside over hedged fields to a winding river and broad marshland, with a hazy estuary very far off. He holds a ranging pole and turns his head slightly to speak. Overcast light. Invented face. No text, no heraldry, no coastline in the foreground.",
+  "refs": [],
+  "image": null
+ },
+ "lines": [
+  {
+   "who": "G_DAI",
+   "spoken": "cy",
+   "accent": "broad Vale of Glamorgan Welsh (Gwenhwyseg)",
+   "cy": "A'r afon? Elái a'r morfa lawr fan 'na. Chi'n mesur rheiny 'fyd?",
+   "en": "And the river? The Ely and the marsh down there. Are you measuring those too?",
+   "es": "¿Y el río? El Ely y el bañado allá abajo. ¿También los va a medir?",
+   "cite": [
+    "CH-0004"
+   ],
+   "review": "cy: native review (rheiny, 'fyd: southern forms)"
+  }
+ ],
+ "captions": [],
+ "render": {
+  "model": "bytedance/omnihuman/v2",
+  "usd_per_s": 0.105,
+  "per_language": {
+   "cy": {
+    "status": "todo",
+    "text": "A'r afon? Elái a'r morfa lawr fan 'na. Chi'n mesur rheiny 'fyd?",
+    "voice": "TODO: pick from studio/characters/<speaker>/character.json (new era = new voice)",
+    "prompt": "TODO: write per Quality bar v2 rule 5 from the still and this line"
+   },
+   "en": {
+    "status": "todo",
+    "text": "And the river? The Ely and the marsh down there. Are you measuring those too?",
+    "voice": "TODO: pick from studio/characters/<speaker>/character.json (new era = new voice)",
+    "prompt": "TODO: write per Quality bar v2 rule 5 from the still and this line"
+   },
+   "es": {
+    "status": "todo",
+    "text": "¿Y el río? El Ely y el bañado allá abajo. ¿También los va a medir?",
+    "voice": "TODO: pick from studio/characters/<speaker>/character.json (new era = new voice)",
+    "prompt": "TODO: write per Quality bar v2 rule 5 from the still and this line"
+   }
+  }
+ },
+ "qa": {
+  "status": "todo"
+ },
+ "status": "todo",
+ "order": 6
+}

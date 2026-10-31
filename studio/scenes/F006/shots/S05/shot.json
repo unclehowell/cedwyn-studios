@@ -1,0 +1,61 @@
+{
+ "schema": "cedwyn-studios/shot@1",
+ "scene": "F006",
+ "id": "S05",
+ "n": 5,
+ "type": "talking",
+ "set": "s09",
+ "speaker": "E_AGENT",
+ "direction": "About 9 s. Close on the surveyor. He lifts his eyes from the pinned sheet and gestures with the pencil across the wide view, naming the parishes one by one.",
+ "seconds": null,
+ "start": null,
+ "still": {
+  "prompt": "Photoreal 16:9 close-medium shot, c. 1786. A pale, clean-shaven estate surveyor in his 50s with thin-rimmed spectacles, a dark frock coat and a round hat gestures with a pencil toward a wide valley of hedged fields and distant marshes. A plane-table with a pinned paper sheet and a brass sighting rule stands before him. He is speaking calmly. Overcast inland hilltop light. Invented face. No text, no heraldry.",
+  "refs": [],
+  "image": null
+ },
+ "lines": [
+  {
+   "who": "E_AGENT",
+   "spoken": "cy",
+   "accent": "educated Glamorgan Welsh, precise",
+   "cy": "Achos mae'r ystad moyn gweld ar bapur beth sy 'da hi. Cogan, Llandochau, Penarth, Sain Andras, Sili. Pob cae, pob clawdd.",
+   "en": "Because the estate wants to see on paper what it holds. Cogan, Llandough, Penarth, St Andrews, Sully. Every field, every hedge.",
+   "es": "Porque la finca quiere ver en papel lo que tiene. Cogan, Llandough, Penarth, St Andrews, Sully. Cada campo, cada cerco.",
+   "cite": [
+    "CH-0004"
+   ],
+   "review": "cy: native review (moyn, sy 'da hi: southern forms; Sain Andras for St Andrews Major)"
+  }
+ ],
+ "captions": [],
+ "render": {
+  "model": "bytedance/omnihuman/v2",
+  "usd_per_s": 0.105,
+  "per_language": {
+   "cy": {
+    "status": "todo",
+    "text": "Achos mae'r ystad moyn gweld ar bapur beth sy 'da hi. Cogan, Llandochau, Penarth, Sain Andras, Sili. Pob cae, pob clawdd.",
+    "voice": "TODO: pick from studio/characters/<speaker>/character.json (new era = new voice)",
+    "prompt": "TODO: write per Quality bar v2 rule 5 from the still and this line"
+   },
+   "en": {
+    "status": "todo",
+    "text": "Because the estate wants to see on paper what it holds. Cogan, Llandough, Penarth, St Andrews, Sully. Every field, every hedge.",
+    "voice": "TODO: pick from studio/characters/<speaker>/character.json (new era = new voice)",
+    "prompt": "TODO: write per Quality bar v2 rule 5 from the still and this line"
+   },
+   "es": {
+    "status": "todo",
+    "text": "Porque la finca quiere ver en papel lo que tiene. Cogan, Llandough, Penarth, St Andrews, Sully. Cada campo, cada cerco.",
+    "voice": "TODO: pick from studio/characters/<speaker>/character.json (new era = new voice)",
+    "prompt": "TODO: write per Quality bar v2 rule 5 from the still and this line"
+   }
+  }
+ },
+ "qa": {
+  "status": "todo"
+ },
+ "status": "todo",
+ "order": 5
+}

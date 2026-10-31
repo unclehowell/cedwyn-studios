@@ -1,0 +1,61 @@
+{
+ "schema": "cedwyn-studios/shot@1",
+ "scene": "F006",
+ "id": "S07",
+ "n": 7,
+ "type": "talking",
+ "set": "s09",
+ "speaker": "E_AGENT",
+ "direction": "About 8 s. The surveyor bends to the sighting rule, one eye closed, and answers without looking up.",
+ "seconds": null,
+ "start": null,
+ "still": {
+  "prompt": "Photoreal 16:9 medium close shot, c. 1786. A spectacled, clean-shaven surveyor in a dark frock coat bends over a wooden plane-table and sights along a brass alidade, one eye closed and a pencil poised over a pinned paper sheet. He speaks quietly. Grassy inland hillside and hedgerows behind him, soft overcast light. Invented face. No text, no heraldry.",
+  "refs": [],
+  "image": null
+ },
+ "lines": [
+  {
+   "who": "E_AGENT",
+   "spoken": "cy",
+   "accent": "educated Glamorgan Welsh, precise",
+   "cy": "Dim ond tir yr ystad. Dal y polyn yn syth. Mae'r cynllun cynta'n dechrau heddi.",
+   "en": "Only the estate's land. Hold the pole straight. The first plan starts today.",
+   "es": "Solo la tierra de la finca. Sostené el jalón derecho. El primer plano empieza hoy.",
+   "cite": [
+    "CH-0004"
+   ],
+   "review": "cy: native review (cynta'n, heddi: southern forms)"
+  }
+ ],
+ "captions": [],
+ "render": {
+  "model": "bytedance/omnihuman/v2",
+  "usd_per_s": 0.105,
+  "per_language": {
+   "cy": {
+    "status": "todo",
+    "text": "Dim ond tir yr ystad. Dal y polyn yn syth. Mae'r cynllun cynta'n dechrau heddi.",
+    "voice": "TODO: pick from studio/characters/<speaker>/character.json (new era = new voice)",
+    "prompt": "TODO: write per Quality bar v2 rule 5 from the still and this line"
+   },
+   "en": {
+    "status": "todo",
+    "text": "Only the estate's land. Hold the pole straight. The first plan starts today.",
+    "voice": "TODO: pick from studio/characters/<speaker>/character.json (new era = new voice)",
+    "prompt": "TODO: write per Quality bar v2 rule 5 from the still and this line"
+   },
+   "es": {
+    "status": "todo",
+    "text": "Solo la tierra de la finca. Sostené el jalón derecho. El primer plano empieza hoy.",
+    "voice": "TODO: pick from studio/characters/<speaker>/character.json (new era = new voice)",
+    "prompt": "TODO: write per Quality bar v2 rule 5 from the still and this line"
+   }
+  }
+ },
+ "qa": {
+  "status": "todo"
+ },
+ "status": "todo",
+ "order": 7
+}

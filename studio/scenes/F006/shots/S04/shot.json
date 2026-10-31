@@ -1,0 +1,61 @@
+{
+ "schema": "cedwyn-studios/shot@1",
+ "scene": "F006",
+ "id": "S04",
+ "n": 4,
+ "type": "talking",
+ "set": "s09",
+ "speaker": "G_DAI",
+ "direction": "About 9 s. Medium shot of Dai at the hedge-bank, ranging pole in one fist and the chain end in the other. He counts with his eyes back along the chain, then grins across the field at the surveyor.",
+ "seconds": null,
+ "start": null,
+ "still": {
+  "prompt": "Photoreal 16:9 medium shot, c. 1786. A big bald Welshman in his 60s with ginger-grey mutton-chop whiskers wears a coarse linen shirt with rolled sleeves, a brown wool waistcoat, breeches and woollen stockings. He holds a red-and-white wooden ranging pole and the brass handle of an iron surveyor's chain beside a hawthorn hedge-bank and a wooden stile. He has a good-humoured, weathered face and is speaking across the field. Overcast light. Invented face. No text, no heraldry.",
+  "refs": [],
+  "image": null
+ },
+ "lines": [
+  {
+   "who": "G_DAI",
+   "spoken": "cy",
+   "accent": "broad Vale of Glamorgan Welsh (Gwenhwyseg)",
+   "cy": "Dyna hi, syr. Pedair cadwyn o'r clawdd i'r gamfa. Ond pam mesur bryn sy wedi bod 'ma erioed?",
+   "en": "There she is, sir. Four chains from the hedge to the stile. But why measure a hill that's always been here?",
+   "es": "Ahí está, señor. Cuatro cadenas del cerco al paso. ¿Pero para qué medir una loma que estuvo acá desde siempre?",
+   "cite": [
+    "CH-0004"
+   ],
+   "review": "cy: native review (i'r gamfa, sy wedi, 'ma)"
+  }
+ ],
+ "captions": [],
+ "render": {
+  "model": "bytedance/omnihuman/v2",
+  "usd_per_s": 0.105,
+  "per_language": {
+   "cy": {
+    "status": "todo",
+    "text": "Dyna hi, syr. Pedair cadwyn o'r clawdd i'r gamfa. Ond pam mesur bryn sy wedi bod 'ma erioed?",
+    "voice": "TODO: pick from studio/characters/<speaker>/character.json (new era = new voice)",
+    "prompt": "TODO: write per Quality bar v2 rule 5 from the still and this line"
+   },
+   "en": {
+    "status": "todo",
+    "text": "There she is, sir. Four chains from the hedge to the stile. But why measure a hill that's always been here?",
+    "voice": "TODO: pick from studio/characters/<speaker>/character.json (new era = new voice)",
+    "prompt": "TODO: write per Quality bar v2 rule 5 from the still and this line"
+   },
+   "es": {
+    "status": "todo",
+    "text": "Ahí está, señor. Cuatro cadenas del cerco al paso. ¿Pero para qué medir una loma que estuvo acá desde siempre?",
+    "voice": "TODO: pick from studio/characters/<speaker>/character.json (new era = new voice)",
+    "prompt": "TODO: write per Quality bar v2 rule 5 from the still and this line"
+   }
+  }
+ },
+ "qa": {
+  "status": "todo"
+ },
+ "status": "todo",
+ "order": 4
+}
