@@ -1,0 +1,38 @@
+{
+ "schema": "cedwyn-studios/shot@1",
+ "scene": "F014",
+ "id": "S01",
+ "n": 1,
+ "type": "still-move",
+ "set": "s07",
+ "speaker": null,
+ "direction": "Date-and-place card. Establishing still of the police court interior on a warm August morning in 1889: wooden benches, a raised bench for the magistrate, gas lamps unlit on brass brackets, tall windows with dusty daylight. Slow push-in toward the public seats. Ambience: shuffling boots, a cough, a door closing. About 4 seconds.",
+ "seconds": null,
+ "start": null,
+ "still": {
+  "prompt": "photoreal 16:9 still, interior of a small Victorian police court in Glamorgan, Wales, August 1889, varnished wooden benches, a raised magistrate's bench with a panelled front, unlit brass gas lamps on wall brackets, tall sash windows letting in dusty summer daylight, bare floorboards, no people, no text, no signage, no heraldry, no coat of arms",
+  "refs": [],
+  "image": null
+ },
+ "lines": [],
+ "captions": [
+  {
+   "text": "August 1889 · Police court, Penarth, Glamorgan",
+   "cite": [
+    "CH-0034",
+    "EV-0279"
+   ]
+  }
+ ],
+ "render": {
+  "model": "ffmpeg still-move (free)",
+  "shared": {
+   "status": "todo"
+  }
+ },
+ "qa": {
+  "status": "todo"
+ },
+ "status": "todo",
+ "order": 1
+}

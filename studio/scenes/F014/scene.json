@@ -1,0 +1,95 @@
+{
+ "schema": "cedwyn-studios/scene@1",
+ "id": "F014",
+ "frame_map_n": 13,
+ "title": {
+  "en": "Apples Over the Hedge",
+  "cy": "Afalau dros y Clawdd",
+  "es": "Manzanas por encima del cerco"
+ },
+ "date": "August 1889 (between 11 and 16 August)",
+ "place": "Penarth police court, Glamorgan",
+ "set": "s07",
+ "present": {
+  "B_JOHN": "John Williams junior, farmer's son, giving evidence",
+  "H_CLERK": "the magistrate, presiding (public office, English-speaking)",
+  "F_GWEN": "Gwen, a village woman and neighbour in the public seats (invented)"
+ },
+ "logline": "Before the magistrate, John Williams junior gives evidence that apples were taken from 'the orchard of Great House Farm … the property of John Williams', reached over the hedge from the railway.",
+ "moment": {
+  "date": "August 1889 (between 11 and 16 August)",
+  "place": "Penarth police court",
+  "present": [
+   "B_JOHN=John Williams junior",
+   "H_CLERK=the magistrate",
+   "F_GWEN=Gwen, in the public seats"
+  ],
+  "summary": "Before the magistrate, John Williams junior gives evidence that apples were taken from 'the orchard of Great House Farm … the property of John Williams', reached over the hedge from the railway.",
+  "anchor": "CH-0034",
+  "captions": [
+   "1883: An abstract of title for land in St Andrews Major and Llandough-juxta-Penarth, 1837–1877, is compiled. The catalogue does not state which Llandough land it covers (CH-0031)",
+   "1887: Owen's Cardiff Directory lists a Williams at Great House farm, Llandough (CH-0032)",
+   "15 Dec 1887: Daniel Thomas of Penylan dies, a contractor under Lord Bute with lime kilns at Llandough. On 24 Apr 1888 a man is described as a labourer at Llandough Quarry (CH-0033)"
+  ],
+  "basis": "Barry Dock News, 16 Aug 1889 (EV-0279) reports John Williams junior giving evidence. The court and exact day are inferred, and the outcome is not shown.",
+  "source": [
+   "https://cedwyn.bucklerfamily.estate/wiki/evidence/ev-0280-llandough-lime-works-and-quarry-1876-1947-daniel-thomas-s-kilns-quarry-workers-kel/",
+   "https://cedwyn.bucklerfamily.estate/wiki/evidence/ev-0279-barry-dock-news-16-aug-1889-p-2-apples-taken-from-the-orchard-of-great-house-farm/"
+  ],
+  "source_in_sitemap": true
+ },
+ "sources": {
+  "catalogue_ids": [
+   "CH-0031",
+   "CH-0032",
+   "CH-0033",
+   "CH-0034",
+   "EV-0279",
+   "EV-0280"
+  ],
+  "urls": [
+   "https://cedwyn.bucklerfamily.estate/wiki/evidence/ev-0280-llandough-lime-works-and-quarry-1876-1947-daniel-thomas-s-kilns-quarry-workers-kel/",
+   "https://cedwyn.bucklerfamily.estate/wiki/evidence/ev-0279-barry-dock-news-16-aug-1889-p-2-apples-taken-from-the-orchard-of-great-house-farm/"
+  ],
+  "chronology": "r2:studio/chronology/CHRONOLOGY.json (event ids above)"
+ },
+ "languages": [
+  "cy",
+  "en",
+  "es"
+ ],
+ "spoken_language": "en",
+ "subtitles": "en/es for Welsh speech (Rioplatense Spanish); cy for English speech",
+ "accent": "thick Welsh for every Welsh character; non-Welsh characters keep their own accents; no narrator",
+ "continuity": null,
+ "left_out": [],
+ "translation": {
+  "cy": "machine translation, for native review",
+  "es": "machine translation, for review"
+ },
+ "script_version": "v0.4.0",
+ "script_status": "v0.4.0 29 Oct 2026 IN-PERIOD, machine-drafted for hive review: one moment, no narrator, no fourth wall, not rendered. Court English with a thick Glamorgan accent for John and an educated English accent for the magistrate. Welsh (cy lines and subtitles) machine-written, for native review. Spanish machine-written in Rioplatense voseo, for review.",
+ "target_seconds": 120,
+ "estimated_seconds": 115,
+ "status": "scripted",
+ "status_note": "Script v0.4.0 on file; nothing rendered.",
+ "shots": [
+  "S01",
+  "S02",
+  "S03",
+  "S04",
+  "S05",
+  "S06",
+  "S07",
+  "S08",
+  "S09"
+ ],
+ "deliverable": {
+  "per_language_video": true,
+  "quality_bar": "v2",
+  "fps": 24,
+  "codec": "VP9 two-pass",
+  "audio": "Opus 128k, -16 LUFS, LRA <= 7, TP <= -1.5",
+  "max_bytes": 26214400
+ }
+}
