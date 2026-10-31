@@ -1,0 +1,35 @@
+{
+ "schema": "cedwyn-studios/shot@1",
+ "scene": "F002",
+ "id": "S19",
+ "n": 19,
+ "type": "card",
+ "set": null,
+ "speaker": null,
+ "direction": "End card: Cedwyn · Scene 2 · The hill before the records · A tab.bot production",
+ "seconds": 5,
+ "start": 133.88,
+ "still": {
+  "prompt": "TODO: no still prompt in the script",
+  "refs": [],
+  "image": null
+ },
+ "lines": [],
+ "captions": [],
+ "render": {
+  "model": "end card",
+  "shared": {
+   "status": "done",
+   "assemble_from": "published window of clips/F002.v6.webm (end card; text per language TODO)"
+  }
+ },
+ "qa": {
+  "status": "pass"
+ },
+ "status": "done",
+ "animate_note": "end card",
+ "published_window_v6": [
+  133.174,
+  138.167
+ ]
+}
