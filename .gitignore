@@ -1,0 +1,12 @@
+*.mp4
+*.webm
+*.wav
+*.mp3
+*.jpg
+*.jpeg
+*.png
+*.webp
+__pycache__/
+.env
+*.key
+key.json
