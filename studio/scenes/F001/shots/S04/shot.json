@@ -1,0 +1,60 @@
+{
+ "schema": "cedwyn-studios/shot@1",
+ "scene": "F001",
+ "id": "S04",
+ "n": 4,
+ "type": "talking",
+ "set": "s08",
+ "speaker": "I_NIA",
+ "direction": "Overhead insert: Nia's gloved finger runs down a printed index sheet laid on the table. [27 Oct rule: narrators speak ON CAMERA, lip-synced; any document is a HyperFrames cutaway/overlay between talking shots, never a still under the voice.]",
+ "seconds": null,
+ "start": null,
+ "still": {
+  "prompt": "Photoreal overhead view of a printed research index sheet with typed columns and handwritten pencil ticks, a gloved hand pointing down the rows, wooden table, reading lamp light, text on the sheet blurred and illegible, no heraldry",
+  "refs": [],
+  "image": null
+ },
+ "lines": [
+  {
+   "who": "I_NIA",
+   "en": "This is the index. Six research leads. It shows where each name turns up, and which notes lean on which. Pull one out, you see what wobbles.",
+   "cite": [
+    "EV-0195"
+   ],
+   "cy": "Dyma'r mynegai. Chwe trywydd ymchwil. Mae'n dangos ble mae pob enw'n codi, a pha nodiadau sy'n dibynnu ar bwy. Tynnwch un allan, chi'n gweld beth sy'n simsanu.",
+   "es": "Este es el índice. Seis pistas de investigación. Muestra dónde aparece cada nombre, y qué notas se apoyan en cuáles. Si sacas una, ves qué se tambalea.",
+   "spoken": "en",
+   "accent": "thick Welsh (Vale of Glamorgan)"
+  }
+ ],
+ "captions": [],
+ "render": {
+  "model": "bytedance/omnihuman/v2",
+  "usd_per_s": 0.105,
+  "per_language": {
+   "cy": {
+    "status": "todo",
+    "text": "Dyma'r mynegai. Chwe trywydd ymchwil. Mae'n dangos ble mae pob enw'n codi, a pha nodiadau sy'n dibynnu ar bwy. Tynnwch un allan, chi'n gweld beth sy'n simsanu.",
+    "voice": "TODO: pick from studio/characters/<speaker>/character.json (new era = new voice)",
+    "prompt": "TODO: write per Quality bar v2 rule 5 from the still and this line"
+   },
+   "en": {
+    "status": "todo",
+    "text": "This is the index. Six research leads. It shows where each name turns up, and which notes lean on which. Pull one out, you see what wobbles.",
+    "voice": "TODO: pick from studio/characters/<speaker>/character.json (new era = new voice)",
+    "prompt": "TODO: write per Quality bar v2 rule 5 from the still and this line"
+   },
+   "es": {
+    "status": "todo",
+    "text": "Este es el índice. Seis pistas de investigación. Muestra dónde aparece cada nombre, y qué notas se apoyan en cuáles. Si sacas una, ves qué se tambalea.",
+    "voice": "TODO: pick from studio/characters/<speaker>/character.json (new era = new voice)",
+    "prompt": "TODO: write per Quality bar v2 rule 5 from the still and this line"
+   }
+  }
+ },
+ "qa": {
+  "status": "todo"
+ },
+ "status": "todo",
+ "order": 4
+}

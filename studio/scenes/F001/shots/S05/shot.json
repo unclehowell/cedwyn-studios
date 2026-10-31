@@ -1,0 +1,60 @@
+{
+ "schema": "cedwyn-studios/shot@1",
+ "scene": "F001",
+ "id": "S05",
+ "n": 5,
+ "type": "talking",
+ "set": "s08",
+ "speaker": "D_BILLY",
+ "direction": "Close-up on the Grandson, leaning in, hopeful.",
+ "seconds": null,
+ "start": null,
+ "still": {
+  "prompt": "Photoreal close-up portrait of a Welsh man in his 40s, dark curly hair, blue eyes, short beard, waxed jacket, lit by a warm reading lamp in an archive reading room, folders blurred in the background, no text, no heraldry",
+  "refs": [],
+  "image": null
+ },
+ "lines": [
+  {
+   "who": "D_BILLY",
+   "en": "So does it prove the Great House stood on Cedwyn land? That my family's roots there go back before any deed?",
+   "cite": [
+    "EV-0195"
+   ],
+   "cy": "Felly ydy e'n profi fod y Tŷ Mawr wedi sefyll ar dir Cedwyn? Bod gwreiddiau fy nheulu yno'n mynd 'nôl cyn unrhyw weithred?",
+   "es": "¿Entonces esto prueba que la Casa Grande se encontraba en tierras de Cedwyn? ¿Que las raíces de mi familia allí se remontan a antes de cualquier escritura?",
+   "spoken": "en",
+   "accent": "thick Welsh (Vale of Glamorgan)"
+  }
+ ],
+ "captions": [],
+ "render": {
+  "model": "bytedance/omnihuman/v2",
+  "usd_per_s": 0.105,
+  "per_language": {
+   "cy": {
+    "status": "todo",
+    "text": "Felly ydy e'n profi fod y Tŷ Mawr wedi sefyll ar dir Cedwyn? Bod gwreiddiau fy nheulu yno'n mynd 'nôl cyn unrhyw weithred?",
+    "voice": "TODO: pick from studio/characters/<speaker>/character.json (new era = new voice)",
+    "prompt": "TODO: write per Quality bar v2 rule 5 from the still and this line"
+   },
+   "en": {
+    "status": "todo",
+    "text": "So does it prove the Great House stood on Cedwyn land? That my family's roots there go back before any deed?",
+    "voice": "TODO: pick from studio/characters/<speaker>/character.json (new era = new voice)",
+    "prompt": "TODO: write per Quality bar v2 rule 5 from the still and this line"
+   },
+   "es": {
+    "status": "todo",
+    "text": "¿Entonces esto prueba que la Casa Grande se encontraba en tierras de Cedwyn? ¿Que las raíces de mi familia allí se remontan a antes de cualquier escritura?",
+    "voice": "TODO: pick from studio/characters/<speaker>/character.json (new era = new voice)",
+    "prompt": "TODO: write per Quality bar v2 rule 5 from the still and this line"
+   }
+  }
+ },
+ "qa": {
+  "status": "todo"
+ },
+ "status": "todo",
+ "order": 5
+}

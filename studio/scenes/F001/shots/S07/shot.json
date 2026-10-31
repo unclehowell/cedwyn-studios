@@ -1,0 +1,71 @@
+{
+ "schema": "cedwyn-studios/shot@1",
+ "scene": "F001",
+ "id": "S07",
+ "n": 7,
+ "type": "talking",
+ "set": "s08",
+ "speaker": "D_BILLY",
+ "direction": "Insert: the Grandson lays a typed note card beside an unmarked sketch of a river bend. [27 Oct rule: narrators speak ON CAMERA, lip-synced; any document is a HyperFrames cutaway/overlay between talking shots, never a still under the voice.]",
+ "seconds": null,
+ "start": null,
+ "still": {
+  "prompt": "Photoreal close-up of a typed index card and a pencil sketch of a river bend among trees on tracing paper, on a wooden archive table, lettering blurred and illegible, reading lamp light, no heraldry",
+  "refs": [],
+  "image": null
+ },
+ "lines": [
+  {
+   "who": "D_BILLY",
+   "en": "Cwm-Cedwyn. A wooded dell on the Ely, between Leckwith and Llandough. My notes use it all the time.",
+   "cite": [
+    "EV-0200"
+   ],
+   "cy": "Cwm-Cedwyn. Pant coediog ar lan afon Elái, rhwng Lecwydd a Llandochau. Mae fy nodiadau i'n ei ddefnyddio o hyd.",
+   "es": "Cwm-Cedwyn. Un valle boscoso sobre el Ely, entre Leckwith y Llandough. Mis notas lo usan todo el tiempo.",
+   "spoken": "en",
+   "accent": "thick Welsh (Vale of Glamorgan)"
+  },
+  {
+   "who": "I_NIA",
+   "en": "They do. But there's no source attached yet. We don't know when the name was first written, where its edges ran, or whether it ever touched Tŷ Mawr. Checking is still to do.",
+   "cite": [
+    "EV-0200"
+   ],
+   "cy": "Odyn, glei. Ond sdim ffynhonnell ynghlwm wrtho eto. Sa i'n gwybod pryd gafodd yr enw ei ysgrifennu gyntaf, lle roedd ei ffiniau'n rhedeg, na p'un a oedd e byth yn cyffwrdd â Thŷ Mawr. Mae'r gwirio i'w wneud o hyd.",
+   "es": "Así es. Pero todavía no hay una fuente adjunta. No sabemos cuándo se escribió el nombre por primera vez, dónde estaban sus límites, ni si alguna vez tuvo relación con Tŷ Mawr. Aún queda por verificar.",
+   "spoken": "en",
+   "accent": "thick Welsh (Vale of Glamorgan)"
+  }
+ ],
+ "captions": [],
+ "render": {
+  "model": "bytedance/omnihuman/v2",
+  "usd_per_s": 0.105,
+  "per_language": {
+   "cy": {
+    "status": "todo",
+    "text": "Cwm-Cedwyn. Pant coediog ar lan afon Elái, rhwng Lecwydd a Llandochau. Mae fy nodiadau i'n ei ddefnyddio o hyd. / Odyn, glei. Ond sdim ffynhonnell ynghlwm wrtho eto. Sa i'n gwybod pryd gafodd yr enw ei ysgrifennu gyntaf, lle roedd ei ffiniau'n rhedeg, na p'un a oedd e byth yn cyffwrdd â Thŷ Mawr. Mae'r gwirio i'w wneud o hyd.",
+    "voice": "TODO: pick from studio/characters/<speaker>/character.json (new era = new voice)",
+    "prompt": "TODO: write per Quality bar v2 rule 5 from the still and this line"
+   },
+   "en": {
+    "status": "todo",
+    "text": "Cwm-Cedwyn. A wooded dell on the Ely, between Leckwith and Llandough. My notes use it all the time. / They do. But there's no source attached yet. We don't know when the name was first written, where its edges ran, or whether it ever touched Tŷ Mawr. Checking is still to do.",
+    "voice": "TODO: pick from studio/characters/<speaker>/character.json (new era = new voice)",
+    "prompt": "TODO: write per Quality bar v2 rule 5 from the still and this line"
+   },
+   "es": {
+    "status": "todo",
+    "text": "Cwm-Cedwyn. Un valle boscoso sobre el Ely, entre Leckwith y Llandough. Mis notas lo usan todo el tiempo. / Así es. Pero todavía no hay una fuente adjunta. No sabemos cuándo se escribió el nombre por primera vez, dónde estaban sus límites, ni si alguna vez tuvo relación con Tŷ Mawr. Aún queda por verificar.",
+    "voice": "TODO: pick from studio/characters/<speaker>/character.json (new era = new voice)",
+    "prompt": "TODO: write per Quality bar v2 rule 5 from the still and this line"
+   }
+  }
+ },
+ "qa": {
+  "status": "todo"
+ },
+ "status": "todo",
+ "order": 7
+}

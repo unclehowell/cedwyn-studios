@@ -1,0 +1,60 @@
+{
+ "schema": "cedwyn-studios/shot@1",
+ "scene": "F001",
+ "id": "S06",
+ "n": 6,
+ "type": "talking",
+ "set": "s08",
+ "speaker": "I_NIA",
+ "direction": "Close-up on Nia, gentle but firm, taking off her glasses.",
+ "seconds": null,
+ "start": null,
+ "still": {
+  "prompt": "Photoreal close-up portrait of a Welsh woman in her 30s, black bob haircut, round tortoiseshell glasses held in a cotton-gloved hand, mustard cardigan, archive shelving softly blurred behind, warm lamp light, no text, no heraldry",
+  "refs": [],
+  "image": null
+ },
+ "lines": [
+  {
+   "who": "I_NIA",
+   "en": "Not on its own. It proves the leads are catalogued. Whether the variants are one place, whether they mean Tŷ Mawr, and what any old lease meant for the land after 1877: those are the next checks.",
+   "cite": [
+    "EV-0195"
+   ],
+   "cy": "Dim ar ei ben ei hun. Mae'n profi bod y trywyddion wedi'u catalogio. P'un a yw'r amrywiadau'n un lle, p'un a ydyn nhw'n golygu Tŷ Mawr, a beth oedd ystyr unrhyw hen brydles i'r tir ar ôl 1877: dyna'r pethau nesaf i'w gwirio.",
+   "es": "No por sí sola. Prueba que las pistas están catalogadas. Si las variantes son un mismo lugar, si significan Tŷ Mawr, y qué implicó algún arrendamiento antiguo para la tierra después de 1877: esas son las próximas verificaciones.",
+   "spoken": "en",
+   "accent": "thick Welsh (Vale of Glamorgan)"
+  }
+ ],
+ "captions": [],
+ "render": {
+  "model": "bytedance/omnihuman/v2",
+  "usd_per_s": 0.105,
+  "per_language": {
+   "cy": {
+    "status": "todo",
+    "text": "Dim ar ei ben ei hun. Mae'n profi bod y trywyddion wedi'u catalogio. P'un a yw'r amrywiadau'n un lle, p'un a ydyn nhw'n golygu Tŷ Mawr, a beth oedd ystyr unrhyw hen brydles i'r tir ar ôl 1877: dyna'r pethau nesaf i'w gwirio.",
+    "voice": "TODO: pick from studio/characters/<speaker>/character.json (new era = new voice)",
+    "prompt": "TODO: write per Quality bar v2 rule 5 from the still and this line"
+   },
+   "en": {
+    "status": "todo",
+    "text": "Not on its own. It proves the leads are catalogued. Whether the variants are one place, whether they mean Tŷ Mawr, and what any old lease meant for the land after 1877: those are the next checks.",
+    "voice": "TODO: pick from studio/characters/<speaker>/character.json (new era = new voice)",
+    "prompt": "TODO: write per Quality bar v2 rule 5 from the still and this line"
+   },
+   "es": {
+    "status": "todo",
+    "text": "No por sí sola. Prueba que las pistas están catalogadas. Si las variantes son un mismo lugar, si significan Tŷ Mawr, y qué implicó algún arrendamiento antiguo para la tierra después de 1877: esas son las próximas verificaciones.",
+    "voice": "TODO: pick from studio/characters/<speaker>/character.json (new era = new voice)",
+    "prompt": "TODO: write per Quality bar v2 rule 5 from the still and this line"
+   }
+  }
+ },
+ "qa": {
+  "status": "todo"
+ },
+ "status": "todo",
+ "order": 6
+}
