@@ -2,7 +2,7 @@
 
 The film studio for **Cedwyn**, the documentary at cedwyn.bucklerfamily.estate/documentary. Every scene, and every shot inside it, is a small versioned package of text: the prompts, the reference images, the voice profiles, the lines in Welsh, English and Spanish, and a render manifest. A deterministic render step turns a package into a clip. The work is split into units small enough that any agent, on any computer, can pick up the next one, do it, and commit.
 
-- **Text and JSON live here** (git). **Media lives in Cloudflare R2** (bucket `cedwyn-studios`), addressed as `r2:<key>` and pinned by sha256 in each scene's `manifest.json`.
+- **Text and JSON live here** (git). **Media lives in GitHub Releases** of this repo (one release per scene, `media-F###`, plus `media-shared`), public to read, pinned by sha256 and IPFS CID in each scene's `manifest.json`. A Cloudflare R2 bucket is kept only as an optional mirror. See [STUDIO.md](STUDIO.md) §3.
 - **The spec** an agent follows cold: [STUDIO.md](STUDIO.md).
 - **The scene run** (one unit per run): [RUNNER.md](RUNNER.md).
 - **The look, the voices, the rules**: [docs/BIBLE.md](docs/BIBLE.md), [docs/QUALITY-BAR-v2.md](docs/QUALITY-BAR-v2.md), [docs/MODELS.md](docs/MODELS.md), [docs/LIPSYNC-MULTILANG.md](docs/LIPSYNC-MULTILANG.md), [docs/SCENE-LIST.md](docs/SCENE-LIST.md).
@@ -26,7 +26,7 @@ studio/
   scenes/F###/manifest.json      every stored object (key, sha256, bytes, origin) and every render (inputs hash -> output)
   manifest-shared.json           characters, sets, voice lab, chronology objects
   ledger/spend.jsonl             paid renders, so every computer sees the same day total
-  chronology/README.md           the chronology is in R2 (key and hash in manifest-shared.json)
+  chronology/README.md           the chronology file is in the media-shared release (key, hash, CID in manifest-shared.json)
 schema/                          JSON schemas (scene, shot, unit, character, manifest)
 tools/                           studio.py (library), next.py, render.py, assemble.py, qa_gate.py, validate.py, tab_commit.py
 docs/                            the bible and the production rules

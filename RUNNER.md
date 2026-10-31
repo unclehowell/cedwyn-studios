@@ -5,7 +5,7 @@ Any agent, any computer. A run advances the film by units: it takes the next uni
 ## 0. Before you start
 - Disk: at least 2 GB free (a talking take is ~4 MB, an assembled language cut needs ~1 GB of temp).
 - Budget: `python3 -c "import sys; sys.path.insert(0,'tools'); import studio; print(studio.day_spent())"` is today's paid film spend (UTC day) from `studio/ledger/spend.jsonl` (plus any files named in `CEDWYN_EXTRA_SPEND`). The film may spend up to $10 a UTC day; a run's own cap is at most $10 minus that. Skip paid steps when less than one talking take ($0.84) is left. If a provider refuses on budget, stop paid steps and write the wait into the run report.
-- Keys: the media key (`CEDWYN_STUDIO_KEY`), and for paid steps the vendor keys of your environment. CI never renders.
+- Keys: a GitHub token with contents:write on this repo (`GH_TOKEN` or `gh auth login`) to store outputs in the scene's release; reading media needs no key. Without a token, the mirror key (`CEDWYN_STUDIO_KEY`) stages outputs and the media-releases workflow copies them on your commit. For paid steps, the vendor keys of your environment. CI never renders.
 
 ## 1. Pull
 `git clone --depth 1 https://github.com/unclehowell/cedwyn-studios` (or download the tarball). Work in that copy.
@@ -14,12 +14,14 @@ Any agent, any computer. A run advances the film by units: it takes the next uni
 `python3 tools/next.py` prints `{scene, shot, unit, step}`. Order: `studio/queue/queue.json`, then shared units, then each language in the scene's `language_order`, shots in order. Blocked units are skipped (read their `blocked_by`).
 
 ## 3. Do that one step
-- `take` / `line` / `move`: `python3 tools/render.py next --cap <cap> --day-limit 10`. It skips when the output for the same inputs already exists, stops before passing the day limit, uploads the output to R2, appends the manifest and the spend ledger, and sets the unit to `rendered` (take/move) or `prepared` (line).
+- `take` / `line` / `move`: `python3 tools/render.py next --cap <cap> --day-limit 10`. It skips when the output for the same inputs already exists, stops before passing the day limit, uploads the output to the scene's GitHub release (or stages it on the mirror without a token), appends the manifest (sha256, asset URL, IPFS CID) and the spend ledger, and sets the unit to `rendered` (take/move) or `prepared` (line).
 - `still` / `i2v` / `card`: make it with the model and recipe in docs/MODELS.md from `shot.still.prompt` and `shot.direction` (stills: 16:9, at least 1920 wide, the speaker's face at least 350 px tall, one light, period props checked; an era change is an edit of the character's reference portrait), then `python3 tools/render.py adopt <F###/S##> --step still --file <file> --prompt "<the prompt you used>"`.
 - `qa`: extract 3 frames of the take (`ffmpeg -ss <t> -i take.mp4 -frames:v 1 f1.jpg` at 20/50/80 %), LOOK at each: face matches the cast sheet, eyes off the lens, mouth open on vowels and closed in pauses, no smeared teeth or hands, period props right, no heraldry, no text. Then `python3 tools/render.py qa <F###/S##> --lang <l> --verdict PASS|FAIL --notes "<what you saw>"`. A FAIL clears the take; one retake per unit per run, then set the unit `blocked` with what you saw.
 
 ## 4. Commit
 Commit exactly the files the tool printed under `touched` (at most 4 files per commit, no force-push), message `F###/S## <unit> <step>: <one line>`. Run `python3 tools/validate.py` first; CI runs it again.
+
+Outputs staged on the mirror (`release_state: pending`) are copied to their release by the media-releases workflow that your manifest commit starts; the next run downloads `media-index.json` from the `media-index` release and runs `python3 tools/media_releases.py apply media-index.json`, which records them as `verified` (commit the changed manifests).
 
 ## 5. Repeat or stop
 Go back to step 2 while the run cap, the day limit, the disk floor and your time allow. Every unit is committed before the next starts.
