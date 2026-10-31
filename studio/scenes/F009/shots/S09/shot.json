@@ -1,0 +1,37 @@
+{
+ "schema": "cedwyn-studios/shot@1",
+ "scene": "F009",
+ "id": "S09",
+ "n": 9,
+ "type": "still-move",
+ "set": "s09",
+ "speaker": null,
+ "direction": "From the farmhouse window, the frozen fields of Great House fall away in moonlight toward the Ely marshes, with Leckwith woods dark across the valley. The view is inland, with no sea. Slow pan across the hedged fields. Ambience: wind, a distant dog.",
+ "seconds": null,
+ "start": null,
+ "still": {
+  "prompt": "Photoreal 16:9 still, moonlit winter night in 1864 seen from an inland Welsh hillside farm, frosted hedged fields sloping down to a winding river through flat marshland, dark woods on the far side of the valley, faint estuary haze far off on the horizon, clearly inland and not coastal, silver-blue light, a few bare trees in the hedgerows, no people, no buildings in the foreground, no text, no heraldry",
+  "refs": [],
+  "image": null
+ },
+ "lines": [],
+ "captions": [
+  {
+   "text": "1855: John Williams succeeds his father in the occupancy of the farm, as reported in the Cardiff Times, 16 Jul 1904, which calls him \"of Llandough Farm\". That he is the Great House John Williams is an inference (CH-0013)",
+   "cite": [
+    "CH-0013"
+   ]
+  }
+ ],
+ "render": {
+  "model": "ffmpeg still-move (free)",
+  "shared": {
+   "status": "todo"
+  }
+ },
+ "qa": {
+  "status": "todo"
+ },
+ "status": "todo",
+ "order": 9
+}

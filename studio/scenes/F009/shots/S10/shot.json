@@ -1,0 +1,30 @@
+{
+ "schema": "cedwyn-studios/shot@1",
+ "scene": "F009",
+ "id": "S10",
+ "n": 10,
+ "type": "still-move",
+ "set": "s02",
+ "speaker": null,
+ "direction": "Closing still. Gwen draws the curtain across the window, and the kitchen holds only the low fire and one candle by the box bed. Slow fade.",
+ "seconds": null,
+ "start": null,
+ "still": {
+  "prompt": "Photoreal 16:9 still, 1864 Welsh farmhouse kitchen late at night, a woman in a shawl seen from behind drawing a plain wool curtain across a small window, a single candle burning beside a box bed in the shadows, embers glowing in a stone inglenook, deep amber and black tones, quiet mourning atmosphere, no text, no heraldry",
+  "refs": [],
+  "image": null
+ },
+ "lines": [],
+ "captions": [],
+ "render": {
+  "model": "ffmpeg still-move (free)",
+  "shared": {
+   "status": "todo"
+  }
+ },
+ "qa": {
+  "status": "todo"
+ },
+ "status": "todo",
+ "order": 10
+}

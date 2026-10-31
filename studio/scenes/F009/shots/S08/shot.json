@@ -1,0 +1,60 @@
+{
+ "schema": "cedwyn-studios/shot@1",
+ "scene": "F009",
+ "id": "S08",
+ "n": 8,
+ "type": "talking",
+ "set": "s02",
+ "speaker": "B_JOHN",
+ "direction": "John turns from the bed toward the small window, his face lit by the fire, and answers her.",
+ "seconds": null,
+ "start": null,
+ "still": {
+  "prompt": "Photoreal 16:9 medium close, 1864, a bearded Welsh farmer in his forties in a dark waistcoat turning toward a small-paned farmhouse window, frost on the glass, firelight on half his face and cold blue night beyond, a grave and tired expression, no text, no heraldry",
+  "refs": [],
+  "image": null
+ },
+ "lines": [
+  {
+   "who": "B_JOHN",
+   "spoken": "cy",
+   "accent": "South Wales Welsh (Glamorgan); native review needed",
+   "cy": "Diolch, Gwen. Fe a' i at y ficer bore fory.",
+   "en": "Thank you, Gwen. I'll go to the vicar first thing tomorrow.",
+   "es": "Gracias, Gwen. Mañana temprano voy a ver al vicario.",
+   "cite": [
+    "CH-0014"
+   ]
+  }
+ ],
+ "captions": [],
+ "render": {
+  "model": "bytedance/omnihuman/v2",
+  "usd_per_s": 0.105,
+  "per_language": {
+   "cy": {
+    "status": "todo",
+    "text": "Diolch, Gwen. Fe a' i at y ficer bore fory.",
+    "voice": "TODO: pick from studio/characters/<speaker>/character.json (new era = new voice)",
+    "prompt": "TODO: write per Quality bar v2 rule 5 from the still and this line"
+   },
+   "en": {
+    "status": "todo",
+    "text": "Thank you, Gwen. I'll go to the vicar first thing tomorrow.",
+    "voice": "TODO: pick from studio/characters/<speaker>/character.json (new era = new voice)",
+    "prompt": "TODO: write per Quality bar v2 rule 5 from the still and this line"
+   },
+   "es": {
+    "status": "todo",
+    "text": "Gracias, Gwen. Mañana temprano voy a ver al vicario.",
+    "voice": "TODO: pick from studio/characters/<speaker>/character.json (new era = new voice)",
+    "prompt": "TODO: write per Quality bar v2 rule 5 from the still and this line"
+   }
+  }
+ },
+ "qa": {
+  "status": "todo"
+ },
+ "status": "todo",
+ "order": 8
+}
