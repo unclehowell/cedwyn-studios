@@ -1,554 +1,1257 @@
 {
  "schema": "cedwyn-studios/manifest@1",
  "scene": "_shared",
- "store": "r2:cedwyn-studios",
+ "store": "github-releases",
  "objects": {
   "studio/characters/A_MARY/look/A_MARY.jpg": {
    "sha256": "ac7d32c02c440cdb01d0b99c323212855abe4a77a1305025b6a11877c65dd45f",
    "bytes": 129752,
    "content_type": "image/jpeg",
    "origin": "cedwyn-movie-box:bible/cast/A_MARY.jpg",
-   "at": "2026-10-31T13:21:45Z"
+   "at": "2026-10-31T13:21:45Z",
+   "release": "media-shared",
+   "asset": "characters__A_MARY__look__A_MARY.jpg",
+   "github": "https://github.com/unclehowell/cedwyn-studios/releases/download/media-shared/characters__A_MARY__look__A_MARY.jpg",
+   "release_state": "verified",
+   "cid": "bafkreifmpuzmalcebtnqdufztqzdeeuflk7eu55bgbiclnvbdb34mxoul4",
+   "cid_check": "kubo-match",
+   "mirrors": [
+    "r2:cedwyn-studios"
+   ]
   },
   "studio/characters/A_MARY/look/A_MARY_1974.jpg": {
    "sha256": "ab7957ab432583520d5feab347986440366e388c371b9b82d543a8289860d2d5",
    "bytes": 155211,
    "content_type": "image/jpeg",
    "origin": "cedwyn-movie-box:bible/cast/A_MARY_1974.jpg",
-   "at": "2026-10-31T13:21:46Z"
+   "at": "2026-10-31T13:21:46Z",
+   "release": "media-shared",
+   "asset": "characters__A_MARY__look__A_MARY_1974.jpg",
+   "github": "https://github.com/unclehowell/cedwyn-studios/releases/download/media-shared/characters__A_MARY__look__A_MARY_1974.jpg",
+   "release_state": "verified",
+   "cid": "bafkreiflpfl2wqzfqnja2x7kwndzqzcagzxdrdbxdonyfvkdvaujqygs2u",
+   "cid_check": "kubo-match",
+   "mirrors": [
+    "r2:cedwyn-studios"
+   ]
   },
   "studio/characters/A_MARY/look/A_MARY_1974_gptedit.jpg": {
    "sha256": "17605e205f104e73f2f3825e2dac0a95e388d03c636fae70eb74a6b15dfc6ded",
    "bytes": 178086,
    "content_type": "image/jpeg",
    "origin": "cedwyn-movie-box:bible/cast/A_MARY_1974_gptedit.jpg",
-   "at": "2026-10-31T13:21:47Z"
+   "at": "2026-10-31T13:21:47Z",
+   "release": "media-shared",
+   "asset": "characters__A_MARY__look__A_MARY_1974_gptedit.jpg",
+   "github": "https://github.com/unclehowell/cedwyn-studios/releases/download/media-shared/characters__A_MARY__look__A_MARY_1974_gptedit.jpg",
+   "release_state": "verified",
+   "cid": "bafkreiaxmbpcaxyqjzz7f44clyw2ycuv4oenapddn6xhb23uu2yv37dn5u",
+   "cid_check": "kubo-match",
+   "mirrors": [
+    "r2:cedwyn-studios"
+   ]
   },
   "studio/characters/A_MARY/look/A_MARY_ironage.jpg": {
    "sha256": "26c4424c3e16b8208b979ecbea6be185f027b5d9b78357525a42cd68821605b2",
    "bytes": 186735,
    "content_type": "image/jpeg",
    "origin": "cedwyn-movie-box:bible/cast/A_MARY_ironage.jpg",
-   "at": "2026-10-31T13:21:48Z"
+   "at": "2026-10-31T13:21:48Z",
+   "release": "media-shared",
+   "asset": "characters__A_MARY__look__A_MARY_ironage.jpg",
+   "github": "https://github.com/unclehowell/cedwyn-studios/releases/download/media-shared/characters__A_MARY__look__A_MARY_ironage.jpg",
+   "release_state": "verified",
+   "cid": "bafkreibgyrbeypqwxaqixf46zpvgxymf6at3lwnxqnlvewsczvuiefqfwi",
+   "cid_check": "kubo-match",
+   "mirrors": [
+    "r2:cedwyn-studios"
+   ]
   },
   "studio/characters/A_MARY/voice/A_MARY_cy.mp3": {
    "sha256": "eb356c150be6f22d3fbcbb98fefcfb736357f5ad694a7fe41f9558c649a0d1ec",
    "bytes": 45391,
    "content_type": "audio/mpeg",
    "origin": "cedwyn-movie-box:bible/voices/A_MARY_cy.mp3",
-   "at": "2026-10-31T13:22:08Z"
+   "at": "2026-10-31T13:22:08Z",
+   "release": "media-shared",
+   "asset": "characters__A_MARY__voice__A_MARY_cy.mp3",
+   "github": "https://github.com/unclehowell/cedwyn-studios/releases/download/media-shared/characters__A_MARY__voice__A_MARY_cy.mp3",
+   "release_state": "verified",
+   "cid": "bafkreihlgvwbkc7g6iwt7pf3td7pz63tmnl7llljjj76ih4vlddetigr5q",
+   "cid_check": "kubo-match",
+   "mirrors": [
+    "r2:cedwyn-studios"
+   ]
   },
   "studio/characters/A_MARY/voice/A_MARY_en.mp3": {
    "sha256": "4fd5893ace1a45473165dd7187585077aabdf670ef2b27789a09748d88fdf62e",
    "bytes": 49780,
    "content_type": "audio/mpeg",
    "origin": "cedwyn-movie-box:bible/voices/A_MARY_en.mp3",
-   "at": "2026-10-31T13:22:09Z"
+   "at": "2026-10-31T13:22:09Z",
+   "release": "media-shared",
+   "asset": "characters__A_MARY__voice__A_MARY_en.mp3",
+   "github": "https://github.com/unclehowell/cedwyn-studios/releases/download/media-shared/characters__A_MARY__voice__A_MARY_en.mp3",
+   "release_state": "verified",
+   "cid": "bafkreicp2wetvtq2ivdtczo5ogdvqudxvk67m4hpfmtxrgqjosgyr7pwfy",
+   "cid_check": "kubo-match",
+   "mirrors": [
+    "r2:cedwyn-studios"
+   ]
   },
   "studio/characters/A_MARY/voice/A_MARY_es.mp3": {
    "sha256": "d959803a8761f75f938943577ab7e0720952147dce2c9655e5b5775ebc0052c5",
    "bytes": 53123,
    "content_type": "audio/mpeg",
    "origin": "cedwyn-movie-box:bible/voices/A_MARY_es.mp3",
-   "at": "2026-10-31T13:22:10Z"
+   "at": "2026-10-31T13:22:10Z",
+   "release": "media-shared",
+   "asset": "characters__A_MARY__voice__A_MARY_es.mp3",
+   "github": "https://github.com/unclehowell/cedwyn-studios/releases/download/media-shared/characters__A_MARY__voice__A_MARY_es.mp3",
+   "release_state": "verified",
+   "cid": "bafkreigzlgadvb3b65pzhckdk55lpydsbfjbi7oofslflznvo5plyacsyu",
+   "cid_check": "kubo-match",
+   "mirrors": [
+    "r2:cedwyn-studios"
+   ]
   },
   "studio/characters/B_JOHN/look/B_JOHN.jpg": {
    "sha256": "d5dfcf10bd34bb1c67468c7b92b7d90a9a3de5283b47265fae824b1614de6998",
    "bytes": 151304,
    "content_type": "image/jpeg",
    "origin": "cedwyn-movie-box:bible/cast/B_JOHN.jpg",
-   "at": "2026-10-31T13:21:48Z"
+   "at": "2026-10-31T13:21:48Z",
+   "release": "media-shared",
+   "asset": "characters__B_JOHN__look__B_JOHN.jpg",
+   "github": "https://github.com/unclehowell/cedwyn-studios/releases/download/media-shared/characters__B_JOHN__look__B_JOHN.jpg",
+   "release_state": "verified",
+   "cid": "bafkreigv37hrbpjuxmogorumpojlpwikti66kkb3i4tf7lucjmlbjxtjta",
+   "cid_check": "kubo-match",
+   "mirrors": [
+    "r2:cedwyn-studios"
+   ]
   },
   "studio/characters/B_JOHN/look/B_JOHN_1890s.jpg": {
    "sha256": "fd50666629bdd363878167dabb774c6e0b958406ce285b1931c82314f97f359e",
    "bytes": 195358,
    "content_type": "image/jpeg",
    "origin": "cedwyn-movie-box:bible/cast/B_JOHN_1890s.jpg",
-   "at": "2026-10-31T13:21:49Z"
+   "at": "2026-10-31T13:21:49Z",
+   "release": "media-shared",
+   "asset": "characters__B_JOHN__look__B_JOHN_1890s.jpg",
+   "github": "https://github.com/unclehowell/cedwyn-studios/releases/download/media-shared/characters__B_JOHN__look__B_JOHN_1890s.jpg",
+   "release_state": "verified",
+   "cid": "bafkreih5kbtgmkn52nrypalh3k5xotdobokyibwofbnrsmoiemkps7zvty",
+   "cid_check": "kubo-match",
+   "mirrors": [
+    "r2:cedwyn-studios"
+   ]
   },
   "studio/characters/B_JOHN/look/B_JOHN_ironage.jpg": {
    "sha256": "3fa15f17eaba4dd14318fe964a85347911838c36fa2962cef2b3e2a886ef2265",
    "bytes": 241195,
    "content_type": "image/jpeg",
    "origin": "cedwyn-movie-box:bible/cast/B_JOHN_ironage.jpg",
-   "at": "2026-10-31T13:21:50Z"
+   "at": "2026-10-31T13:21:50Z",
+   "release": "media-shared",
+   "asset": "characters__B_JOHN__look__B_JOHN_ironage.jpg",
+   "github": "https://github.com/unclehowell/cedwyn-studios/releases/download/media-shared/characters__B_JOHN__look__B_JOHN_ironage.jpg",
+   "release_state": "verified",
+   "cid": "bafkreib7ufprp2v2jxiuggh6szfikndzcgbyynx2ffrm54vt4kuin3zcmu",
+   "cid_check": "kubo-match",
+   "mirrors": [
+    "r2:cedwyn-studios"
+   ]
   },
   "studio/characters/B_JOHN/voice/B_JOHN_cy.mp3": {
    "sha256": "aa867865301664903d26dfe860567716af8502b2ed2e3ce3de8b65d82ae8d004",
    "bytes": 48526,
    "content_type": "audio/mpeg",
    "origin": "cedwyn-movie-box:bible/voices/B_JOHN_cy.mp3",
-   "at": "2026-10-31T13:22:10Z"
+   "at": "2026-10-31T13:22:10Z",
+   "release": "media-shared",
+   "asset": "characters__B_JOHN__voice__B_JOHN_cy.mp3",
+   "github": "https://github.com/unclehowell/cedwyn-studios/releases/download/media-shared/characters__B_JOHN__voice__B_JOHN_cy.mp3",
+   "release_state": "verified",
+   "cid": "bafkreifkqz4gkmawmsid2jw75bqfm5ywv6cqfmxnfy6ohxulmxmcv2gqaq",
+   "cid_check": "kubo-match",
+   "mirrors": [
+    "r2:cedwyn-studios"
+   ]
   },
   "studio/characters/B_JOHN/voice/B_JOHN_en.mp3": {
    "sha256": "4f3615283d0df1cd69b83a6bb9147f13cbc0d79bb956f0a0056ecc9fb8b79033",
    "bytes": 51034,
    "content_type": "audio/mpeg",
    "origin": "cedwyn-movie-box:bible/voices/B_JOHN_en.mp3",
-   "at": "2026-10-31T13:22:11Z"
+   "at": "2026-10-31T13:22:11Z",
+   "release": "media-shared",
+   "asset": "characters__B_JOHN__voice__B_JOHN_en.mp3",
+   "github": "https://github.com/unclehowell/cedwyn-studios/releases/download/media-shared/characters__B_JOHN__voice__B_JOHN_en.mp3",
+   "release_state": "verified",
+   "cid": "bafkreicpgyksqpin6hgwtob2no4ri7ytzpanpg5zk3ykablozsp3rn4qgm",
+   "cid_check": "kubo-match",
+   "mirrors": [
+    "r2:cedwyn-studios"
+   ]
   },
   "studio/characters/B_JOHN/voice/B_JOHN_es.mp3": {
    "sha256": "8f44af71ba4bed80a4b1393e4972dd90ec921425af7152644d04f2dff5e7467f",
    "bytes": 56258,
    "content_type": "audio/mpeg",
    "origin": "cedwyn-movie-box:bible/voices/B_JOHN_es.mp3",
-   "at": "2026-10-31T13:22:11Z"
+   "at": "2026-10-31T13:22:11Z",
+   "release": "media-shared",
+   "asset": "characters__B_JOHN__voice__B_JOHN_es.mp3",
+   "github": "https://github.com/unclehowell/cedwyn-studios/releases/download/media-shared/characters__B_JOHN__voice__B_JOHN_es.mp3",
+   "release_state": "verified",
+   "cid": "bafkreiepisxxdosl5wakjmjzhzexfxmq5sjbijnpofjgitie6lp7lz2gp4",
+   "cid_check": "kubo-match",
+   "mirrors": [
+    "r2:cedwyn-studios"
+   ]
   },
   "studio/characters/C_FRED/look/C_FRED.jpg": {
    "sha256": "f9a80863d7237fdc2c62bbd96a11915a4dc5f1b08a1f74b8a0377a7f9e337615",
    "bytes": 125228,
    "content_type": "image/jpeg",
    "origin": "cedwyn-movie-box:bible/cast/C_FRED.jpg",
-   "at": "2026-10-31T13:21:51Z"
+   "at": "2026-10-31T13:21:51Z",
+   "release": "media-shared",
+   "asset": "characters__C_FRED__look__C_FRED.jpg",
+   "github": "https://github.com/unclehowell/cedwyn-studios/releases/download/media-shared/characters__C_FRED__look__C_FRED.jpg",
+   "release_state": "verified",
+   "cid": "bafkreihzvaeghvzdp7ocyyv33fvbdek2jxc7dmekd52lribxpj7z4m3wcu",
+   "cid_check": "kubo-match",
+   "mirrors": [
+    "r2:cedwyn-studios"
+   ]
   },
   "studio/characters/C_FRED/voice/C_FRED_cy.mp3": {
    "sha256": "19ddc29c4ad5fb6bc439bf08acf7f7ee2591eae21dc8aa2c3130b7cfc9a3b3d4",
    "bytes": 46645,
    "content_type": "audio/mpeg",
    "origin": "cedwyn-movie-box:bible/voices/C_FRED_cy.mp3",
-   "at": "2026-10-31T13:22:12Z"
+   "at": "2026-10-31T13:22:12Z",
+   "release": "media-shared",
+   "asset": "characters__C_FRED__voice__C_FRED_cy.mp3",
+   "github": "https://github.com/unclehowell/cedwyn-studios/releases/download/media-shared/characters__C_FRED__voice__C_FRED_cy.mp3",
+   "release_state": "verified",
+   "cid": "bafkreiaz3xbjyswv7nv4ion7bcwpp57oewi6vyq5zcvcymjqw7h4ti5t2q",
+   "cid_check": "kubo-match",
+   "mirrors": [
+    "r2:cedwyn-studios"
+   ]
   },
   "studio/characters/C_FRED/voice/C_FRED_en.mp3": {
    "sha256": "881e540d3a8288e9ae64024cfb8a35264b2ed4e978099ae51fe49cbe0101ad29",
    "bytes": 49153,
    "content_type": "audio/mpeg",
    "origin": "cedwyn-movie-box:bible/voices/C_FRED_en.mp3",
-   "at": "2026-10-31T13:22:13Z"
+   "at": "2026-10-31T13:22:13Z",
+   "release": "media-shared",
+   "asset": "characters__C_FRED__voice__C_FRED_en.mp3",
+   "github": "https://github.com/unclehowell/cedwyn-studios/releases/download/media-shared/characters__C_FRED__voice__C_FRED_en.mp3",
+   "release_state": "verified",
+   "cid": "bafkreieidzka2oucrdu24zacjt5yunjgjmxnj2lybgnokh7ets7acannfe",
+   "cid_check": "kubo-match",
+   "mirrors": [
+    "r2:cedwyn-studios"
+   ]
   },
   "studio/characters/C_FRED/voice/C_FRED_es.mp3": {
    "sha256": "7b81ab78b6f7289b1bf0f7af5ef804b10881c391f2509d562bf71ee1662081a8",
    "bytes": 52496,
    "content_type": "audio/mpeg",
    "origin": "cedwyn-movie-box:bible/voices/C_FRED_es.mp3",
-   "at": "2026-10-31T13:22:13Z"
+   "at": "2026-10-31T13:22:13Z",
+   "release": "media-shared",
+   "asset": "characters__C_FRED__voice__C_FRED_es.mp3",
+   "github": "https://github.com/unclehowell/cedwyn-studios/releases/download/media-shared/characters__C_FRED__voice__C_FRED_es.mp3",
+   "release_state": "verified",
+   "cid": "bafkreid3qgvxrnxxfcnrx4hxv5ppqbfrbca4hepskcovmk7xd3qwmiebva",
+   "cid_check": "kubo-match",
+   "mirrors": [
+    "r2:cedwyn-studios"
+   ]
   },
   "studio/characters/D_BILLY/look/D_BILLY.jpg": {
    "sha256": "afd0ed840f30ffaf71a81f20ab684e491068687f311ee6394146a1b9792a4d3b",
    "bytes": 117876,
    "content_type": "image/jpeg",
    "origin": "cedwyn-movie-box:bible/cast/D_BILLY.jpg",
-   "at": "2026-10-31T13:21:51Z"
+   "at": "2026-10-31T13:21:51Z",
+   "release": "media-shared",
+   "asset": "characters__D_BILLY__look__D_BILLY.jpg",
+   "github": "https://github.com/unclehowell/cedwyn-studios/releases/download/media-shared/characters__D_BILLY__look__D_BILLY.jpg",
+   "release_state": "verified",
+   "cid": "bafkreifp2dwyidzq76xxdka7ecvwqtsjcbugq7zrd3tdsqkgug4xsksnhm",
+   "cid_check": "kubo-match",
+   "mirrors": [
+    "r2:cedwyn-studios"
+   ]
   },
   "studio/characters/D_BILLY/voice/D_BILLY_cy.mp3": {
    "sha256": "4af0d304d27505a1fac23935c24aa93b8c0d082b2347a7792c04c76062756ca4",
    "bytes": 44137,
    "content_type": "audio/mpeg",
    "origin": "cedwyn-movie-box:bible/voices/D_BILLY_cy.mp3",
-   "at": "2026-10-31T13:22:14Z"
+   "at": "2026-10-31T13:22:14Z",
+   "release": "media-shared",
+   "asset": "characters__D_BILLY__voice__D_BILLY_cy.mp3",
+   "github": "https://github.com/unclehowell/cedwyn-studios/releases/download/media-shared/characters__D_BILLY__voice__D_BILLY_cy.mp3",
+   "release_state": "verified",
+   "cid": "bafkreick6djqjutvawq7vqrzgxbevkj3rqgqqkzdi6txslaey5qge5lmuq",
+   "cid_check": "kubo-match",
+   "mirrors": [
+    "r2:cedwyn-studios"
+   ]
   },
   "studio/characters/D_BILLY/voice/D_BILLY_en.mp3": {
    "sha256": "643f0e56e484aa557941a369d50fa6f05c83a10a571f48714c9e9b12b65763a1",
    "bytes": 46645,
    "content_type": "audio/mpeg",
    "origin": "cedwyn-movie-box:bible/voices/D_BILLY_en.mp3",
-   "at": "2026-10-31T13:22:15Z"
+   "at": "2026-10-31T13:22:15Z",
+   "release": "media-shared",
+   "asset": "characters__D_BILLY__voice__D_BILLY_en.mp3",
+   "github": "https://github.com/unclehowell/cedwyn-studios/releases/download/media-shared/characters__D_BILLY__voice__D_BILLY_en.mp3",
+   "release_state": "verified",
+   "cid": "bafkreideh4hfnzeevjkxsqndnhkq7jxqlsb2ccsxd5ehcte6tmjlmv3due",
+   "cid_check": "kubo-match",
+   "mirrors": [
+    "r2:cedwyn-studios"
+   ]
   },
   "studio/characters/D_BILLY/voice/D_BILLY_es.mp3": {
    "sha256": "cefe4e990f6bcc3f1e9d511a227500f396972c25d8fe16b9bdf2b65901be7b1f",
    "bytes": 53123,
    "content_type": "audio/mpeg",
    "origin": "cedwyn-movie-box:bible/voices/D_BILLY_es.mp3",
-   "at": "2026-10-31T13:22:15Z"
+   "at": "2026-10-31T13:22:15Z",
+   "release": "media-shared",
+   "asset": "characters__D_BILLY__voice__D_BILLY_es.mp3",
+   "github": "https://github.com/unclehowell/cedwyn-studios/releases/download/media-shared/characters__D_BILLY__voice__D_BILLY_es.mp3",
+   "release_state": "verified",
+   "cid": "bafkreigo7zhjsd3lzq7r5hkrdirhkahts2lsyjoy7ylltppswzmqdpt3d4",
+   "cid_check": "kubo-match",
+   "mirrors": [
+    "r2:cedwyn-studios"
+   ]
   },
   "studio/characters/E_AGENT/look/E_AGENT.jpg": {
    "sha256": "56435fd367c81b456d0f2efd4a33758a02887fee7425257cf7906d8f05d68f1c",
    "bytes": 113813,
    "content_type": "image/jpeg",
    "origin": "cedwyn-movie-box:bible/cast/E_AGENT.jpg",
-   "at": "2026-10-31T13:21:52Z"
+   "at": "2026-10-31T13:21:52Z",
+   "release": "media-shared",
+   "asset": "characters__E_AGENT__look__E_AGENT.jpg",
+   "github": "https://github.com/unclehowell/cedwyn-studios/releases/download/media-shared/characters__E_AGENT__look__E_AGENT.jpg",
+   "release_state": "verified",
+   "cid": "bafkreicwinp5gz6idncw2dzo7vfdg5mkakeh73tueusxz54qnwhqlvupdq",
+   "cid_check": "kubo-match",
+   "mirrors": [
+    "r2:cedwyn-studios"
+   ]
   },
   "studio/characters/E_AGENT/voice/E_AGENT_cy.mp3": {
    "sha256": "a655638b8bc91b719546f68029fd6614765535761113796ad90a70d3e2b2f6a4",
    "bytes": 42883,
    "content_type": "audio/mpeg",
    "origin": "cedwyn-movie-box:bible/voices/E_AGENT_cy.mp3",
-   "at": "2026-10-31T13:22:16Z"
+   "at": "2026-10-31T13:22:16Z",
+   "release": "media-shared",
+   "asset": "characters__E_AGENT__voice__E_AGENT_cy.mp3",
+   "github": "https://github.com/unclehowell/cedwyn-studios/releases/download/media-shared/characters__E_AGENT__voice__E_AGENT_cy.mp3",
+   "release_state": "verified",
+   "cid": "bafkreifgkvryxc6jdnyzkrxwqau72zquozktk5qrcn4wvwikodj6fmxwuq",
+   "cid_check": "kubo-match",
+   "mirrors": [
+    "r2:cedwyn-studios"
+   ]
   },
   "studio/characters/E_AGENT/voice/E_AGENT_en.mp3": {
    "sha256": "c2dcac431adf45ed7254ef9a2530145763b7067d88527f807afe0f76079a0753",
    "bytes": 46645,
    "content_type": "audio/mpeg",
    "origin": "cedwyn-movie-box:bible/voices/E_AGENT_en.mp3",
-   "at": "2026-10-31T13:22:17Z"
+   "at": "2026-10-31T13:22:17Z",
+   "release": "media-shared",
+   "asset": "characters__E_AGENT__voice__E_AGENT_en.mp3",
+   "github": "https://github.com/unclehowell/cedwyn-studios/releases/download/media-shared/characters__E_AGENT__voice__E_AGENT_en.mp3",
+   "release_state": "verified",
+   "cid": "bafkreigc3sweggw7ixwxevhptistafcxmo3qm7mikj7ya6x6b53apgqhkm",
+   "cid_check": "kubo-match",
+   "mirrors": [
+    "r2:cedwyn-studios"
+   ]
   },
   "studio/characters/E_AGENT/voice/E_AGENT_es.mp3": {
    "sha256": "1a734e268fe526da0b8e19682e83c19b9fcabb94c215aff9e173dfa639d99827",
    "bytes": 51034,
    "content_type": "audio/mpeg",
    "origin": "cedwyn-movie-box:bible/voices/E_AGENT_es.mp3",
-   "at": "2026-10-31T13:22:17Z"
+   "at": "2026-10-31T13:22:17Z",
+   "release": "media-shared",
+   "asset": "characters__E_AGENT__voice__E_AGENT_es.mp3",
+   "github": "https://github.com/unclehowell/cedwyn-studios/releases/download/media-shared/characters__E_AGENT__voice__E_AGENT_es.mp3",
+   "release_state": "verified",
+   "cid": "bafkreia2onhcnd7fe3naxdqznaxihqm3t7flxfgccwx7tylt36tdtwmye4",
+   "cid_check": "kubo-match",
+   "mirrors": [
+    "r2:cedwyn-studios"
+   ]
   },
   "studio/characters/F_GWEN/look/F_GWEN.jpg": {
    "sha256": "828b95692a1b622dbe5dd59d778b3896d517c8c2b456888b5df2ec8f26cdeb1c",
    "bytes": 145257,
    "content_type": "image/jpeg",
    "origin": "cedwyn-movie-box:bible/cast/F_GWEN.jpg",
-   "at": "2026-10-31T13:21:53Z"
+   "at": "2026-10-31T13:21:53Z",
+   "release": "media-shared",
+   "asset": "characters__F_GWEN__look__F_GWEN.jpg",
+   "github": "https://github.com/unclehowell/cedwyn-studios/releases/download/media-shared/characters__F_GWEN__look__F_GWEN.jpg",
+   "release_state": "verified",
+   "cid": "bafkreiecrokwskq3miw34xovtv3ywoew2ul4rqvuk2eiwxps5shsntpldq",
+   "cid_check": "kubo-match",
+   "mirrors": [
+    "r2:cedwyn-studios"
+   ]
   },
   "studio/characters/F_GWEN/voice/F_GWEN_cy.mp3": {
    "sha256": "69576d33b349d03bd731a060af00c2ce52e4236edb7bd09915ddfe840ce6760d",
    "bytes": 47899,
    "content_type": "audio/mpeg",
    "origin": "cedwyn-movie-box:bible/voices/F_GWEN_cy.mp3",
-   "at": "2026-10-31T13:22:18Z"
+   "at": "2026-10-31T13:22:18Z",
+   "release": "media-shared",
+   "asset": "characters__F_GWEN__voice__F_GWEN_cy.mp3",
+   "github": "https://github.com/unclehowell/cedwyn-studios/releases/download/media-shared/characters__F_GWEN__voice__F_GWEN_cy.mp3",
+   "release_state": "verified",
+   "cid": "bafkreidjk5wthm2j2a55omnamcxqbqwoklscg3w3ppijsfo572cazztwbu",
+   "cid_check": "kubo-match",
+   "mirrors": [
+    "r2:cedwyn-studios"
+   ]
   },
   "studio/characters/F_GWEN/voice/F_GWEN_en.mp3": {
    "sha256": "ad6160f23a874ade6c844e7567adbfd7f7199e6a8aa6607db0b389f2c663d093",
    "bytes": 49780,
    "content_type": "audio/mpeg",
    "origin": "cedwyn-movie-box:bible/voices/F_GWEN_en.mp3",
-   "at": "2026-10-31T13:22:19Z"
+   "at": "2026-10-31T13:22:19Z",
+   "release": "media-shared",
+   "asset": "characters__F_GWEN__voice__F_GWEN_en.mp3",
+   "github": "https://github.com/unclehowell/cedwyn-studios/releases/download/media-shared/characters__F_GWEN__voice__F_GWEN_en.mp3",
+   "release_state": "verified",
+   "cid": "bafkreifnmfqpeouhjlpgzbcoovt23p6x64mz42ukuzqh3mftrhzmmy6qsm",
+   "cid_check": "kubo-match",
+   "mirrors": [
+    "r2:cedwyn-studios"
+   ]
   },
   "studio/characters/F_GWEN/voice/F_GWEN_es.mp3": {
    "sha256": "b46e87280edbe1a3927dd4e4a0b184e9287d220b4e5d116da95a619ce33362d3",
    "bytes": 55631,
    "content_type": "audio/mpeg",
    "origin": "cedwyn-movie-box:bible/voices/F_GWEN_es.mp3",
-   "at": "2026-10-31T13:22:20Z"
+   "at": "2026-10-31T13:22:20Z",
+   "release": "media-shared",
+   "asset": "characters__F_GWEN__voice__F_GWEN_es.mp3",
+   "github": "https://github.com/unclehowell/cedwyn-studios/releases/download/media-shared/characters__F_GWEN__voice__F_GWEN_es.mp3",
+   "release_state": "verified",
+   "cid": "bafkreifun2dsqdw34grze7ou4sqldbhjfb6sec2oluiw3kk2mgoogm3c2m",
+   "cid_check": "kubo-match",
+   "mirrors": [
+    "r2:cedwyn-studios"
+   ]
   },
   "studio/characters/G_DAI/look/G_DAI.jpg": {
    "sha256": "d414328f0f28c713c8160bc29bdfa6ef2d096162b0254dd2bb9d863338085d4b",
    "bytes": 137931,
    "content_type": "image/jpeg",
    "origin": "cedwyn-movie-box:bible/cast/G_DAI.jpg",
-   "at": "2026-10-31T13:21:53Z"
+   "at": "2026-10-31T13:21:53Z",
+   "release": "media-shared",
+   "asset": "characters__G_DAI__look__G_DAI.jpg",
+   "github": "https://github.com/unclehowell/cedwyn-studios/releases/download/media-shared/characters__G_DAI__look__G_DAI.jpg",
+   "release_state": "verified",
+   "cid": "bafkreigucqzi6dziy4j4qfqlykn57jxpfuewcyvqevg5fo45qyztqcc5jm",
+   "cid_check": "kubo-match",
+   "mirrors": [
+    "r2:cedwyn-studios"
+   ]
   },
   "studio/characters/G_DAI/voice/G_DAI_cy.mp3": {
    "sha256": "14d89a2ee9bf2075c473196f17a7f73a677706a27c9a3990ae0c46dfff7f2a4d",
    "bytes": 49153,
    "content_type": "audio/mpeg",
    "origin": "cedwyn-movie-box:bible/voices/G_DAI_cy.mp3",
-   "at": "2026-10-31T13:22:20Z"
+   "at": "2026-10-31T13:22:20Z",
+   "release": "media-shared",
+   "asset": "characters__G_DAI__voice__G_DAI_cy.mp3",
+   "github": "https://github.com/unclehowell/cedwyn-studios/releases/download/media-shared/characters__G_DAI__voice__G_DAI_cy.mp3",
+   "release_state": "verified",
+   "cid": "bafkreiau3cnc52n7eb24i4yzn4l2p5z2m53qnit4ti4zblqmi3p767zkju",
+   "cid_check": "kubo-match",
+   "mirrors": [
+    "r2:cedwyn-studios"
+   ]
   },
   "studio/characters/G_DAI/voice/G_DAI_en.mp3": {
    "sha256": "59be94918fd5242dcced40bf10769bdd7a617d9b4995de83a5a6197504d34fde",
    "bytes": 51034,
    "content_type": "audio/mpeg",
    "origin": "cedwyn-movie-box:bible/voices/G_DAI_en.mp3",
-   "at": "2026-10-31T13:22:21Z"
+   "at": "2026-10-31T13:22:21Z",
+   "release": "media-shared",
+   "asset": "characters__G_DAI__voice__G_DAI_en.mp3",
+   "github": "https://github.com/unclehowell/cedwyn-studios/releases/download/media-shared/characters__G_DAI__voice__G_DAI_en.mp3",
+   "release_state": "verified",
+   "cid": "bafkreiczx2kjdd6veqw4z3kax4ihng65pjqx3g2jsxpihjngdf2qju2p3y",
+   "cid_check": "kubo-match",
+   "mirrors": [
+    "r2:cedwyn-studios"
+   ]
   },
   "studio/characters/G_DAI/voice/G_DAI_es.mp3": {
    "sha256": "2e1f6bc73eefac226d0b61ade026b28343eba848dbcb4ec2598c92a09151b917",
    "bytes": 57512,
    "content_type": "audio/mpeg",
    "origin": "cedwyn-movie-box:bible/voices/G_DAI_es.mp3",
-   "at": "2026-10-31T13:22:21Z"
+   "at": "2026-10-31T13:22:21Z",
+   "release": "media-shared",
+   "asset": "characters__G_DAI__voice__G_DAI_es.mp3",
+   "github": "https://github.com/unclehowell/cedwyn-studios/releases/download/media-shared/characters__G_DAI__voice__G_DAI_es.mp3",
+   "release_state": "verified",
+   "cid": "bafkreibod5v4opxpvqrg2c3bvxqcnmudipv2qsg3znhmewmmskqjcunzc4",
+   "cid_check": "kubo-match",
+   "mirrors": [
+    "r2:cedwyn-studios"
+   ]
   },
   "studio/characters/H_CLERK/look/H_CLERK.jpg": {
    "sha256": "356565e96aa7f44104224410f18e01acaa72f67882364c561946aba82e5003b3",
    "bytes": 103171,
    "content_type": "image/jpeg",
    "origin": "cedwyn-movie-box:bible/cast/H_CLERK.jpg",
-   "at": "2026-10-31T13:21:54Z"
+   "at": "2026-10-31T13:21:54Z",
+   "release": "media-shared",
+   "asset": "characters__H_CLERK__look__H_CLERK.jpg",
+   "github": "https://github.com/unclehowell/cedwyn-studios/releases/download/media-shared/characters__H_CLERK__look__H_CLERK.jpg",
+   "release_state": "verified",
+   "cid": "bafkreibvmvs6s2vh6raqiisecdyy4anmvjzpm6ecgzgfmgkgvouc4uadwm",
+   "cid_check": "kubo-match",
+   "mirrors": [
+    "r2:cedwyn-studios"
+   ]
   },
   "studio/characters/H_CLERK/voice/H_CLERK_cy.mp3": {
    "sha256": "a16ab7974e8febee1bb2b504ea1bac3d8fe645e9afdc73fa9f82f29733e76651",
    "bytes": 46645,
    "content_type": "audio/mpeg",
    "origin": "cedwyn-movie-box:bible/voices/H_CLERK_cy.mp3",
-   "at": "2026-10-31T13:22:22Z"
+   "at": "2026-10-31T13:22:22Z",
+   "release": "media-shared",
+   "asset": "characters__H_CLERK__voice__H_CLERK_cy.mp3",
+   "github": "https://github.com/unclehowell/cedwyn-studios/releases/download/media-shared/characters__H_CLERK__voice__H_CLERK_cy.mp3",
+   "release_state": "verified",
+   "cid": "bafkreifbnk3zotup5pxbxmvvatvbxlb5r7tel2np3rz7vh4c6klthz3gke",
+   "cid_check": "kubo-match",
+   "mirrors": [
+    "r2:cedwyn-studios"
+   ]
   },
   "studio/characters/H_CLERK/voice/H_CLERK_en.mp3": {
    "sha256": "51979a2ac4d60e7b9cc9ea461c8fcfc62d94de17b06475919c887e0edae067b8",
    "bytes": 49153,
    "content_type": "audio/mpeg",
    "origin": "cedwyn-movie-box:bible/voices/H_CLERK_en.mp3",
-   "at": "2026-10-31T13:22:23Z"
+   "at": "2026-10-31T13:22:23Z",
+   "release": "media-shared",
+   "asset": "characters__H_CLERK__voice__H_CLERK_en.mp3",
+   "github": "https://github.com/unclehowell/cedwyn-studios/releases/download/media-shared/characters__H_CLERK__voice__H_CLERK_en.mp3",
+   "release_state": "verified",
+   "cid": "bafkreicrs6ncvrgwbz5zzspkiyoi7t6gfwkn4f5qmr2zdheipyhnvydhxa",
+   "cid_check": "kubo-match",
+   "mirrors": [
+    "r2:cedwyn-studios"
+   ]
   },
   "studio/characters/H_CLERK/voice/H_CLERK_es.mp3": {
    "sha256": "3a6a61c5e1bbc4807165522e99001d4364ef0536148ea70d0d4be3c70a9e567f",
    "bytes": 53123,
    "content_type": "audio/mpeg",
    "origin": "cedwyn-movie-box:bible/voices/H_CLERK_es.mp3",
-   "at": "2026-10-31T13:22:24Z"
+   "at": "2026-10-31T13:22:24Z",
+   "release": "media-shared",
+   "asset": "characters__H_CLERK__voice__H_CLERK_es.mp3",
+   "github": "https://github.com/unclehowell/cedwyn-studios/releases/download/media-shared/characters__H_CLERK__voice__H_CLERK_es.mp3",
+   "release_state": "verified",
+   "cid": "bafkreib2njq4lyn3ysahczksf2mqahkdmtxqknqur2tq2dkl4pdqvhswp4",
+   "cid_check": "kubo-match",
+   "mirrors": [
+    "r2:cedwyn-studios"
+   ]
   },
   "studio/characters/I_NIA/look/I_NIA.jpg": {
    "sha256": "45f0dc26372cb38141e60b17ac7f646e3db83b9ac4ab0c8c3e8f51afb5291dd8",
    "bytes": 111916,
    "content_type": "image/jpeg",
    "origin": "cedwyn-movie-box:bible/cast/I_NIA.jpg",
-   "at": "2026-10-31T13:21:55Z"
+   "at": "2026-10-31T13:21:55Z",
+   "release": "media-shared",
+   "asset": "characters__I_NIA__look__I_NIA.jpg",
+   "github": "https://github.com/unclehowell/cedwyn-studios/releases/download/media-shared/characters__I_NIA__look__I_NIA.jpg",
+   "release_state": "verified",
+   "cid": "bafkreicf6docmnzmwoaudzqlc6wh6zdohw4dxgwevmgiypupkgx3kki53a",
+   "cid_check": "kubo-match",
+   "mirrors": [
+    "r2:cedwyn-studios"
+   ]
   },
   "studio/characters/I_NIA/voice/I_NIA_cy.mp3": {
    "sha256": "d88ff22cc2e95da266e3681963c6d746626a63ed7be29b3cab2558b02862c362",
    "bytes": 46018,
    "content_type": "audio/mpeg",
    "origin": "cedwyn-movie-box:bible/voices/I_NIA_cy.mp3",
-   "at": "2026-10-31T13:22:24Z"
+   "at": "2026-10-31T13:22:24Z",
+   "release": "media-shared",
+   "asset": "characters__I_NIA__voice__I_NIA_cy.mp3",
+   "github": "https://github.com/unclehowell/cedwyn-studios/releases/download/media-shared/characters__I_NIA__voice__I_NIA_cy.mp3",
+   "release_state": "verified",
+   "cid": "bafkreigyr7zczqxjlwrgny3idfr4nv2gmjvgh3l34kntzkzflcycqywdmi",
+   "cid_check": "kubo-match",
+   "mirrors": [
+    "r2:cedwyn-studios"
+   ]
   },
   "studio/characters/I_NIA/voice/I_NIA_en.mp3": {
    "sha256": "29c33b4f0aeea398053973daeece7483dc20572536819fc049423fd05d72d09e",
    "bytes": 48526,
    "content_type": "audio/mpeg",
    "origin": "cedwyn-movie-box:bible/voices/I_NIA_en.mp3",
-   "at": "2026-10-31T13:22:25Z"
+   "at": "2026-10-31T13:22:25Z",
+   "release": "media-shared",
+   "asset": "characters__I_NIA__voice__I_NIA_en.mp3",
+   "github": "https://github.com/unclehowell/cedwyn-studios/releases/download/media-shared/characters__I_NIA__voice__I_NIA_en.mp3",
+   "release_state": "verified",
+   "cid": "bafkreibjym5u6cxouomakolt3lxm45ed3qqfojjwqgp4askch7if24wqty",
+   "cid_check": "kubo-match",
+   "mirrors": [
+    "r2:cedwyn-studios"
+   ]
   },
   "studio/characters/I_NIA/voice/I_NIA_es.mp3": {
    "sha256": "73726a9911f8166f0f8aa0695d6bbefb21d66248c60c72511bfb280e62090675",
    "bytes": 51660,
    "content_type": "audio/mpeg",
    "origin": "cedwyn-movie-box:bible/voices/I_NIA_es.mp3",
-   "at": "2026-10-31T13:22:25Z"
+   "at": "2026-10-31T13:22:25Z",
+   "release": "media-shared",
+   "asset": "characters__I_NIA__voice__I_NIA_es.mp3",
+   "github": "https://github.com/unclehowell/cedwyn-studios/releases/download/media-shared/characters__I_NIA__voice__I_NIA_es.mp3",
+   "release_state": "verified",
+   "cid": "bafkreidtojvjsepyczxq7cvanfowxpx3ehlgesggbrzfcg73fahgecigou",
+   "cid_check": "kubo-match",
+   "mirrors": [
+    "r2:cedwyn-studios"
+   ]
   },
   "studio/characters/J_ELENA/look/J_ELENA.jpg": {
    "sha256": "774dd1a01e58f82d5c6c8aa011a7e2380f4ae53e96b77e64afb2b50c7ea24682",
    "bytes": 154692,
    "content_type": "image/jpeg",
    "origin": "cedwyn-movie-box:bible/cast/J_ELENA.jpg",
-   "at": "2026-10-31T13:21:55Z"
+   "at": "2026-10-31T13:21:55Z",
+   "release": "media-shared",
+   "asset": "characters__J_ELENA__look__J_ELENA.jpg",
+   "github": "https://github.com/unclehowell/cedwyn-studios/releases/download/media-shared/characters__J_ELENA__look__J_ELENA.jpg",
+   "release_state": "verified",
+   "cid": "bafkreidxjxi2ahsy7awvy3ekuai2pyryb5fokpuww57gjl5swugh5isgqi",
+   "cid_check": "kubo-match",
+   "mirrors": [
+    "r2:cedwyn-studios"
+   ]
   },
   "studio/characters/J_ELENA/voice/J_ELENA_cy.mp3": {
    "sha256": "546baa88d622ed465f9e890034d68bc99052cfa21826a4f2c61e660e5f285b16",
    "bytes": 45391,
    "content_type": "audio/mpeg",
    "origin": "cedwyn-movie-box:bible/voices/J_ELENA_cy.mp3",
-   "at": "2026-10-31T13:22:26Z"
+   "at": "2026-10-31T13:22:26Z",
+   "release": "media-shared",
+   "asset": "characters__J_ELENA__voice__J_ELENA_cy.mp3",
+   "github": "https://github.com/unclehowell/cedwyn-studios/releases/download/media-shared/characters__J_ELENA__voice__J_ELENA_cy.mp3",
+   "release_state": "verified",
+   "cid": "bafkreicunovirvrc5vdf7hujaa2nnc6jsbjm7iqye2spfrq6myhf6kc3cy",
+   "cid_check": "kubo-match",
+   "mirrors": [
+    "r2:cedwyn-studios"
+   ]
   },
   "studio/characters/J_ELENA/voice/J_ELENA_en.mp3": {
    "sha256": "da955d10d9033982ad2fa550bcf496564c4fa2456fc59af0ebc33c3f3abe680a",
    "bytes": 46018,
    "content_type": "audio/mpeg",
    "origin": "cedwyn-movie-box:bible/voices/J_ELENA_en.mp3",
-   "at": "2026-10-31T13:22:27Z"
+   "at": "2026-10-31T13:22:27Z",
+   "release": "media-shared",
+   "asset": "characters__J_ELENA__voice__J_ELENA_en.mp3",
+   "github": "https://github.com/unclehowell/cedwyn-studios/releases/download/media-shared/characters__J_ELENA__voice__J_ELENA_en.mp3",
+   "release_state": "verified",
+   "cid": "bafkreig2svorbwidhgbk2l5fkc6pjfswjrh2erlpywnpb26dhq7tvptibi",
+   "cid_check": "kubo-match",
+   "mirrors": [
+    "r2:cedwyn-studios"
+   ]
   },
   "studio/characters/J_ELENA/voice/J_ELENA_es.mp3": {
    "sha256": "0e7c75bf11a6844fbbd74d9ec43f5cf719edfe2123924ecde05267aed035999d",
    "bytes": 51660,
    "content_type": "audio/mpeg",
    "origin": "cedwyn-movie-box:bible/voices/J_ELENA_es.mp3",
-   "at": "2026-10-31T13:22:27Z"
+   "at": "2026-10-31T13:22:27Z",
+   "release": "media-shared",
+   "asset": "characters__J_ELENA__voice__J_ELENA_es.mp3",
+   "github": "https://github.com/unclehowell/cedwyn-studios/releases/download/media-shared/characters__J_ELENA__voice__J_ELENA_es.mp3",
+   "release_state": "verified",
+   "cid": "bafkreiaopr236engqrh3xv2nt3cd6xhxdhw74ijdsjhm3ycsm6xnanmztu",
+   "cid_check": "kubo-match",
+   "mirrors": [
+    "r2:cedwyn-studios"
+   ]
   },
   "studio/characters/K_FARMER/look/K_FARMER_AD200.jpg": {
    "sha256": "1b8d0b8d7f890ae35bb9fa2004fe7134271ea6c033e3743708b044c1b9f51f62",
    "bytes": 274825,
    "content_type": "image/jpeg",
    "origin": "cedwyn-movie-box:bible/cast/K_FARMER_AD200.jpg",
-   "at": "2026-10-31T13:21:56Z"
+   "at": "2026-10-31T13:21:56Z",
+   "release": "media-shared",
+   "asset": "characters__K_FARMER__look__K_FARMER_AD200.jpg",
+   "github": "https://github.com/unclehowell/cedwyn-studios/releases/download/media-shared/characters__K_FARMER__look__K_FARMER_AD200.jpg",
+   "release_state": "verified",
+   "cid": "bafybeiglmeh3wdx3jzusrisoq53stq5n6tyw2hfk3fh5ucsy7igjlexsly",
+   "cid_check": "kubo-match",
+   "mirrors": [
+    "r2:cedwyn-studios"
+   ]
   },
   "studio/characters/L_WIFE/look/L_WIFE_AD200.jpg": {
    "sha256": "4a11fbdfa02180a30932e9a30d76563b3e0405cee6e11c0c667a13cbe50f2d03",
    "bytes": 322454,
    "content_type": "image/jpeg",
    "origin": "cedwyn-movie-box:bible/cast/L_WIFE_AD200.jpg",
-   "at": "2026-10-31T13:21:57Z"
+   "at": "2026-10-31T13:21:57Z",
+   "release": "media-shared",
+   "asset": "characters__L_WIFE__look__L_WIFE_AD200.jpg",
+   "github": "https://github.com/unclehowell/cedwyn-studios/releases/download/media-shared/characters__L_WIFE__look__L_WIFE_AD200.jpg",
+   "release_state": "verified",
+   "cid": "bafybeifwrb6wyrg6wjkk3nglfrr6htvcah3wnaidukreeeyiz77lf2sxzq",
+   "cid_check": "kubo-match",
+   "mirrors": [
+    "r2:cedwyn-studios"
+   ]
   },
   "studio/chronology/CHRONOLOGY.json": {
    "sha256": "aa8327bfc6056b06815f7bd0ebc68c1b5e3d05752ad22e817cb32ea05e86e19f",
    "bytes": 684853,
    "content_type": "application/json",
    "origin": "cedwyn-movie-box:CHRONOLOGY.json",
-   "at": "2026-10-31T13:25:09Z"
+   "at": "2026-10-31T13:25:09Z",
+   "release": "media-shared",
+   "asset": "chronology__CHRONOLOGY.json",
+   "github": "https://github.com/unclehowell/cedwyn-studios/releases/download/media-shared/chronology__CHRONOLOGY.json",
+   "release_state": "verified",
+   "cid": "bafybeibpybueujn7r27sm4qeivbfm3jff67o5376a5d5pne4bgrxrwg56u",
+   "cid_check": "kubo-match",
+   "mirrors": [
+    "r2:cedwyn-studios"
+   ]
   },
   "studio/sets/s01.jpg": {
    "sha256": "f0d88ee20209139cef80fc4e6d572c2513d8b6004a56aab44ce3c3898a849fd9",
    "bytes": 281284,
    "content_type": "image/jpeg",
    "origin": "cedwyn-movie-box:bible/sets/s01.jpg",
-   "at": "2026-10-31T13:21:58Z"
+   "at": "2026-10-31T13:21:58Z",
+   "release": "media-shared",
+   "asset": "sets__s01.jpg",
+   "github": "https://github.com/unclehowell/cedwyn-studios/releases/download/media-shared/sets__s01.jpg",
+   "release_state": "verified",
+   "cid": "bafybeicsgpwujrhcssmmlpuhm7qrapviwfsz5g6korojcaiukopy3akxn4",
+   "cid_check": "kubo-match",
+   "mirrors": [
+    "r2:cedwyn-studios"
+   ]
   },
   "studio/sets/s02.jpg": {
    "sha256": "158340e74c54be89b4a78763eae22bf18fe79398d9bed80165a884f7363b594c",
    "bytes": 225367,
    "content_type": "image/jpeg",
    "origin": "cedwyn-movie-box:bible/sets/s02.jpg",
-   "at": "2026-10-31T13:21:58Z"
+   "at": "2026-10-31T13:21:58Z",
+   "release": "media-shared",
+   "asset": "sets__s02.jpg",
+   "github": "https://github.com/unclehowell/cedwyn-studios/releases/download/media-shared/sets__s02.jpg",
+   "release_state": "verified",
+   "cid": "bafkreiavqnaootcux2e3jj4hmpvoek7rr7tzhggzx3maczniqt3tmo2zjq",
+   "cid_check": "kubo-match",
+   "mirrors": [
+    "r2:cedwyn-studios"
+   ]
   },
   "studio/sets/s03.jpg": {
    "sha256": "98c6f81eab55b697c239e1cee4c59cd0d4a4af2d5fa8e66461a6ee0c404c8cb7",
    "bytes": 284550,
    "content_type": "image/jpeg",
    "origin": "cedwyn-movie-box:bible/sets/s03.jpg",
-   "at": "2026-10-31T13:21:59Z"
+   "at": "2026-10-31T13:21:59Z",
+   "release": "media-shared",
+   "asset": "sets__s03.jpg",
+   "github": "https://github.com/unclehowell/cedwyn-studios/releases/download/media-shared/sets__s03.jpg",
+   "release_state": "verified",
+   "cid": "bafybeid3zx7a7cuozhkejpalg7rmyoausgliibl7xxvl3r6ckmb6etclrq",
+   "cid_check": "kubo-match",
+   "mirrors": [
+    "r2:cedwyn-studios"
+   ]
   },
   "studio/sets/s04.jpg": {
    "sha256": "0cd968e9d62a938f5e538076b9ad2aa80db30eee7c0b12b896f344350502446d",
    "bytes": 283867,
    "content_type": "image/jpeg",
    "origin": "cedwyn-movie-box:bible/sets/s04.jpg",
-   "at": "2026-10-31T13:22:00Z"
+   "at": "2026-10-31T13:22:00Z",
+   "release": "media-shared",
+   "asset": "sets__s04.jpg",
+   "github": "https://github.com/unclehowell/cedwyn-studios/releases/download/media-shared/sets__s04.jpg",
+   "release_state": "verified",
+   "cid": "bafybeibgaihvpbk3cg6vcmn2my67fe22a477hnmhvr7fvwngqm4pz2tcdi",
+   "cid_check": "kubo-match",
+   "mirrors": [
+    "r2:cedwyn-studios"
+   ]
   },
   "studio/sets/s05.jpg": {
    "sha256": "59646a106503ef0be9973f3ee907a835599f88a3ccfa77f232b975794a71cf9b",
    "bytes": 246598,
    "content_type": "image/jpeg",
    "origin": "cedwyn-movie-box:bible/sets/s05.jpg",
-   "at": "2026-10-31T13:22:01Z"
+   "at": "2026-10-31T13:22:01Z",
+   "release": "media-shared",
+   "asset": "sets__s05.jpg",
+   "github": "https://github.com/unclehowell/cedwyn-studios/releases/download/media-shared/sets__s05.jpg",
+   "release_state": "verified",
+   "cid": "bafkreiczmrvbazid54f6tfz7h3uqpkbvlgpyri6m7j37emvzov4uu4optm",
+   "cid_check": "kubo-match",
+   "mirrors": [
+    "r2:cedwyn-studios"
+   ]
   },
   "studio/sets/s06.jpg": {
    "sha256": "5005a1013f2c888b531d33947d591d41607fdea71b2a2c3fd1754b6ee9277c8e",
    "bytes": 225613,
    "content_type": "image/jpeg",
    "origin": "cedwyn-movie-box:bible/sets/s06.jpg",
-   "at": "2026-10-31T13:22:01Z"
+   "at": "2026-10-31T13:22:01Z",
+   "release": "media-shared",
+   "asset": "sets__s06.jpg",
+   "github": "https://github.com/unclehowell/cedwyn-studios/releases/download/media-shared/sets__s06.jpg",
+   "release_state": "verified",
+   "cid": "bafkreicqawqqcpzmrcfvghjtsr6vshkbmb755jy3fiwd7ulvjnxosj34ry",
+   "cid_check": "kubo-match",
+   "mirrors": [
+    "r2:cedwyn-studios"
+   ]
   },
   "studio/sets/s07.jpg": {
    "sha256": "9b9709ebd84e716effab937dad117164fe25b52ba11cb2476311683930b80e3b",
    "bytes": 171078,
    "content_type": "image/jpeg",
    "origin": "cedwyn-movie-box:bible/sets/s07.jpg",
-   "at": "2026-10-31T13:22:02Z"
+   "at": "2026-10-31T13:22:02Z",
+   "release": "media-shared",
+   "asset": "sets__s07.jpg",
+   "github": "https://github.com/unclehowell/cedwyn-studios/releases/download/media-shared/sets__s07.jpg",
+   "release_state": "verified",
+   "cid": "bafkreie3s4e6xwcoofxp7k4tpwwrc4le7ys3kk5bdszeoyyrna4tboaohm",
+   "cid_check": "kubo-match",
+   "mirrors": [
+    "r2:cedwyn-studios"
+   ]
   },
   "studio/sets/s08.jpg": {
    "sha256": "f7d23a21a2821af12502ddbf5a7ba63734c9d0ec9f045eecc7abc471d12c8c9a",
    "bytes": 166287,
    "content_type": "image/jpeg",
    "origin": "cedwyn-movie-box:bible/sets/s08.jpg",
-   "at": "2026-10-31T13:22:03Z"
+   "at": "2026-10-31T13:22:03Z",
+   "release": "media-shared",
+   "asset": "sets__s08.jpg",
+   "github": "https://github.com/unclehowell/cedwyn-studios/releases/download/media-shared/sets__s08.jpg",
+   "release_state": "verified",
+   "cid": "bafkreihx2i5cdiucdlyskaw5x5nhxjrxgte5b3e7arpozr5lyry5clemti",
+   "cid_check": "kubo-match",
+   "mirrors": [
+    "r2:cedwyn-studios"
+   ]
   },
   "studio/sets/s09.jpg": {
    "sha256": "6e71c69a96074bf849b1e6c93c6ba8d232c68df143fd24fc8aa7aebda109f8ef",
    "bytes": 199848,
    "content_type": "image/jpeg",
    "origin": "cedwyn-movie-box:bible/sets/s09.jpg",
-   "at": "2026-10-31T13:22:03Z"
+   "at": "2026-10-31T13:22:03Z",
+   "release": "media-shared",
+   "asset": "sets__s09.jpg",
+   "github": "https://github.com/unclehowell/cedwyn-studios/releases/download/media-shared/sets__s09.jpg",
+   "release_state": "verified",
+   "cid": "bafkreidoohdjvfqhjp4etmpgze6gxkgsgldi34kd7uspzcvhv262ccpy54",
+   "cid_check": "kubo-match",
+   "mirrors": [
+    "r2:cedwyn-studios"
+   ]
   },
   "studio/sets/s10.jpg": {
    "sha256": "a2cc0a92a8684fdc30963cabcee14e8c1ea5b02f5b8362999f092807f2f37915",
    "bytes": 223709,
    "content_type": "image/jpeg",
    "origin": "cedwyn-movie-box:bible/sets/s10.jpg",
-   "at": "2026-10-31T13:22:04Z"
+   "at": "2026-10-31T13:22:04Z",
+   "release": "media-shared",
+   "asset": "sets__s10.jpg",
+   "github": "https://github.com/unclehowell/cedwyn-studios/releases/download/media-shared/sets__s10.jpg",
+   "release_state": "verified",
+   "cid": "bafkreifczqfjfkdij7odbfr4vphoctumd2s3al23qnrjthyjfad7f43zcu",
+   "cid_check": "kubo-match",
+   "mirrors": [
+    "r2:cedwyn-studios"
+   ]
   },
   "studio/sets/s10_ironage.jpg": {
    "sha256": "98a42983f86255c931feb5ed3589de3b92298de8efd97ed50e70c3f8f469ebba",
    "bytes": 455624,
    "content_type": "image/jpeg",
    "origin": "cedwyn-movie-box:bible/sets/s10_ironage.jpg",
-   "at": "2026-10-31T13:22:05Z"
+   "at": "2026-10-31T13:22:05Z",
+   "release": "media-shared",
+   "asset": "sets__s10_ironage.jpg",
+   "github": "https://github.com/unclehowell/cedwyn-studios/releases/download/media-shared/sets__s10_ironage.jpg",
+   "release_state": "verified",
+   "cid": "bafybeiaw6d76ray6swlioymtvf3wq2fojnnbzloljifomma4artn5dztpy",
+   "cid_check": "kubo-match",
+   "mirrors": [
+    "r2:cedwyn-studios"
+   ]
   },
   "studio/sets/s11.jpg": {
    "sha256": "d31cc8b38adbdff8bd80030377f4fd0a8450e1040f163e0cef53639b480eda89",
    "bytes": 289815,
    "content_type": "image/jpeg",
    "origin": "cedwyn-movie-box:bible/sets/s11.jpg",
-   "at": "2026-10-31T13:22:06Z"
+   "at": "2026-10-31T13:22:06Z",
+   "release": "media-shared",
+   "asset": "sets__s11.jpg",
+   "github": "https://github.com/unclehowell/cedwyn-studios/releases/download/media-shared/sets__s11.jpg",
+   "release_state": "verified",
+   "cid": "bafybeifeuoe2dvhmoltop7s626qox3u6t6kezmrupfeulegrt2q5xxyjwy",
+   "cid_check": "kubo-match",
+   "mirrors": [
+    "r2:cedwyn-studios"
+   ]
   },
   "studio/sets/s12.jpg": {
    "sha256": "b27d074007b91934889f1c49cda0867d1370168ca6ed48c2e444a02fdedf8ae9",
    "bytes": 291778,
    "content_type": "image/jpeg",
    "origin": "cedwyn-movie-box:bible/sets/s12.jpg",
-   "at": "2026-10-31T13:22:07Z"
+   "at": "2026-10-31T13:22:07Z",
+   "release": "media-shared",
+   "asset": "sets__s12.jpg",
+   "github": "https://github.com/unclehowell/cedwyn-studios/releases/download/media-shared/sets__s12.jpg",
+   "release_state": "verified",
+   "cid": "bafybeigxmz4bqz3dum7zlxa5prrsvrp4sraejljho4g7mkjyqt33nqcu5m",
+   "cid_check": "kubo-match",
+   "mirrors": [
+    "r2:cedwyn-studios"
+   ]
   },
   "studio/sets/s13.jpg": {
    "sha256": "acba867ce11eadaa2f274fedc50d8ee216338957863a88e7e1392224bc16366f",
    "bytes": 268042,
    "content_type": "image/jpeg",
    "origin": "cedwyn-movie-box:bible/sets/s13.jpg",
-   "at": "2026-10-31T13:22:08Z"
+   "at": "2026-10-31T13:22:08Z",
+   "release": "media-shared",
+   "asset": "sets__s13.jpg",
+   "github": "https://github.com/unclehowell/cedwyn-studios/releases/download/media-shared/sets__s13.jpg",
+   "release_state": "verified",
+   "cid": "bafybeigzvh2gwoi2fb74rzsioy6lvrwbrlpd277fkrcfg2nerygvsnja2a",
+   "cid_check": "kubo-match",
+   "mirrors": [
+    "r2:cedwyn-studios"
+   ]
   },
   "studio/voice-lab/tests/cy_eleven_multilingual_v2_auto_lily.mp3": {
    "sha256": "5523a330a62bf813826df7dfae6bc5758396fc21f8be8c956d85985a87ae57ef",
    "bytes": 77156,
    "content_type": "audio/mpeg",
    "origin": "cedwyn-movie-box:bible/voices/tests/cy_eleven_multilingual_v2_auto_lily.mp3",
-   "at": "2026-10-31T13:22:28Z"
+   "at": "2026-10-31T13:22:28Z",
+   "release": "media-shared",
+   "asset": "voice-lab__tests__cy_eleven_multilingual_v2_auto_lily.mp3",
+   "github": "https://github.com/unclehowell/cedwyn-studios/releases/download/media-shared/voice-lab__tests__cy_eleven_multilingual_v2_auto_lily.mp3",
+   "release_state": "verified",
+   "cid": "bafkreicveortbjrl7ajye3px36xgxrlvqolpyipyx2gjk3mftbniplsx54",
+   "cid_check": "kubo-match",
+   "mirrors": [
+    "r2:cedwyn-studios"
+   ]
   },
   "studio/voice-lab/tests/cy_eleven_v3_auto_lily.mp3": {
    "sha256": "c5bc9333379e7175c9334fd8195e134cb540c079eae628ede9e518d8331d8cb4",
    "bytes": 84470,
    "content_type": "audio/mpeg",
    "origin": "cedwyn-movie-box:bible/voices/tests/cy_eleven_v3_auto_lily.mp3",
-   "at": "2026-10-31T13:22:29Z"
+   "at": "2026-10-31T13:22:29Z",
+   "release": "media-shared",
+   "asset": "voice-lab__tests__cy_eleven_v3_auto_lily.mp3",
+   "github": "https://github.com/unclehowell/cedwyn-studios/releases/download/media-shared/voice-lab__tests__cy_eleven_v3_auto_lily.mp3",
+   "release_state": "verified",
+   "cid": "bafkreigfxsjtgn46of24sm2p3amv4e2mwvama6pk4yuo32pfddmdghmmwq",
+   "cid_check": "kubo-match",
+   "mirrors": [
+    "r2:cedwyn-studios"
+   ]
   },
   "studio/voice-lab/tests/cy_eleven_v3_cy_lily.mp3": {
    "sha256": "f8ad1b826e19b9b554fa492f939a76e02d2a7b5b0b50cad9a5657ac3aea3c149",
    "bytes": 81754,
    "content_type": "audio/mpeg",
    "origin": "cedwyn-movie-box:bible/voices/tests/cy_eleven_v3_cy_lily.mp3",
-   "at": "2026-10-31T13:22:29Z"
+   "at": "2026-10-31T13:22:29Z",
+   "release": "media-shared",
+   "asset": "voice-lab__tests__cy_eleven_v3_cy_lily.mp3",
+   "github": "https://github.com/unclehowell/cedwyn-studios/releases/download/media-shared/voice-lab__tests__cy_eleven_v3_cy_lily.mp3",
+   "release_state": "verified",
+   "cid": "bafkreihyvunye3qzxg2vj6sjf6jzu5xafuvhwwylkdfntjlfplb25i6bje",
+   "cid_check": "kubo-match",
+   "mirrors": [
+    "r2:cedwyn-studios"
+   ]
   },
   "studio/voice-lab/tests/cy_eleven_v4_cy_lily.mp3": {
    "sha256": "9203fe4b068108195d43def577e3da7d664bd45bbfa4df540b30f620f30b53a5",
    "bytes": 69633,
    "content_type": "audio/mpeg",
    "origin": "cedwyn-movie-box:bible/voices/tests/cy_eleven_v4_cy_lily.mp3",
-   "at": "2026-10-31T13:22:30Z"
+   "at": "2026-10-31T13:22:30Z",
+   "release": "media-shared",
+   "asset": "voice-lab__tests__cy_eleven_v4_cy_lily.mp3",
+   "github": "https://github.com/unclehowell/cedwyn-studios/releases/download/media-shared/voice-lab__tests__cy_eleven_v4_cy_lily.mp3",
+   "release_state": "verified",
+   "cid": "bafkreiesap7ewbubbamv2q666v36hwt5mzf5iw57utpviczq6yqpgc2tuu",
+   "cid_check": "kubo-match",
+   "mirrors": [
+    "r2:cedwyn-studios"
+   ]
   },
   "studio/voice-lab/tests/cy_gemini-3.8-flash-tts_kore.mp3": {
    "sha256": "5474a5cfdb12570e4a690747508cb726d55fc82848ea797385c7010ac7fc9ce5",
    "bytes": 116205,
    "content_type": "audio/mpeg",
    "origin": "cedwyn-movie-box:bible/voices/tests/cy_gemini-3.8-flash-tts_kore.mp3",
-   "at": "2026-10-31T13:22:31Z"
+   "at": "2026-10-31T13:22:31Z",
+   "release": "media-shared",
+   "asset": "voice-lab__tests__cy_gemini-3.8-flash-tts_kore.mp3",
+   "github": "https://github.com/unclehowell/cedwyn-studios/releases/download/media-shared/voice-lab__tests__cy_gemini-3.8-flash-tts_kore.mp3",
+   "release_state": "verified",
+   "cid": "bafkreicuoss47wysk4heu2ihi5iiznzg2vp4qkci5j4xhbohaefmp7e44u",
+   "cid_check": "kubo-match",
+   "mirrors": [
+    "r2:cedwyn-studios"
+   ]
   },
   "studio/voice-lab/tests/design_A_MARY_0.mp3": {
    "sha256": "a8a6c7e2262a775ee1d3665681c9a17692965263e741d7cf2893f14e83b07d66",
    "bytes": 220099,
    "content_type": "audio/mpeg",
    "origin": "cedwyn-movie-box:bible/voices/tests/design_A_MARY_0.mp3",
-   "at": "2026-10-31T13:22:31Z"
+   "at": "2026-10-31T13:22:31Z",
+   "release": "media-shared",
+   "asset": "voice-lab__tests__design_A_MARY_0.mp3",
+   "github": "https://github.com/unclehowell/cedwyn-studios/releases/download/media-shared/voice-lab__tests__design_A_MARY_0.mp3",
+   "release_state": "verified",
+   "cid": "bafkreifiu3d6ejrko5podu3gk2a4tilwsklfey7hihl46ket6fhihmd5my",
+   "cid_check": "kubo-match",
+   "mirrors": [
+    "r2:cedwyn-studios"
+   ]
   },
   "studio/voice-lab/tests/design_B_JOHN_1.mp3": {
    "sha256": "565c9f04a77907d49c168d3afdf18d3133593edcdc28f052621a86f510dd1e46",
    "bytes": 279658,
    "content_type": "audio/mpeg",
    "origin": "cedwyn-movie-box:bible/voices/tests/design_B_JOHN_1.mp3",
-   "at": "2026-10-31T13:22:32Z"
+   "at": "2026-10-31T13:22:32Z",
+   "release": "media-shared",
+   "asset": "voice-lab__tests__design_B_JOHN_1.mp3",
+   "github": "https://github.com/unclehowell/cedwyn-studios/releases/download/media-shared/voice-lab__tests__design_B_JOHN_1.mp3",
+   "release_state": "verified",
+   "cid": "bafybeieufgwuf5g5xxk3mgjjlv5pk3w3knqmrsnt7g5xlnqli6jjbinjpu",
+   "cid_check": "kubo-match",
+   "mirrors": [
+    "r2:cedwyn-studios"
+   ]
   },
   "studio/voice-lab/tests/design_C_FRED_1.mp3": {
    "sha256": "bed8d96159f39e6fcbda8fbb2defe036c6bc2a05810b8c10a6c80bce3664cea6",
    "bytes": 321663,
    "content_type": "audio/mpeg",
    "origin": "cedwyn-movie-box:bible/voices/tests/design_C_FRED_1.mp3",
-   "at": "2026-10-31T13:22:33Z"
+   "at": "2026-10-31T13:22:33Z",
+   "release": "media-shared",
+   "asset": "voice-lab__tests__design_C_FRED_1.mp3",
+   "github": "https://github.com/unclehowell/cedwyn-studios/releases/download/media-shared/voice-lab__tests__design_C_FRED_1.mp3",
+   "release_state": "verified",
+   "cid": "bafybeifkej3ufcfaoo53olhaawqzlodbrtucwvd2buuoizaby4kxtkgswq",
+   "cid_check": "kubo-match",
+   "mirrors": [
+    "r2:cedwyn-studios"
+   ]
   },
   "studio/voice-lab/tests/design_D_BILLY_2.mp3": {
    "sha256": "c0e5478e0bb8f62a3e099d170c4c9e91d1ec0bb19e292bc50a97d1a0931d5982",
    "bytes": 244550,
    "content_type": "audio/mpeg",
    "origin": "cedwyn-movie-box:bible/voices/tests/design_D_BILLY_2.mp3",
-   "at": "2026-10-31T13:22:33Z"
+   "at": "2026-10-31T13:22:33Z",
+   "release": "media-shared",
+   "asset": "voice-lab__tests__design_D_BILLY_2.mp3",
+   "github": "https://github.com/unclehowell/cedwyn-studios/releases/download/media-shared/voice-lab__tests__design_D_BILLY_2.mp3",
+   "release_state": "verified",
+   "cid": "bafkreiga4vdy4c5y6yvd4cm5c4gezhur2hwaxmm6fev4kcux2gqjghkzqi",
+   "cid_check": "kubo-match",
+   "mirrors": [
+    "r2:cedwyn-studios"
+   ]
   },
   "studio/voice-lab/tests/design_E_AGENT_0.mp3": {
    "sha256": "bb75d5516b0c745e545da5585712f9a119eed56da40a339726bcd4c4f04cd647",
    "bytes": 195022,
    "content_type": "audio/mpeg",
    "origin": "cedwyn-movie-box:bible/voices/tests/design_E_AGENT_0.mp3",
-   "at": "2026-10-31T13:22:34Z"
+   "at": "2026-10-31T13:22:34Z",
+   "release": "media-shared",
+   "asset": "voice-lab__tests__design_E_AGENT_0.mp3",
+   "github": "https://github.com/unclehowell/cedwyn-studios/releases/download/media-shared/voice-lab__tests__design_E_AGENT_0.mp3",
+   "release_state": "verified",
+   "cid": "bafkreif3oxkvc2ymorpfixnflblrf6nbdhxnk3nebizzojv42tcpatgwi4",
+   "cid_check": "kubo-match",
+   "mirrors": [
+    "r2:cedwyn-studios"
+   ]
   },
   "studio/voice-lab/tests/design_F_GWEN_2.mp3": {
    "sha256": "cca7aaa4f210436ed854bdcb3e9e1e58dd081f995cf6b9e16f6cb3421333aaee",
    "bytes": 223861,
    "content_type": "audio/mpeg",
    "origin": "cedwyn-movie-box:bible/voices/tests/design_F_GWEN_2.mp3",
-   "at": "2026-10-31T13:22:35Z"
+   "at": "2026-10-31T13:22:35Z",
+   "release": "media-shared",
+   "asset": "voice-lab__tests__design_F_GWEN_2.mp3",
+   "github": "https://github.com/unclehowell/cedwyn-studios/releases/download/media-shared/voice-lab__tests__design_F_GWEN_2.mp3",
+   "release_state": "verified",
+   "cid": "bafkreigmu6vkj4qqinxnqvf5zm7j4hsy3ueb7gk46246c33mwnbbgm5k5y",
+   "cid_check": "kubo-match",
+   "mirrors": [
+    "r2:cedwyn-studios"
+   ]
   },
   "studio/voice-lab/tests/design_G_DAI_1.mp3": {
    "sha256": "79b016ed34c171b679cf44bc164d0b936c9b27433c9355d2578e8c2f33522d9f",
    "bytes": 269627,
    "content_type": "audio/mpeg",
    "origin": "cedwyn-movie-box:bible/voices/tests/design_G_DAI_1.mp3",
-   "at": "2026-10-31T13:22:36Z"
+   "at": "2026-10-31T13:22:36Z",
+   "release": "media-shared",
+   "asset": "voice-lab__tests__design_G_DAI_1.mp3",
+   "github": "https://github.com/unclehowell/cedwyn-studios/releases/download/media-shared/voice-lab__tests__design_G_DAI_1.mp3",
+   "release_state": "verified",
+   "cid": "bafybeibdfphzshny6yyeck5vxyrczi5a4g2e2ymgxw5w4eflsbqqhfreza",
+   "cid_check": "kubo-match",
+   "mirrors": [
+    "r2:cedwyn-studios"
+   ]
   },
   "studio/voice-lab/tests/design_H_CLERK_0.mp3": {
    "sha256": "39771e12035a800f767e2c0eadf0b7495d24f555393d924b0aa5b409442f2992",
    "bytes": 242669,
    "content_type": "audio/mpeg",
    "origin": "cedwyn-movie-box:bible/voices/tests/design_H_CLERK_0.mp3",
-   "at": "2026-10-31T13:22:36Z"
+   "at": "2026-10-31T13:22:36Z",
+   "release": "media-shared",
+   "asset": "voice-lab__tests__design_H_CLERK_0.mp3",
+   "github": "https://github.com/unclehowell/cedwyn-studios/releases/download/media-shared/voice-lab__tests__design_H_CLERK_0.mp3",
+   "release_state": "verified",
+   "cid": "bafkreibzo4pbea22qahxm7rmb2w7bn2jluspkvjzhwjewcvfwqeuilzjsi",
+   "cid_check": "kubo-match",
+   "mirrors": [
+    "r2:cedwyn-studios"
+   ]
   },
   "studio/voice-lab/tests/design_I_NIA_1.mp3": {
    "sha256": "ce8f4b60db66560e6c4f7b8aafb476c02e885186f7e7ab439da6e6188a1669f5",
    "bytes": 227622,
    "content_type": "audio/mpeg",
    "origin": "cedwyn-movie-box:bible/voices/tests/design_I_NIA_1.mp3",
-   "at": "2026-10-31T13:22:37Z"
+   "at": "2026-10-31T13:22:37Z",
+   "release": "media-shared",
+   "asset": "voice-lab__tests__design_I_NIA_1.mp3",
+   "github": "https://github.com/unclehowell/cedwyn-studios/releases/download/media-shared/voice-lab__tests__design_I_NIA_1.mp3",
+   "release_state": "verified",
+   "cid": "bafkreigor5fwbw3gkyhgyt33rkx3i5waf2efdbxx46vuhhng4ymiuftj6u",
+   "cid_check": "kubo-match",
+   "mirrors": [
+    "r2:cedwyn-studios"
+   ]
   },
   "studio/voice-lab/tests/design_J_ELENA_0.mp3": {
    "sha256": "c379fc5d1e14ecfcf5156af9f9f4ad6e671124cb05269a719ec054a5e31d7410",
    "bytes": 183110,
    "content_type": "audio/mpeg",
    "origin": "cedwyn-movie-box:bible/voices/tests/design_J_ELENA_0.mp3",
-   "at": "2026-10-31T13:22:38Z"
+   "at": "2026-10-31T13:22:38Z",
+   "release": "media-shared",
+   "asset": "voice-lab__tests__design_J_ELENA_0.mp3",
+   "github": "https://github.com/unclehowell/cedwyn-studios/releases/download/media-shared/voice-lab__tests__design_J_ELENA_0.mp3",
+   "release_state": "verified",
+   "cid": "bafkreigdph6f2hqu5t6pkflk7h47jllom4isjsyfe2nhdhwakss6ghluca",
+   "cid_check": "kubo-match",
+   "mirrors": [
+    "r2:cedwyn-studios"
+   ]
   },
   "studio/voice-lab/tests/en_v3_george.mp3": {
    "sha256": "a8c8ffb17d6905182c95de043b38d4b6bc8ef61f582d2408bd412d1c221bc7e3",
    "bytes": 18851,
    "content_type": "audio/mpeg",
    "origin": "cedwyn-movie-box:bible/voices/tests/en_v3_george.mp3",
-   "at": "2026-10-31T13:22:38Z"
+   "at": "2026-10-31T13:22:38Z",
+   "release": "media-shared",
+   "asset": "voice-lab__tests__en_v3_george.mp3",
+   "github": "https://github.com/unclehowell/cedwyn-studios/releases/download/media-shared/voice-lab__tests__en_v3_george.mp3",
+   "release_state": "verified",
+   "cid": "bafkreifizd73c7ljaumczfo6aq5trvfwxshpmh2yfusarpkbfuoceg6h4m",
+   "cid_check": "kubo-match",
+   "mirrors": [
+    "r2:cedwyn-studios"
+   ]
   }
  },
- "renders": []
+ "renders": [],
+ "mirror": "r2:cedwyn-studios"
 }

@@ -1,337 +1,761 @@
 {
  "schema": "cedwyn-studios/manifest@1",
  "scene": "F004",
- "store": "r2:cedwyn-studios",
+ "store": "github-releases",
  "objects": {
   "studio/scenes/F004/assets/audio/L3_cy.mp3": {
    "sha256": "b30f29f73755605d5bec6e0a6cb6eae70aa833c297ab50aad5878aaf5066b5af",
    "bytes": 106204,
    "content_type": "audio/mpeg",
    "origin": "cedwyn-movie-box:F004v1/audio/L3_cy.mp3",
-   "at": "2026-10-31T13:24:44Z"
+   "at": "2026-10-31T13:24:44Z",
+   "release": "media-F004",
+   "asset": "assets__audio__L3_cy.mp3",
+   "github": "https://github.com/unclehowell/cedwyn-studios/releases/download/media-F004/assets__audio__L3_cy.mp3",
+   "release_state": "verified",
+   "cid": "bafkreiftb4u7on2vmbovx3dobjwln2xhbkudhquxvnikvvmhrkxvazvvv4",
+   "cid_check": "kubo-match",
+   "mirrors": [
+    "r2:cedwyn-studios"
+   ]
   },
   "studio/scenes/F004/assets/audio/L3_en.mp3": {
    "sha256": "7dd6fa2c427030abdddbc77687c20ec90db347a3274455ed67e7f61ad149e5e2",
    "bytes": 100771,
    "content_type": "audio/mpeg",
    "origin": "cedwyn-movie-box:F004v1/audio/L3_en.mp3",
-   "at": "2026-10-31T13:24:44Z"
+   "at": "2026-10-31T13:24:44Z",
+   "release": "media-F004",
+   "asset": "assets__audio__L3_en.mp3",
+   "github": "https://github.com/unclehowell/cedwyn-studios/releases/download/media-F004/assets__audio__L3_en.mp3",
+   "release_state": "verified",
+   "cid": "bafkreid5235cyqtqgcv53w6ho2d4edwjbwzupizhirk62z7h6ynncspf4i",
+   "cid_check": "kubo-match",
+   "mirrors": [
+    "r2:cedwyn-studios"
+   ]
   },
   "studio/scenes/F004/assets/audio/L3_es.mp3": {
    "sha256": "5f63d5ccc858c6c693fcf1a5277a63674ce522cc96c32629b7ebad6f7a69d55a",
    "bytes": 109966,
    "content_type": "audio/mpeg",
    "origin": "cedwyn-movie-box:F004v1/audio/L3_es.mp3",
-   "at": "2026-10-31T13:24:45Z"
+   "at": "2026-10-31T13:24:45Z",
+   "release": "media-F004",
+   "asset": "assets__audio__L3_es.mp3",
+   "github": "https://github.com/unclehowell/cedwyn-studios/releases/download/media-F004/assets__audio__L3_es.mp3",
+   "release_state": "verified",
+   "cid": "bafkreic7mpk4zscyy3djh7hruutxuy3hjtssftewymtctn7lvvxxu2ovli",
+   "cid_check": "kubo-match",
+   "mirrors": [
+    "r2:cedwyn-studios"
+   ]
   },
   "studio/scenes/F004/assets/audio/L4_cy.mp3": {
    "sha256": "646d1b651720d6e3e35e46afe2755bffac655121096ff8adaaa49699460b166c",
    "bytes": 116235,
    "content_type": "audio/mpeg",
    "origin": "cedwyn-movie-box:F004v1/audio/L4_cy.mp3",
-   "at": "2026-10-31T13:24:46Z"
+   "at": "2026-10-31T13:24:46Z",
+   "release": "media-F004",
+   "asset": "assets__audio__L4_cy.mp3",
+   "github": "https://github.com/unclehowell/cedwyn-studios/releases/download/media-F004/assets__audio__L4_cy.mp3",
+   "release_state": "verified",
+   "cid": "bafkreidenunwkfza23r6gxsgv7rhkw77vrsvciijn74k3kves2mumcywnq",
+   "cid_check": "kubo-match",
+   "mirrors": [
+    "r2:cedwyn-studios"
+   ]
   },
   "studio/scenes/F004/assets/audio/L4_en.mp3": {
    "sha256": "4e244d9c92df303aa46c756994ba429cb71a606f9be2106f799aa6b27ce76d6a",
    "bytes": 129192,
    "content_type": "audio/mpeg",
    "origin": "cedwyn-movie-box:F004v1/audio/L4_en.mp3",
-   "at": "2026-10-31T13:24:46Z"
+   "at": "2026-10-31T13:24:46Z",
+   "release": "media-F004",
+   "asset": "assets__audio__L4_en.mp3",
+   "github": "https://github.com/unclehowell/cedwyn-studios/releases/download/media-F004/assets__audio__L4_en.mp3",
+   "release_state": "verified",
+   "cid": "bafkreicoergzzew7ga5ki3dvngkluqu4w4nga3434iig66m2u2zhzz3nni",
+   "cid_check": "kubo-match",
+   "mirrors": [
+    "r2:cedwyn-studios"
+   ]
   },
   "studio/scenes/F004/assets/audio/L4_es.mp3": {
    "sha256": "d183e0cee7ee5e1ad26e991ae533a935506bed90203d3e3019476e6e5a52237f",
    "bytes": 109966,
    "content_type": "audio/mpeg",
    "origin": "cedwyn-movie-box:F004v1/audio/L4_es.mp3",
-   "at": "2026-10-31T13:24:47Z"
+   "at": "2026-10-31T13:24:47Z",
+   "release": "media-F004",
+   "asset": "assets__audio__L4_es.mp3",
+   "github": "https://github.com/unclehowell/cedwyn-studios/releases/download/media-F004/assets__audio__L4_es.mp3",
+   "release_state": "verified",
+   "cid": "bafkreigrqpqm5z7olynne3uzdlsthkjvkbv63ebahu7dagkhnzxfuurdp4",
+   "cid_check": "kubo-match",
+   "mirrors": [
+    "r2:cedwyn-studios"
+   ]
   },
   "studio/scenes/F004/assets/audio/L5_cy.mp3": {
    "sha256": "eeb6748c463b4cbaefd3524fe41e97390a6ccd3f99dbdfb8ec8b7cb2f7b2a161",
    "bytes": 198155,
    "content_type": "audio/mpeg",
    "origin": "cedwyn-movie-box:F004v1/audio/L5_cy.mp3",
-   "at": "2026-10-31T13:24:48Z"
+   "at": "2026-10-31T13:24:48Z",
+   "release": "media-F004",
+   "asset": "assets__audio__L5_cy.mp3",
+   "github": "https://github.com/unclehowell/cedwyn-studios/releases/download/media-F004/assets__audio__L5_cy.mp3",
+   "release_state": "verified",
+   "cid": "bafkreihowz2iyrr3js5o7u2sj7sb5fzzbjwm2p4z3pp3r3elpszppmvbme",
+   "cid_check": "kubo-match",
+   "mirrors": [
+    "r2:cedwyn-studios"
+   ]
   },
   "studio/scenes/F004/assets/audio/L5_en.mp3": {
    "sha256": "594e7678736256323c9ea684a1b8809acb1ef81197983e3f3dbdbf5ea4311a11",
    "bytes": 181437,
    "content_type": "audio/mpeg",
    "origin": "cedwyn-movie-box:F004v1/audio/L5_en.mp3",
-   "at": "2026-10-31T13:24:49Z"
+   "at": "2026-10-31T13:24:49Z",
+   "release": "media-F004",
+   "asset": "assets__audio__L5_en.mp3",
+   "github": "https://github.com/unclehowell/cedwyn-studios/releases/download/media-F004/assets__audio__L5_en.mp3",
+   "release_state": "verified",
+   "cid": "bafkreiczjz3hq43ckyzdzhvgqsq3rae2zmppqemxta7d6pn5x5pkimi2ce",
+   "cid_check": "kubo-match",
+   "mirrors": [
+    "r2:cedwyn-studios"
+   ]
   },
   "studio/scenes/F004/assets/audio/L5_es.mp3": {
    "sha256": "a74ec1672763857eb8ed9803206b5d4cf9a18456dc05081f7995bd539aaeceef",
    "bytes": 194394,
    "content_type": "audio/mpeg",
    "origin": "cedwyn-movie-box:F004v1/audio/L5_es.mp3",
-   "at": "2026-10-31T13:24:49Z"
+   "at": "2026-10-31T13:24:49Z",
+   "release": "media-F004",
+   "asset": "assets__audio__L5_es.mp3",
+   "github": "https://github.com/unclehowell/cedwyn-studios/releases/download/media-F004/assets__audio__L5_es.mp3",
+   "release_state": "verified",
+   "cid": "bafkreifhj3awoj3dqv7lr3myamqgwxkm7gqyivw4aueb66mvxvjzvlwo54",
+   "cid_check": "kubo-match",
+   "mirrors": [
+    "r2:cedwyn-studios"
+   ]
   },
   "studio/scenes/F004/assets/audio/L6_cy.mp3": {
    "sha256": "c114fdb875289b54c4513d2f0d0588a423a0e4cc4a3ce5b9c30a69cc5ac721cf",
    "bytes": 85724,
    "content_type": "audio/mpeg",
    "origin": "cedwyn-movie-box:F004v1/audio/L6_cy.mp3",
-   "at": "2026-10-31T13:24:50Z"
+   "at": "2026-10-31T13:24:50Z",
+   "release": "media-F004",
+   "asset": "assets__audio__L6_cy.mp3",
+   "github": "https://github.com/unclehowell/cedwyn-studios/releases/download/media-F004/assets__audio__L6_cy.mp3",
+   "release_state": "verified",
+   "cid": "bafkreigbct63q5jitnkmiuj5f4gqlcfeeoqojtckhts3tqyknhgfvrzbz4",
+   "cid_check": "kubo-match",
+   "mirrors": [
+    "r2:cedwyn-studios"
+   ]
   },
   "studio/scenes/F004/assets/audio/L6_en.mp3": {
    "sha256": "19ca43616377c2b33b8ee64f829863bc056c3c694fc986908db0bad811eaafd8",
    "bytes": 80291,
    "content_type": "audio/mpeg",
    "origin": "cedwyn-movie-box:F004v1/audio/L6_en.mp3",
-   "at": "2026-10-31T13:24:51Z"
+   "at": "2026-10-31T13:24:51Z",
+   "release": "media-F004",
+   "asset": "assets__audio__L6_en.mp3",
+   "github": "https://github.com/unclehowell/cedwyn-studios/releases/download/media-F004/assets__audio__L6_en.mp3",
+   "release_state": "verified",
+   "cid": "bafkreiazzjbwcy3xykztxdxgj6bjqy54avwdy2kpzgdjbdnqxlmbd2vp3a",
+   "cid_check": "kubo-match",
+   "mirrors": [
+    "r2:cedwyn-studios"
+   ]
   },
   "studio/scenes/F004/assets/audio/L6_es.mp3": {
    "sha256": "751070b056d5561d479f736d6a03e971da1d02a83af0a4096a72976122c4f159",
    "bytes": 91994,
    "content_type": "audio/mpeg",
    "origin": "cedwyn-movie-box:F004v1/audio/L6_es.mp3",
-   "at": "2026-10-31T13:24:51Z"
+   "at": "2026-10-31T13:24:51Z",
+   "release": "media-F004",
+   "asset": "assets__audio__L6_es.mp3",
+   "github": "https://github.com/unclehowell/cedwyn-studios/releases/download/media-F004/assets__audio__L6_es.mp3",
+   "release_state": "verified",
+   "cid": "bafkreidvcbylavwvkyouph3tnvvah2lr3ioqfkb26csas2tss5qsfrhrle",
+   "cid_check": "kubo-match",
+   "mirrors": [
+    "r2:cedwyn-studios"
+   ]
   },
   "studio/scenes/F004/assets/audio/L7_cy.mp3": {
    "sha256": "a442fd3e6e4bfe3e702450d68412bcc0421575aead08eb3ec6af62a650357bbf",
    "bytes": 137969,
    "content_type": "audio/mpeg",
    "origin": "cedwyn-movie-box:F004v1/audio/L7_cy.mp3",
-   "at": "2026-10-31T13:24:52Z"
+   "at": "2026-10-31T13:24:52Z",
+   "release": "media-F004",
+   "asset": "assets__audio__L7_cy.mp3",
+   "github": "https://github.com/unclehowell/cedwyn-studios/releases/download/media-F004/assets__audio__L7_cy.mp3",
+   "release_state": "verified",
+   "cid": "bafkreifeil6t43sl7y7hajcq22cbfpgaiikxllvnbdvt5rvpmktfanl3x4",
+   "cid_check": "kubo-match",
+   "mirrors": [
+    "r2:cedwyn-studios"
+   ]
   },
   "studio/scenes/F004/assets/audio/L7_en.mp3": {
    "sha256": "616f5891f07f8b8ebb922186b738380c6324f0532b77b7ea263282bd2d2d434a",
    "bytes": 132954,
    "content_type": "audio/mpeg",
    "origin": "cedwyn-movie-box:F004v1/audio/L7_en.mp3",
-   "at": "2026-10-31T13:24:53Z"
+   "at": "2026-10-31T13:24:53Z",
+   "release": "media-F004",
+   "asset": "assets__audio__L7_en.mp3",
+   "github": "https://github.com/unclehowell/cedwyn-studios/releases/download/media-F004/assets__audio__L7_en.mp3",
+   "release_state": "verified",
+   "cid": "bafkreidbn5mjd4d7rohlxerbq23tqoammmspauzlo636ujrsqk6s2lkdji",
+   "cid_check": "kubo-match",
+   "mirrors": [
+    "r2:cedwyn-studios"
+   ]
   },
   "studio/scenes/F004/assets/audio/L7_es.mp3": {
    "sha256": "d35a9d596bcf7f3ba37c51f6a89779c937a6998f6975bfe05e1cc0289d4e1a3a",
    "bytes": 140477,
    "content_type": "audio/mpeg",
    "origin": "cedwyn-movie-box:F004v1/audio/L7_es.mp3",
-   "at": "2026-10-31T13:24:53Z"
+   "at": "2026-10-31T13:24:53Z",
+   "release": "media-F004",
+   "asset": "assets__audio__L7_es.mp3",
+   "github": "https://github.com/unclehowell/cedwyn-studios/releases/download/media-F004/assets__audio__L7_es.mp3",
+   "release_state": "verified",
+   "cid": "bafkreigtlkovs26pp452g7cr62ujo6ojg6tjtd3jow76axq4yauj2tq2hi",
+   "cid_check": "kubo-match",
+   "mirrors": [
+    "r2:cedwyn-studios"
+   ]
   },
   "studio/scenes/F004/assets/audio/amb_dusk.mp3": {
    "sha256": "386d73e3c890e0455177984df11adbd28281c045e6b26b4a0591fa5183a93803",
    "bytes": 289270,
    "content_type": "audio/mpeg",
    "origin": "cedwyn-movie-box:F004v1/audio/amb_dusk.mp3",
-   "at": "2026-10-31T13:24:54Z"
+   "at": "2026-10-31T13:24:54Z",
+   "release": "media-F004",
+   "asset": "assets__audio__amb_dusk.mp3",
+   "github": "https://github.com/unclehowell/cedwyn-studios/releases/download/media-F004/assets__audio__amb_dusk.mp3",
+   "release_state": "verified",
+   "cid": "bafybeihr3z22awnqcgljzouqv4bpu4534htzitvjw4lby7zzs4jjgyxxpm",
+   "cid_check": "kubo-match",
+   "mirrors": [
+    "r2:cedwyn-studios"
+   ]
   },
   "studio/scenes/F004/assets/audio/amb_hill.mp3": {
    "sha256": "d137728ac7604f6eb5e2e2414f8e73ccdd247d2683a60124e83e06fae9a40b63",
    "bytes": 353218,
    "content_type": "audio/mpeg",
    "origin": "cedwyn-movie-box:F004v1/audio/amb_hill.mp3",
-   "at": "2026-10-31T13:24:55Z"
+   "at": "2026-10-31T13:24:55Z",
+   "release": "media-F004",
+   "asset": "assets__audio__amb_hill.mp3",
+   "github": "https://github.com/unclehowell/cedwyn-studios/releases/download/media-F004/assets__audio__amb_hill.mp3",
+   "release_state": "verified",
+   "cid": "bafybeicghw7qdcsczoyhnr2lqune5y57vjsdhf5vvcmlgiusam34wsspkq",
+   "cid_check": "kubo-match",
+   "mirrors": [
+    "r2:cedwyn-studios"
+   ]
   },
   "studio/scenes/F004/assets/audio/amb_proc.mp3": {
    "sha256": "275d4f63be12f7aa7d14520c1496f59f1da2720ca07c90b98ca8d308bedf6de2",
    "bytes": 257087,
    "content_type": "audio/mpeg",
    "origin": "cedwyn-movie-box:F004v1/audio/amb_proc.mp3",
-   "at": "2026-10-31T13:24:55Z"
+   "at": "2026-10-31T13:24:55Z",
+   "release": "media-F004",
+   "asset": "assets__audio__amb_proc.mp3",
+   "github": "https://github.com/unclehowell/cedwyn-studios/releases/download/media-F004/assets__audio__amb_proc.mp3",
+   "release_state": "verified",
+   "cid": "bafkreibhlvhwhpqs66vh2fcsbqkjn5m7dwrhedfapsiltdfi2mel5x3n4i",
+   "cid_check": "kubo-match",
+   "mirrors": [
+    "r2:cedwyn-studios"
+   ]
   },
   "studio/scenes/F004/assets/audio/amb_spade.mp3": {
    "sha256": "6f9bcceddc7744232adbde87481161444faf2b63c49c8f21a3ff6a0097919c23",
    "bytes": 97009,
    "content_type": "audio/mpeg",
    "origin": "cedwyn-movie-box:F004v1/audio/amb_spade.mp3",
-   "at": "2026-10-31T13:24:56Z"
+   "at": "2026-10-31T13:24:56Z",
+   "release": "media-F004",
+   "asset": "assets__audio__amb_spade.mp3",
+   "github": "https://github.com/unclehowell/cedwyn-studios/releases/download/media-F004/assets__audio__amb_spade.mp3",
+   "release_state": "verified",
+   "cid": "bafkreidptpgo3xdxiqrsvw66q5ebcykej6xswy6etshsdi77niajpem4em",
+   "cid_check": "kubo-match",
+   "mirrors": [
+    "r2:cedwyn-studios"
+   ]
   },
   "studio/scenes/F004/assets/gfx/cap_ch0001.png": {
    "sha256": "42252535284a3271bee107c57ce49d27f853b9114e92a9f51deebca6164cd0f7",
    "bytes": 21753,
    "content_type": "image/png",
    "origin": "cedwyn-movie-box:F004v1/gfx/cap_ch0001.png",
-   "at": "2026-10-31T13:24:57Z"
+   "at": "2026-10-31T13:24:57Z",
+   "release": "media-F004",
+   "asset": "assets__gfx__cap_ch0001.png",
+   "github": "https://github.com/unclehowell/cedwyn-studios/releases/download/media-F004/assets__gfx__cap_ch0001.png",
+   "release_state": "verified",
+   "cid": "bafkreicceustkkckgjy35yihyv6ojhjh7bj3sekosku7khpoxstbmtgq64",
+   "cid_check": "kubo-match",
+   "mirrors": [
+    "r2:cedwyn-studios"
+   ]
   },
   "studio/scenes/F004/assets/gfx/cap_px03.png": {
    "sha256": "f933a968d0ec7663b06dd24e7a9bddc96e07b30c7e02122e2dad51ed468bc1fd",
    "bytes": 24249,
    "content_type": "image/png",
    "origin": "cedwyn-movie-box:F004v1/gfx/cap_px03.png",
-   "at": "2026-10-31T13:24:57Z"
+   "at": "2026-10-31T13:24:57Z",
+   "release": "media-F004",
+   "asset": "assets__gfx__cap_px03.png",
+   "github": "https://github.com/unclehowell/cedwyn-studios/releases/download/media-F004/assets__gfx__cap_px03.png",
+   "release_state": "verified",
+   "cid": "bafkreihzgouwruhmozr3a3osjz5jxxojnyd3gdd6aijc4lnnkhwunc6b7u",
+   "cid_check": "kubo-match",
+   "mirrors": [
+    "r2:cedwyn-studios"
+   ]
   },
   "studio/scenes/F004/assets/gfx/card.png": {
    "sha256": "3802ff788b53b6385bbcdacad8f2e070cbc9b9f59b59eda84c4e282ac176195d",
    "bytes": 30129,
    "content_type": "image/png",
    "origin": "cedwyn-movie-box:F004v1/gfx/card.png",
-   "at": "2026-10-31T13:24:58Z"
+   "at": "2026-10-31T13:24:58Z",
+   "release": "media-F004",
+   "asset": "assets__gfx__card.png",
+   "github": "https://github.com/unclehowell/cedwyn-studios/releases/download/media-F004/assets__gfx__card.png",
+   "release_state": "verified",
+   "cid": "bafkreibyal7xrc2twy4fxpg2zlmpfydqzpe3t5m3lhw2qtcofavmc5qzlu",
+   "cid_check": "kubo-match",
+   "mirrors": [
+    "r2:cedwyn-studios"
+   ]
   },
   "studio/scenes/F004/assets/gfx/end.png": {
    "sha256": "48b52d767cc49e419f0df7c10680472f730f012d24cce68b8704780045bfcba8",
    "bytes": 22098,
    "content_type": "image/png",
    "origin": "cedwyn-movie-box:F004v1/gfx/end.png",
-   "at": "2026-10-31T13:24:59Z"
+   "at": "2026-10-31T13:24:59Z",
+   "release": "media-F004",
+   "asset": "assets__gfx__end.png",
+   "github": "https://github.com/unclehowell/cedwyn-studios/releases/download/media-F004/assets__gfx__end.png",
+   "release_state": "verified",
+   "cid": "bafkreiciwuwxm7getzaz6dpxyediarzpomhqcljezttixbyepaaelp6lva",
+   "cid_check": "kubo-match",
+   "mirrors": [
+    "r2:cedwyn-studios"
+   ]
   },
   "studio/scenes/F004/assets/oh/L3.mp4": {
    "sha256": "454124d1fa777618ce90816e9888a9451ac89f333d82fd13a964ed2f4fb0f7ab",
    "bytes": 2795070,
    "content_type": "video/mp4",
    "origin": "cedwyn-movie-box:F004v1/oh/L3.mp4",
-   "at": "2026-10-31T13:24:59Z"
+   "at": "2026-10-31T13:24:59Z",
+   "release": "media-F004",
+   "asset": "assets__oh__L3.mp4",
+   "github": "https://github.com/unclehowell/cedwyn-studios/releases/download/media-F004/assets__oh__L3.mp4",
+   "release_state": "verified",
+   "cid": "bafybeiev25rahdq4pyf7cxxsdnmzovqt7hxb7mu5bv7lh5l7yrevcnrjxu",
+   "cid_check": "kubo-match",
+   "mirrors": [
+    "r2:cedwyn-studios"
+   ]
   },
   "studio/scenes/F004/assets/oh/L4.mp4": {
    "sha256": "5e602cbd274a3aaf38ec23b0dedf3f5963d406d4ad1a40bdee1a4dda62891587",
    "bytes": 3487503,
    "content_type": "video/mp4",
    "origin": "cedwyn-movie-box:F004v1/oh/L4.mp4",
-   "at": "2026-10-31T13:25:00Z"
+   "at": "2026-10-31T13:25:00Z",
+   "release": "media-F004",
+   "asset": "assets__oh__L4.mp4",
+   "github": "https://github.com/unclehowell/cedwyn-studios/releases/download/media-F004/assets__oh__L4.mp4",
+   "release_state": "verified",
+   "cid": "bafybeifyuetu5yglotfvtnzm3fx7yc5oehq3fivyq5q6r7ukmohvaivs7u",
+   "cid_check": "kubo-match",
+   "mirrors": [
+    "r2:cedwyn-studios"
+   ]
   },
   "studio/scenes/F004/assets/oh/L5.mp4": {
    "sha256": "da674fb4facfdd1c37c5ad6743a556275725c8a15c02fa1ba0ac37a7318ba246",
    "bytes": 7140153,
    "content_type": "video/mp4",
    "origin": "cedwyn-movie-box:F004v1/oh/L5.mp4",
-   "at": "2026-10-31T13:25:02Z"
+   "at": "2026-10-31T13:25:02Z",
+   "release": "media-F004",
+   "asset": "assets__oh__L5.mp4",
+   "github": "https://github.com/unclehowell/cedwyn-studios/releases/download/media-F004/assets__oh__L5.mp4",
+   "release_state": "verified",
+   "cid": "bafybeigepmixrf74snwdtx4quqdlqhd6kimjd6ske6sajagqckynqmd2dm",
+   "cid_check": "kubo-match",
+   "mirrors": [
+    "r2:cedwyn-studios"
+   ]
   },
   "studio/scenes/F004/assets/oh/L6.mp4": {
    "sha256": "38accc7fd716a083ed499de234ba51053536350ce5d5f9f64b2e6695f6ddea7c",
    "bytes": 2479237,
    "content_type": "video/mp4",
    "origin": "cedwyn-movie-box:F004v1/oh/L6.mp4",
-   "at": "2026-10-31T13:25:03Z"
+   "at": "2026-10-31T13:25:03Z",
+   "release": "media-F004",
+   "asset": "assets__oh__L6.mp4",
+   "github": "https://github.com/unclehowell/cedwyn-studios/releases/download/media-F004/assets__oh__L6.mp4",
+   "release_state": "verified",
+   "cid": "bafybeigia342ndypdpurpk3re2bzr7sz3l7r3isimlx4dv5i2hm637s4ym",
+   "cid_check": "kubo-match",
+   "mirrors": [
+    "r2:cedwyn-studios"
+   ]
   },
   "studio/scenes/F004/assets/oh/L7.mp4": {
    "sha256": "1f4c7d07a4cc9001c10820300fbab06809b6d608990aeca2b20731831e43c6c6",
    "bytes": 4594439,
    "content_type": "video/mp4",
    "origin": "cedwyn-movie-box:F004v1/oh/L7.mp4",
-   "at": "2026-10-31T13:25:04Z"
+   "at": "2026-10-31T13:25:04Z",
+   "release": "media-F004",
+   "asset": "assets__oh__L7.mp4",
+   "github": "https://github.com/unclehowell/cedwyn-studios/releases/download/media-F004/assets__oh__L7.mp4",
+   "release_state": "verified",
+   "cid": "bafybeicarr35wecgwgdtqf7xei3qmkfb6hxmpqzekaosky3suklpm5h7ke",
+   "cid_check": "kubo-match",
+   "mirrors": [
+    "r2:cedwyn-studios"
+   ]
   },
   "studio/scenes/F004/assets/stills/oh3.jpg": {
    "sha256": "71e4e78e2b964ee2c44ddeabd509b38e56b77f2790bfcb156dd33369fade5cd2",
    "bytes": 247732,
    "content_type": "image/jpeg",
    "origin": "cedwyn-movie-box:F004v1/stills/oh3.jpg",
-   "at": "2026-10-31T13:24:34Z"
+   "at": "2026-10-31T13:24:34Z",
+   "release": "media-F004",
+   "asset": "assets__stills__oh3.jpg",
+   "github": "https://github.com/unclehowell/cedwyn-studios/releases/download/media-F004/assets__stills__oh3.jpg",
+   "release_state": "verified",
+   "cid": "bafkreidr4tty4k4wj3rmito6vpkqtm4ok23x6j4qx7frk3otgnu7vxs42i",
+   "cid_check": "kubo-match",
+   "mirrors": [
+    "r2:cedwyn-studios"
+   ]
   },
   "studio/scenes/F004/assets/stills/oh4.jpg": {
    "sha256": "1f2b6cf7ff2acc4ec633714d1e858535f0e216b164944668de848cd54870e854",
    "bytes": 203586,
    "content_type": "image/jpeg",
    "origin": "cedwyn-movie-box:F004v1/stills/oh4.jpg",
-   "at": "2026-10-31T13:24:35Z"
+   "at": "2026-10-31T13:24:35Z",
+   "release": "media-F004",
+   "asset": "assets__stills__oh4.jpg",
+   "github": "https://github.com/unclehowell/cedwyn-studios/releases/download/media-F004/assets__stills__oh4.jpg",
+   "release_state": "verified",
+   "cid": "bafkreia7fnwpp7zkzrhmmm3rjupilbjv6drbnmlesrdgrxuertkuq4hikq",
+   "cid_check": "kubo-match",
+   "mirrors": [
+    "r2:cedwyn-studios"
+   ]
   },
   "studio/scenes/F004/assets/stills/oh5.jpg": {
    "sha256": "6f218ec35d74c1b7227909fea47ad37db1345aab71a1ee092933c1e9f51f2797",
    "bytes": 231853,
    "content_type": "image/jpeg",
    "origin": "cedwyn-movie-box:F004v1/stills/oh5.jpg",
-   "at": "2026-10-31T13:24:36Z"
+   "at": "2026-10-31T13:24:36Z",
+   "release": "media-F004",
+   "asset": "assets__stills__oh5.jpg",
+   "github": "https://github.com/unclehowell/cedwyn-studios/releases/download/media-F004/assets__stills__oh5.jpg",
+   "release_state": "verified",
+   "cid": "bafkreidpeghmgxluyg3se6ij72shvu35we2fvk3ruhxaskjtyhu7khzhs4",
+   "cid_check": "kubo-match",
+   "mirrors": [
+    "r2:cedwyn-studios"
+   ]
   },
   "studio/scenes/F004/assets/stills/oh6.jpg": {
    "sha256": "ea6e39a7b44b76ffb011ee6db06f5586dcc4352b869ed1b5da5832acab1e8efc",
    "bytes": 225624,
    "content_type": "image/jpeg",
    "origin": "cedwyn-movie-box:F004v1/stills/oh6.jpg",
-   "at": "2026-10-31T13:24:36Z"
+   "at": "2026-10-31T13:24:36Z",
+   "release": "media-F004",
+   "asset": "assets__stills__oh6.jpg",
+   "github": "https://github.com/unclehowell/cedwyn-studios/releases/download/media-F004/assets__stills__oh6.jpg",
+   "release_state": "verified",
+   "cid": "bafkreihkny42pnclo373aeponwyg6vmg3tcdkk4gt3i3lwsygkwkwhuo7q",
+   "cid_check": "kubo-match",
+   "mirrors": [
+    "r2:cedwyn-studios"
+   ]
   },
   "studio/scenes/F004/assets/stills/oh7.jpg": {
    "sha256": "3493169783f8c3377547ee0949929e3ff71810f8905b47834b770edc473e129a",
    "bytes": 213596,
    "content_type": "image/jpeg",
    "origin": "cedwyn-movie-box:F004v1/stills/oh7.jpg",
-   "at": "2026-10-31T13:24:37Z"
+   "at": "2026-10-31T13:24:37Z",
+   "release": "media-F004",
+   "asset": "assets__stills__oh7.jpg",
+   "github": "https://github.com/unclehowell/cedwyn-studios/releases/download/media-F004/assets__stills__oh7.jpg",
+   "release_state": "verified",
+   "cid": "bafkreibusmljpa7yym3xkr7obfezfhr764mbb6eqlndygs3xb3oeopqsti",
+   "cid_check": "kubo-match",
+   "mirrors": [
+    "r2:cedwyn-studios"
+   ]
   },
   "studio/scenes/F004/assets/stills/p_monk.jpg": {
    "sha256": "57da49aacfa10aa0b8d747228b918bb3a13180f78d13cfa2cfc331bc7a14c907",
    "bytes": 206856,
    "content_type": "image/jpeg",
    "origin": "cedwyn-movie-box:F004v1/stills/p_monk.jpg",
-   "at": "2026-10-31T13:24:38Z"
+   "at": "2026-10-31T13:24:38Z",
+   "release": "media-F004",
+   "asset": "assets__stills__p_monk.jpg",
+   "github": "https://github.com/unclehowell/cedwyn-studios/releases/download/media-F004/assets__stills__p_monk.jpg",
+   "release_state": "verified",
+   "cid": "bafkreicx3je2vt5bbkqlrv2hekfzdc5tueyyb54ncph2ft6dgg6hufgja4",
+   "cid_check": "kubo-match",
+   "mirrors": [
+    "r2:cedwyn-studios"
+   ]
   },
   "studio/scenes/F004/assets/stills/p_woman.jpg": {
    "sha256": "4ca69dc717c3a615947f3af4f86396ed305033cb43277c78352774224e1bee8e",
    "bytes": 181311,
    "content_type": "image/jpeg",
    "origin": "cedwyn-movie-box:F004v1/stills/p_woman.jpg",
-   "at": "2026-10-31T13:24:39Z"
+   "at": "2026-10-31T13:24:39Z",
+   "release": "media-F004",
+   "asset": "assets__stills__p_woman.jpg",
+   "github": "https://github.com/unclehowell/cedwyn-studios/releases/download/media-F004/assets__stills__p_woman.jpg",
+   "release_state": "verified",
+   "cid": "bafkreicmu2o4of6duykzi7z26t4ghfxngbidhs2de56hqnjhoqre4g7ory",
+   "cid_check": "kubo-match",
+   "mirrors": [
+    "r2:cedwyn-studios"
+   ]
   },
   "studio/scenes/F004/assets/stills/st1.jpg": {
    "sha256": "d2998f201720494a93eb14f449b36009ee60ffa3cc05132629ea14ee5e28a141",
    "bytes": 302481,
    "content_type": "image/jpeg",
    "origin": "cedwyn-movie-box:F004v1/stills/st1.jpg",
-   "at": "2026-10-31T13:24:39Z"
+   "at": "2026-10-31T13:24:39Z",
+   "release": "media-F004",
+   "asset": "assets__stills__st1.jpg",
+   "github": "https://github.com/unclehowell/cedwyn-studios/releases/download/media-F004/assets__stills__st1.jpg",
+   "release_state": "verified",
+   "cid": "bafybeig6o3oao53ullnlenvtyq6asq2q6fdvxthqfrjzkcwfwnthrct7vi",
+   "cid_check": "kubo-match",
+   "mirrors": [
+    "r2:cedwyn-studios"
+   ]
   },
   "studio/scenes/F004/assets/stills/st1b.jpg": {
    "sha256": "3ec601f615c09f3354ac7823804e74d24f9afff53516a43ad96b28843253d547",
    "bytes": 278693,
    "content_type": "image/jpeg",
    "origin": "cedwyn-movie-box:F004v1/stills/st1b.jpg",
-   "at": "2026-10-31T13:24:40Z"
+   "at": "2026-10-31T13:24:40Z",
+   "release": "media-F004",
+   "asset": "assets__stills__st1b.jpg",
+   "github": "https://github.com/unclehowell/cedwyn-studios/releases/download/media-F004/assets__stills__st1b.jpg",
+   "release_state": "verified",
+   "cid": "bafybeihidjgnjfdfagmuz4nmd6m3ze7clbwbsi4ozosqlp2jgrhqxwjqdm",
+   "cid_check": "kubo-match",
+   "mirrors": [
+    "r2:cedwyn-studios"
+   ]
   },
   "studio/scenes/F004/assets/stills/st2.jpg": {
    "sha256": "e3a1158aedf6277445c082afc944d3aa0e492a550643ce09fecca857b48cffff",
    "bytes": 271505,
    "content_type": "image/jpeg",
    "origin": "cedwyn-movie-box:F004v1/stills/st2.jpg",
-   "at": "2026-10-31T13:24:41Z"
+   "at": "2026-10-31T13:24:41Z",
+   "release": "media-F004",
+   "asset": "assets__stills__st2.jpg",
+   "github": "https://github.com/unclehowell/cedwyn-studios/releases/download/media-F004/assets__stills__st2.jpg",
+   "release_state": "verified",
+   "cid": "bafybeihgy77vpatrfwmjalwdggjj67266phsf2y6745gvwzgfstgslfx7i",
+   "cid_check": "kubo-match",
+   "mirrors": [
+    "r2:cedwyn-studios"
+   ]
   },
   "studio/scenes/F004/assets/stills/st3b.jpg": {
    "sha256": "6a247703224ad4709b28c3825c400d8d5f09f1459344297129ef34eab6ec4915",
    "bytes": 274262,
    "content_type": "image/jpeg",
    "origin": "cedwyn-movie-box:F004v1/stills/st3b.jpg",
-   "at": "2026-10-31T13:24:41Z"
+   "at": "2026-10-31T13:24:41Z",
+   "release": "media-F004",
+   "asset": "assets__stills__st3b.jpg",
+   "github": "https://github.com/unclehowell/cedwyn-studios/releases/download/media-F004/assets__stills__st3b.jpg",
+   "release_state": "verified",
+   "cid": "bafybeieqvnowwfdwsisjbywcgn3vdgimbp7z7khroi4rgdnw3xntisozgm",
+   "cid_check": "kubo-match",
+   "mirrors": [
+    "r2:cedwyn-studios"
+   ]
   },
   "studio/scenes/F004/assets/stills/st6b.jpg": {
    "sha256": "962fa8031fd5de0c14f843caece7db2aac4df41ea0fe9f6a543fa131c57c3898",
    "bytes": 251876,
    "content_type": "image/jpeg",
    "origin": "cedwyn-movie-box:F004v1/stills/st6b.jpg",
-   "at": "2026-10-31T13:24:42Z"
+   "at": "2026-10-31T13:24:42Z",
+   "release": "media-F004",
+   "asset": "assets__stills__st6b.jpg",
+   "github": "https://github.com/unclehowell/cedwyn-studios/releases/download/media-F004/assets__stills__st6b.jpg",
+   "release_state": "verified",
+   "cid": "bafkreiewf6uagh6v3ygbj6cdzlwopwzkvrg7ihva72pwuvb7uey4k7byta",
+   "cid_check": "kubo-match",
+   "mirrors": [
+    "r2:cedwyn-studios"
+   ]
   },
   "studio/scenes/F004/assets/stills/st8.jpg": {
    "sha256": "d88e678eb47324a84d84877855259b87de06030cba23a07ea348441f1c45de35",
    "bytes": 237435,
    "content_type": "image/jpeg",
    "origin": "cedwyn-movie-box:F004v1/stills/st8.jpg",
-   "at": "2026-10-31T13:24:43Z"
+   "at": "2026-10-31T13:24:43Z",
+   "release": "media-F004",
+   "asset": "assets__stills__st8.jpg",
+   "github": "https://github.com/unclehowell/cedwyn-studios/releases/download/media-F004/assets__stills__st8.jpg",
+   "release_state": "verified",
+   "cid": "bafkreigyrzty5ndtesue3behpbkslg4h3ydagdf2eoqh5i2iiqpryro6gu",
+   "cid_check": "kubo-match",
+   "mirrors": [
+    "r2:cedwyn-studios"
+   ]
   },
   "studio/scenes/F004/assets/voices/K_BROTHER_0.mp3": {
    "sha256": "8d84d06b529da76ecaf8b23cc2d2816fc7683f39fffca9363966ed3fc9b9e554",
    "bytes": 440782,
    "content_type": "audio/mpeg",
    "origin": "cedwyn-movie-box:F004v1/voices/K_BROTHER_0.mp3",
-   "at": "2026-10-31T13:25:04Z"
+   "at": "2026-10-31T13:25:04Z",
+   "release": "media-F004",
+   "asset": "assets__voices__K_BROTHER_0.mp3",
+   "github": "https://github.com/unclehowell/cedwyn-studios/releases/download/media-F004/assets__voices__K_BROTHER_0.mp3",
+   "release_state": "verified",
+   "cid": "bafybeicusgrkx5jyd7a3ksehodqjmx2lgq4n6pggfwzmgrmwzxomlcnciu",
+   "cid_check": "kubo-match",
+   "mirrors": [
+    "r2:cedwyn-studios"
+   ]
   },
   "studio/scenes/F004/assets/voices/K_BROTHER_1.mp3": {
    "sha256": "79cc2f2baf3fdac79cd48435d3c5c5ec78605c2adc5cc34ca6c90f002f5d1df0",
    "bytes": 529180,
    "content_type": "audio/mpeg",
    "origin": "cedwyn-movie-box:F004v1/voices/K_BROTHER_1.mp3",
-   "at": "2026-10-31T13:25:05Z"
+   "at": "2026-10-31T13:25:05Z",
+   "release": "media-F004",
+   "asset": "assets__voices__K_BROTHER_1.mp3",
+   "github": "https://github.com/unclehowell/cedwyn-studios/releases/download/media-F004/assets__voices__K_BROTHER_1.mp3",
+   "release_state": "verified",
+   "cid": "bafybeihbnivh7ywhutew4clnfidkd2zlcxigq5bhoeo2hhb6xusdmtvuaq",
+   "cid_check": "kubo-match",
+   "mirrors": [
+    "r2:cedwyn-studios"
+   ]
   },
   "studio/scenes/F004/assets/voices/K_BROTHER_2.mp3": {
    "sha256": "c30286dc4339a2dc378564a9305a1bb657e76ad43622c3174746beaf58ef1013",
    "bytes": 603786,
    "content_type": "audio/mpeg",
    "origin": "cedwyn-movie-box:F004v1/voices/K_BROTHER_2.mp3",
-   "at": "2026-10-31T13:25:06Z"
+   "at": "2026-10-31T13:25:06Z",
+   "release": "media-F004",
+   "asset": "assets__voices__K_BROTHER_2.mp3",
+   "github": "https://github.com/unclehowell/cedwyn-studios/releases/download/media-F004/assets__voices__K_BROTHER_2.mp3",
+   "release_state": "verified",
+   "cid": "bafybeifuupinq7njnsjgpnysrnvgy3iaybfuitprlsqa4ddxfspplqupvi",
+   "cid_check": "kubo-match",
+   "mirrors": [
+    "r2:cedwyn-studios"
+   ]
   },
   "studio/scenes/F004/assets/voices/L_ELIN_0.mp3": {
    "sha256": "f7dd195c74a52c77851c9b94052f03a80b2c55d4c5fad6c9e7e4832420836db9",
    "bytes": 377461,
    "content_type": "audio/mpeg",
    "origin": "cedwyn-movie-box:F004v1/voices/L_ELIN_0.mp3",
-   "at": "2026-10-31T13:25:06Z"
+   "at": "2026-10-31T13:25:06Z",
+   "release": "media-F004",
+   "asset": "assets__voices__L_ELIN_0.mp3",
+   "github": "https://github.com/unclehowell/cedwyn-studios/releases/download/media-F004/assets__voices__L_ELIN_0.mp3",
+   "release_state": "verified",
+   "cid": "bafybeiflno2fvyfn7bh3qhyptty4tzqtowq63g2cux2uxgozarq2im6xoa",
+   "cid_check": "kubo-match",
+   "mirrors": [
+    "r2:cedwyn-studios"
+   ]
   },
   "studio/scenes/F004/assets/voices/L_ELIN_1.mp3": {
    "sha256": "b809e1fe6eeb6f2c30621164f61e02ef874305aff91505980ff5f621abd2a1a7",
    "bytes": 379342,
    "content_type": "audio/mpeg",
    "origin": "cedwyn-movie-box:F004v1/voices/L_ELIN_1.mp3",
-   "at": "2026-10-31T13:25:07Z"
+   "at": "2026-10-31T13:25:07Z",
+   "release": "media-F004",
+   "asset": "assets__voices__L_ELIN_1.mp3",
+   "github": "https://github.com/unclehowell/cedwyn-studios/releases/download/media-F004/assets__voices__L_ELIN_1.mp3",
+   "release_state": "verified",
+   "cid": "bafybeifcaa66tttdtmueubdjd5gfv7fn5u3go4jfoq7j2fusarcz7od25i",
+   "cid_check": "kubo-match",
+   "mirrors": [
+    "r2:cedwyn-studios"
+   ]
   },
   "studio/scenes/F004/assets/voices/L_ELIN_2.mp3": {
    "sha256": "e2ff183929c028aa05df776fa8427e04abf8bcb37f3d222ffc7c688c535f1587",
    "bytes": 408181,
    "content_type": "audio/mpeg",
    "origin": "cedwyn-movie-box:F004v1/voices/L_ELIN_2.mp3",
-   "at": "2026-10-31T13:25:08Z"
+   "at": "2026-10-31T13:25:08Z",
+   "release": "media-F004",
+   "asset": "assets__voices__L_ELIN_2.mp3",
+   "github": "https://github.com/unclehowell/cedwyn-studios/releases/download/media-F004/assets__voices__L_ELIN_2.mp3",
+   "release_state": "verified",
+   "cid": "bafybeie42nyyvpgvnuvyjn2o2m4r2gbrpiflnopobazqofg66arel3qikq",
+   "cid_check": "kubo-match",
+   "mirrors": [
+    "r2:cedwyn-studios"
+   ]
   }
  },
- "renders": []
+ "renders": [],
+ "mirror": "r2:cedwyn-studios"
 }
