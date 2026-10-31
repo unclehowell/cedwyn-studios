@@ -7,6 +7,8 @@ Usage:
   python3 tools/render.py adopt F002/S03 --lang en --file take.mp4 [--usd 0.84] [--request-id ID] [--prompt-file p.txt]
   python3 tools/render.py adopt F002/S03 --step still --file still.jpg [--prompt "..."]
   python3 tools/render.py qa F002/S03 --lang en --verdict PASS|FAIL --notes "what you saw"
+Every output goes to the media store via studio.Store: GitHub Releases first (release media-<scene>; set GH_TOKEN), the R2
+mirror only as a bridge when no GitHub token is present (release_state 'pending' until the media-releases workflow copies it).
 Steps it runs itself: take (OmniHuman 2.0, paid), line (ElevenLabs eleven_v4, paid, small), move (ffmpeg still-move, free).
 Steps it hands back: still, i2v, card (generate with the models in docs/MODELS.md, then `adopt`).
 Paid keys: on a Tab box the vendor door (/home/user/tab/.vendor-capability.json); elsewhere FAL_KEY / ELEVENLABS_API_KEY.
@@ -61,7 +63,7 @@ def dur(p):
     return float(subprocess.run(['ffprobe', '-v', 'error', '-show_entries', 'format=duration', '-of', 'csv=p=0', str(p)], capture_output=True, text=True, timeout=60).stdout)
 
 def put_output(st, sid, local, key, ctype, origin):
-    sha, size = st.put(local, key, ctype); S.record_object(sid, key, sha, size, ctype, origin); return sha, size
+    sha, size = st.put(local, key, ctype); S.record_object(sid, key, sha, size, ctype, origin, st.last); return sha, size   # GitHub Releases first (studio.Store)
 
 def do_take(sh, lang):
     sid = sh['scene']; u = sh['render']['per_language'][lang]

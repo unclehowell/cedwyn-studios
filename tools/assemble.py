@@ -2,8 +2,9 @@
 """Assemble one scene in one language from its packages (Quality bar v2: 24 fps, lanczos 1280x720, two-pass VP9 filling
 23.5 MB, Opus 128k, loudnorm I=-16 LRA=7 TP=-1.5, subtitles cy/en/es with this language first).
 Usage: python3 tools/assemble.py F002 en [--plan] [--out /tmp/F002.en.webm] [--upload]
---plan prints the cut list and stops (no media). --upload stores the cut in R2 under studio/scenes/<id>/cuts/<lang>/ and
-records it in the scene manifest. Publishing to the site stays with RUNNER.md step 6. Ported from the Door 2 assembler.
+--plan prints the cut list and stops (no media). --upload stores the cut under studio/scenes/<id>/cuts/<lang>/ in the media
+store (GitHub Releases first, release media-<id>; the R2 mirror only without a GitHub token, see studio.Store) and records it,
+with its release asset URL and IPFS CID, in the scene manifest. Publishing to the site stays with RUNNER.md step 6. Ported from the Door 2 assembler.
 Fonts: CEDWYN_FONT_TITLE / CEDWYN_FONT_TEXT (defaults: the box fonts, else DejaVu). — Tab agent, 31 Oct 2026"""
 import json, os, sys, shutil, subprocess, tempfile, pathlib
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__))); import studio as S
@@ -109,8 +110,8 @@ try:
     for lg in S.LANGS: shutil.copy(T / f'{lg}.vtt', out.rsplit('.', 1)[0] + f'.subs.{lg}.vtt')
     sz = os.path.getsize(out); res = {'out': out, 'seconds': total, 'MB': round(sz / 1e6, 2), 'under_25MB': sz < 25 * 1024 * 1024}
     if '--upload' in A:
-        sha = S.sha256_file(out); key = f'studio/scenes/{sid}/cuts/{lang}/{sha[:12]}.webm'; st.put(out, key, 'video/webm'); S.record_object(sid, key, sha, sz, 'video/webm', 'assemble.py')
-        res['key'] = key
+        sha = S.sha256_file(out); key = f'studio/scenes/{sid}/cuts/{lang}/{sha[:12]}.webm'; st.put(out, key, 'video/webm'); S.record_object(sid, key, sha, sz, 'video/webm', 'assemble.py', st.last)
+        res.update(key=key, github=st.last.get('github'), release_state=st.last.get('release_state'), cid=st.last.get('cid'))
     print(json.dumps(res))
 finally:
     shutil.rmtree(T, ignore_errors=True)

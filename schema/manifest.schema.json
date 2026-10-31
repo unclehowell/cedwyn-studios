@@ -29,6 +29,38 @@
      },
      "bytes": {
       "type": "integer"
+     },
+     "content_type": {
+      "type": "string"
+     },
+     "release": {
+      "type": "string",
+      "pattern": "^media-(F[0-9]{3}|shared)$"
+     },
+     "asset": {
+      "type": "string",
+      "pattern": "^[A-Za-z0-9._-]+$"
+     },
+     "github": {
+      "type": "string",
+      "pattern": "^https://github\\.com/unclehowell/cedwyn-studios/releases/download/media-(F[0-9]{3}|shared)/[A-Za-z0-9._-]+$"
+     },
+     "cid": {
+      "type": "string",
+      "pattern": "^baf[a-z2-7]{50,}$"
+     },
+     "release_state": {
+      "enum": [
+       "verified",
+       "uploaded",
+       "pending"
+      ]
+     },
+     "mirrors": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
      }
     }
    }
@@ -44,6 +76,16 @@
      "output_key"
     ]
    }
+  },
+  "store": {
+   "enum": [
+    "github-releases",
+    "r2:cedwyn-studios"
+   ]
+  },
+  "mirror": {
+   "type": "string"
   }
- }
+ },
+ "description": "Scene media manifest. Media lives in GitHub Releases (release media-<scene>, asset URL in github); R2 is an optional mirror. Each object: sha256, bytes, IPFS CIDv1 (cid). See STUDIO.md section 3."
 }
